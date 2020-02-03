@@ -1,0 +1,17 @@
+
+@import './imports/variables'
+
+textarea
+  min-height: 124px
+  max-height: 210px
+
+.custom-control-input:checked~.custom-control-label::before
+  background-color: $COLOR
+  border-color: $COLOR
+
+.custom-switch .custom-control-input:disabled:checked~.custom-control-label::before
+  background-color: rgba($COLOR, .5)
+
+.custom-control-label
+  &:before, &:after
+    cursor: pointer

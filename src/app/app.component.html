@@ -1,0 +1,60 @@
+<header id="header">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-xl-auto">
+        <div class="row align-items-center">
+          <div class="col-auto">
+            <img id="logo" src="./assets/images/logo-ciab-febraban-2020.png" alt="CIAB Febraban 2020" title="CIAB Febraban 2020">
+          </div>
+          <div id="btn-icon-nav-container" class="col text-right">
+            <button class="btn btn-icon btn-icon-nav" (click)="toggleNav()"></button>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-auto mt-3 mt-xl-0" [ngClass]="{ 'nav-hide' : isNavVisible === false }">
+        <div class="row">
+          <div class="col-xl-auto mb-3 mb-xl-0">
+            <nav id="nav">
+              <ul>
+                <li class="nav-item" routerLink="o-ciab" routerLinkActive="active">
+                  O CIAB
+                  <ul>
+                    <li routerLink="sobre-o-ciab">Sobre o CIAB</li>
+                    <li routerLink="febraban">Febraban</li>
+                  </ul>
+                </li>
+                <li class="nav-item" routerLink="congresso" routerLinkActive="active">
+                  Congresso
+                </li>
+                <li class="nav-item" routerLink="exposicao" routerLinkActive="active">
+                  Exposição
+                </li>
+                <li class="nav-item" routerLink="fintech" routerLinkActive="active">
+                  Fintech
+                </li>
+                <li class="nav-item" routerLink="informacoes" routerLinkActive="active">
+                  Informações
+                </li>
+                <li class="nav-item" routerLink="publicacoes" routerLinkActive="active">
+                  Publicações
+                </li>
+                <li class="nav-item" routerLink="imprensa" routerLinkActive="active">
+                  Imprensa
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-xl-auto mb-3 mb-xl-0">
+            <button type="button" class="btn btn-icon btn-icon-facebook"></button>
+            <button type="button" class="btn btn-icon btn-icon-twitter"></button>
+            <button type="button" class="btn btn-icon btn-icon-linkedin"></button>
+          </div>
+          <div class="col-xl-auto">
+            <button type="button" class="btn btn-lang">EN</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<app-slider></app-slider>

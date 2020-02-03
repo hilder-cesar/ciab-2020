@@ -1,0 +1,16 @@
+
+@import './variables'
+
+@mixin MQ($canvas)
+  @if $canvas == SM
+    @media only screen and (min-width: $SM)
+      @content
+  @else if $canvas == MD
+    @media only screen and (min-width: $MD)
+      @content
+  @else if $canvas == LG
+    @media only screen and (min-width: $LG)
+      @content
+  @else if $canvas == XL
+    @media only screen and (min-width: $XL)
+      @content

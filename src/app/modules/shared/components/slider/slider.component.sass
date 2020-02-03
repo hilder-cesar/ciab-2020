@@ -1,0 +1,45 @@
+
+@import './../../../../../assets/sass/imports/media-queries'
+
+#slider
+  background-color: #753BBD
+  padding: 76px 0 16px 0
+
+#slider-row
+  min-height: calc(100vh - 92px)
+
+.slide-title
+  font-size: 24px
+  font-weight: 800
+  text-transform: uppercase
+  line-height: 1.25
+  color: #FFF
+
+.slide-description
+  font-size: 18px
+  font-weight: 600
+  color: #FFF
+
+.text-icon
+  position: relative
+  background-color: transparent
+  background-position: 0 0
+  background-repeat: no-repeat
+
+.text-icon-calendar
+  background-image: url('./../../../../../assets/images/icons/calendar-plus.svg')
+  background-size: 24px 28px
+  padding-left: 40px
+
+.text-icon-map
+  background-image: url('./../../../../../assets/images/icons/map-marker-alt.svg')
+  background-size: 20px 24px
+  padding-left: 36px
+
+@include MQ(XL)
+  #slider
+    padding: 156px 0 32px 0
+  #slider-row
+    min-height: calc(100vh - 188px)
+  .slide-title
+    font-size: 42px

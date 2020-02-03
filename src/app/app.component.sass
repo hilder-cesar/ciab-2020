@@ -1,0 +1,128 @@
+
+@import './../assets/sass/imports/media-queries'
+
+#header
+  position: fixed
+  z-index: 100
+  top: 0
+  left: 0
+  min-width: 320px
+  width: 100%
+  background-color: #001A72
+  color: #FFF
+  padding: 16px 0
+
+#logo
+  width: 119px
+
+.btn-icon-nav
+  background-image: url('./../assets/images/icons/bars-solid.svg')
+  background-size: 14px
+  border: 1px solid #00A9CE
+
+.nav-hide
+  display: none
+
+#nav
+  font-size: 12px
+  font-weight: 600
+  ul
+    list-style: none
+    padding: 0
+    margin: 0
+  > ul
+    text-transform: uppercase
+    > li
+      position: relative
+      display: block
+      cursor: pointer
+      padding: 8px 19px 8px 0
+      &:hover
+        &::before
+          transform: rotate(180deg)
+        > ul
+          display: block
+      &::before
+        content: ''
+        position: absolute
+        z-index: 1
+        top: 18px
+        right: 0
+        width: 11px
+        height: 18px
+        background-image: url('./../assets/images/icons/angle-down-solid.svg')
+        background-position: center
+        background-repeat: no-repeat
+        background-size: contain
+        margin-top: -9px
+        transition: transform 0.25s
+      &.active
+        border-bottom: 3px solid #00A9CE
+
+.btn-icon
+  width: 34px
+  height: 34px
+  background-color: transparent
+  background-position: center
+  background-repeat: no-repeat
+  padding: 0
+  border-radius: 0
+  &:not(:last-child)
+    margin-right: 4px
+
+.btn-icon-facebook
+  background-image: url('./../assets/images/icons/facebook-f-brands.svg')
+  background-size: 11px 14px
+
+.btn-icon-twitter
+  background-image: url('./../assets/images/icons/twitter-brands.svg')
+  background-size: 16px 14px
+
+.btn-icon-linkedin
+  background-image: url('./../assets/images/icons/linkedin-in-brands.svg')
+  background-size: 16px 14px
+
+.btn-lang
+  width: 34px
+  height: 34px
+  font-size: 12px
+  font-weight: bold
+  line-height: 34px
+  color: #FFF
+  padding: 0
+  border: 1px solid #00A9CE
+  border-radius: 0
+
+@include MQ(XL)
+  #header
+    padding: 32px 0
+  #logo
+    width: 158px
+  #btn-icon-nav-container
+    display: none
+  #nav
+    > ul
+      > li
+        display: inline-block
+        margin-right: 16px
+        &:last-child
+          margin-right: 0
+        > ul
+          position: absolute
+          top: 100%
+          left: 50%
+          display: none
+          width: 288px
+          background-color: #001A72
+          padding: 8px 0
+          margin-left: -144px
+          box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2)
+          > li
+            font-size: 14px
+            text-transform: none
+            padding: 8px 16px
+            transition: background-color 0.25s
+            &:hover
+              background-color: rgba(255, 255, 255, 0.25)
+  .nav-hide
+    display: block
