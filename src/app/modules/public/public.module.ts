@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+// modules
+import { SharedModule } from './../shared/shared.module';
+
 // containers
 import { HomeComponent } from './containers/home/home.component';
 import { CiabComponent } from './containers/ciab/ciab.component';
@@ -17,7 +20,9 @@ import { HeaderComponent } from './components/header/header.component';
     HeaderComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    // modules
+    SharedModule
   ],
   exports: [
     // containers

@@ -1,4 +1,13 @@
-<div id="slider">
+<div class="slider">
+  <ng-content></ng-content>
+  <app-slider-nav
+    [slidesNumber]="this.slides.length || 0"
+    [slideCurrent]="slideCurrent"
+    (slideTo)="handleSlideTo($event)">
+  </app-slider-nav>
+</div>
+
+<!-- <div id="slider">
   <div class="container">
     <div id="slider-row" class="row align-items-center">
       <div class="col">
@@ -33,4 +42,4 @@
   <p>Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet.</p>
   <p>Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet.</p>
   <p>Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet.</p>
-</div>
+</div> -->

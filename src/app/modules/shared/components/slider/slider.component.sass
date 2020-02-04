@@ -1,45 +1,64 @@
 
 @import './../../../../../assets/sass/imports/media-queries'
 
-#slider
-  background-color: #753BBD
-  padding-top: 77px
-
-#slider-row
-  min-height: calc(100vh - 77px)
-
-.slide-title
-  font-size: 24px
-  font-weight: 800
-  text-transform: uppercase
-  line-height: 1.25
-  color: #FFF
-
-.slide-description
-  font-size: 18px
-  font-weight: 600
-  color: #FFF
-
-.text-icon
+.slider
   position: relative
-  background-color: transparent
-  background-position: 0 0
-  background-repeat: no-repeat
+  height: 100vh
+  padding-top: 78px
 
-.text-icon-calendar
-  background-image: url('./../../../../../assets/images/icons/calendar-plus.svg')
-  background-size: 24px 28px
-  padding-left: 40px
-
-.text-icon-map
-  background-image: url('./../../../../../assets/images/icons/map-marker-alt.svg')
-  background-size: 20px 24px
-  padding-left: 36px
+:host > .slider ::ng-deep > div
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  padding-top: 78px
 
 @include MQ(XL)
-  #slider
+  .slider
     padding-top: 124px
-  #slider-row
-    min-height: calc(100vh - 124px)
-  .slide-title
-    font-size: 42px
+  :host > .slider ::ng-deep > div
+    padding-top: 124px
+
+// #slider
+//   background-color: #753BBD
+//   padding-top: 77px
+
+// #slider-row
+//   min-height: calc(100vh - 77px)
+
+// .slide-title
+//   font-size: 24px
+//   font-weight: 800
+//   text-transform: uppercase
+//   line-height: 1.25
+//   color: #FFF
+
+// .slide-description
+//   font-size: 18px
+//   font-weight: 600
+//   color: #FFF
+
+// .text-icon
+//   position: relative
+//   background-color: transparent
+//   background-position: 0 0
+//   background-repeat: no-repeat
+
+// .text-icon-calendar
+//   background-image: url('./../../../../../assets/images/icons/calendar-plus.svg')
+//   background-size: 24px 28px
+//   padding-left: 40px
+
+// .text-icon-map
+//   background-image: url('./../../../../../assets/images/icons/map-marker-alt.svg')
+//   background-size: 20px 24px
+//   padding-left: 36px
+
+// @include MQ(XL)
+//   #slider
+//     padding-top: 124px
+//   #slider-row
+//     min-height: calc(100vh - 124px)
+//   .slide-title
+//     font-size: 42px
