@@ -18,10 +18,10 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
     :host {
       position: absolute;
       z-index: 50;
-      top: calc(50% + 62px);
+      top: 50%;
       right: 16px;
       display: block;
-      margin-top: -39px
+      margin-top: -93px;
     }
 
     .btn-icon {

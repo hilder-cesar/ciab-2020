@@ -1,6 +1,10 @@
 
 #slide-1
   background-color: #753BBD
+  background-image: url('./../../../../../assets/images/slide-1-background-image-1.png')
+  background-position: left center
+  background-repeat: no-repeat
+  background-size: 1560px 720px
   .title
     font-size: 42px
     font-weight: 800
@@ -11,13 +15,78 @@
     font-size: 18px
     font-weight: 600
     color: #FFF
+  .text-icon
+    position: relative
+    &:before
+      content: ''
+      position: absolute
+      top: 0
+      left: 0
+      background-repeat: no-repeat
+      background-size: contain
+  .text-icon-calendar
+    padding-left: 32px
+    &:before
+      width: 24px
+      height: 28px
+      background-image: url('./../../../../../assets/images/icons/calendar-plus-yellow.svg')
+  .text-icon-marker
+    padding-left: 28px
+    &:before
+      width: 20px
+      height: 24px
+      background-image: url('./../../../../../assets/images/icons/map-marker-alt-yellow.svg')
 
 #slide-2
-  background-color: #F90
-  // background-image: url('./../../../../../assets/images/.jpg')
-  // background-repeat: no-repeat
-  // background-position: center
-  // background-size: cover
+  background-image: url('./../../../../../assets/images/slide-2-background-image-1.png')
+  background-position: 100% 50%
+  background-repeat: no-repeat
+  background-size: cover
 
 #slide-3
   background-color: #BEC9CE
+  .title
+    font-size: 34px
+    font-weight: 800
+    text-transform: uppercase
+    color: #144372
+  .link
+    font-size: 20px
+    font-weight: 900
+    color: #09A590
+    text-decoration: underline
+  .image
+    max-width: 50%
+
+.app-box
+  color: #FFFFFF
+  padding: 50px 40px
+
+.app-box-blue
+  background-color: #001A72
+  padding: 30px 40px
+  .title
+    font-size: 18px
+    font-weight: 800
+    text-transform: uppercase
+    margin: 0 !important
+
+.app-box-red
+  background-color: #FF585D
+
+.app-box-green
+  background-color: #00AF66
+
+.app-box-blue-light
+  background-color: #00A9CE
+
+.app-box-bar
+  width: 34px
+  height: 12px
+  background-color: rgba(255, 255, 255, 0.5)
+  margin-bottom: 16px
+
+.app-box-title
+  font-size: 20px
+  font-weight: 800
+  text-transform: uppercase
