@@ -1,7 +1,7 @@
 import { Component, AfterContentInit, ContentChildren, QueryList, ElementRef } from '@angular/core';
 import { gsap, TimelineMax } from 'gsap';
 import { interval, Observable, merge, Subject, BehaviorSubject } from 'rxjs';
-import { exhaustMap, takeWhile, mapTo, map } from 'rxjs/operators';
+import { map } from 'rxjs/operators';
 
 @Component({
   selector: 'app-slider',
@@ -14,16 +14,11 @@ export class SliderComponent implements AfterContentInit {
   slides: QueryList<ElementRef>;
 
   slideCurrent = 0;
-  slideNext: null | number = null;
 
   handleSlideTo: Subject<number> = new Subject();
   isLocked: BehaviorSubject<boolean> = new BehaviorSubject(false);
 
   constructor() {
-    setInterval(() => {
-      console.log('this.slideCurrent', this.slideCurrent);
-      console.log('this.isLocked.getValue()', this.isLocked.getValue());
-    }, 1000);
   }
 
   ngAfterContentInit() {
@@ -37,38 +32,20 @@ export class SliderComponent implements AfterContentInit {
     }
 
     merge(
-      interval(1000)
+      interval(5000)
         .pipe(map(() => {
           const slideNextTemporary = this.slideCurrent + 1;
           const slideNext = slideNextTemporary > this.slides.length - 1 ? 0 : slideNextTemporary;
           return slideNext;
         })),
       this.handleSlideTo
-        .pipe(map((value) => {
-          const slideNext = value > this.slides.length - 1 ? 0 : value;
-          return slideNext;
-        }))
     )
-      .pipe(takeWhile(() => this.isLocked.getValue() === false))
       .subscribe((result) => {
-        console.log('result', result);
-        this.isLocked.next(true);
-        setTimeout(() => {
-          this.slideCurrent = result;
-          this.slideNext = null;
-          this.isLocked.next(false);
-        }, 3000);
+        if (this.isLocked.getValue() === false) {
+          this.slideFromTo(this.slideCurrent, result)
+            .subscribe();
+        }
       });
-
-    // merge(
-    //   this.handleSlideTo
-    // )
-    //   .pipe(takeWhile(() => !this.isLocked.getValue()))
-    //   .subscribe((result) => {
-    //     console.log(result);
-    //     this.isLocked.next(true);
-    //     this.slideFromTo(this.slideCurrent, result).subscribe();
-    //   });
 
   }
 
@@ -79,6 +56,7 @@ export class SliderComponent implements AfterContentInit {
       const slideNext = this.slides.toArray()[to].nativeElement;
 
       const onStart = () => {
+        this.isLocked.next(true);
         gsap.set(slideCurrent, { zIndex: 2 });
         gsap.set(slideNext, { display: 'block', zIndex: 3 });
       };
@@ -86,8 +64,7 @@ export class SliderComponent implements AfterContentInit {
       const onComplete = () => {
         gsap.set(slideCurrent, { zIndex: 1 });
         gsap.set(slideNext, { display: 'block', zIndex: 2 });
-        this.slideCurrent = this.slideNext;
-        this.slideNext = null;
+        this.slideCurrent = to;
         this.isLocked.next(false);
         observer.complete();
       };
