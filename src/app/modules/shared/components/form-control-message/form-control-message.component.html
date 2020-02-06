@@ -1,0 +1,15 @@
+<div class="invalid-feedback" *ngIf="(abstractControl.touched || abstractControl.dirty) && abstractControl.errors">
+  <ng-container *ngIf="abstractControl.errors.required">Por favor, informe esse campo.</ng-container>
+  <ng-container *ngIf="abstractControl.errors.email">Por favor, informe o e-mail no formato: seunome@exemplo.com</ng-container>
+  <ng-container *ngIf="abstractControl.errors.emailInUse">O e-mail informado está em uso, por favor, verifique e tente novamente.</ng-container>
+  <ng-container *ngIf="abstractControl.errors.loginInUse">O login informado está em uso, por favor, verifique e tente novamente.</ng-container>
+  <ng-container *ngIf="abstractControl.errors.cpfNotValid">Por favor, informe um CPF válido.</ng-container>
+  <ng-container *ngIf="abstractControl.errors.cpfInUse">O CPF informado está em uso, por favor, verifique e tente novamente.</ng-container>
+  <ng-container *ngIf="abstractControl.errors.cnpjNotValid">Por favor, informe um CNPJ válido.</ng-container>
+  <ng-container *ngIf="abstractControl.errors.cnpjExists">O CNPJ informado está em uso, por favor, verifique e tente novamente.</ng-container>
+  <ng-container *ngIf="abstractControl.errors.min">Por favor, informe um valor de no mínimo {{ abstractControl.errors.min.min }}.</ng-container>
+  <ng-container *ngIf="abstractControl.errors.max">Por favor, informe um valor de no máximo {{ abstractControl.errors.max.max }}.</ng-container>
+  <ng-container *ngIf="abstractControl.errors.minlength">Por favor, informe no mínimo {{abstractControl.errors.minlength.requiredLength}} caracteres.</ng-container>
+  <ng-container *ngIf="abstractControl.errors.maxlength">Por favor, informe no máximo {{abstractControl.errors.maxlength.requiredLength}} caracteres.</ng-container>
+  <ng-container *ngIf="abstractControl.errors.pattern">Por favor, informe esse campo no formato correto.</ng-container>
+</div>

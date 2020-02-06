@@ -1,0 +1,78 @@
+
+@import './../../../../../assets/sass/imports/media-queries'
+
+.app-footer
+  background-color: #F5F5F5
+  padding: 80px 0
+  margin-top: 80px
+
+.app-footer-info
+  margin-bottom: 40px
+  img
+    width: 235px
+    margin-bottom: 16px
+  .btn-icon-facebook
+    background-image: url('./../../../../../assets/images/icons/facebook-f-brands-black.svg')
+    background-size: 11px 14px
+  .btn-icon-twitter
+    background-image: url('./../../../../../assets/images/icons/twitter-brands-black.svg')
+    background-size: 16px 14px
+  .btn-icon-linkedin
+    background-image: url('./../../../../../assets/images/icons/linkedin-in-brands-black.svg')
+    background-size: 16px 14px
+  h3
+    font-size: 20px
+    font-weight: 800
+    text-transform: uppercase
+    color: #000000
+  .app-saiba-mais
+    text-transform: uppercase
+    line-height: 1
+    padding: 10px 20px
+    border: 2px solid #000000
+    border-radius: 3px
+
+.app-footer-register-box
+  background-color: #FFF
+  padding: 40px
+  h3
+    font-size: 20px
+    font-weight: 800
+    color: #000000
+    text-transform: uppercase
+  button
+    background-color: #FF585D
+    color: #FFF
+    text-transform: uppercase
+    padding: 20px 40px
+    border: 0
+    border-radius: 3px
+
+.app-footer-text
+  text-align: center
+  margin: 40px 0 0 0
+
+@include MQ(XL)
+  .app-modal-register-background
+    background-image: url('./../../../../../assets/images/background-modal-cadastre-se.jpg')
+    background-position: center bottom
+    background-repeat: no-repeat
+    background-size: cover
+    > div
+      padding: 40px 25px
+    p
+      font-size: 24px
+      font-weight: bold
+      line-height: 1.5
+      color: #FFF
+  .app-modal-register-form
+    width: 380px
+    padding: 40px 25px
+    h3
+      font-size: 32px
+      font-weight: 800
+      text-transform: uppercase
+    button
+      background-color: #FF585D
+      text-transform: uppercase
+      color: #FFF

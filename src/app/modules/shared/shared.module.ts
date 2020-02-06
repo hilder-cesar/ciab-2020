@@ -4,18 +4,21 @@ import { CommonModule } from '@angular/common';
 // components
 import { SliderComponent } from './components/slider/slider.component';
 import { SliderNavComponent } from './components/slider/slider-nav.component';
+import { FormControlMessageComponent } from './components/form-control-message/form-control-message.component';
 
 @NgModule({
   declarations: [
     // components
     SliderComponent,
-    SliderNavComponent
+    SliderNavComponent,
+    FormControlMessageComponent
   ],
   imports: [
     CommonModule
   ],
   exports: [
-    SliderComponent
+    SliderComponent,
+    FormControlMessageComponent
   ]
 })
 export class SharedModule { }
