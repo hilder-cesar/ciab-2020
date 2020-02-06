@@ -31,21 +31,23 @@ export class SliderComponent implements AfterContentInit {
       });
     }
 
-    merge(
-      interval(5000)
-        .pipe(map(() => {
-          const slideNextTemporary = this.slideCurrent + 1;
-          const slideNext = slideNextTemporary > this.slides.length - 1 ? 0 : slideNextTemporary;
-          return slideNext;
-        })),
-      this.handleSlideTo
-    )
-      .subscribe((result) => {
-        if (this.isLocked.getValue() === false) {
-          this.slideFromTo(this.slideCurrent, result)
-            .subscribe();
-        }
-      });
+    if (this.slides.length > 1) {
+      merge(
+        interval(5000)
+          .pipe(map(() => {
+            const slideNextTemporary = this.slideCurrent + 1;
+            const slideNext = slideNextTemporary > this.slides.length - 1 ? 0 : slideNextTemporary;
+            return slideNext;
+          })),
+        this.handleSlideTo
+      )
+        .subscribe((result) => {
+          if (this.isLocked.getValue() === false) {
+            this.slideFromTo(this.slideCurrent, result)
+              .subscribe();
+          }
+        });
+    }
 
   }
 
