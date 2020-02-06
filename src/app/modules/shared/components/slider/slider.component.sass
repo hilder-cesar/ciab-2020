@@ -3,7 +3,7 @@
 
 .slider
   position: relative
-  height: 720px
+  height: 100vh
   padding-top: 78px
 
 :host > .slider ::ng-deep > div
@@ -16,6 +16,7 @@
 
 @include MQ(XL)
   .slider
+    height: 720px
     padding-top: 124px
   :host > .slider ::ng-deep > div
     padding-top: 124px

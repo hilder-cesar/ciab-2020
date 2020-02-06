@@ -1,18 +1,16 @@
 
+@import './../../../../../assets/sass/imports/media-queries'
+
 #slide-1
   background-color: #753BBD
-  background-image: url('./../../../../../assets/images/slide-1-background-image-1.png')
-  background-position: left center
-  background-repeat: no-repeat
-  background-size: 1560px 720px
   .title
-    font-size: 42px
+    font-size: 24px
     font-weight: 800
     text-transform: uppercase
     line-height: 1.25
     color: #FFF
   .text
-    font-size: 18px
+    font-size: 16px
     font-weight: 600
     color: #FFF
   .text-icon
@@ -43,7 +41,7 @@
   background-repeat: no-repeat
   background-size: cover
   .title
-    font-size: 60px
+    font-size: 36px
     font-weight: 800
     text-transform: uppercase
     color: #FFFFFF
@@ -75,10 +73,13 @@
       background-position: center
       border-radius: 100%
 
+
 #slide-3
   background-color: #BEC9CE
+  .image-1
+    max-width: 50%
   .title
-    font-size: 34px
+    font-size: 24px
     font-weight: 800
     text-transform: uppercase
     color: #144372
@@ -87,7 +88,7 @@
     font-weight: 900
     color: #09A590
     text-decoration: underline
-  .image
+  .image-2
     max-width: 50%
 
 .app-box
@@ -122,3 +123,25 @@
   font-size: 20px
   font-weight: 800
   text-transform: uppercase
+
+@include MQ(MD)
+  #slide-3
+    .image-1
+      max-width: 100%
+
+@include MQ(XL)
+  #slide-1
+    background-image: url('./../../../../../assets/images/slide-1-background-image-1.png')
+    background-position: left center
+    background-repeat: no-repeat
+    background-size: 1560px 720px
+    .title
+      font-size: 42px
+    .text
+      font-size: 18px
+  #slide-2
+    .title
+      font-size: 60px
+  #slide-3
+    .title
+      font-size: 34px
