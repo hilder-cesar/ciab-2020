@@ -36,7 +36,7 @@
       background-image: url('./../../../../../assets/images/icons/map-marker-alt-yellow.svg')
 
 #slide-2
-  background-image: url('./../../../../../assets/images/slide-2-background-image-1.png')
+  background-image: url('./../../../../../assets/images/home/slide-2-background-image-1.png')
   background-position: 100% 50%
   background-repeat: no-repeat
   background-size: cover
@@ -124,6 +124,11 @@
   font-weight: 800
   text-transform: uppercase
 
+.sobre-o-ciab-background
+  background-image: url('./../../../../../assets/images/home/evento-ciab-febraban-background.png')
+  background-repeat: no-repeat
+  background-position: left bottom
+
 .sobre-o-ciab
   font-size: 20px
   font-weight: bold
@@ -136,6 +141,7 @@
   text-transform: uppercase
   line-height: 1.25
   color: #000000
+  margin-bottom: 60px !important
 
 @include MQ(MD)
   #slide-3
@@ -144,7 +150,7 @@
 
 @include MQ(XL)
   #slide-1
-    background-image: url('./../../../../../assets/images/slide-1-background-image-1.png')
+    background-image: url('./../../../../../assets/images/home/slide-1-background-image-1.png')
     background-position: left center
     background-repeat: no-repeat
     background-size: 1560px 720px
@@ -158,3 +164,10 @@
   #slide-3
     .title
       font-size: 34px
+  .app-box-absolute
+    position: absolute
+    z-index: 1
+    top: 0
+    width: calc(50% - 30px)
+  .evento-ciab-febraban
+    margin-top: 60px
