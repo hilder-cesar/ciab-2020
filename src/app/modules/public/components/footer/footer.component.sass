@@ -52,27 +52,34 @@
   text-align: center
   margin: 40px 0 0 0
 
-@include MQ(XL)
+.app-modal-register-background
+  height: 100%
+  background-image: url('./../../../../../assets/images/background-modal-cadastre-se.jpg')
+  background-position: center top
+  background-repeat: no-repeat
+  background-size: cover
+  padding: 30px
+  p
+    font-size: 24px
+    font-weight: bold
+    line-height: 1.5
+    color: #FFF
+  
+.app-modal-register-form
+  padding: 30px
+  h3
+    font-size: 32px
+    font-weight: 800
+    text-transform: uppercase
+  button
+    background-color: #FF585D
+    text-transform: uppercase
+    color: #FFF
+
+@include MQ(LG)
   .app-modal-register-background
-    background-image: url('./../../../../../assets/images/background-modal-cadastre-se.jpg')
-    background-position: center bottom
-    background-repeat: no-repeat
-    background-size: cover
     > div
       padding: 40px 25px
-    p
-      font-size: 24px
-      font-weight: bold
-      line-height: 1.5
-      color: #FFF
   .app-modal-register-form
-    width: 380px
-    padding: 40px 25px
-    h3
-      font-size: 32px
-      font-weight: 800
-      text-transform: uppercase
-    button
-      background-color: #FF585D
-      text-transform: uppercase
-      color: #FFF
+    > div
+      padding: 40px 25px
