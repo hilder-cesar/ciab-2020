@@ -2,23 +2,26 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 // components
+import { FormControlMessageComponent } from './components/form-control-message/form-control-message.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { SliderNavComponent } from './components/slider/slider-nav.component';
-import { FormControlMessageComponent } from './components/form-control-message/form-control-message.component';
+import { KeynoteSpeakerComponent } from './components/keynote-speaker/keynote-speaker.component';
 
 @NgModule({
   declarations: [
     // components
+    FormControlMessageComponent,
     SliderComponent,
     SliderNavComponent,
-    FormControlMessageComponent
+    KeynoteSpeakerComponent
   ],
   imports: [
     CommonModule
   ],
   exports: [
+    FormControlMessageComponent,
     SliderComponent,
-    FormControlMessageComponent
+    KeynoteSpeakerComponent
   ]
 })
 export class SharedModule { }
