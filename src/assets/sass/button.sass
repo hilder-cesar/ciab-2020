@@ -1,10 +1,45 @@
 
-.buttons-container
-  margin: $SPACE 0
-  > .btn:not(:last-child)
-    margin-right: $SPACE / 4
+.app-button
+  font-weight: bold
+  text-transform: uppercase
+  text-align: center
+  color: #FFF
+  padding: 14px 28px
+  border: 0
+  border-radius: 3px
+  transition: background-color 0.25s, color 0.25s
+  &:disabled
+    background-color: rgba(128, 128, 128, 0.25)
+    color: rgba(128, 128, 128, 0.5)
+    cursor: not-allowed
 
-.btn-icon
+.app-button-block
+  display: block
+
+.app-button-blue
+  background-color: #001A72
+  &:hover
+    background-color: darken(#001A72, 6.25%)
+
+.app-button-green
+  background-color: #00AF66
+  &:hover
+    background-color: darken(#00AF66, 6.25%)
+
+.app-button-red
+  background-color: #FF585D
+  &:hover
+    background-color: darken(#FF585D, 6.25%)
+
+.app-button-secondary
+  background-color: transparent
+  color: #FFF
+  border: 2px solid #FFF
+  &:hover
+    background-color: #FFF
+    color: #000
+
+.app-button-icon
   width: 34px
   height: 34px
   background-color: transparent
@@ -14,3 +49,15 @@
   border-radius: 0
   &:not(:last-child)
     margin-right: 4px
+
+.app-button-icon-facebook-black
+  background-image: url('assets/images/icons/facebook-f-brands-black.svg')
+  background-size: 11px 14px
+
+.app-button-icon-twitter-black
+  background-image: url('assets/images/icons/twitter-brands-black.svg')
+  background-size: 16px 14px
+
+.app-button-icon-linkedin-black
+  background-image: url('assets/images/icons/linkedin-in-brands-black.svg')
+  background-size: 16px 14px

@@ -3,15 +3,15 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 @Component({
   selector: 'app-slider-nav',
   template: `
-    <button type="button" class="btn btn-icon btn-icon-previous" (click)="slideToPrevious()"></button>
+    <button type="button" class="btn app-button-icon app-button-icon-previous" (click)="slideToPrevious()"></button>
     <button
       type="button"
-      class="btn btn-icon btn-icon-circle"
+      class="btn app-button-icon app-button-icon-circle"
       *ngFor="let item of slidesNumberArray; let i = index;"
-      [ngClass]="{ 'btn-icon-circle-active': i === slideCurrent }"
+      [ngClass]="{ 'app-button-icon-circle-active': i === slideCurrent }"
       (click)="slideTo.emit(i)">
     </button>
-    <button type="button" class="btn btn-icon btn-icon-next" (click)="slideToNext()"></button>
+    <button type="button" class="btn app-button-icon app-button-icon-next" (click)="slideToNext()"></button>
   `,
   styles: [`
 
@@ -24,23 +24,23 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
       margin-top: -93px;
     }
 
-    .btn-icon {
+    .app-button-icon {
       display: block;
       margin: 0;
     }
 
-    .btn-icon-previous {
+    .app-button-icon-previous {
       background-image: url('./../../../../../assets/images/icons/angle-down-solid.svg');
       background-size: 20px;
       margin-bottom: 8px;
       transform: rotate(180deg)
     }
 
-    .btn-icon-circle {
+    .app-button-icon-circle {
       position: relative;
     }
 
-    .btn-icon-circle:before {
+    .app-button-icon-circle:before {
       content: '';
       position: absolute;
       top: 50%;
@@ -54,11 +54,11 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
       transition: background-color 0.25s;
     }
 
-    .btn-icon-circle-active:before {
+    .app-button-icon-circle-active:before {
       background-color: rgba(255, 255, 255, 1);
     }
 
-    .btn-icon-next {
+    .app-button-icon-next {
       background-image: url('./../../../../../assets/images/icons/angle-down-solid.svg');
       background-size: 20px;
       margin-top: 8px;

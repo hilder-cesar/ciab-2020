@@ -3,16 +3,14 @@ import { CommonModule } from '@angular/common';
 
 // modules
 import { SharedModule } from './../shared/shared.module';
-import { ReactiveFormsModule } from '@angular/forms';
-import { NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
 
 // containers
 import { HomeComponent } from './containers/home/home.component';
 import { CiabComponent } from './containers/ciab/ciab.component';
 
 // components
-import { HeaderComponent } from './components/header/header.component';
-import { FooterComponent } from './components/footer/footer.component';
+import { SliderComponent } from './components/slider/slider.component';
+import { SliderNavComponent } from './components/slider/slider-nav.component';
 
 @NgModule({
   declarations: [
@@ -20,23 +18,18 @@ import { FooterComponent } from './components/footer/footer.component';
     HomeComponent,
     CiabComponent,
     // components
-    HeaderComponent,
-    FooterComponent
+    SliderComponent,
+    SliderNavComponent
   ],
   imports: [
     CommonModule,
     // modules
-    SharedModule,
-    ReactiveFormsModule,
-    NgbModalModule
+    SharedModule
   ],
   exports: [
     // containers
     HomeComponent,
-    CiabComponent,
-    // components
-    HeaderComponent,
-    FooterComponent
+    CiabComponent
   ]
 })
 export class PublicModule { }

@@ -1,27 +1,38 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+// modules
+import { ReactiveFormsModule } from '@angular/forms';
+import { NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
+
 // components
 import { FormControlMessageComponent } from './components/form-control-message/form-control-message.component';
-import { SliderComponent } from './components/slider/slider.component';
-import { SliderNavComponent } from './components/slider/slider-nav.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
 import { KeynoteSpeakerComponent } from './components/keynote-speaker/keynote-speaker.component';
+import { SponsorsComponent } from './components/sponsors/sponsors.component';
 
 @NgModule({
   declarations: [
     // components
     FormControlMessageComponent,
-    SliderComponent,
-    SliderNavComponent,
-    KeynoteSpeakerComponent
+    HeaderComponent,
+    FooterComponent,
+    KeynoteSpeakerComponent,
+    SponsorsComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    // modules
+    ReactiveFormsModule,
+    NgbModalModule
   ],
   exports: [
     FormControlMessageComponent,
-    SliderComponent,
-    KeynoteSpeakerComponent
+    HeaderComponent,
+    FooterComponent,
+    KeynoteSpeakerComponent,
+    SponsorsComponent
   ]
 })
 export class SharedModule { }
