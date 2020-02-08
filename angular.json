@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "web-ciab": {
+    "web-ciab-site": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/web-ciab",
+            "outputPath": "dist/web-ciab-site",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -94,21 +94,21 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "web-ciab:build"
+            "browserTarget": "web-ciab-site:build"
           },
           "configurations": {
             "test": {
-              "browserTarget": "web-ciab:build:test"
+              "browserTarget": "web-ciab-site:build:test"
             },
             "production": {
-              "browserTarget": "web-ciab:build:production"
+              "browserTarget": "web-ciab-site:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "web-ciab:build"
+            "browserTarget": "web-ciab-site:build"
           }
         },
         "test": {
@@ -145,15 +145,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "web-ciab:serve"
+            "devServerTarget": "web-ciab-site:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "web-ciab:serve:production"
+              "devServerTarget": "web-ciab-site:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "web-ciab"
+  "defaultProject": "web-ciab-site"
 }

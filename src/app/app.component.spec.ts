@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'web-ciab'`, () => {
+  it(`should have as title 'web-ciab-site'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('web-ciab');
+    expect(app.title).toEqual('web-ciab-site');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('web-ciab app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('web-ciab-site app is running!');
   });
 });
