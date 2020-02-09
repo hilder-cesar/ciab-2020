@@ -1,6 +1,14 @@
 
+@import './imports/media-queries'
+
 .app-section
-  padding: 64px 0
+  padding: 16px 0
+  @include MQ(SM)
+    padding: 32px 0
+  @include MQ(LG)
+    padding: 48px 0
+  @include MQ(XL)
+    padding: 64px 0
 
 .app-section-gray
   background-color: #F5F5F5

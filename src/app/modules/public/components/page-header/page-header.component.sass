@@ -10,15 +10,26 @@
   background-repeat: no-repeat
   background-size: cover
   background-position: center
-  padding: 78px + 24px 0 24px 0
+  padding: 78px + 16px 0 16px 0
+  @include MQ(SM)
+    padding: 78px + 32px 0 32px 0
+  @include MQ(LG)
+    padding: 78px + 48px 0 48px 0
   @include MQ(XL)
-    padding: 124px + 48px 0 0 0
+    padding: 124px + 64px 0 48px 0
 
 .app-page-header-menu
   z-index: 1
   display: flex
   align-items: stretch
   background-color: #FFF
+  margin-top: 16px
+  @include MQ(SM)
+    margin-top: 32px
+  @include MQ(LG)
+    margin-top: 48px
+  @include MQ(XL)
+    margin-top: 64px
   > div, > button
     padding: 24px
   > button

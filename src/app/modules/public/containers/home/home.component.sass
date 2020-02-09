@@ -92,7 +92,7 @@
 
 .app-box
   color: #FFFFFF
-  padding: 40px
+  padding: 32px
 
 .app-box-blue
   background-color: #001A72
@@ -135,12 +135,21 @@
   background-size: 440px 302px
   background-position: right 40px bottom 40px
   color: #FFF
-  padding: 40px
+  padding: 32px
 
 @include MQ(MD)
   #slide-3
     .image-1
       max-width: 100%
+
+@include MQ(LG)
+  .app-box-absolute
+    position: absolute
+    z-index: 1
+    top: 0
+    width: calc(50% - 30px)
+  .evento-ciab-febraban
+    margin-top: 60px
 
 @include MQ(XL)
   #slide-1
@@ -158,12 +167,5 @@
   #slide-3
     .title
       font-size: 34px
-  .app-box-absolute
-    position: absolute
-    z-index: 1
-    top: 0
-    width: calc(50% - 30px)
-  .evento-ciab-febraban
-    margin-top: 60px
   .app-banner
     background-image: url('./../../../../../assets/images/home/app-banner-background-image.svg')
