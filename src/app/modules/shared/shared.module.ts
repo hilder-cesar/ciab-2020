@@ -11,6 +11,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { KeynoteSpeakerComponent } from './components/keynote-speaker/keynote-speaker.component';
 import { SponsorsComponent } from './components/sponsors/sponsors.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SponsorsComponent } from './components/sponsors/sponsors.component';
     HeaderComponent,
     FooterComponent,
     KeynoteSpeakerComponent,
-    SponsorsComponent
+    SponsorsComponent,
+    GalleryComponent
   ],
   imports: [
     CommonModule,
@@ -32,7 +34,8 @@ import { SponsorsComponent } from './components/sponsors/sponsors.component';
     HeaderComponent,
     FooterComponent,
     KeynoteSpeakerComponent,
-    SponsorsComponent
+    SponsorsComponent,
+    GalleryComponent
   ]
 })
 export class SharedModule { }
