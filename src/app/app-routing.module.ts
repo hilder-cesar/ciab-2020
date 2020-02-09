@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { Routes, RouterModule, ExtraOptions } from '@angular/router';
 
 // containers
 import { HomeComponent } from './modules/public/containers/home/home.component';
@@ -11,8 +11,12 @@ const routes: Routes = [
   { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
 
+const routerOptions: ExtraOptions = {
+  anchorScrolling: 'enabled'
+};
+
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, routerOptions)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
