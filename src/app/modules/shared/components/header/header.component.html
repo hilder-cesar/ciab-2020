@@ -17,7 +17,7 @@
         </div>
       </div>
       <div class="col-xl-auto mt-3 mt-xl-0" [ngClass]="{ 'nav-hide' : navVisible === false }">
-        <div class="row">
+        <div class="row nav-mobile-overflow">
           <div class="col-xl-auto mb-3 mb-xl-0">
             <nav class="nav">
               <ul>
@@ -30,21 +30,53 @@
                 </li>
                 <li class="nav-item" routerLinkActive="active" (click)="redirectTo('congresso')">
                   Congresso
+                  <ul>
+                    <li (click)="redirectTo('congresso', 'inscricoes')">Inscrições</li>
+                    <li (click)="redirectTo('congresso', 'o-congresso')">O congresso</li>
+                    <li (click)="redirectTo('congresso', 'programacao')">Programação</li>
+                    <li (click)="redirectTo('congresso', 'palestrantes')">Palestrantes</li>
+                    <li (click)="redirectTo('congresso', 'keynote-speakers')">Keynote Speakers</li>
+                  </ul>
                 </li>
                 <li class="nav-item" routerLinkActive="active" (click)="redirectTo('exposicao')">
                   Exposição
+                  <ul>
+                    <li (click)="redirectTo('exposicao', 'quero-visitar')">Quero visitar</li>
+                    <li (click)="redirectTo('exposicao', 'a-exposicao')">A exposição</li>
+                    <li (click)="redirectTo('exposicao', 'mapa-e-expositores')">Mapa e expositores</li>
+                    <li (click)="redirectTo('exposicao', 'patrocinar-expor')">Patrocinar/expor</li>
+                  </ul>
                 </li>
                 <li class="nav-item" routerLinkActive="active" (click)="redirectTo('fintech')">
                   Fintech
+                  <ul>
+                    <li (click)="redirectTo('fintech', 'fintech-lounge')">Fintech Lounge</li>
+                    <li (click)="redirectTo('fintech', 'competicao')">Competição</li>
+                    <li (click)="redirectTo('fintech', 'resultados')">Resultados</li>
+                  </ul>
                 </li>
                 <li class="nav-item" routerLinkActive="active" (click)="redirectTo('informacoes')">
                   Informações
+                  <ul>
+                    <li (click)="redirectTo('informacoes', 'data-e-localizacao')">Data e localização</li>
+                    <li (click)="redirectTo('informacoes', 'como-chegar')">Como chegar</li>
+                    <li (click)="redirectTo('informacoes', 'visitantes-estrangeiros')">Visitantes estrangeiros</li>
+                  </ul>
                 </li>
                 <li class="nav-item" routerLinkActive="active" (click)="redirectTo('publicacoes')">
                   Publicações
+                  <ul>
+                    <li (click)="redirectTo('publicacoes', 'revista-ciab-febraban')">Revista CIAB FEBRABAN</li>
+                    <li (click)="redirectTo('publicacoes', 'pesquisa-febraban')">Pesquisa FEBRABAN</li>
+                    <li (click)="redirectTo('publicacoes', 'quero-anunciar')">Quero anunciar</li>
+                  </ul>
                 </li>
                 <li class="nav-item" routerLinkActive="active" (click)="redirectTo('imprensa')">
                   Imprensa
+                  <ul>
+                    <li (click)="redirectTo('imprensa', 'assessoria-de-imprensa')">Assessoria de imprensa</li>
+                    <li (click)="redirectTo('imprensa', 'noticias')">Notícias</li>
+                  </ul>
                 </li>
               </ul>
             </nav>
