@@ -1,5 +1,6 @@
 import { Component, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
 import { fromEvent, merge } from 'rxjs';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -14,7 +15,10 @@ export class HeaderComponent implements AfterViewInit {
   @ViewChild('navButtonToggle', { static: true })
   navButtonToggle: ElementRef;
 
-  ngAfterViewInit() {
+  constructor(private router: Router) {
+  }
+
+  ngAfterViewInit(): void {
     const $windowResize = fromEvent(window, 'resize');
     const $windowScroll = fromEvent(window, 'scroll');
     const $navToggleClick = fromEvent(this.navButtonToggle.nativeElement, 'click');
@@ -28,7 +32,11 @@ export class HeaderComponent implements AfterViewInit {
       });
   }
 
-  toggleNav() {
+  redirectTo(route: string): void {
+    this.router.navigate([route]);
+  }
+
+  toggleNav(): void {
     this.navVisible = !this.navVisible;
   }
 

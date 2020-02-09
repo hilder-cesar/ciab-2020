@@ -8,7 +8,8 @@
               src="./assets//images/shared/logo-ciab-febraban-2020-white.svg"
               alt="CIAB FEBRABAN 2020"
               title="CIAB FEBRABAN 2020"
-              class="logo">
+              class="logo"
+              (click)="redirectTo('')">
           </div>
           <div class="col-auto text-right app-button-icon-nav-container">
             <button class="btn app-button-icon app-button-icon-nav" (click)="toggleNav()" #navButtonToggle></button>
@@ -20,29 +21,29 @@
           <div class="col-xl-auto mb-3 mb-xl-0">
             <nav class="nav">
               <ul>
-                <li class="nav-item" routerLink="ciab" routerLinkActive="active">
+                <li class="nav-item" routerLinkActive="active" (click)="redirectTo('ciab')">
                   CIAB
                   <ul>
                     <li routerLink="sobre-o-ciab">Sobre o CIAB</li>
                     <li routerLink="febraban">FEBRABAN</li>
                   </ul>
                 </li>
-                <li class="nav-item" routerLink="congresso" routerLinkActive="active">
+                <li class="nav-item" routerLinkActive="active" (click)="redirectTo('congresso')">
                   Congresso
                 </li>
-                <li class="nav-item" routerLink="exposicao" routerLinkActive="active">
+                <li class="nav-item" routerLinkActive="active" (click)="redirectTo('exposicao')">
                   Exposição
                 </li>
-                <li class="nav-item" routerLink="fintech" routerLinkActive="active">
+                <li class="nav-item" routerLinkActive="active" (click)="redirectTo('fintech')">
                   Fintech
                 </li>
-                <li class="nav-item" routerLink="informacoes" routerLinkActive="active">
+                <li class="nav-item" routerLinkActive="active" (click)="redirectTo('informacoes')">
                   Informações
                 </li>
-                <li class="nav-item" routerLink="publicacoes" routerLinkActive="active">
+                <li class="nav-item" routerLinkActive="active" (click)="redirectTo('publicacoes')">
                   Publicações
                 </li>
-                <li class="nav-item" routerLink="imprensa" routerLinkActive="active">
+                <li class="nav-item" routerLinkActive="active" (click)="redirectTo('imprensa')">
                   Imprensa
                 </li>
               </ul>

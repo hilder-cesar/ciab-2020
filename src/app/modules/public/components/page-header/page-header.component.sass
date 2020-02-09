@@ -1,0 +1,96 @@
+
+@import './../../../../../assets/sass/imports/media-queries'
+
+:host
+  display: block
+
+.app-page-header
+  display: block
+  background-image: url('./../../../../../assets/images/ciab/app-ciab-background-image.jpg')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+  padding: 78px + 24px 0 24px 0
+  @include MQ(XL)
+    padding: 124px + 48px 0 0 0
+
+.app-page-header-menu
+  z-index: 1
+  display: flex
+  align-items: stretch
+  background-color: #FFF
+  > div, > button
+    padding: 24px
+  > button
+    flex: .25
+    background-color: transparent
+    line-height: 1
+    border: 0
+    border-left: 1px solid #EEE
+
+.app-page-header-info
+  flex: 1
+  color: #001A72
+
+.app-page-header-info-title
+  font-weight: 700
+  text-transform: uppercase
+
+.app-page-header-info-text
+  font-size: 14px
+  font-weight: 600
+
+.app-page-header-info-text-icon
+  position: relative
+  padding-left: 26px
+  &:before
+    content: ''
+    position: absolute
+    z-index: 1
+    top: 0
+    left: 0
+    width: 18px
+    background-repeat: no-repeat
+    background-size: contain
+    background-position: center
+
+.app-page-header-info-text-icon-calendar
+  line-height: 22px
+  &:before
+    height: 22px
+    background-image: url('./../../../../../assets/images/icons/calendar-plus-blue.svg')
+
+.app-page-header-info-text-icon-marker
+  line-height: 17px
+  &:before
+    height: 17px
+    background-image: url('./../../../../../assets/images/icons/map-marker-alt-blue.svg')
+
+.app-page-header-menu-bar
+  width: 34px
+  height: 12px
+  margin-bottom: 16px
+
+.app-page-header-menu-bar-red
+  background-color: #FF585D
+
+.app-page-header-menu-bar-green
+  background-color: #00AF66
+
+.app-page-header-menu-bar-blue
+  background-color: #00A9CE
+
+.app-page-header-menu-text
+  font-weight: 700
+  text-align: left
+  text-transform: uppercase
+  margin: 0
+
+.app-page-header-menu-text-red
+  color: #FF585D
+
+.app-page-header-menu-text-green
+  color: #00AF66
+
+.app-page-header-menu-text-blue
+  color: #00A9CE
