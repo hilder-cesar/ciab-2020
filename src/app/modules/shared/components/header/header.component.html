@@ -9,7 +9,7 @@
               alt="CIAB FEBRABAN 2020"
               title="CIAB FEBRABAN 2020"
               class="logo"
-              (click)="redirectTo('')">
+              (click)="redirectTo($event, '')">
           </div>
           <div class="col-auto text-right app-button-icon-nav-container">
             <button class="btn app-button-icon app-button-icon-nav" (click)="toggleNav()" #navButtonToggle></button>
@@ -21,61 +21,61 @@
           <div class="col-xl-auto mb-3 mb-xl-0">
             <nav class="nav">
               <ul>
-                <li class="nav-item" routerLinkActive="active" (click)="redirectTo('ciab')">
+                <li class="nav-item" routerLink="ciab" routerLinkActive="active" (click)="redirectTo($event, 'ciab')">
                   CIAB
                   <ul>
-                    <li (click)="redirectTo('ciab', 'sobre-o-ciab')">Sobre o CIAB</li>
-                    <li (click)="redirectTo('ciab', 'febraban')">FEBRABAN</li>
+                    <li (click)="redirectTo($event, 'ciab', 'sobre-o-ciab')">Sobre o CIAB</li>
+                    <li (click)="redirectTo($event, 'ciab', 'febraban')">FEBRABAN</li>
                   </ul>
                 </li>
-                <li class="nav-item" routerLinkActive="active" (click)="redirectTo('congresso')">
+                <li class="nav-item" routerLinkActive="active" (click)="redirectTo($event, 'congresso')">
                   Congresso
                   <ul>
-                    <li (click)="redirectTo('congresso', 'inscricoes')">Inscrições</li>
-                    <li (click)="redirectTo('congresso', 'o-congresso')">O congresso</li>
-                    <li (click)="redirectTo('congresso', 'programacao')">Programação</li>
-                    <li (click)="redirectTo('congresso', 'palestrantes')">Palestrantes</li>
-                    <li (click)="redirectTo('congresso', 'keynote-speakers')">Keynote Speakers</li>
+                    <li (click)="redirectTo($event, 'congresso', 'inscricoes')">Inscrições</li>
+                    <li (click)="redirectTo($event, 'congresso', 'o-congresso')">O congresso</li>
+                    <li (click)="redirectTo($event, 'congresso', 'programacao')">Programação</li>
+                    <li (click)="redirectTo($event, 'congresso', 'palestrantes')">Palestrantes</li>
+                    <li (click)="redirectTo($event, 'congresso', 'keynote-speakers')">Keynote Speakers</li>
                   </ul>
                 </li>
-                <li class="nav-item" routerLinkActive="active" (click)="redirectTo('exposicao')">
+                <li class="nav-item" routerLinkActive="active" (click)="redirectTo($event, 'exposicao')">
                   Exposição
                   <ul>
-                    <li (click)="redirectTo('exposicao', 'quero-visitar')">Quero visitar</li>
-                    <li (click)="redirectTo('exposicao', 'a-exposicao')">A exposição</li>
-                    <li (click)="redirectTo('exposicao', 'mapa-e-expositores')">Mapa e expositores</li>
-                    <li (click)="redirectTo('exposicao', 'patrocinar-expor')">Patrocinar/expor</li>
+                    <li (click)="redirectTo($event, 'exposicao', 'quero-visitar')">Quero visitar</li>
+                    <li (click)="redirectTo($event, 'exposicao', 'a-exposicao')">A exposição</li>
+                    <li (click)="redirectTo($event, 'exposicao', 'mapa-e-expositores')">Mapa e expositores</li>
+                    <li (click)="redirectTo($event, 'exposicao', 'patrocinar-expor')">Patrocinar/expor</li>
                   </ul>
                 </li>
-                <li class="nav-item" routerLinkActive="active" (click)="redirectTo('fintech')">
+                <li class="nav-item" routerLinkActive="active" (click)="redirectTo($event, 'fintech')">
                   Fintech
                   <ul>
-                    <li (click)="redirectTo('fintech', 'fintech-lounge')">Fintech Lounge</li>
-                    <li (click)="redirectTo('fintech', 'competicao')">Competição</li>
-                    <li (click)="redirectTo('fintech', 'resultados')">Resultados</li>
+                    <li (click)="redirectTo($event, 'fintech', 'fintech-lounge')">Fintech Lounge</li>
+                    <li (click)="redirectTo($event, 'fintech', 'competicao')">Competição</li>
+                    <li (click)="redirectTo($event, 'fintech', 'resultados')">Resultados</li>
                   </ul>
                 </li>
-                <li class="nav-item" routerLinkActive="active" (click)="redirectTo('informacoes')">
+                <li class="nav-item" routerLinkActive="active" (click)="redirectTo($event, 'informacoes')">
                   Informações
                   <ul>
-                    <li (click)="redirectTo('informacoes', 'data-e-localizacao')">Data e localização</li>
-                    <li (click)="redirectTo('informacoes', 'como-chegar')">Como chegar</li>
-                    <li (click)="redirectTo('informacoes', 'visitantes-estrangeiros')">Visitantes estrangeiros</li>
+                    <li (click)="redirectTo($event, 'informacoes', 'data-e-localizacao')">Data e localização</li>
+                    <li (click)="redirectTo($event, 'informacoes', 'como-chegar')">Como chegar</li>
+                    <li (click)="redirectTo($event, 'informacoes', 'visitantes-estrangeiros')">Visitantes estrangeiros</li>
                   </ul>
                 </li>
-                <li class="nav-item" routerLinkActive="active" (click)="redirectTo('publicacoes')">
+                <li class="nav-item" routerLinkActive="active" (click)="redirectTo($event, 'publicacoes')">
                   Publicações
                   <ul>
-                    <li (click)="redirectTo('publicacoes', 'revista-ciab-febraban')">Revista CIAB FEBRABAN</li>
-                    <li (click)="redirectTo('publicacoes', 'pesquisa-febraban')">Pesquisa FEBRABAN</li>
-                    <li (click)="redirectTo('publicacoes', 'quero-anunciar')">Quero anunciar</li>
+                    <li (click)="redirectTo($event, 'publicacoes', 'revista-ciab-febraban')">Revista CIAB FEBRABAN</li>
+                    <li (click)="redirectTo($event, 'publicacoes', 'pesquisa-febraban')">Pesquisa FEBRABAN</li>
+                    <li (click)="redirectTo($event, 'publicacoes', 'quero-anunciar')">Quero anunciar</li>
                   </ul>
                 </li>
-                <li class="nav-item" routerLinkActive="active" (click)="redirectTo('imprensa')">
+                <li class="nav-item" routerLinkActive="active" (click)="redirectTo($event, 'imprensa')">
                   Imprensa
                   <ul>
-                    <li (click)="redirectTo('imprensa', 'assessoria-de-imprensa')">Assessoria de imprensa</li>
-                    <li (click)="redirectTo('imprensa', 'noticias')">Notícias</li>
+                    <li (click)="redirectTo($event, 'imprensa', 'assessoria-de-imprensa')">Assessoria de imprensa</li>
+                    <li (click)="redirectTo($event, 'imprensa', 'noticias')">Notícias</li>
                   </ul>
                 </li>
               </ul>

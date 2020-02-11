@@ -12,7 +12,9 @@ const routes: Routes = [
 ];
 
 const routerOptions: ExtraOptions = {
-  anchorScrolling: 'enabled'
+  scrollOffset: () => {
+    return window.innerWidth < 1200 ? [0, 78] : [0, 124];
+  }
 };
 
 @NgModule({

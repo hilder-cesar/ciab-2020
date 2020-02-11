@@ -32,10 +32,12 @@ export class HeaderComponent implements AfterViewInit {
       });
   }
 
-  redirectTo(route: string, fragment?: string): void {
+  redirectTo(event: any, route: string, fragment?: string): void {
+    event.stopPropagation();
     fragment
       ? this.router.navigate([route], { fragment })
       : this.router.navigate([route]);
+    this.navVisible = false;
   }
 
   toggleNav(): void {
