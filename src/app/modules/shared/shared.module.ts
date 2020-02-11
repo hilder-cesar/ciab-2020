@@ -10,6 +10,7 @@ import { FormControlMessageComponent } from './components/form-control-message/f
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { KeynoteSpeakerComponent } from './components/keynote-speaker/keynote-speaker.component';
+import { KeynoteSpeakerModalComponent } from './components/keynote-speaker-modal/keynote-speaker-modal.component';
 import { SponsorsComponent } from './components/sponsors/sponsors.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 
@@ -20,6 +21,7 @@ import { GalleryComponent } from './components/gallery/gallery.component';
     HeaderComponent,
     FooterComponent,
     KeynoteSpeakerComponent,
+    KeynoteSpeakerModalComponent,
     SponsorsComponent,
     GalleryComponent
   ],
@@ -34,6 +36,7 @@ import { GalleryComponent } from './components/gallery/gallery.component';
     HeaderComponent,
     FooterComponent,
     KeynoteSpeakerComponent,
+    KeynoteSpeakerModalComponent,
     SponsorsComponent,
     GalleryComponent
   ]

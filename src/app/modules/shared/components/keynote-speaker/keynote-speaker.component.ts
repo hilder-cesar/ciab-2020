@@ -1,4 +1,6 @@
 import { Component, Input } from '@angular/core';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { KeynoteSpeakerModalComponent } from '../keynote-speaker-modal/keynote-speaker-modal.component';
 
 @Component({
   selector: 'app-keynote-speaker',
@@ -8,12 +10,16 @@ import { Component, Input } from '@angular/core';
 export class KeynoteSpeakerComponent {
 
   @Input()
-  photo: string;
+  keynoteSpeakerData: any;
 
-  @Input()
-  name: string;
+  constructor(private ngbModal: NgbModal) { }
 
-  @Input()
-  description: string;
+  openKeynoteSpeakerModal() {
+    const modalRef = this.ngbModal.open(KeynoteSpeakerModalComponent, {
+      centered: true,
+      size: 'xl'
+    });
+    modalRef.componentInstance.keynoteSpeakerData = this.keynoteSpeakerData;
+  }
 
 }

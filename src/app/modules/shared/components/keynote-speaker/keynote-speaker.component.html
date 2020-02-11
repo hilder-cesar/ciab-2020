@@ -1,17 +1,17 @@
 <div class="text-center text-md-left">
   <img
-    [src]="photo"
-    [alt]="name"
-    [title]="name">
+    [src]="keynoteSpeakerData.photo"
+    [alt]="keynoteSpeakerData.name"
+    [title]="keynoteSpeakerData.name">
 </div>
 <div class="app-keynote-speaker-info">
   <h3 class="app-keynote-speaker-name">
-    {{ name }}
+    {{ keynoteSpeakerData.name }}
   </h3>
   <p>
-    {{ description }}
+    {{ keynoteSpeakerData.description }}
   </p>
-  <button type="button" class="app-keynote-speaker-button">
+  <button type="button" class="app-keynote-speaker-button" (click)="openKeynoteSpeakerModal()">
     Saiba mais
   </button>
 </div>

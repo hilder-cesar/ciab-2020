@@ -1,0 +1,14 @@
+<div class="app-keynote-speaker-modal">
+  <div class="row">
+    <div class="col-auto">
+      <img
+        [src]="keynoteSpeakerData.photo"
+        [alt]="keynoteSpeakerData.name"
+        [title]="keynoteSpeakerData.name">
+    </div>
+    <div class="col">
+      <h3 class="app-keynote-speaker-modal-name mb-3">{{ keynoteSpeakerData.name }}</h3>
+      <p>{{ keynoteSpeakerData.description }}</p>
+    </div>
+  </div>
+</div>
