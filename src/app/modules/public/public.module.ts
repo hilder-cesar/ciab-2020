@@ -7,6 +7,7 @@ import { SharedModule } from './../shared/shared.module';
 // containers
 import { HomeComponent } from './containers/home/home.component';
 import { CiabComponent } from './containers/ciab/ciab.component';
+import { CongressoComponent } from './containers/congresso/congresso.component';
 
 // components
 import { SliderComponent } from './components/slider/slider.component';
@@ -18,6 +19,7 @@ import { PageHeaderComponent } from './components/page-header/page-header.compon
     // containers
     HomeComponent,
     CiabComponent,
+    CongressoComponent,
     // components
     SliderComponent,
     SliderNavComponent,
@@ -31,7 +33,8 @@ import { PageHeaderComponent } from './components/page-header/page-header.compon
   exports: [
     // containers
     HomeComponent,
-    CiabComponent
+    CiabComponent,
+    CongressoComponent
   ]
 })
 export class PublicModule { }

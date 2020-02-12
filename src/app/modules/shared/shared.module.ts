@@ -9,6 +9,7 @@ import { NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormControlMessageComponent } from './components/form-control-message/form-control-message.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { KeynoteSpeakersComponent } from './components/keynote-speakers/keynote-speakers.component';
 import { KeynoteSpeakerComponent } from './components/keynote-speaker/keynote-speaker.component';
 import { KeynoteSpeakerModalComponent } from './components/keynote-speaker-modal/keynote-speaker-modal.component';
 import { SponsorsComponent } from './components/sponsors/sponsors.component';
@@ -21,6 +22,7 @@ import { GalleryNavComponent } from './components/gallery/gallery-nav.component'
     FormControlMessageComponent,
     HeaderComponent,
     FooterComponent,
+    KeynoteSpeakersComponent,
     KeynoteSpeakerComponent,
     KeynoteSpeakerModalComponent,
     SponsorsComponent,
@@ -37,6 +39,7 @@ import { GalleryNavComponent } from './components/gallery/gallery-nav.component'
     FormControlMessageComponent,
     HeaderComponent,
     FooterComponent,
+    KeynoteSpeakersComponent,
     KeynoteSpeakerComponent,
     KeynoteSpeakerModalComponent,
     SponsorsComponent,

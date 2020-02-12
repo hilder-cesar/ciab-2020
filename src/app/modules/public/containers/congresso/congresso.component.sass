@@ -1,0 +1,94 @@
+
+@import './../../../../../assets/sass/imports/media-queries'
+
+.app-section-congress
+  background-repeat: no-repeat
+  background-size: 480px 412px
+  background-position: bottom left
+  @include MQ(MD)
+    background-image: url('./../../../../../assets/images/congresso/app-congresso-congress-background-image.svg')
+
+.app-ciab-text-highlight
+  font-size: 26px
+  font-weight: 800
+  color: #001A72
+
+.app-banner
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+  padding: 16px
+  @include MQ(SM)
+    padding: 32px
+  @include MQ(LG)
+    padding: 48px
+  @include MQ(XL)
+    padding: 64px
+
+.app-banner-schedule
+  background-image: url('./../../../../../assets/images/congresso/app-banner-schedule.jpg')
+
+.app-banner-speakers
+  background-image: url('./../../../../../assets/images/congresso/app-banner-speakers.jpg')
+
+.app-banner-text
+  display: block
+  font-size: 18px
+  font-weight: 800
+  text-transform: uppercase
+  line-height: 1
+  color: #FFF
+  @include MQ(LG)
+    font-size: 24px
+
+.app-banner-text-bigger
+  font-size: 31.5px
+  @include MQ(LG)
+    font-size: 42px
+
+.app-section-technical-trails
+  position: relative
+
+.app-section-technical-trails-background-color
+  position: absolute
+  z-index: -1
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+
+.app-section-technical-trails-background-image
+  position: absolute
+  z-index: -1
+  top: 0
+  left: 0
+  width: 100%
+  height: 90%
+  background-image: url('./../../../../../assets/images/congresso/app-congresso-technical-trails-background-image.jpg')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+
+.app-section-technical-trails-row
+  color: #FFF
+  text-align: center
+  margin-bottom: 16px
+  @include MQ(SM)
+    margin-bottom: 32px
+  @include MQ(LG)
+    margin-bottom: 48px
+  @include MQ(XL)
+    margin-bottom: 64px
+
+.app-section-box-white
+  background-color: #FFF
+  padding: 32px
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1)
+  @include MQ(LG)
+    padding: 64px
+
+.app-section-box-white-title
+  font-size: 24px
+  font-weight: 800
+  text-transform: none
+  color: #001A72
