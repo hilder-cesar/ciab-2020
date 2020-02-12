@@ -1,14 +1,9 @@
 
-.app-gallery-button
-  width: 40px
-  height: 40px
-  background-color: transparent
-  background-image: url('./../../../../../assets/images/icons/long-arrow-right.svg')
-  background-repeat: no-repeat
-  background-size: 20px 10px
-  background-position: center
-  border: 2px solid #00A9C2
-  border-radius: 100%
+:host
+  display: block
+  overflow: hidden
 
-.app-gallery-button-previous
-  transform: rotate(180deg)
+.app-gallery-slide-container
+  display: inline-block
+  &:not(:last-child)
+    margin-right: 30px

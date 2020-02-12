@@ -100,7 +100,7 @@
 <div class="app-section app-about-ciab pb-0">
   <div class="container">
     <span class="app-about-ciab-text mb-2">Sobre o CIAB FEBRABAN</span>
-    <h2 class="mb-3 mb-lg-5">Vem aí o maior evento de tecnologia do setor mais tecnológico do país</h2>
+    <h2 class="mb-3 mb-lg-5">Vem aí o maior evento de tecnologia do setor mais tecnológico do País</h2>
     <div class="row position-relative">
       <div class="position-static col">
         <div class="app-box app-box-absolute app-box-blue-light">
@@ -174,7 +174,9 @@
       <button type="button" class="app-button app-button-secondary">Entenda as vantagens e faça parte</button>
     </div>
     <h2 class="my-3 my-lg-5">Vídeos</h2>
-    <app-gallery></app-gallery>
+    <app-gallery
+      [photoList]="photoList">
+    </app-gallery>
   </div>
 </div>
 <app-sponsors></app-sponsors>

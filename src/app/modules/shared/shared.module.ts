@@ -13,6 +13,7 @@ import { KeynoteSpeakerComponent } from './components/keynote-speaker/keynote-sp
 import { KeynoteSpeakerModalComponent } from './components/keynote-speaker-modal/keynote-speaker-modal.component';
 import { SponsorsComponent } from './components/sponsors/sponsors.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
+import { GalleryNavComponent } from './components/gallery/gallery-nav.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { GalleryComponent } from './components/gallery/gallery.component';
     KeynoteSpeakerComponent,
     KeynoteSpeakerModalComponent,
     SponsorsComponent,
-    GalleryComponent
+    GalleryComponent,
+    GalleryNavComponent
   ],
   imports: [
     CommonModule,

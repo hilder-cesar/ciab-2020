@@ -1,31 +1,55 @@
-<div class="row">
-  <div class="col">
-    <img src="./assets/images/shared/gallery/photo-1.jpg" alt="" title="">
-  </div>
-  <div class="col">
-    <div class="row" style="margin-bottom: 27px;">
-      <div class="col">
-        <img src="./assets/images/shared/gallery/photo-2.jpg" alt="" title="">
-      </div>
-      <div class="col">
-        <img src="./assets/images/shared/gallery/photo-3.jpg" alt="" title="">
+<div class="app-gallery-slides-container" #slidesContainer>
+  <ng-container
+    *ngFor="let item of slidesArray; let i = index;">
+    <div class="app-gallery-slide-container" #slide>
+      <div class="row">
+        <div class="col">
+          <img
+            src="./assets/images/shared/gallery/{{ photoList[getIndex(i)].name }}"
+            [alt]="photoList[getIndex(i)].description"
+            [title]="photoList[getIndex(i)].description">
+        </div>
+        <div class="col">
+          <div class="row">
+            <div class="col">
+              <img
+                src="./assets/images/shared/gallery/{{ photoList[getIndex(i, 1)].name }}"
+                [alt]="photoList[getIndex(i, 1)].description"
+                [title]="photoList[getIndex(i, 1)].description"
+                *ngIf="photoList[getIndex(i, 1)]">
+            </div>
+            <div class="col">
+              <img
+                src="./assets/images/shared/gallery/{{ photoList[getIndex(i, 2)].name }}"
+                [alt]="photoList[getIndex(i, 2)].description"
+                [title]="photoList[getIndex(i, 2)].description"
+                *ngIf="photoList[getIndex(i, 2)]">
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col">
+              <img
+                src="./assets/images/shared/gallery/{{ photoList[getIndex(i, 3)].name }}"
+                [alt]="photoList[getIndex(i, 3)].description"
+                [title]="photoList[getIndex(i, 3)].description"
+                *ngIf="photoList[getIndex(i, 3)]">
+            </div>
+            <div class="col">
+              <img
+                src="./assets/images/shared/gallery/{{ photoList[getIndex(i, 4)].name }}"
+                [alt]="photoList[getIndex(i, 4)].description"
+                [title]="photoList[getIndex(i, 4)].description"
+                *ngIf="photoList[getIndex(i, 4)]">
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col">
-        <img src="./assets/images/shared/gallery/photo-4.jpg" alt="" title="">
-      </div>
-      <div class="col">
-        <img src="./assets/images/shared/gallery/photo-5.jpg" alt="" title="">
-      </div>
-    </div>
-  </div>
+  </ng-container>
 </div>
-<div class="row justify-content-center" style="margin-top: 30px;">
-  <div class="col-auto">
-    <button type="button" class="app-gallery-button app-gallery-button-previous"></button>
-  </div>
-  <div class="col-auto">
-    <button type="button" class="app-gallery-button"></button>
-  </div>
-</div>
+<app-gallery-nav
+  [slidesNumber]="galleryModel.slides"
+  [slideCurrent]="galleryModel.slideCurrent"
+  (slideTo)="handleSlideTo($event)">
+</app-gallery-nav>
+
