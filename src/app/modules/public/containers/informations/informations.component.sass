@@ -1,0 +1,44 @@
+
+@import './../../../../../assets/sass/imports/media-queries'
+
+.app-informations-section-how-to-get
+  background-repeat: no-repeat
+  background-size: 564px 372px
+  background-position: bottom 20% left
+  @include MQ(MD)
+    background-image: url('./../../../../../assets/images/informations/app-informations.svg')
+
+.app-text-highlight
+  font-size: 26px
+  font-weight: 800
+
+.app-informations-section-foreign-visitors
+  position: relative
+
+.app-informations-section-foreign-visitors-background-color
+  position: absolute
+  z-index: -1
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+
+.app-informations-section-foreign-visitors-background-image
+  position: absolute
+  z-index: -1
+  top: 0
+  left: 0
+  width: 100%
+  height: 80%
+  background-image: url('./../../../../../assets/images/informations/app-informations-section-foreign-visitors-background-image.jpg')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+
+.app-section-box-white
+  background-color: #FFF
+  padding: 32px
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1)
+  @include MQ(LG)
+    padding: 64px
+

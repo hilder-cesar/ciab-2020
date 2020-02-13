@@ -1,0 +1,84 @@
+
+@import './../../../../../assets/sass/imports/media-queries'
+
+.app-fintech-text-highlight
+  font-size: 26px
+  font-weight: bold
+
+.app-fintech-text-highlight-purple
+  color: #753BBD
+
+.app-section-competition
+  position: relative
+
+.app-section-competition-background-color
+  position: absolute
+  z-index: -1
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+
+.app-section-competition-background-image
+  position: absolute
+  z-index: -1
+  top: 0
+  left: 0
+  width: 100%
+  height: 80%
+  background-image: url('./../../../../../assets/images/fintech/app-fintech-competition-background-image.jpg')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+
+.app-section-box-white
+  background-color: #FFF
+  padding: 32px
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1)
+  @include MQ(LG)
+    padding: 64px
+
+.app-section-results
+  background-image: url('./../../../../../assets/images/fintech/app-fintech.svg')
+  background-repeat: no-repeat
+  background-size: 352px 104px
+  background-position: center top
+  padding-top: 104px + 16px
+  @include MQ(SM)
+    padding-top: 104px + 32px
+  @include MQ(LG)
+    padding-top: 104px + 48px
+  @include MQ(XL)
+    padding-top: 104px + 64px
+
+.app-table-results
+  width: 100%
+  text-align: left
+  > thead
+    > tr
+      > th
+        font-size: 14px
+        font-weight: 600
+        text-transform: uppercase
+        padding: 8px 16px
+        cursor: default
+  > tbody
+    > tr
+      transition: background-color 0.25s
+      border-top: 1px solid #E2E2E2
+      &:hover
+        background-color: #F5F5F5
+      > td
+        font-size: 14px
+        padding: 16px
+        &:nth-child(3)
+          color: #753BBD
+          font-weight: 600
+        &:nth-child(4)
+          font-size: 12px
+
+.app-sponsors-h3
+  font-weight: normal
+
+.app-sponsors-hr
+  background-color: #EAEAEA

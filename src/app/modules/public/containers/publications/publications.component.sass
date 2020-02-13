@@ -1,0 +1,44 @@
+
+@import './../../../../../assets/sass/imports/media-queries'
+
+.app-publications-magazine-container
+  position: relative
+  transform: scale(0.9)
+  transition: transform 0.25s
+  &:hover
+    transform: scale(1)
+    .app-publications-magazine
+      box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 0.2)
+    .app-publications-magazine-overlay
+      opacity: 1
+
+.app-publications-magazine
+  width: 100%
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.1)
+  transition: box-shadow 0.25s
+
+.app-publications-magazine-overlay
+  position: absolute
+  z-index: 1
+  top: 0
+  left: 0
+  display: flex
+  flex-wrap: wrap
+  width: 100%
+  height: 100%
+  background-color: rgb(0, 26, 114, 0.8)
+  color: #FFF
+  padding: 32px
+  opacity: 0
+  transition: opacity 0.25s
+
+.app-text-highlight
+  font-size: 26px
+  font-weight: 800
+
+.app-publications-section-research-febraban
+  background-repeat: no-repeat
+  background-size: 512px 338px
+  background-position: right 32px
+  @include MQ(LG)
+    background-image: url('./../../../../../assets/images/publications/app-publications-section-research-febraban-background-image.svg')

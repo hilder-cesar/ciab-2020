@@ -1,12 +1,12 @@
 
 @import './../../../../../assets/sass/imports/media-queries'
 
-.app-section-exposition
+.app-section-exposure
   background-repeat: no-repeat
   background-size: 439px 382px
   background-position: bottom left
   @include MQ(MD)
-    background-image: url('./../../../../../assets/images/exposicao/app-exposicao-exposition-background-image.svg')
+    background-image: url('./../../../../../assets/images/exposure/app-exposure-exposition-background-image.svg')
 
 .app-text-highlight
   font-size: 26px
@@ -15,7 +15,7 @@
 .app-text-highlight-green
   color: #00AF66
 
-.app-expositor
+.app-exhibitor
   display: flex
   font-size: 14px
   padding: 16px
@@ -26,11 +26,11 @@
   &:hover
     background-color: #F5F5F5
 
-.app-expositor-name
+.app-exhibitor-name
   flex: 1
   font-weight: bold
 
-.app-expositor-place
+.app-exhibitor-place
   flex: 1
   font-size: 14px
   text-align: right
@@ -44,3 +44,30 @@
 
 .app-section-text-green
   color: #00AF66
+
+.app-section-come-visit
+  position: relative
+
+.app-section-come-visit-background-color
+  position: absolute
+  z-index: -1
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background-image: url('./../../../../../assets/images/exposure/app-exposure.svg')
+  background-repeat: no-repeat
+  background-size: 439px 382px
+  background-position: 50px bottom
+
+.app-section-come-visit-background-image
+  position: absolute
+  z-index: -1
+  top: 0
+  left: 0
+  width: 100%
+  height: 80%
+  background-image: url('./../../../../../assets/images/exposure/app-exposure-come-visit-background-image.jpg')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
