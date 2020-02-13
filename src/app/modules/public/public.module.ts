@@ -13,6 +13,7 @@ import { CongressoComponent } from './containers/congresso/congresso.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { SliderNavComponent } from './components/slider/slider-nav.component';
 import { PageHeaderComponent } from './components/page-header/page-header.component';
+import { ExposicaoComponent } from './containers/exposicao/exposicao.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { PageHeaderComponent } from './components/page-header/page-header.compon
     // components
     SliderComponent,
     SliderNavComponent,
-    PageHeaderComponent
+    PageHeaderComponent,
+    ExposicaoComponent
   ],
   imports: [
     CommonModule,
