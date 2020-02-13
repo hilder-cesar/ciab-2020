@@ -1,9 +1,11 @@
 
+@import './imports/variables'
 @import './imports/media-queries'
 
 body
   min-width: 320px
   font-family: 'Open Sans'
+  color: $BLACK
   line-height: 1.75
 
 h1, h2, h3, h4, h5, h6
@@ -25,3 +27,6 @@ h3
   font-size: 21px
   @include MQ(MD)
     font-size: 32px
+
+img
+  max-width: 100%

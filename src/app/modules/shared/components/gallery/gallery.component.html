@@ -5,7 +5,7 @@
       <div class="row">
         <div class="col">
           <img
-            src="./assets/images/shared/gallery/{{ photoList[getIndex(i)].name }}"
+            src="{{ photoList[getIndex(i)].name }}"
             [alt]="photoList[getIndex(i)].description"
             [title]="photoList[getIndex(i)].description">
         </div>
@@ -13,14 +13,14 @@
           <div class="row">
             <div class="col">
               <img
-                src="./assets/images/shared/gallery/{{ photoList[getIndex(i, 1)].name }}"
+                src="{{ photoList[getIndex(i, 1)].name }}"
                 [alt]="photoList[getIndex(i, 1)].description"
                 [title]="photoList[getIndex(i, 1)].description"
                 *ngIf="photoList[getIndex(i, 1)]">
             </div>
             <div class="col">
               <img
-                src="./assets/images/shared/gallery/{{ photoList[getIndex(i, 2)].name }}"
+                src="{{ photoList[getIndex(i, 2)].name }}"
                 [alt]="photoList[getIndex(i, 2)].description"
                 [title]="photoList[getIndex(i, 2)].description"
                 *ngIf="photoList[getIndex(i, 2)]">
@@ -29,14 +29,14 @@
           <div class="row mt-4">
             <div class="col">
               <img
-                src="./assets/images/shared/gallery/{{ photoList[getIndex(i, 3)].name }}"
+                src="{{ photoList[getIndex(i, 3)].name }}"
                 [alt]="photoList[getIndex(i, 3)].description"
                 [title]="photoList[getIndex(i, 3)].description"
                 *ngIf="photoList[getIndex(i, 3)]">
             </div>
             <div class="col">
               <img
-                src="./assets/images/shared/gallery/{{ photoList[getIndex(i, 4)].name }}"
+                src="{{ photoList[getIndex(i, 4)].name }}"
                 [alt]="photoList[getIndex(i, 4)].description"
                 [title]="photoList[getIndex(i, 4)].description"
                 *ngIf="photoList[getIndex(i, 4)]">

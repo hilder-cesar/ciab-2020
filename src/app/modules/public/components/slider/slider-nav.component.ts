@@ -3,15 +3,15 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 @Component({
   selector: 'app-slider-nav',
   template: `
-    <button type="button" class="btn app-button-icon app-button-icon-previous" (click)="slideToPrevious()"></button>
+    <button type="button" class="btn ciab-button-icon ciab-button-icon-previous" (click)="slideToPrevious()"></button>
     <button
       type="button"
-      class="btn app-button-icon app-button-icon-circle"
+      class="btn ciab-button-icon ciab-button-icon-circle"
       *ngFor="let item of slidesNumberArray; let i = index;"
-      [ngClass]="{ 'app-button-icon-circle-active': i === slideCurrent }"
+      [ngClass]="{ 'ciab-button-icon-circle-active': i === slideCurrent }"
       (click)="slideTo.emit(i)">
     </button>
-    <button type="button" class="btn app-button-icon app-button-icon-next" (click)="slideToNext()"></button>
+    <button type="button" class="btn ciab-button-icon ciab-button-icon-next" (click)="slideToNext()"></button>
   `,
   styles: [`
 
@@ -24,23 +24,23 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
       margin-top: -93px;
     }
 
-    .app-button-icon {
+    .ciab-button-icon {
       display: block;
       margin: 0;
     }
 
-    .app-button-icon-previous {
+    .ciab-button-icon-previous {
       background-image: url('./../../../../../assets/images/icons/angle-down-solid-white.svg');
       background-size: 20px;
       margin-bottom: 8px;
       transform: rotate(180deg)
     }
 
-    .app-button-icon-circle {
+    .ciab-button-icon-circle {
       position: relative;
     }
 
-    .app-button-icon-circle:before {
+    .ciab-button-icon-circle:before {
       content: '';
       position: absolute;
       top: 50%;
@@ -54,11 +54,11 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
       transition: background-color 0.25s;
     }
 
-    .app-button-icon-circle-active:before {
+    .ciab-button-icon-circle-active:before {
       background-color: rgba(255, 255, 255, 1);
     }
 
-    .app-button-icon-next {
+    .ciab-button-icon-next {
       background-image: url('./../../../../../assets/images/icons/angle-down-solid-white.svg');
       background-size: 20px;
       margin-top: 8px;

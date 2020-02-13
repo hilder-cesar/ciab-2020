@@ -6,11 +6,11 @@ interface Video {
 }
 
 const PHOTO_LIST: Video[] = [
-  { name: 'video-1.jpg', description: 'Vídeo 1' },
-  { name: 'video-2.jpg', description: 'Vídeo 2' },
-  { name: 'video-3.jpg', description: 'Vídeo 3' },
-  { name: 'video-4.jpg', description: 'Vídeo 4' },
-  { name: 'video-5.jpg', description: 'Vídeo 5' }
+  { name: './assets/images/home/video-1.jpg', description: 'Vídeo 1' },
+  { name: './assets/images/home/video-2.jpg', description: 'Vídeo 2' },
+  { name: './assets/images/home/video-3.jpg', description: 'Vídeo 3' },
+  { name: './assets/images/home/video-4.jpg', description: 'Vídeo 4' },
+  { name: './assets/images/home/video-5.jpg', description: 'Vídeo 5' }
 ];
 
 @Component({
