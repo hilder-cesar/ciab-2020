@@ -8,12 +8,12 @@ import { SharedModule } from './../shared/shared.module';
 import { HomeComponent } from './containers/home/home.component';
 import { CiabComponent } from './containers/ciab/ciab.component';
 import { CongressoComponent } from './containers/congresso/congresso.component';
+import { ExposicaoComponent } from './containers/exposicao/exposicao.component';
 
 // components
 import { SliderComponent } from './components/slider/slider.component';
 import { SliderNavComponent } from './components/slider/slider-nav.component';
 import { PageHeaderComponent } from './components/page-header/page-header.component';
-import { ExposicaoComponent } from './containers/exposicao/exposicao.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +36,8 @@ import { ExposicaoComponent } from './containers/exposicao/exposicao.component';
     // containers
     HomeComponent,
     CiabComponent,
-    CongressoComponent
+    CongressoComponent,
+    ExposicaoComponent
   ]
 })
 export class PublicModule { }

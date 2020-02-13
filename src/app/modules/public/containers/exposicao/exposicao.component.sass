@@ -1,0 +1,46 @@
+
+@import './../../../../../assets/sass/imports/media-queries'
+
+.app-section-exposition
+  background-repeat: no-repeat
+  background-size: 439px 382px
+  background-position: bottom left
+  @include MQ(MD)
+    background-image: url('./../../../../../assets/images/exposicao/app-exposicao-exposition-background-image.svg')
+
+.app-text-highlight
+  font-size: 26px
+  font-weight: 800
+
+.app-text-highlight-green
+  color: #00AF66
+
+.app-expositor
+  display: flex
+  font-size: 14px
+  padding: 16px
+  border-top: 1px solid #E2E2E2
+  transition: background-color 0.25s
+  &:last-child
+    border-bottom: 1px solid #E2E2E2
+  &:hover
+    background-color: #F5F5F5
+
+.app-expositor-name
+  flex: 1
+  font-weight: bold
+
+.app-expositor-place
+  flex: 1
+  font-size: 14px
+  text-align: right
+
+.app-section-box-white
+  background-color: #FFF
+  padding: 32px
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1)
+  @include MQ(LG)
+    padding: 64px
+
+.app-section-text-green
+  color: #00AF66
