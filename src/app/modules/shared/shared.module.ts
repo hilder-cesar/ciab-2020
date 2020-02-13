@@ -15,6 +15,7 @@ import { KeynoteSpeakerModalComponent } from './components/keynote-speaker-modal
 import { SponsorsComponent } from './components/sponsors/sponsors.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { GalleryNavComponent } from './components/gallery/gallery-nav.component';
+import { BannerSponsorExhibitComponent } from './components/banner-sponsor-exhibit/banner-sponsor-exhibit.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { GalleryNavComponent } from './components/gallery/gallery-nav.component'
     KeynoteSpeakerModalComponent,
     SponsorsComponent,
     GalleryComponent,
-    GalleryNavComponent
+    GalleryNavComponent,
+    BannerSponsorExhibitComponent
   ],
   imports: [
     CommonModule,
@@ -43,7 +45,8 @@ import { GalleryNavComponent } from './components/gallery/gallery-nav.component'
     KeynoteSpeakerComponent,
     KeynoteSpeakerModalComponent,
     SponsorsComponent,
-    GalleryComponent
+    GalleryComponent,
+    BannerSponsorExhibitComponent
   ]
 })
 export class SharedModule { }
