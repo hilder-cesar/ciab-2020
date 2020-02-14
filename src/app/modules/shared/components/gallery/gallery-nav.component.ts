@@ -33,7 +33,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
       width: 40px;
       height: 40px;
       background-color: transparent;
-      background-image: url('./../../../../../assets/images/icons/long-arrow-right.svg');
+      background-image: url('./assets/images/icons/long-arrow-right.svg');
       background-repeat: no-repeat;
       background-size: 20px 10px;
       background-position: center;
