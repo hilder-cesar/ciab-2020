@@ -31,6 +31,22 @@
   @include MQ(LG)
     padding: 64px
 
+.ciab-text-icon-award
+  background-image: url('./../../../../../assets/images/icons/award.svg')
+  background-repeat: no-repeat
+  background-size: 16px 24px
+  background-position: left 4px
+  line-height: 28px
+  padding-left: 16px + 8px
+
+.ciab-text-icon-calendar
+  background-image: url('./../../../../../assets/images/icons/calendar.svg')
+  background-repeat: no-repeat
+  background-size: 18px 21px
+  background-position: left 4px
+  line-height: 28px
+  padding-left: 18px + 8px
+
 .ciab-section-results
   background-image: url('./../../../../../assets/images/fintech/app-fintech.svg')
   background-repeat: no-repeat
@@ -53,8 +69,10 @@
         font-size: 14px
         font-weight: 600
         text-transform: uppercase
-        padding: 8px 16px
+        padding: 4px
         cursor: default
+        @include MQ(LG)
+          padding: 8px
   > tbody
     > tr
       transition: background-color 0.25s
@@ -63,12 +81,14 @@
         background-color: #F5F5F5
       > td
         font-size: 14px
-        padding: 16px
+        padding: 4px
         &:nth-child(3)
           color: #753BBD
           font-weight: 600
         &:nth-child(4)
           font-size: 12px
+        @include MQ(LG)
+          padding: 16px 8px
 
 .app-sponsors-h3
   font-weight: normal

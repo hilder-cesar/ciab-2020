@@ -8,19 +8,17 @@
   @include MQ(MD)
     background-image: url('./../../../../../assets/images/exposure/app-exposure-exposition-background-image.svg')
 
-.ciab-text-highlight-green
-  color: #00AF66
-
 .app-exhibitor
   display: flex
   font-size: 14px
   padding: 16px
   border-top: 1px solid #E2E2E2
   transition: background-color 0.25s
-  &:last-child
-    border-bottom: 1px solid #E2E2E2
   &:hover
     background-color: #F5F5F5
+  @include MQ(LG)
+    &:last-child
+      border-bottom: 1px solid #E2E2E2
 
 .app-exhibitor-name
   flex: 1

@@ -24,6 +24,11 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
   `,
   styles: [`
 
+    :host {
+      display: block;
+      font-size: 0;
+    }
+
     .app-gallery-button {
       width: 40px;
       height: 40px;
