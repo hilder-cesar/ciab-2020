@@ -35,4 +35,8 @@ export class FooterComponent implements OnInit {
         });
   }
 
+  handleSubmit() {
+    console.log('this.registerForm.value', this.registerForm.value);
+  }
+
 }

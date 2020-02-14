@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 // modules
+import { ReactiveFormsModule } from '@angular/forms';
 import { SharedModule } from './../shared/shared.module';
 
 // containers
@@ -13,11 +14,13 @@ import { FintechComponent } from './containers/fintech/fintech.component';
 import { InformationsComponent } from './containers/informations/informations.component';
 import { PublicationsComponent } from './containers/publications/publications.component';
 import { PressComponent } from './containers/press/press.component';
+import { SponsorExhibitComponent } from './containers/sponsor-exhibit/sponsor-exhibit.component';
 
 // components
 import { SliderComponent } from './components/slider/slider.component';
 import { SliderNavComponent } from './components/slider/slider-nav.component';
 import { PageHeaderComponent } from './components/page-header/page-header.component';
+import { SponsorExhibitFormComponent } from './components/sponsor-exhibit-form/sponsor-exhibit-form.component';
 
 @NgModule({
   declarations: [
@@ -27,17 +30,20 @@ import { PageHeaderComponent } from './components/page-header/page-header.compon
     CongressoComponent,
     ExposicaoComponent,
     FintechComponent,
+    InformationsComponent,
     PublicationsComponent,
+    PressComponent,
+    SponsorExhibitComponent,
     // components
     SliderComponent,
     SliderNavComponent,
     PageHeaderComponent,
-    InformationsComponent,
-    PressComponent
+    SponsorExhibitFormComponent
   ],
   imports: [
     CommonModule,
     // modules
+    ReactiveFormsModule,
     SharedModule
   ],
   exports: [
@@ -49,7 +55,8 @@ import { PageHeaderComponent } from './components/page-header/page-header.compon
     FintechComponent,
     InformationsComponent,
     PublicationsComponent,
-    PressComponent
+    PressComponent,
+    SponsorExhibitComponent
   ]
 })
 export class PublicModule { }

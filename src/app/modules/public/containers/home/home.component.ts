@@ -10,7 +10,12 @@ const PHOTO_LIST: Video[] = [
   { name: './assets/images/home/video-2.jpg', description: 'Vídeo 2' },
   { name: './assets/images/home/video-3.jpg', description: 'Vídeo 3' },
   { name: './assets/images/home/video-4.jpg', description: 'Vídeo 4' },
-  { name: './assets/images/home/video-5.jpg', description: 'Vídeo 5' }
+  { name: './assets/images/home/video-5.jpg', description: 'Vídeo 5' },
+  { name: './assets/images/home/video-1.jpg', description: 'Vídeo 6' },
+  { name: './assets/images/home/video-2.jpg', description: 'Vídeo 7' },
+  { name: './assets/images/home/video-3.jpg', description: 'Vídeo 8' },
+  { name: './assets/images/home/video-4.jpg', description: 'Vídeo 9' },
+  { name: './assets/images/home/video-5.jpg', description: 'Vídeo 10' }
 ];
 
 @Component({

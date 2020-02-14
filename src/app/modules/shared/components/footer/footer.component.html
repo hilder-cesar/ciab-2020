@@ -65,7 +65,7 @@
       <div class="app-modal-register-form">
         <h3>Cadastre-se</h3>
         <p>Estas informações serão usadas exclusivamente para o envio de informações e novidades sobre o CIAB FEBRABAN.</p>
-        <form [formGroup]="registerForm">
+        <form [formGroup]="registerForm" (ngSubmit)="handleSubmit()">
           <div class="form-group">
             <input type="text" class="form-control" formControlName="name" placeholder="Nome">
             <app-form-control-message [abstractControl]="registerForm.controls.name"></app-form-control-message>

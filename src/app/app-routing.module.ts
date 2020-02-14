@@ -10,6 +10,7 @@ import { FintechComponent } from './modules/public/containers/fintech/fintech.co
 import { InformationsComponent } from './modules/public/containers/informations/informations.component';
 import { PublicationsComponent } from './modules/public/containers/publications/publications.component';
 import { PressComponent } from './modules/public/containers/press/press.component';
+import { SponsorExhibitComponent } from './modules/public/containers/sponsor-exhibit/sponsor-exhibit.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -20,6 +21,7 @@ const routes: Routes = [
   { path: 'informacoes', component: InformationsComponent },
   { path: 'publicacoes', component: PublicationsComponent },
   { path: 'imprensa', component: PressComponent },
+  { path: 'patrocinar-expor', component: SponsorExhibitComponent },
   { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
 
