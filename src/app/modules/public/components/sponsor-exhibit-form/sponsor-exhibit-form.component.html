@@ -1,19 +1,19 @@
 <form [formGroup]="sponsorExhibitForm" (ngSubmit)="handleSubmit()">
   <div class="form-group">
-    <input type="text" class="form-control" formControlName="name" placeholder="Nome">
+    <input type="text" class="form-control" formControlName="name" placeholder="Nome" i18n-placeholder>
     <app-form-control-message [abstractControl]="sponsorExhibitForm.controls.name"></app-form-control-message>
   </div>
   <div class="form-group">
-    <input type="email" class="form-control" formControlName="email" placeholder="E-mail">
+    <input type="email" class="form-control" formControlName="email" placeholder="E-mail" i18n-placeholder>
     <app-form-control-message [abstractControl]="sponsorExhibitForm.controls.email"></app-form-control-message>
   </div>
   <div class="form-group">
-    <input type="text" class="form-control" formControlName="subject" placeholder="Assunto">
+    <input type="text" class="form-control" formControlName="subject" placeholder="Assunto" i18n-placeholder>
     <app-form-control-message [abstractControl]="sponsorExhibitForm.controls.subject"></app-form-control-message>
   </div>
   <div class="form-group">
-    <textarea class="form-control" formControlName="message" placeholder="Mensagem"></textarea>
+    <textarea class="form-control" formControlName="message" placeholder="Mensagem" i18n-placeholder></textarea>
     <app-form-control-message [abstractControl]="sponsorExhibitForm.controls.subject"></app-form-control-message>
   </div>
-  <button class="ciab-button ciab-button-block ciab-button-green" [disabled]="sponsorExhibitForm.valid === false">Enviar</button>
+  <button class="ciab-button ciab-button-block ciab-button-green" [disabled]="sponsorExhibitForm.valid === false" i18n>Enviar</button>
 </form>

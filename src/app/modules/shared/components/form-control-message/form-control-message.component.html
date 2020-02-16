@@ -1,6 +1,6 @@
 <div class="invalid-feedback" *ngIf="(abstractControl.touched || abstractControl.dirty) && abstractControl.errors">
-  <ng-container *ngIf="abstractControl.errors.required">Por favor, informe esse campo.</ng-container>
-  <ng-container *ngIf="abstractControl.errors.email">Por favor, informe o e-mail no formato: seunome@exemplo.com</ng-container>
+  <ng-container *ngIf="abstractControl.errors.required" i18n>Por favor, informe esse campo.</ng-container>
+  <ng-container *ngIf="abstractControl.errors.email" i18n>Por favor, informe o e-mail no formato: seunome@exemplo.com</ng-container>
   <ng-container *ngIf="abstractControl.errors.emailInUse">O e-mail informado está em uso, por favor, verifique e tente novamente.</ng-container>
   <ng-container *ngIf="abstractControl.errors.loginInUse">O login informado está em uso, por favor, verifique e tente novamente.</ng-container>
   <ng-container *ngIf="abstractControl.errors.cpfNotValid">Por favor, informe um CPF válido.</ng-container>

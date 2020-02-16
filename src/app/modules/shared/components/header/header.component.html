@@ -8,9 +8,9 @@
               src="assets/images/shared/logo-ciab-febraban-2020-white.svg"
               alt="CIAB FEBRABAN 2020"
               title="CIAB FEBRABAN 2020"
-              i18n-alt="@@ciabFebraban2020"
-              i18n-title="@@ciabFebraban2020"
               class="logo"
+              i18n-alt
+              i18n-title
               (click)="redirectTo($event, '')">
           </div>
           <div class="col-auto text-right ciab-button-icon-nav-container">
@@ -24,98 +24,60 @@
             <nav class="nav">
               <ul>
                 <li class="nav-item" routerLink="ciab" routerLinkActive="active" (click)="redirectTo($event, 'ciab')">
-                  <ng-container i18n="@@menuCiab">O CIAB</ng-container>
+                  <ng-container i18n>O CIAB</ng-container>
                   <ul>
-                    <li (click)="redirectTo($event, 'ciab', 'sobre-o-ciab')">
-                      <ng-container i18n="@@menuSobreCiab">Sobre o CIAB</ng-container>
-                    </li>
+                    <li (click)="redirectTo($event, 'ciab', 'sobre-o-ciab')" i18n>Sobre o CIAB</li>
                     <li (click)="redirectTo($event, 'ciab', 'febraban')">FEBRABAN</li>
                   </ul>
                 </li>
                 <li class="nav-item" routerLinkActive="active" (click)="redirectTo($event, 'congresso')">
-                  <ng-container i18n="@@menuCongresso">Congresso</ng-container>
+                  <ng-container i18n>Congresso</ng-container>
                   <ul>
-                    <li (click)="redirectTo($event, 'congresso', 'inscricoes')">
-                      <ng-container i18n="@@menuInscricoes">Inscrições</ng-container>
-                    </li>
-                    <li (click)="redirectTo($event, 'congresso', 'o-congresso')">
-                      <ng-container i18n="@@menuCongresso">O congresso</ng-container>
-                    </li>
-                    <li (click)="redirectTo($event, 'congresso', 'programacao')">
-                      <ng-container i18n="@@menuProgramacao">Programação</ng-container>
-                    </li>
-                    <li (click)="redirectTo($event, 'congresso', 'palestrantes')">
-                      <ng-container i18n="@@menuPalestrantes">Palestrantes</ng-container>
-                    </li>
+                    <li (click)="redirectTo($event, 'congresso', 'inscricoes')" i18n>Inscrições</li>
+                    <li (click)="redirectTo($event, 'congresso', 'o-congresso')" i18n>O congresso</li>
+                    <li (click)="redirectTo($event, 'congresso', 'programacao')" i18n>Programação</li>
+                    <li (click)="redirectTo($event, 'congresso', 'palestrantes')" i18n>Palestrantes</li>
                     <li (click)="redirectTo($event, 'congresso', 'keynote-speakers')">Keynote Speakers</li>
                   </ul>
                 </li>
                 <li class="nav-item" routerLinkActive="active" (click)="redirectTo($event, 'exposicao')">
-                  <ng-container i18n="@@menuExposicao">Exposição</ng-container>
+                  <ng-container i18n>Exposição</ng-container>
                   <ul>
-                    <li (click)="redirectTo($event, 'exposicao', 'quero-visitar')">
-                      <ng-container i18n="@@menuQueroVisitar">Quero visitar</ng-container>
-                    </li>
-                    <li (click)="redirectTo($event, 'exposicao', 'a-exposicao')">
-                      <ng-container i18n="@@menuExposicao">A exposição</ng-container>
-                    </li>
-                    <li (click)="redirectTo($event, 'exposicao', 'mapa-e-expositores')">
-                      <ng-container i18n="@@menuMapaExpositores">Mapa e expositores</ng-container>
-                    </li>
-                    <li (click)="redirectTo($event, 'patrocinar-expor')">
-                      <ng-container i18n="@@menuPatrocinarExpor">Patrocinar/Expor</ng-container>
-                    </li>
+                    <li (click)="redirectTo($event, 'exposicao', 'quero-visitar')" i18n>Quero visitar</li>
+                    <li (click)="redirectTo($event, 'exposicao', 'a-exposicao')" i18n>A exposição</li>
+                    <li (click)="redirectTo($event, 'exposicao', 'mapa-e-expositores')" i18n>Mapa e expositores</li>
+                    <li (click)="redirectTo($event, 'patrocinar-expor')" i18n>Patrocinar/Expor</li>
                   </ul>
                 </li>
                 <li class="nav-item" routerLinkActive="active" (click)="redirectTo($event, 'fintech')">
                   Fintech
                   <ul>
-                    <li (click)="redirectTo($event, 'fintech', 'fintech-lounge')">Fintech Lounge</li>
-                    <li (click)="redirectTo($event, 'fintech', 'competicao')">
-                      <ng-container i18n="@@menuCompeticao">Competição</ng-container>
-                    </li>
-                    <li (click)="redirectTo($event, 'fintech', 'resultados')">
-                      <ng-container i18n="@@menuResultados">Resultados</ng-container>
-                    </li>
+                    <li (click)="redirectTo($event, 'fintech', 'fintech-lounge')" i18n>Fintech Lounge</li>
+                    <li (click)="redirectTo($event, 'fintech', 'competicao')" i18n>Competição</li>
+                    <li (click)="redirectTo($event, 'fintech', 'resultados')" i18n>Resultados</li>
                   </ul>
                 </li>
                 <li class="nav-item" routerLinkActive="active" (click)="redirectTo($event, 'informacoes')">
-                  <ng-container i18n="@@menuInformacoes">Informações</ng-container>
+                  <ng-container i18n>Informações</ng-container>
                   <ul>
-                    <li (click)="redirectTo($event, 'informacoes', 'data-e-localizacao')">
-                      <ng-container i18n="@@menuDataLocalizacao">Data e localização</ng-container>
-                    </li>
-                    <li (click)="redirectTo($event, 'informacoes', 'como-chegar')">
-                      <ng-container i18n="@@menuComoChegar">Como chegar</ng-container>
-                    </li>
-                    <li (click)="redirectTo($event, 'informacoes', 'visitantes-estrangeiros')">
-                      <ng-container i18n="@@menuVisitantesEstrangeiros">Visitantes estrangeiros</ng-container>
-                    </li>
+                    <li (click)="redirectTo($event, 'informacoes', 'data-e-localizacao')" i18n>Data e localização</li>
+                    <li (click)="redirectTo($event, 'informacoes', 'como-chegar')" i18n>Como chegar</li>
+                    <li (click)="redirectTo($event, 'informacoes', 'visitantes-estrangeiros')" i18n>Visitantes estrangeiros</li>
                   </ul>
                 </li>
                 <li class="nav-item" routerLinkActive="active" (click)="redirectTo($event, 'publicacoes')">
-                  <ng-container i18n="@@menuPublicacoes">Publicações</ng-container>
+                  <ng-container i18n>Publicações</ng-container>
                   <ul>
-                    <li (click)="redirectTo($event, 'publicacoes', 'revista-ciab-febraban')">
-                      <ng-container i18n="@@menuRevistaCiabFebraban">Revista CIAB FEBRABAN</ng-container>
-                    </li>
-                    <li (click)="redirectTo($event, 'publicacoes', 'pesquisa-febraban')">
-                      <ng-container i18n="@@menuPesquisaFebraban">Pesquisa FEBRABAN</ng-container>
-                    </li>
-                    <li (click)="redirectTo($event, 'publicacoes', 'quero-anunciar')">
-                      <ng-container i18n="@@menuQueroAnunciar">Quero anunciar</ng-container>
-                    </li>
+                    <li (click)="redirectTo($event, 'publicacoes', 'revista-ciab-febraban')" i18n>Revista CIAB FEBRABAN</li>
+                    <li (click)="redirectTo($event, 'publicacoes', 'pesquisa-febraban')" i18n>Pesquisa FEBRABAN</li>
+                    <li (click)="redirectTo($event, 'publicacoes', 'quero-anunciar')" i18n>Quero anunciar</li>
                   </ul>
                 </li>
                 <li class="nav-item" routerLinkActive="active" (click)="redirectTo($event, 'imprensa')">
-                  <ng-container i18n="@@menuImprensa">Imprensa</ng-container>
+                  <ng-container i18n>Imprensa</ng-container>
                   <ul>
-                    <li (click)="redirectTo($event, 'imprensa', 'assessoria-de-imprensa')">
-                      <ng-container i18n="@@menuAssessoriaImprensa">Assessoria de imprensa</ng-container>
-                    </li>
-                    <li (click)="redirectTo($event, 'imprensa', 'noticias')">
-                      <ng-container i18n="@@menuNoticias">Notícias</ng-container>
-                    </li>
+                    <li (click)="redirectTo($event, 'imprensa', 'assessoria-de-imprensa')" i18n>Assessoria de imprensa</li>
+                    <li (click)="redirectTo($event, 'imprensa', 'noticias')" i18n>Notícias</li>
                   </ul>
                 </li>
               </ul>
