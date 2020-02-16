@@ -8,9 +8,9 @@
               src="assets/images/shared/logo-ciab-febraban-2020-white.svg"
               alt="CIAB FEBRABAN 2020"
               title="CIAB FEBRABAN 2020"
+              i18n-alt="@@CiabFebraban2020"
+              i18n-title="@@CiabFebraban2020"
               class="logo"
-              i18n-alt
-              i18n-title
               (click)="redirectTo($event, '')">
           </div>
           <div class="col-auto text-right ciab-button-icon-nav-container">
@@ -24,7 +24,7 @@
             <nav class="nav">
               <ul>
                 <li class="nav-item" routerLink="ciab" routerLinkActive="active" (click)="redirectTo($event, 'ciab')">
-                  <ng-container i18n="@@menuOCiab">O CIAB</ng-container>
+                  <ng-container i18n="@@menuCiab">O CIAB</ng-container>
                   <ul>
                     <li (click)="redirectTo($event, 'ciab', 'sobre-o-ciab')">
                       <ng-container i18n="@@menuSobreCiab">Sobre o CIAB</ng-container>
@@ -57,7 +57,7 @@
                       <ng-container i18n="@@menuQueroVisitar">Quero visitar</ng-container>
                     </li>
                     <li (click)="redirectTo($event, 'exposicao', 'a-exposicao')">
-                      <ng-container i18n="@@menuAExposicao">A exposição</ng-container>
+                      <ng-container i18n="@@menuExposicao">A exposição</ng-container>
                     </li>
                     <li (click)="redirectTo($event, 'exposicao', 'mapa-e-expositores')">
                       <ng-container i18n="@@menuMapaExpositores">Mapa e expositores</ng-container>
