@@ -4,6 +4,12 @@
   "newProjectRoot": "projects",
   "projects": {
     "web-ciab-site": {
+      "i18n": {
+        "sourceLocale": "pt",
+        "locales": {
+          "en": "src/locale/messages/messages.en.xlf"
+        }
+      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -89,6 +95,9 @@
                   "maximumError": "10kb"
                 }
               ]
+            },
+            "en": {
+              "localize": ["en"]
             }
           }
         },
@@ -103,6 +112,9 @@
             },
             "production": {
               "browserTarget": "web-ciab-site:build:production"
+            },
+            "en": {
+              "browserTarget": "web-ciab-site:build:en"
             }
           }
         },
@@ -153,8 +165,25 @@
               "devServerTarget": "web-ciab-site:serve:production"
             }
           }
+        },
+        "xliffmerge": {
+          "builder": "@ngx-i18nsupport/tooling:xliffmerge",
+          "options": {
+            "xliffmergeOptions": {
+              "i18nFormat": "xlf",
+              "srcDir": "src/locale",
+              "genDir": "src/locale/messages",
+              "defaultLanguage": "pt",
+              "languages": [
+                "pt",
+                "en"
+              ],
+              "beautifyOutput": true
+            }
+          }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "web-ciab-site"
 }

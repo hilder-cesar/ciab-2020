@@ -25,10 +25,12 @@ const routes: Routes = [
   { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
 
+export function scrollOffset(): [number, number] {
+  return window.innerWidth < 1200 ? [0, 78] : [0, 124];
+}
+
 const routerOptions: ExtraOptions = {
-  scrollOffset: () => {
-    return window.innerWidth < 1200 ? [0, 78] : [0, 124];
-  }
+  scrollOffset
 };
 
 @NgModule({

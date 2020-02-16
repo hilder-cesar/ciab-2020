@@ -4,13 +4,15 @@
       <div class="col-md-4 mb-3 mb-md-0">
         <img
           class="app-footer-logo"
-          src="./assets/images/shared/logo-ciab-febraban-2020-black.svg"
+          src="assets/images/shared/logo-ciab-febraban-2020-black.svg"
           alt="CIAB FEBRABAN 2020"
-          title="CIAB FEBRABAN 2020">
+          title="CIAB FEBRABAN 2020"
+          i18n-alt="@@ciabFebraban2020"
+          i18n-title="@@ciabFebraban2020">
         <p>
-          De 23 a 25 de junho de 2020<br>
-          Transamerica Expo Center em São Paulo<br>
-          10h às 19h
+          <ng-container i18n="@@rodapeCiabData">De 23 a 25 de junho de 2020</ng-container><br>
+          Transamerica Expo Center, São Paulo<br>
+          <ng-container i18n="@@rodapeCiabHorario">10h às 19h</ng-container>
         </p>
         <div>
           <a href="https://www.facebook.com/noomisoficial/" target="_blank" class="btn ciab-button-icon ciab-button-icon-facebook-black"></a>
@@ -19,18 +21,18 @@
         </div>
       </div>
       <div class="col-md-4 mb-3 mb-md-0">
-        <h3>Quer patrocinar/expor?</h3>
-        <p>Participe e fique frente a frente com os melhores especialistas de tecnologia e do setor financeiro.</p>
-        <button type="button" class="app-know-more">Saiba mais</button>
+        <h3 i18n="@@rodapePatrocinarTitulo">Quer patrocinar/expor?</h3>
+        <p i18n="@@rodapePatrocinarDescricao">Participe e fique frente a frente com os melhores especialistas de tecnologia e do setor financeiro.</p>
+        <button type="button" class="app-know-more" i18n="@@rodapePatrocinarBotao">Saiba mais</button>
       </div>
       <div class="col-md-4">
-        <h3>Contato</h3>
+        <h3 i18n="@@rodapeContatoTitulo">Contato</h3>
         <p>
-          (+55 11) 3244-9897 ou (+55 11) 3244-9838<br>
+          (+55 11) 3244-9897 / (+55 11) 3244-9838<br>
           comercial.ciab@febraban.org.br
         </p>
         <p>
-          Diretoria de Eventos da FEBRABAN<br>
+          <ng-container i18n="@@rodapeContatoDiretoria">Diretoria de Eventos da FEBRABAN</ng-container><br>
           (+55 11) 3244-9860<br>
           eventos@febraban.org.br
         </p>
@@ -43,38 +45,38 @@
     <div class="app-footer-register-box">
       <div class="row align-items-center">
         <div class="col-12 col-xl mb-3 mb-xl-0">
-          <h3>Cadastre-se e receba as novidades do evento</h3>
-          <p class="mb-0">O CIAB FEBRABAN é o ponto de encontro para ficar por dentro dos assuntos mais importantes sobre tecnologias disruptivas e as transformações digitais, e uma oportunidade única para ampliar relacionamentos e parcerias.</p>
+          <h3 i18n="@@rodapeCadastreSeTitulo">Cadastre-se e receba as novidades do evento</h3>
+          <p class="mb-0" i18n="@@rodapeCadastreSeDescricao">O CIAB FEBRABAN é o ponto de encontro para ficar por dentro dos assuntos mais importantes sobre tecnologias disruptivas e as transformações digitais, e uma oportunidade única para ampliar relacionamentos e parcerias.</p>
         </div>
         <div class="col-12 col-xl-auto">
-          <button type="button" class="ciab-button ciab-button-red" (click)="open(modalCadastreSe)">Cadastre-se</button>
+          <button type="button" class="ciab-button ciab-button-red" (click)="open(modalCadastreSe)" i18n="@@rodapeCadastreSeBotao">Cadastre-se</button>
         </div>
       </div>
     </div>
-    <p class="text-center mt-3 mb-0">© FEBRABAN - Federação Brasileira de Bancos - 2017 - Todos os direitos reservados | Termos de Uso | Política de Privacidade</p>
+    <p class="text-center mt-3 mb-0" i18n="@@rodapeDescricao">© FEBRABAN - Federação Brasileira de Bancos - 2017 - Todos os direitos reservados | Termos de uso | Política de privacidade</p>
   </div>
 </footer>
 <ng-template #modalCadastreSe let-modal>
   <div class="row">
     <div class="col-lg-6 pr-lg-0">
       <div class="app-modal-register-background">
-        <p class="m-0">Receba as novidades e fique por dentro do maior e melhor evento de tecnologia para o mercado financeiro da América Latina.</p>
+        <p class="m-0" i18n="@@rodapeModalCadastreSeDescricao">Receba as novidades e fique por dentro do maior e melhor evento de tecnologia para o mercado financeiro da América Latina.</p>
       </div>
     </div>
     <div class="col-lg-6 pl-lg-0">
       <div class="app-modal-register-form">
-        <h3>Cadastre-se</h3>
-        <p>Estas informações serão usadas exclusivamente para o envio de informações e novidades sobre o CIAB FEBRABAN.</p>
+        <h3 i18n="@@rodapeModalCadastreSeTitulo">Cadastre-se</h3>
+        <p i18n="@@rodapeModalCadastreSeFormularioDescricao">Estas informações serão usadas exclusivamente para o envio de informações e novidades sobre o CIAB FEBRABAN.</p>
         <form [formGroup]="registerForm" (ngSubmit)="handleSubmit()">
           <div class="form-group">
-            <input type="text" class="form-control" formControlName="name" placeholder="Nome">
+            <input type="text" class="form-control" formControlName="name" placeholder="Nome" i18n-placeholder="@@rodapeModalCadastreSeFormularioNome">
             <app-form-control-message [abstractControl]="registerForm.controls.name"></app-form-control-message>
           </div>
           <div class="form-group">
-            <input type="email" class="form-control" formControlName="email" placeholder="E-mail">
+            <input type="email" class="form-control" formControlName="email" placeholder="E-mail" i18n-placeholder="@@rodapeModalCadastreSeFormularioEmail">
             <app-form-control-message [abstractControl]="registerForm.controls.email"></app-form-control-message>
           </div>
-          <button class="ciab-button ciab-button-block ciab-button-red" [disabled]="registerForm.valid === false">Cadastrar</button>
+          <button class="ciab-button ciab-button-block ciab-button-red" [disabled]="registerForm.valid === false" i18n="@@rodapeModalCadastreSeFormularioBotao">Cadastrar</button>
         </form>
       </div>
     </div>

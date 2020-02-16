@@ -1,0 +1,13 @@
+{
+  "source": { 
+      "lang": "pt",
+      "file": "/src/locale/messages.xlf"
+  },
+  "destination": {
+      "folder": "/src/locale",
+      "languages": ["pt","en"],
+      "filename": "messages"
+  },
+  "method": "extend",
+  "formatOutput": true
+}
