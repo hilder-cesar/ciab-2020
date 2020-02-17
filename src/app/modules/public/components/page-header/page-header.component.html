@@ -9,11 +9,11 @@
         <p class="app-page-header-info-text app-page-header-info-text-icon app-page-header-info-text-icon-calendar mb-1" i18n>23 a 25 de junho de 2020</p>
         <p class="app-page-header-info-text app-page-header-info-text-icon app-page-header-info-text-icon-marker mb-0">Transamerica Expo Center, São Paulo</p>
       </div>
-      <button>
+      <button (click)="openRegisterForm()">
         <div class="app-page-header-menu-bar app-page-header-menu-bar-red"></div>
         <p class="app-page-header-menu-text app-page-header-menu-text-red" i18n>Cadastre-se</p>
       </button>
-      <button>
+      <button (click)="redirectTo('patrocinar-expor')">
         <div class="app-page-header-menu-bar app-page-header-menu-bar-green"></div>
         <p class="app-page-header-menu-text app-page-header-menu-text-green" i18n>Patrocinar/expor</p>
       </button>

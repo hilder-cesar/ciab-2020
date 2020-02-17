@@ -23,7 +23,7 @@
       <div class="col-md-4 mb-3 mb-md-0">
         <h3 i18n>Quer patrocinar/expor?</h3>
         <p i18n>Participe e fique frente a frente com os melhores especialistas de tecnologia e do setor financeiro.</p>
-        <button type="button" class="app-know-more" i18n>Saiba mais</button>
+        <button type="button" class="app-know-more" (click)="redirectTo('patrocinar-expor')" i18n>Saiba mais</button>
       </div>
       <div class="col-md-4">
         <h3 i18n>Contato</h3>
@@ -49,36 +49,10 @@
           <p class="mb-0" i18n>O CIAB FEBRABAN é o ponto de encontro para ficar por dentro dos assuntos mais importantes sobre tecnologias disruptivas e as transformações digitais, e uma oportunidade única para ampliar relacionamentos e parcerias.</p>
         </div>
         <div class="col-12 col-xl-auto">
-          <button type="button" class="ciab-button ciab-button-red" (click)="open(modalCadastreSe)" i18n>Cadastre-se</button>
+          <button type="button" class="ciab-button ciab-button-red" (click)="openRegisterForm()" i18n>Cadastre-se</button>
         </div>
       </div>
     </div>
     <p class="text-center mt-3 mb-0" i18n>© FEBRABAN - Federação Brasileira de Bancos - 2017 - Todos os direitos reservados | Termos de uso | Política de privacidade</p>
   </div>
 </footer>
-<ng-template #modalCadastreSe let-modal>
-  <div class="row">
-    <div class="col-lg-6 pr-lg-0">
-      <div class="app-modal-register-background">
-        <p class="m-0" i18n>Receba as novidades e fique por dentro do maior e melhor evento de tecnologia para o mercado financeiro da América Latina.</p>
-      </div>
-    </div>
-    <div class="col-lg-6 pl-lg-0">
-      <div class="app-modal-register-form">
-        <h3 i18n>Cadastre-se</h3>
-        <p i18n>Estas informações serão usadas exclusivamente para o envio de informações e novidades sobre o CIAB FEBRABAN.</p>
-        <form [formGroup]="registerForm" (ngSubmit)="handleSubmit()">
-          <div class="form-group">
-            <input type="text" class="form-control" formControlName="name" placeholder="Nome" i18n-placeholder>
-            <app-form-control-message [abstractControl]="registerForm.controls.name"></app-form-control-message>
-          </div>
-          <div class="form-group">
-            <input type="email" class="form-control" formControlName="email" placeholder="E-mail" i18n-placeholder>
-            <app-form-control-message [abstractControl]="registerForm.controls.email"></app-form-control-message>
-          </div>
-          <button class="ciab-button ciab-button-block ciab-button-red" [disabled]="registerForm.valid === false" i18n>Cadastrar</button>
-        </form>
-      </div>
-    </div>
-  </div>
-</ng-template>

@@ -1,15 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-banner-sponsor-exhibit',
   templateUrl: './banner-sponsor-exhibit.component.html',
   styleUrls: ['./banner-sponsor-exhibit.component.sass']
 })
-export class BannerSponsorExhibitComponent implements OnInit {
+export class BannerSponsorExhibitComponent {
 
-  constructor() { }
+  constructor(
+    private router: Router
+  ) { }
 
-  ngOnInit(): void {
+  redirectTo(route: string): void {
+    this.router.navigate([route]);
   }
 
 }

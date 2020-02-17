@@ -55,13 +55,13 @@ export class GalleryComponent implements OnChanges, AfterViewInit, OnDestroy {
   }
 
   ngAfterViewInit() {
-    this.setSlidesContainerWidth();
-    this.setSlidesWidth();
     this.windowSubscription = fromEvent(window, 'resize')
       .subscribe(() => {
         this.setSlidesContainerWidth();
         this.setSlidesWidth();
       });
+    this.setSlidesContainerWidth();
+    this.setSlidesWidth();
   }
 
   ngOnDestroy() {

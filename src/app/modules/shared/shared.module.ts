@@ -17,6 +17,7 @@ import { GalleryComponent } from './components/gallery/gallery.component';
 import { GalleryNavComponent } from './components/gallery/gallery-nav.component';
 import { BannerSponsorExhibitComponent } from './components/banner-sponsor-exhibit/banner-sponsor-exhibit.component';
 import { ModalPhotosComponent } from './components/modal-photos/modal-photos.component';
+import { RegisterFormComponent } from './components/register-form/register-form.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { ModalPhotosComponent } from './components/modal-photos/modal-photos.com
     GalleryComponent,
     GalleryNavComponent,
     BannerSponsorExhibitComponent,
-    ModalPhotosComponent
+    ModalPhotosComponent,
+    RegisterFormComponent
   ],
   imports: [
     CommonModule,
@@ -49,7 +51,8 @@ import { ModalPhotosComponent } from './components/modal-photos/modal-photos.com
     KeynoteSpeakerModalComponent,
     SponsorsComponent,
     GalleryComponent,
-    BannerSponsorExhibitComponent
+    BannerSponsorExhibitComponent,
+    RegisterFormComponent
   ]
 })
 export class SharedModule { }

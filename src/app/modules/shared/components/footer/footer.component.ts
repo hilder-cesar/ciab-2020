@@ -1,42 +1,32 @@
-import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { RegisterFormComponent } from './../../../shared/components/register-form/register-form.component';
 
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.sass']
 })
-export class FooterComponent implements OnInit {
-
-  registerForm: FormGroup;
+export class FooterComponent {
 
   constructor(
-    formBuilder: FormBuilder,
-    private modalService: NgbModal
-  ) {
-    this.registerForm = formBuilder.group({
-      name: [null, Validators.required],
-      email: [null, Validators.compose([Validators.required, Validators.email])]
-    });
+    private router: Router,
+    private ngbModal: NgbModal
+  ) { }
+
+  redirectTo(route: string): void {
+    this.router.navigate([route]);
   }
 
-  ngOnInit() {
-  }
-
-  open(content) {
-    this.modalService.open(content, { size: 'lg', centered: true })
+  openRegisterForm() {
+    this.ngbModal.open(RegisterFormComponent, { size: 'lg', centered: true })
       .result
-        .then(() => {
-          this.registerForm.reset();
+        .then((result: any) => {
+          console.log('result', result);
         })
         .catch(() => {
-          this.registerForm.reset();
         });
-  }
-
-  handleSubmit() {
-    console.log('this.registerForm.value', this.registerForm.value);
   }
 
 }
