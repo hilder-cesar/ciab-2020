@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 // modules
 import { ReactiveFormsModule } from '@angular/forms';
-import { NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbModalModule, NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 
 // components
 import { FormControlMessageComponent } from './components/form-control-message/form-control-message.component';
@@ -16,6 +16,7 @@ import { SponsorsComponent } from './components/sponsors/sponsors.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { GalleryNavComponent } from './components/gallery/gallery-nav.component';
 import { BannerSponsorExhibitComponent } from './components/banner-sponsor-exhibit/banner-sponsor-exhibit.component';
+import { ModalPhotosComponent } from './components/modal-photos/modal-photos.component';
 
 @NgModule({
   declarations: [
@@ -29,13 +30,15 @@ import { BannerSponsorExhibitComponent } from './components/banner-sponsor-exhib
     SponsorsComponent,
     GalleryComponent,
     GalleryNavComponent,
-    BannerSponsorExhibitComponent
+    BannerSponsorExhibitComponent,
+    ModalPhotosComponent
   ],
   imports: [
     CommonModule,
     // modules
     ReactiveFormsModule,
-    NgbModalModule
+    NgbModalModule,
+    NgbCarouselModule
   ],
   exports: [
     FormControlMessageComponent,

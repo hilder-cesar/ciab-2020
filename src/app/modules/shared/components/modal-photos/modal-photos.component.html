@@ -1,0 +1,7 @@
+<div class="modal-body">
+  <ngb-carousel #carousel *ngIf="photoList">
+    <ng-template ngbSlide [id]="i" *ngFor="let item of photoList; index as i;">
+      <img [src]="item.path">
+    </ng-template>
+  </ngb-carousel>
+</div>

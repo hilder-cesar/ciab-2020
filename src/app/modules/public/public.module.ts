@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 // modules
 import { ReactiveFormsModule } from '@angular/forms';
 import { SharedModule } from './../shared/shared.module';
+import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 
 // containers
 import { HomeComponent } from './containers/home/home.component';
@@ -44,7 +45,8 @@ import { SponsorExhibitFormComponent } from './components/sponsor-exhibit-form/s
     CommonModule,
     // modules
     ReactiveFormsModule,
-    SharedModule
+    SharedModule,
+    NgbCarouselModule
   ],
   exports: [
     // containers
