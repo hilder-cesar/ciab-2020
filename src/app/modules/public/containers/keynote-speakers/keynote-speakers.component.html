@@ -1,0 +1,19 @@
+<app-page-header>
+  <h1 class="mb-0" i18n>Keynote speakers</h1>
+</app-page-header>
+<div class="ciab-section ciab-section-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 mb-3" *ngFor="let item of collection">
+        <app-keynote-speaker
+          [item]="item">
+        </app-keynote-speaker>
+      </div>
+    </div>    
+  </div>
+</div>
+<div class="ciab-section ciab-keynote-speakers-section-sponsors">
+  <div class="container text-center">
+    <app-sponsors></app-sponsors>
+  </div>
+</div>

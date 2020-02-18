@@ -11,6 +11,8 @@ import { InformationsComponent } from './modules/public/containers/informations/
 import { PublicationsComponent } from './modules/public/containers/publications/publications.component';
 import { PressComponent } from './modules/public/containers/press/press.component';
 import { SponsorExhibitComponent } from './modules/public/containers/sponsor-exhibit/sponsor-exhibit.component';
+import { KeynoteSpeakersComponent } from './modules/public/containers/keynote-speakers/keynote-speakers.component';
+import { SubscriptionComponent } from './modules/public/containers/subscription/subscription.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -22,6 +24,8 @@ const routes: Routes = [
   { path: 'publicacoes', component: PublicationsComponent },
   { path: 'imprensa', component: PressComponent },
   { path: 'patrocinar-expor', component: SponsorExhibitComponent },
+  { path: 'keynote-speakers', component: KeynoteSpeakersComponent },
+  { path: 'inscricao', component: SubscriptionComponent },
   { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
 

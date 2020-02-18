@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
-import { RegisterFormComponent } from './../../../shared/components/register-form/register-form.component';
+import { RegisterFormComponent } from './../../components/register-form/register-form.component';
 
 @Component({
   selector: 'app-page-header',

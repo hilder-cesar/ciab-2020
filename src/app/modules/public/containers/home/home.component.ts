@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { GenericService } from './../../../../services/generic/generic.service';
+import { Router } from '@angular/router';
 
 interface Photo {
   path: string;
@@ -35,9 +37,22 @@ export class HomeComponent implements OnInit {
 
   photoList: Photo[] = PHOTO_LIST;
 
-  constructor() { }
+  keynoteSpeakerList: any[];
 
-  ngOnInit() {
+  constructor(
+    private genericService: GenericService,
+    private router: Router
+  ) { }
+
+  ngOnInit(): void {
+    this.genericService.get('Events/GetAllKeyNoteSpeakers?limit=3')
+      .subscribe((response: any) => this.keynoteSpeakerList = response.data);
+  }
+
+  redirectTo(route: string, fragment?: string): void {
+    fragment
+      ? this.router.navigate([route], { fragment })
+      : this.router.navigate([route]);
   }
 
 }

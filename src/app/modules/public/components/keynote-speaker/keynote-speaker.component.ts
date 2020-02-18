@@ -10,16 +10,18 @@ import { KeynoteSpeakerModalComponent } from '../keynote-speaker-modal/keynote-s
 export class KeynoteSpeakerComponent {
 
   @Input()
-  keynoteSpeakerData: any;
+  item: any;
 
-  constructor(private ngbModal: NgbModal) { }
+  constructor(
+    private ngbModal: NgbModal
+  ) { }
 
   openKeynoteSpeakerModal() {
     const modalRef = this.ngbModal.open(KeynoteSpeakerModalComponent, {
       centered: true,
       size: 'xl'
     });
-    modalRef.componentInstance.keynoteSpeakerData = this.keynoteSpeakerData;
+    modalRef.componentInstance.item = this.item;
   }
 
 }

@@ -22,19 +22,19 @@
         <source>CIAB FEBRABAN 2020</source>
         <target state="new">FEBRABAN CIAB 2020</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/header/header.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/header/header.component.html</context>
           <context context-type="linenumber">9</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/header/header.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/header/header.component.html</context>
           <context context-type="linenumber">10</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/footer/footer.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
           <context context-type="linenumber">8</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/footer/footer.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
           <context context-type="linenumber">9</context>
         </context-group>
       </trans-unit>
@@ -42,7 +42,7 @@
         <source>O CIAB</source>
         <target state="new">The CIAB</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/header/header.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/header/header.component.html</context>
           <context context-type="linenumber">27</context>
         </context-group>
       </trans-unit>
@@ -50,7 +50,7 @@
         <source>Sobre o CIAB</source>
         <target state="new">About CIAB</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/header/header.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/header/header.component.html</context>
           <context context-type="linenumber">29</context>
         </context-group>
       </trans-unit>
@@ -58,19 +58,15 @@
         <source>Congresso</source>
         <target state="new">Congress</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/header/header.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/header/header.component.html</context>
           <context context-type="linenumber">34</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
-          <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
       <trans-unit id="40e21595405de5d2ceac1097c27be471fa1a017f" datatype="html">
         <source>Inscrições</source>
         <target state="new">Registrations</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/header/header.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/header/header.component.html</context>
           <context context-type="linenumber">36</context>
         </context-group>
       </trans-unit>
@@ -78,7 +74,11 @@
         <source>O congresso</source>
         <target state="new">The congress</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/header/header.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/header/header.component.html</context>
           <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
@@ -86,79 +86,79 @@
         <source>Programação</source>
         <target state="new">Schedule</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/header/header.component.html</context>
-          <context context-type="linenumber">38</context>
+          <context context-type="sourcefile">src/app/modules/public/components/header/header.component.html</context>
+          <context context-type="linenumber">39</context>
         </context-group>
       </trans-unit>
       <trans-unit id="55f562ed6b789fd638d680930f62e0af197b42aa" datatype="html">
         <source>Palestrantes</source>
         <target state="new">Speakers</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/header/header.component.html</context>
-          <context context-type="linenumber">39</context>
-        </context-group>
-        <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/ciab/ciab.component.html</context>
           <context context-type="linenumber">43</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/header/header.component.html</context>
+          <context context-type="linenumber">40</context>
         </context-group>
       </trans-unit>
       <trans-unit id="bea42db6253870c4674d6c9b376bf088111c8281" datatype="html">
         <source>Exposição</source>
         <target state="new">Exposure</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/header/header.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/header/header.component.html</context>
           <context context-type="linenumber">44</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
-          <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a2355df12fb78de5654c6b137f66272880437112" datatype="html">
         <source>Quero visitar</source>
         <target state="new">I want to visit</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/header/header.component.html</context>
-          <context context-type="linenumber">46</context>
+          <context context-type="sourcefile">src/app/modules/public/components/header/header.component.html</context>
+          <context context-type="linenumber">48</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5e0d22a477d95aff25049ca07b17caedeab52829" datatype="html">
         <source>A exposição</source>
         <target state="new">The exposure</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/header/header.component.html</context>
-          <context context-type="linenumber">47</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/header/header.component.html</context>
+          <context context-type="linenumber">46</context>
         </context-group>
       </trans-unit>
       <trans-unit id="cba13ca6e30bdccc5d5847e6812089b758379e60" datatype="html">
         <source>Mapa e expositores</source>
         <target state="new">Map and exhibitors</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/header/header.component.html</context>
-          <context context-type="linenumber">48</context>
-        </context-group>
-        <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
           <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/header/header.component.html</context>
+          <context context-type="linenumber">47</context>
         </context-group>
       </trans-unit>
       <trans-unit id="20adafff59aa1c089dae3d57552addaef48da0db" datatype="html">
         <source>Patrocinar/Expor</source>
         <target state="new">Sponsor/Exhibit</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/header/header.component.html</context>
-          <context context-type="linenumber">49</context>
-        </context-group>
-        <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
           <context context-type="linenumber">91</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/header/header.component.html</context>
+          <context context-type="linenumber">49</context>
         </context-group>
       </trans-unit>
       <trans-unit id="820f15d8bd7e596dd6230e2a8b0d9823a660c8df" datatype="html">
         <source>Fintech Lounge</source>
         <target state="new">Fintech Lounge</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/header/header.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/header/header.component.html</context>
           <context context-type="linenumber">55</context>
         </context-group>
       </trans-unit>
@@ -166,31 +166,31 @@
         <source>Competição</source>
         <target state="new">Competition</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/header/header.component.html</context>
-          <context context-type="linenumber">56</context>
-        </context-group>
-        <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
           <context context-type="linenumber">45</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/header/header.component.html</context>
+          <context context-type="linenumber">56</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9d189e51145762dc3874e10d0b31dbe2f7a89371" datatype="html">
         <source>Resultados</source>
         <target state="new">Results</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/header/header.component.html</context>
-          <context context-type="linenumber">57</context>
-        </context-group>
-        <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
           <context context-type="linenumber">68</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/header/header.component.html</context>
+          <context context-type="linenumber">57</context>
         </context-group>
       </trans-unit>
       <trans-unit id="68cd8da6159947fbdc9c8fd1fac8c301f1f28f63" datatype="html">
         <source>Informações</source>
         <target state="new">Informations</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/header/header.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/header/header.component.html</context>
           <context context-type="linenumber">61</context>
         </context-group>
       </trans-unit>
@@ -198,7 +198,7 @@
         <source>Data e localização</source>
         <target state="new">Date and location</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/header/header.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/header/header.component.html</context>
           <context context-type="linenumber">63</context>
         </context-group>
       </trans-unit>
@@ -206,67 +206,67 @@
         <source>Como chegar</source>
         <target state="new">How to get</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/header/header.component.html</context>
-          <context context-type="linenumber">64</context>
-        </context-group>
-        <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/informations/informations.component.html</context>
           <context context-type="linenumber">31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/header/header.component.html</context>
+          <context context-type="linenumber">64</context>
         </context-group>
       </trans-unit>
       <trans-unit id="98e84c1f270041c67fdd83979c0e6a181d77fd83" datatype="html">
         <source>Visitantes estrangeiros</source>
         <target state="new">Foreign visitors</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/header/header.component.html</context>
-          <context context-type="linenumber">65</context>
-        </context-group>
-        <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/informations/informations.component.html</context>
           <context context-type="linenumber">70</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/header/header.component.html</context>
+          <context context-type="linenumber">65</context>
         </context-group>
       </trans-unit>
       <trans-unit id="036b3c8c383ed25bcf0666853b8c2720acde79dc" datatype="html">
         <source>Publicações</source>
         <target state="new">Publications</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/header/header.component.html</context>
-          <context context-type="linenumber">69</context>
-        </context-group>
-        <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/publications/publications.component.html</context>
           <context context-type="linenumber">2</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/header/header.component.html</context>
+          <context context-type="linenumber">69</context>
         </context-group>
       </trans-unit>
       <trans-unit id="0959fc2a0a3ce732003358b13a4679d210d47b09" datatype="html">
         <source>Revista CIAB FEBRABAN</source>
         <target state="new">FEBRABAN CIAB Magazine</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/header/header.component.html</context>
-          <context context-type="linenumber">71</context>
-        </context-group>
-        <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/publications/publications.component.html</context>
           <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/header/header.component.html</context>
+          <context context-type="linenumber">71</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e2ba4f5b0c78ca1f5b3afea4ba76f12ea5f885b1" datatype="html">
         <source>Pesquisa FEBRABAN</source>
         <target state="new">FEBRABAN Research</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/header/header.component.html</context>
-          <context context-type="linenumber">72</context>
-        </context-group>
-        <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/publications/publications.component.html</context>
           <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/header/header.component.html</context>
+          <context context-type="linenumber">72</context>
         </context-group>
       </trans-unit>
       <trans-unit id="00d9503188a5b6518366a8f27ed9a5c51e301bcf" datatype="html">
         <source>Quero anunciar</source>
         <target state="new">I want to advertise</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/header/header.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/header/header.component.html</context>
           <context context-type="linenumber">73</context>
         </context-group>
       </trans-unit>
@@ -274,7 +274,7 @@
         <source>Imprensa</source>
         <target state="new">Press</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/header/header.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/header/header.component.html</context>
           <context context-type="linenumber">77</context>
         </context-group>
       </trans-unit>
@@ -282,7 +282,7 @@
         <source>Assessoria de imprensa</source>
         <target state="new">Press office</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/header/header.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/header/header.component.html</context>
           <context context-type="linenumber">79</context>
         </context-group>
       </trans-unit>
@@ -290,7 +290,7 @@
         <source>Notícias</source>
         <target state="new">News</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/header/header.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/header/header.component.html</context>
           <context context-type="linenumber">80</context>
         </context-group>
       </trans-unit>
@@ -570,7 +570,7 @@
           10am to 7pm
         </target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/footer/footer.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
           <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
@@ -614,7 +614,7 @@
         <source>Quer patrocinar/expor?</source>
         <target state="new">Want to sponsor/exhibit?</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/footer/footer.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
           <context context-type="linenumber">24</context>
         </context-group>
       </trans-unit>
@@ -622,21 +622,13 @@
         <source>Participe e fique frente a frente com os melhores especialistas de tecnologia e do setor financeiro.</source>
         <target state="new">Participate and come face to face with the best technology and financial experts.</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/footer/footer.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
           <context context-type="linenumber">25</context>
         </context-group>
       </trans-unit>
       <trans-unit id="0dcaa35b49d7007b9724fb7968b4e21125fc6d05" datatype="html">
         <source>Saiba mais</source>
         <target state="new">Know more</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/footer/footer.component.html</context>
-          <context context-type="linenumber">26</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/keynote-speaker/keynote-speaker.component.html</context>
-          <context context-type="linenumber">14</context>
-        </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/informations/informations.component.html</context>
           <context context-type="linenumber">87</context>
@@ -645,12 +637,20 @@
           <context context-type="sourcefile">src/app/modules/public/containers/informations/informations.component.html</context>
           <context context-type="linenumber">95</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/keynote-speaker/keynote-speaker.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="dd242463f340f5475af553cf64466d1100439f91" datatype="html">
         <source>Contato</source>
         <target state="new">Contact</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/footer/footer.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
           <context context-type="linenumber">29</context>
         </context-group>
       </trans-unit>
@@ -664,7 +664,7 @@
           comercial.ciab@febraban.org.br
         </target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/footer/footer.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
           <context context-type="linenumber">30</context>
         </context-group>
       </trans-unit>
@@ -680,7 +680,7 @@
           eventos@febraban.org.br
         </target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/footer/footer.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
           <context context-type="linenumber">34</context>
         </context-group>
       </trans-unit>
@@ -694,7 +694,7 @@
           imprensa@febraban.org.br
         </target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/footer/footer.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
           <context context-type="linenumber">39</context>
         </context-group>
       </trans-unit>
@@ -702,7 +702,7 @@
         <source>Cadastre-se e receba as novidades do evento</source>
         <target state="new">Register and receive the news of the event</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/footer/footer.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
           <context context-type="linenumber">48</context>
         </context-group>
       </trans-unit>
@@ -710,7 +710,7 @@
         <source>O CIAB FEBRABAN é o ponto de encontro para ficar por dentro dos assuntos mais importantes sobre tecnologias disruptivas e as transformações digitais, e uma oportunidade única para ampliar relacionamentos e parcerias.</source>
         <target state="new">FEBRABAN CIAB is the meeting point to stay on top of the most important issues about disruptive technologies and digital transformations, and a unique opportunity to expand relationships and partnerships.</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/footer/footer.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
           <context context-type="linenumber">49</context>
         </context-group>
       </trans-unit>
@@ -718,16 +718,16 @@
         <source>Cadastre-se</source>
         <target state="new">Register</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/footer/footer.component.html</context>
-          <context context-type="linenumber">52</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/footer/footer.component.html</context>
-          <context context-type="linenumber">68</context>
-        </context-group>
-        <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
           <context context-type="linenumber">84</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/register-form/register-form.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
+          <context context-type="linenumber">52</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/page-header/page-header.component.html</context>
@@ -738,7 +738,7 @@
         <source>© FEBRABAN - Federação Brasileira de Bancos - 2017 - Todos os direitos reservados | Termos de uso | Política de privacidade</source>
         <target state="new">© FEBRABAN - Brazilian Banking Federation - 2017 - All rights reserved | Terms of use | Privacy policy</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/footer/footer.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
           <context context-type="linenumber">56</context>
         </context-group>
       </trans-unit>
@@ -746,24 +746,24 @@
         <source>Receba as novidades e fique por dentro do maior e melhor evento de tecnologia para o mercado financeiro da América Latina.</source>
         <target state="new">Receive news and stay on top of the biggest and best technology event for the financial market in Latin America.</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/footer/footer.component.html</context>
-          <context context-type="linenumber">63</context>
+          <context context-type="sourcefile">src/app/modules/public/components/register-form/register-form.component.html</context>
+          <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ac678eab23dfd614c5ee28fd54346bec0fea9b6a" datatype="html">
         <source>Estas informações serão usadas exclusivamente para o envio de informações e novidades sobre o CIAB FEBRABAN.</source>
         <target state="new">This information will be used exclusively for sending information and news about FEBRABAN CIAB.</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/footer/footer.component.html</context>
-          <context context-type="linenumber">69</context>
+          <context context-type="sourcefile">src/app/modules/public/components/register-form/register-form.component.html</context>
+          <context context-type="linenumber">10</context>
         </context-group>
       </trans-unit>
       <trans-unit id="06d0491684a3972bb9ec45b5f05b18ce11488080" datatype="html">
         <source>Nome</source>
         <target state="new">Name</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/footer/footer.component.html</context>
-          <context context-type="linenumber">72</context>
+          <context context-type="sourcefile">src/app/modules/public/components/register-form/register-form.component.html</context>
+          <context context-type="linenumber">13</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/sponsor-exhibit-form/sponsor-exhibit-form.component.html</context>
@@ -774,8 +774,8 @@
         <source>E-mail</source>
         <target state="new">Email</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/footer/footer.component.html</context>
-          <context context-type="linenumber">76</context>
+          <context context-type="sourcefile">src/app/modules/public/components/register-form/register-form.component.html</context>
+          <context context-type="linenumber">17</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/sponsor-exhibit-form/sponsor-exhibit-form.component.html</context>
@@ -786,23 +786,35 @@
         <source>Cadastrar</source>
         <target state="new">Register</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/footer/footer.component.html</context>
-          <context context-type="linenumber">79</context>
+          <context context-type="sourcefile">src/app/modules/public/components/register-form/register-form.component.html</context>
+          <context context-type="linenumber">20</context>
         </context-group>
       </trans-unit>
       <trans-unit id="784cce291b72b8283b1dab467d613216990be12b" datatype="html">
         <source>Keynote speakers</source>
         <target state="new">Keynote speakers</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/keynote-speakers/keynote-speakers.component.html</context>
-          <context context-type="linenumber">1</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
+          <context context-type="linenumber">130</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/keynote-speakers/keynote-speakers.component.html</context>
+          <context context-type="linenumber">2</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a81aa467ffdbc956edea14e0adc5fc4d7316cdc1" datatype="html">
         <source>Ver todos os keynote speakers</source>
         <target state="new">See all keynote speakers</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/keynote-speakers/keynote-speakers.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
+          <context context-type="linenumber">139</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
           <context context-type="linenumber">32</context>
         </context-group>
       </trans-unit>
@@ -810,23 +822,23 @@
         <source>Patrocinadores</source>
         <target state="new">Sponsors</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/sponsors/sponsors.component.html</context>
-          <context context-type="linenumber">1</context>
-        </context-group>
-        <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
           <context context-type="linenumber">192</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/sponsors/sponsors.component.html</context>
+          <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8286a17e776675d828b0f8e83c9800e0e91c1c9b" datatype="html">
         <source>Patrocinadores platinum</source>
         <target state="new">Platinum sponsors</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/sponsors/sponsors.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/sponsors/sponsors.component.html</context>
           <context context-type="linenumber">5</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/sponsors/sponsors.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/sponsors/sponsors.component.html</context>
           <context context-type="linenumber">6</context>
         </context-group>
       </trans-unit>
@@ -834,7 +846,7 @@
         <source>Ouro</source>
         <target state="new">Gold</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/sponsors/sponsors.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/sponsors/sponsors.component.html</context>
           <context context-type="linenumber">10</context>
         </context-group>
       </trans-unit>
@@ -842,11 +854,11 @@
         <source>Patrocinadores ouro</source>
         <target state="new">Gold sponsors</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/sponsors/sponsors.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/sponsors/sponsors.component.html</context>
           <context context-type="linenumber">13</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/sponsors/sponsors.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/sponsors/sponsors.component.html</context>
           <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
@@ -854,7 +866,7 @@
         <source>Prata</source>
         <target state="new">Silver</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/sponsors/sponsors.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/sponsors/sponsors.component.html</context>
           <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
@@ -862,11 +874,11 @@
         <source>Patrocinadores prata</source>
         <target state="new">Silver sponsors</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/sponsors/sponsors.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/sponsors/sponsors.component.html</context>
           <context context-type="linenumber">21</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/sponsors/sponsors.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/sponsors/sponsors.component.html</context>
           <context context-type="linenumber">22</context>
         </context-group>
       </trans-unit>
@@ -874,7 +886,7 @@
         <source>Bronze</source>
         <target state="new">Bronze</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/sponsors/sponsors.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/sponsors/sponsors.component.html</context>
           <context context-type="linenumber">26</context>
         </context-group>
       </trans-unit>
@@ -882,11 +894,11 @@
         <source>Patrocinadores bronze</source>
         <target state="new">Bronze sponsors</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/sponsors/sponsors.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/sponsors/sponsors.component.html</context>
           <context context-type="linenumber">29</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/sponsors/sponsors.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/sponsors/sponsors.component.html</context>
           <context context-type="linenumber">30</context>
         </context-group>
       </trans-unit>
@@ -894,15 +906,15 @@
         <source>Parceiros estratégicos</source>
         <target state="new">Strategic partners</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/sponsors/sponsors.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/sponsors/sponsors.component.html</context>
           <context context-type="linenumber">34</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/sponsors/sponsors.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/sponsors/sponsors.component.html</context>
           <context context-type="linenumber">37</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/sponsors/sponsors.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/sponsors/sponsors.component.html</context>
           <context context-type="linenumber">38</context>
         </context-group>
       </trans-unit>
@@ -910,15 +922,15 @@
         <source>Apoio</source>
         <target state="new">Support</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/sponsors/sponsors.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/sponsors/sponsors.component.html</context>
           <context context-type="linenumber">42</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/sponsors/sponsors.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/sponsors/sponsors.component.html</context>
           <context context-type="linenumber">45</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/sponsors/sponsors.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/sponsors/sponsors.component.html</context>
           <context context-type="linenumber">46</context>
         </context-group>
       </trans-unit>
@@ -926,15 +938,15 @@
         <source>Parceiros de mídia</source>
         <target state="new">Media partners</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/sponsors/sponsors.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/sponsors/sponsors.component.html</context>
           <context context-type="linenumber">50</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/sponsors/sponsors.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/sponsors/sponsors.component.html</context>
           <context context-type="linenumber">53</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/sponsors/sponsors.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/sponsors/sponsors.component.html</context>
           <context context-type="linenumber">54</context>
         </context-group>
       </trans-unit>
@@ -942,19 +954,19 @@
         <source>Quer patrocinar ou expor?</source>
         <target state="new">Want to sponsor or exhibit?</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/banner-sponsor-exhibit/banner-sponsor-exhibit.component.html</context>
-          <context context-type="linenumber">1</context>
-        </context-group>
-        <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/sponsor-exhibit/sponsor-exhibit.component.html</context>
           <context context-type="linenumber">2</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/banner-sponsor-exhibit/banner-sponsor-exhibit.component.html</context>
+          <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
       <trans-unit id="f404f8a6fb6451f896408fe936c8cb5329796df6" datatype="html">
         <source>Divulgue a marca da sua empresa para os líderes de tecnologia do setor financeiro.</source>
         <target state="new">Promote your company's brand to technology leaders in the financial sector.</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/banner-sponsor-exhibit/banner-sponsor-exhibit.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/banner-sponsor-exhibit/banner-sponsor-exhibit.component.html</context>
           <context context-type="linenumber">2</context>
         </context-group>
       </trans-unit>
@@ -962,7 +974,7 @@
         <source>Entenda as vantagens e faça parte</source>
         <target state="new">Understand the advantages and be part of</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/shared/components/banner-sponsor-exhibit/banner-sponsor-exhibit.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/banner-sponsor-exhibit/banner-sponsor-exhibit.component.html</context>
           <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
@@ -1139,7 +1151,7 @@
         <target state="new">Exhibition plan</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">136</context>
+          <context context-type="linenumber">145</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a60df6f4ff71462aaa30a1a3e946e38f8452c25a" datatype="html">
@@ -1147,7 +1159,7 @@
         <target state="new">Know the opportunities and guarantee your space now. Come and expose your company at the biggest event in the sector.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">139</context>
+          <context context-type="linenumber">148</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8f0a055c662b55026c1c10cc4859e3b2d5c8f4d1" datatype="html">
@@ -1155,11 +1167,11 @@
         <target state="new">FEBRABAN CIAB official plant</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">144</context>
+          <context context-type="linenumber">153</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">145</context>
+          <context context-type="linenumber">154</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
@@ -1175,7 +1187,7 @@
         <target state="new">View exhibitors</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">149</context>
+          <context context-type="linenumber">158</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e97751ca0552a3a1f3697efb0870c972bee82234" datatype="html">
@@ -1183,7 +1195,7 @@
         <target state="new">Vdeos</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">157</context>
+          <context context-type="linenumber">166</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7a857ccfd5937ffd9a266d792565bb8d19f387e7" datatype="html">
@@ -1381,7 +1393,7 @@
         <target state="new">Check out our</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
-          <context context-type="linenumber">32</context>
+          <context context-type="linenumber">41</context>
         </context-group>
       </trans-unit>
       <trans-unit id="86dfdfc5d05c8e4fdca45ff51848b1e5f8ceedb4" datatype="html">
@@ -1389,7 +1401,7 @@
         <target state="new">schedule</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
-          <context context-type="linenumber">33</context>
+          <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3324995ad71adf5176239f72c790d03d525b2de9" datatype="html">
@@ -1397,7 +1409,7 @@
         <target state="new">Meet the</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
-          <context context-type="linenumber">38</context>
+          <context context-type="linenumber">47</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e9c2a21826aa094fff7702ba4f762793b0b5c015" datatype="html">
@@ -1405,7 +1417,7 @@
         <target state="new">speakers</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
-          <context context-type="linenumber">39</context>
+          <context context-type="linenumber">48</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d92c77b63781a542492a598b8d1c9915dc888c6a" datatype="html">
@@ -1413,7 +1425,7 @@
         <target state="new">Technical tracks</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
-          <context context-type="linenumber">52</context>
+          <context context-type="linenumber">61</context>
         </context-group>
       </trans-unit>
       <trans-unit id="98cee0f6138e1c1131641f1571204a244c7cecb2" datatype="html">
@@ -1421,7 +1433,7 @@
         <target state="new">Technological trends</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
-          <context context-type="linenumber">55</context>
+          <context context-type="linenumber">64</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4ee0380cfac27bc3093198205d4c725eedded611" datatype="html">
@@ -1429,7 +1441,7 @@
         <target state="new">Technology services</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
-          <context context-type="linenumber">65</context>
+          <context context-type="linenumber">74</context>
         </context-group>
       </trans-unit>
       <trans-unit id="45ef089fb25a9d3e1d1e777adc8bcd2a478c3ca2" datatype="html">
@@ -1437,7 +1449,7 @@
         <target state="new">Regulation and means of payment</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
-          <context context-type="linenumber">69</context>
+          <context context-type="linenumber">78</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7133e250579d1a58c9615de6130d341b23518e0d" datatype="html">
@@ -1445,7 +1457,7 @@
         <target state="new">Insurance and futurism</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
-          <context context-type="linenumber">75</context>
+          <context context-type="linenumber">84</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d706f901f725a70985ab2b333fdb43df9a60e47e" datatype="html">
@@ -1453,7 +1465,7 @@
         <target state="new">Security &amp; Cybersecurity</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
-          <context context-type="linenumber">79</context>
+          <context context-type="linenumber">88</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d15e9b3f53c3c7a5ea38d9cd440d3d2eaa5af03b" datatype="html">
@@ -1525,7 +1537,7 @@
         <target state="new">Come visit</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
-          <context context-type="linenumber">256</context>
+          <context context-type="linenumber">76</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6e1a1d94e6ee7cdb690da17022fb1483b5991776" datatype="html">
@@ -1533,7 +1545,7 @@
         <target state="new">Register now online, or directly at the Transamerica Expo Center - Visitors Accreditation Area.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
-          <context context-type="linenumber">257</context>
+          <context context-type="linenumber">77</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e69e81f7b9ae015fe075262198b672d8cdd13be6" datatype="html">
@@ -1541,7 +1553,7 @@
         <target state="new">Cost and rules for access to the exhibition</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
-          <context context-type="linenumber">259</context>
+          <context context-type="linenumber">79</context>
         </context-group>
       </trans-unit>
       <trans-unit id="25705cddd8a863d94d0b0b4cd91dae1db5ae5adf" datatype="html">
@@ -1549,7 +1561,7 @@
         <target state="new">Participation in FEBRABAN CIAB 2018 will cost <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>R$ 350.00 per participant<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>, giving exclusive access to the Exhibition area during the three days of the event.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
-          <context context-type="linenumber">260</context>
+          <context context-type="linenumber">80</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1faec3f40255ef4abc0eb8a6620c015ca253d0a2" datatype="html">
@@ -1557,7 +1569,7 @@
         <target state="new">Guests of Exhibitors and Sponsors are exempt from payment, provided they have received an electronic, personal and non-transferable invitation to register online.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
-          <context context-type="linenumber">261</context>
+          <context context-type="linenumber">81</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4fbf8562b83efea3360bebb44bdf187547c539c4" datatype="html">
@@ -1565,7 +1577,7 @@
         <target state="new">FEBRABAN members, as well as supporters and strategic partners of the event, are also exempt from payment. If you have not received the invitation, please contact us by e-mail <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>eventos@febraban.org.br<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/> to request it.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
-          <context context-type="linenumber">262</context>
+          <context context-type="linenumber">82</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9d9f5e7eb209425068564dba82ca231bcaa661a8" datatype="html">
@@ -1573,7 +1585,7 @@
         <target state="new">All visitors to the Exhibition will be entitled to attend 01 (one) lecture of the Congress, <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i>"/>except in the FEBRABAN Auditorium<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i>"/>, as available.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
-          <context context-type="linenumber">263</context>
+          <context context-type="linenumber">83</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a80c669573be947c48208674ca73d437900b7fa7" datatype="html">
@@ -1581,7 +1593,7 @@
         <target state="new">Be part of it!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
-          <context context-type="linenumber">264</context>
+          <context context-type="linenumber">84</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a00b15bf381b3f4b5176920b39ecd867af71a4aa" datatype="html">
@@ -2408,6 +2420,204 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/sponsor-exhibit/sponsor-exhibit.component.html</context>
           <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c3b41e03dc6b8a005eb24395473a2e1a1af7fb9e" datatype="html">
+        <source>Garanta já o seu lugar no maior congresso de tecnologia da informação para o setor financeiro, as vagas são limitadas e você não pode ficar de fora</source>
+        <target state="new">Garanta já o seu lugar no maior congresso de tecnologia da informação para o setor financeiro, as vagas são limitadas e você não pode ficar de fora</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="42a3ff158b3fae0a6e0f3cc4edcf061db0949ba7" datatype="html">
+        <source>Evite filas!</source>
+        <target state="new">Evite filas!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="45a468f378ebc03585cb7b27d329d717f411f181" datatype="html">
+        <source>Ao fazer sua inscrição com antecedência, além de você ficar tranquilo e garantir o seu lugar em um fórum especializado de tecnologia e digital, com um conteúdo qualificado, apresentado por renomados palestrantes nacionais  internacionais sobre inovações, transformações digitais  e o futuro do sistema financeiro, você ganha tempo no dia   do evento.</source>
+        <target state="new">Ao fazer sua inscrição com antecedência, além de você ficar tranquilo e garantir o seu lugar em um fórum especializado de tecnologia e digital, com um conteúdo qualificado, apresentado por renomados palestrantes nacionais  internacionais sobre inovações, transformações digitais  e o futuro do sistema financeiro, você ganha tempo no dia   do evento.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b602bedee7bb7d85d42b3152901c251256116013" datatype="html">
+        <source>Benefícios exclusivos para pré-inscritos:</source>
+        <target state="new">Benefícios exclusivos para pré-inscritos:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3be0e2b08e56378b591fa2809a1d478dd88f8790" datatype="html">
+        <source>Retirar a credencial nos totens de autoatendimento.</source>
+        <target state="new">Retirar a credencial nos totens de autoatendimento.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="112c44d63b0e9ac953ae2d39ddaaefc1b52fd192" datatype="html">
+        <source>Os participantes da cidade de São Paulo que realizarem a inscrição até o dia 10 de maio, receberão sua credencial e material do congressista no endereço informado no ato da inscrição.</source>
+        <target state="new">Os participantes da cidade de São Paulo que realizarem a inscrição até o dia 10 de maio, receberão sua credencial e material do congressista no endereço informado no ato da inscrição.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="482d6dd32183490f219cf04110b34f7e83cdf203" datatype="html">
+        <source>No dia 10/06 o credenciamento estará aberto das 14h às 18h para retirada antecipada da credencial e do material de congressista.</source>
+        <target state="new">No dia 10/06 o credenciamento estará aberto das 14h às 18h para retirada antecipada da credencial e do material de congressista.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cd0e8fb4ab6fa00957f20c5e4ce886b50e8bbca8" datatype="html">
+        <source>Bonificações</source>
+        <target state="new">Bonificações</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7b03bfba42e451f6c1d17b3c1af5771d40283bf9" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>A cada 10 inscrições da mesma categoria a 11ª é gratuita<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/>b, válidas somente para compras em lote com 10 ou mais inscrições.</source>
+        <target state="new"><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>A cada 10 inscrições da mesma categoria a 11ª é gratuita<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/>b, válidas somente para compras em lote com 10 ou mais inscrições.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7b5b8c450c5ad65a65f9b93062f6715abbe8b977" datatype="html">
+        <source>Inscreva-se agora!</source>
+        <target state="new">Inscreva-se agora!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b13a9d5a252eaf4934bdd70b907196bd46c768d1" datatype="html">
+        <source>Informações importantes</source>
+        <target state="new">Informações importantes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0150a5cdd24dd7877a3dda799f45f566212c3ad8" datatype="html">
+        <source>Opções de pagamento</source>
+        <target state="new">Opções de pagamento</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ea527656bf2ce6b7ac67461c4ca6d9fa931cdce3" datatype="html">
+        <source>Boleto Bancário e Cartões de Crédito Nacionais e Internacionais</source>
+        <target state="new">Boleto Bancário e Cartões de Crédito Nacionais e Internacionais</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dbd097182c68fa926ffba6ac17d44aaf608e7ec9" datatype="html">
+        <source>Pessoa Física (PF) ou Pessoa Jurídica (PJ)</source>
+        <target state="new">Pessoa Física (PF) ou Pessoa Jurídica (PJ)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b8c9d2fc61a67658d893733f19d36028702dbbbf" datatype="html">
+        <source>Nota Fiscal será enviada somente após realização do evento.</source>
+        <target state="new">Nota Fiscal será enviada somente após realização do evento.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7ac546eb1002bdf7fd9e25626fd56b3dab2a189e" datatype="html">
+        <source>
+          <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>Impostos:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/>
+          Por determinação da lei 12.741/2012, informamos o percentual dos tributos incidentes: 12,6% (ISS Municipal 5% - COFINS Federal 7,6%)
+        </source>
+        <target state="new">
+          <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>Impostos:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/>
+          Por determinação da lei 12.741/2012, informamos o percentual dos tributos incidentes: 12,6% (ISS Municipal 5% - COFINS Federal 7,6%)
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7f0c10c7800bf043b9757c668307bb717a2e074e" datatype="html">
+        <source>Reembolso e cancelamento</source>
+        <target state="new">Reembolso e cancelamento</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="949afa7d7b9faa95e0e0b7b6ca759aa41be9bd46" datatype="html">
+        <source>Os pedidos de cancelamento de inscrições devem ser solicitados por e-mail, para <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>eventos@febraban.org.br<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/> até <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>5 dias úteis antes da realização do evento<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/>.</source>
+        <target state="new">Os pedidos de cancelamento de inscrições devem ser solicitados por e-mail, para <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>eventos@febraban.org.br<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/> até <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>5 dias úteis antes da realização do evento<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/>.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1ab7b1cf5669f4e05b408bcc46826fda537e3cdd" datatype="html">
+        <source>Os reembolsos serão efetuados pelo valor líquido, deduzidas todas as despesas bancárias provenientes da transferência bancária.</source>
+        <target state="new">Os reembolsos serão efetuados pelo valor líquido, deduzidas todas as despesas bancárias provenientes da transferência bancária.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="392f803b6f84e18c42a0caa50afdf3f5680ec09f" datatype="html">
+        <source>Após o prazo estipulado acima não serão aceitos pedidos de reembolso ou cancelamentos.</source>
+        <target state="new">Após o prazo estipulado acima não serão aceitos pedidos de reembolso ou cancelamentos.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dd79793d64aeec7a8a137d51bca52662e52c4519" datatype="html">
+        <source>Substituição de participante</source>
+        <target state="new">Substituição de participante</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="30a36d9293c24fd123a45be955f25c0c83b3068a" datatype="html">
+        <source>Os pedidos de substituição de participante devem ser solicitados por e-mail, para <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>eventos@febraban.org.br<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/> até <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>2 dias úteis antes da realização do evento<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/>. (*)</source>
+        <target state="new">Os pedidos de substituição de participante devem ser solicitados por e-mail, para <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>eventos@febraban.org.br<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/> até <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>2 dias úteis antes da realização do evento<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/>. (*)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c6ac952dd45991a9729cc59e838ff9ba65908f1a" datatype="html">
+        <source>Para substituições solicitadas durante a realização do evento a Organização cobrará uma taxa de R$ 250,00 pela reemissão do crachá. O respectivo pagamento deverá ser efetuado no ato da solicitação.</source>
+        <target state="new">Para substituições solicitadas durante a realização do evento a Organização cobrará uma taxa de R$ 250,00 pela reemissão do crachá. O respectivo pagamento deverá ser efetuado no ato da solicitação.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5842349334afc59061715709de4cfa928cf7a095" datatype="html">
+        <source>(*) Exceção somente para o participante que precisar substituir a sua participação, e já tiver recebido antecipadamente o material do congressista, será obrigatória a apresentação da credencial do participante originalmente inscrito no credenciamento do evento, a partir do dia 10/06/2019, para o procedimento de substituição de participante e troca da credencial.</source>
+        <target state="new">(*) Exceção somente para o participante que precisar substituir a sua participação, e já tiver recebido antecipadamente o material do congressista, será obrigatória a apresentação da credencial do participante originalmente inscrito no credenciamento do evento, a partir do dia 10/06/2019, para o procedimento de substituição de participante e troca da credencial.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">58</context>
         </context-group>
       </trans-unit>
       <trans-unit id="aed5e9e7ac50484c935d6e9bdf73c0aec3d394ac" datatype="html">

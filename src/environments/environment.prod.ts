@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  baseUrl: '//'
+  baseUrl: '//api-ciab2020.megaleios.com/api/v1'
 };

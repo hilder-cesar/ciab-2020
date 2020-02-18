@@ -24,7 +24,7 @@
     <div class="row mb-3">
       <div class="col-lg-4 mb-3 mb-lg-0">
         <h2 class="mb-3" i18n>Mapa e expositores</h2>
-          <button type="button" class="ciab-button ciab-button-green" i18n>Baixar PDF da planta</button>
+          <button class="ciab-button ciab-button-green" i18n>Baixar PDF da planta</button>
       </div>
       <div class="col-lg-8">
         <p class="ciab-text-highlight" i18n>Conceito inovador que visa melhor circulação no espaço</p>
@@ -39,206 +39,26 @@
       i18n-title>
   </div>
 </div>
-<div class="ciab-section">
+<div id="expositores" class="ciab-section">
   <div class="container">
     <h2 class="text-center mb-3 mb-lg-5" i18n>Expositores</h2>
     <div class="row">
       <div class="col-lg-4">
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">4ALL</span>
-          <span class="app-exhibitor-place">G15</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">7COMM</span>
-          <span class="app-exhibitor-place">B49</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">Abloy</span>
-          <span class="app-exhibitor-place">I3</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">Accenture</span>
-          <span class="app-exhibitor-place">Fintech Lounge</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">Acesso</span>
-          <span class="app-exhibitor-place">B17</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">Affair System</span>
-          <span class="app-exhibitor-place">C35</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">Agility</span>
-          <span class="app-exhibitor-place">B41</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">Akamai</span>
-          <span class="app-exhibitor-place">I23</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">Amazon</span>
-          <span class="app-exhibitor-place">B33</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">Atento</span>
-          <span class="app-exhibitor-place">A21</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">Atos</span>
-          <span class="app-exhibitor-place">B21</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">AU10TIX</span>
-          <span class="app-exhibitor-place">B15</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">AudioCodes</span>
-          <span class="app-exhibitor-place">B49</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">AWARE</span>
-          <span class="app-exhibitor-place">I3</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">B3</span>
-          <span class="app-exhibitor-place">Fintech Lounge</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">Backbase</span>
-          <span class="app-exhibitor-place">B15</span>
+        <div class="app-exhibitor" *ngFor="let item of exhibitorList.colOne">
+          <span class="app-exhibitor-name">{{ item.name }}</span>
+          <span class="app-exhibitor-place">{{ item.box }}</span>
         </div>
       </div>
       <div class="col-lg-4">
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">4ALL</span>
-          <span class="app-exhibitor-place">G15</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">7COMM</span>
-          <span class="app-exhibitor-place">B49</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">Abloy</span>
-          <span class="app-exhibitor-place">I3</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">Accenture</span>
-          <span class="app-exhibitor-place">Fintech Lounge</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">Acesso</span>
-          <span class="app-exhibitor-place">B17</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">Affair System</span>
-          <span class="app-exhibitor-place">C35</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">Agility</span>
-          <span class="app-exhibitor-place">B41</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">Akamai</span>
-          <span class="app-exhibitor-place">I23</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">Amazon</span>
-          <span class="app-exhibitor-place">B33</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">Atento</span>
-          <span class="app-exhibitor-place">A21</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">Atos</span>
-          <span class="app-exhibitor-place">B21</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">AU10TIX</span>
-          <span class="app-exhibitor-place">B15</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">AudioCodes</span>
-          <span class="app-exhibitor-place">B49</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">AWARE</span>
-          <span class="app-exhibitor-place">I3</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">B3</span>
-          <span class="app-exhibitor-place">Fintech Lounge</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">Backbase</span>
-          <span class="app-exhibitor-place">B15</span>
+        <div class="app-exhibitor" *ngFor="let item of exhibitorList.colTwo">
+          <span class="app-exhibitor-name">{{ item.name }}</span>
+          <span class="app-exhibitor-place">{{ item.box }}</span>
         </div>
       </div>
       <div class="col-lg-4">
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">4ALL</span>
-          <span class="app-exhibitor-place">G15</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">7COMM</span>
-          <span class="app-exhibitor-place">B49</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">Abloy</span>
-          <span class="app-exhibitor-place">I3</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">Accenture</span>
-          <span class="app-exhibitor-place">Fintech Lounge</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">Acesso</span>
-          <span class="app-exhibitor-place">B17</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">Affair System</span>
-          <span class="app-exhibitor-place">C35</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">Agility</span>
-          <span class="app-exhibitor-place">B41</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">Akamai</span>
-          <span class="app-exhibitor-place">I23</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">Amazon</span>
-          <span class="app-exhibitor-place">B33</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">Atento</span>
-          <span class="app-exhibitor-place">A21</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">Atos</span>
-          <span class="app-exhibitor-place">B21</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">AU10TIX</span>
-          <span class="app-exhibitor-place">B15</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">AudioCodes</span>
-          <span class="app-exhibitor-place">B49</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">AWARE</span>
-          <span class="app-exhibitor-place">I3</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">B3</span>
-          <span class="app-exhibitor-place">Fintech Lounge</span>
-        </div>
-        <div class="app-exhibitor">
-          <span class="app-exhibitor-name">Backbase</span>
-          <span class="app-exhibitor-place">B15</span>
+        <div class="app-exhibitor" *ngFor="let item of exhibitorList.colThree">
+          <span class="app-exhibitor-name">{{ item.name }}</span>
+          <span class="app-exhibitor-place">{{ item.box }}</span>
         </div>
       </div>
     </div>
@@ -261,7 +81,7 @@
           <p i18n>Os convidados dos Expositores e Patrocinadores são isentos do pagamento, desde que tenham recebido o convite eletrônico, pessoal e intransferível, para inscrição online.</p>
           <p i18n>Os associados da FEBRABAN, bem como os apoiadores e parceiros estratégicos do evento, também são isentos de pagamento. Caso não tenham recebido o convite, solicitamos entrar em contato pelo e-mail <span class="ciab-text-color-green">eventos@febraban.org.br</span> para solicitá-lo.</p>
           <p i18n>Todos visitantes da Exposição terão direito a assistir 01 (uma) palestra do Congresso, <i>exceto no Auditório FEBRABAN</i>, conforme disponibilidade.</p>
-          <button type="button" class="ciab-button ciab-button-green" i18n>Faça parte!</button>
+          <button class="ciab-button ciab-button-green" i18n>Faça parte!</button>
         </div>
       </div>
     </div>
