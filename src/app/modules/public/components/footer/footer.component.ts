@@ -1,5 +1,6 @@
-import { Component, OnInit, ViewChild, TemplateRef } from '@angular/core';
+import { Component, OnInit, TemplateRef } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
@@ -13,6 +14,7 @@ export class FooterComponent implements OnInit {
 
   constructor(
     formBuilder: FormBuilder,
+    private router: Router,
     private modalService: NgbModal
   ) {
     this.registerForm = formBuilder.group({
@@ -22,6 +24,10 @@ export class FooterComponent implements OnInit {
   }
 
   ngOnInit() {
+  }
+
+  redirectTo(route: string): void {
+    this.router.navigate([route]);
   }
 
   openModalCadastreSe(modalCadastreSe: TemplateRef<NgbModal>): void {
