@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { GenericService } from './../../../../services/generic/generic.service';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { Router } from '@angular/router';
+import { ModalVideoComponent } from '../../components/modal-video/modal-video.component';
 
 interface Photo {
   path: string;
@@ -41,12 +43,22 @@ export class HomeComponent implements OnInit {
 
   constructor(
     private genericService: GenericService,
+    private ngbModal: NgbModal,
     private router: Router
   ) { }
 
   ngOnInit(): void {
     this.genericService.get('Events/GetAllKeyNoteSpeakers?limit=3')
       .subscribe((response: any) => this.keynoteSpeakerList = response.data);
+  }
+
+  openModalVideo(videoId: string): void {
+    const modalRef = this.ngbModal.open(ModalVideoComponent, {
+      size: 'xl',
+      windowClass: 'modal-video',
+      centered: true
+    });
+    modalRef.componentInstance.videoId = videoId;
   }
 
   redirectTo(route: string, fragment?: string): void {
