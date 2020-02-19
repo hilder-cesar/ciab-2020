@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, TemplateRef } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
@@ -24,8 +24,8 @@ export class FooterComponent implements OnInit {
   ngOnInit() {
   }
 
-  open(content) {
-    this.modalService.open(content, { size: 'lg', centered: true })
+  openModalCadastreSe(modalCadastreSe: TemplateRef<NgbModal>): void {
+    this.modalService.open(modalCadastreSe, { size: 'lg', centered: true })
       .result
         .then(() => {
           this.registerForm.reset();
@@ -33,6 +33,11 @@ export class FooterComponent implements OnInit {
         .catch(() => {
           this.registerForm.reset();
         });
+  }
+
+  openModal(event: any, modal: TemplateRef<NgbModal>): void {
+    event.preventDefault();
+    this.modalService.open(modal, { size: 'lg', centered: true });
   }
 
   handleSubmit() {

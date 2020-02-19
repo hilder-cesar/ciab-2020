@@ -50,6 +50,18 @@ h3
     font-weight: 800
     text-transform: uppercase
 
+.ciab-link-fake
+  cursor: pointer
+  &:hover
+    text-decoration: underline
+
+.ciab-modal-body
+  font-size: 12px
+  line-height: 1.5
+  padding: 16px
+  @include MQ(MD)
+    padding: 32px
+
 @include MQ(LG)
   .app-modal-register-background
     background-position: center bottom
