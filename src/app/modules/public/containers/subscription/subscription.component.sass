@@ -15,5 +15,64 @@ app-page-header
   @include MQ(XL)
     padding-bottom: $SPACE * 4 + 141px
 
-.ciab-section-gray
-  background-color: #F5F5F5
+.ciab-text-icon-check-circle
+  background-image: url('~/assets/images/icons/check-circle.svg')
+  background-repeat: no-repeat
+  background-size: 23px 22px
+  background-position: left top 3px
+  padding-left: 23px + 8px
+
+.ciab-subscription-box-title
+  font-size: 20px
+  font-weight: 800
+  color: #FFF
+  line-height: 80px
+  text-transform: uppercase
+  text-align: center
+
+.ciab-subscription-box-title-blue-dark
+  background-color: $BLUE_DARK
+
+.ciab-subscription-box-title-red
+  background-color: $RED
+
+.ciab-subscription-table
+  background-color: #FFF
+  font-size: 14px
+  text-align: center
+  border-width: 10px 0 0 0
+  border-style: solid
+  box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.1)
+
+.ciab-subscription-table-blue-dark
+  border-color: $BLUE_DARK
+
+.ciab-subscription-table-red
+  border-color: $RED
+
+.ciab-subscription-table-header, .ciab-subscription-table-footer
+  padding: 12px
+  @include MQ(LG)
+    padding: 24px
+
+.ciab-subscription-table-header
+  > p
+    margin: 0
+
+.ciab-subscription-table-body
+  border-width: 1px 0 1px 0
+  border-style: solid
+  border-color: #F5F5F5
+  > p
+    margin: 0
+    margin: 0
+    padding: 24px
+    &:nth-child(2n + 2)
+      background-color: #F5F5F5
+
+
+
+
+
+
+
