@@ -14,11 +14,11 @@ export class GenericService {
     private httpClient: HttpClient
   ) { }
 
-  get(route: string) {
+  get(route: string): Observable<any> {
     return this.httpClient.get(`${this.baseUrl}/${route}`);
   }
 
-  post(route: string, value: any) {
+  post(route: string, value: any): Observable<any> {
     return this.httpClient.post(`${this.baseUrl}/${route}`, value);
   }
 

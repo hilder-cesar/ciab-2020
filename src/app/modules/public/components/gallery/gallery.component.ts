@@ -1,10 +1,11 @@
 import { Component, OnChanges, AfterViewInit, OnDestroy, Input, ViewChild, ElementRef, ViewChildren, QueryList, SimpleChanges } from '@angular/core';
 import { Subscription, fromEvent } from 'rxjs';
 import { gsap, TweenMax } from 'gsap';
-
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { ModalPhotosComponent } from '../modal-photos/modal-photos.component';
 
 interface Photo {
-  name: string;
+  path: string;
   description: string;
 }
 
@@ -34,7 +35,10 @@ export class GalleryComponent implements OnChanges, AfterViewInit, OnDestroy {
 
   windowSubscription: null | Subscription = null;
 
-  constructor(private elementRef: ElementRef) { }
+  constructor(
+    private elementRef: ElementRef,
+    private ngbModal: NgbModal
+  ) { }
 
   get slidesArray(): number[] {
     return Array(this.galleryModel.slides);
@@ -51,13 +55,13 @@ export class GalleryComponent implements OnChanges, AfterViewInit, OnDestroy {
   }
 
   ngAfterViewInit() {
-    this.setSlidesContainerWidth();
-    this.setSlidesWidth();
     this.windowSubscription = fromEvent(window, 'resize')
       .subscribe(() => {
         this.setSlidesContainerWidth();
         this.setSlidesWidth();
       });
+    this.setSlidesContainerWidth();
+    this.setSlidesWidth();
   }
 
   ngOnDestroy() {
@@ -95,6 +99,12 @@ export class GalleryComponent implements OnChanges, AfterViewInit, OnDestroy {
 
   getIndex(index: number, offset: number = 0): number {
     return index * 5 + offset;
+  }
+
+  openModalPhoto(index: number): void {
+    const modalPhotosComponent = this.ngbModal.open(ModalPhotosComponent, { size: 'xl', centered: true });
+    modalPhotosComponent.componentInstance.photoList = this.photoList;
+    modalPhotosComponent.componentInstance.photoSelected = index;
   }
 
 }

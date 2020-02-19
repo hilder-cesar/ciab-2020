@@ -4,7 +4,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 // modules
-import { SharedModule } from './modules/shared/shared.module';
 import { PublicModule } from './modules/public/public.module';
 
 @NgModule({
@@ -15,7 +14,6 @@ import { PublicModule } from './modules/public/public.module';
     BrowserModule,
     AppRoutingModule,
     // modules
-    SharedModule,
     PublicModule
   ],
   providers: [],

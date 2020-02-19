@@ -9,7 +9,7 @@ import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
 export class KeynoteSpeakerModalComponent {
 
   @Input()
-  keynoteSpeakerData: any;
+  item: any;
 
   constructor(
     public ngbActiveModal: NgbActiveModal

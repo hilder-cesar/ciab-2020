@@ -1,24 +1,29 @@
 import { Component, OnInit } from '@angular/core';
 
 interface Photo {
-  name: string;
+  path: string;
   description: string;
 }
 
 const PHOTO_LIST: Photo[] = [
-  { name: './assets/images/shared/gallery/photo-1.jpg', description: 'Photo 1' },
-  { name: './assets/images/shared/gallery/photo-2.jpg', description: 'Photo 2' },
-  { name: './assets/images/shared/gallery/photo-3.jpg', description: 'Photo 3' },
-  { name: './assets/images/shared/gallery/photo-4.jpg', description: 'Photo 4' },
-  { name: './assets/images/shared/gallery/photo-5.jpg', description: 'Photo 5' },
-  { name: './assets/images/shared/gallery/photo-1.jpg', description: 'Photo 6' },
-  { name: './assets/images/shared/gallery/photo-2.jpg', description: 'Photo 7' },
-  { name: './assets/images/shared/gallery/photo-3.jpg', description: 'Photo 8' },
-  { name: './assets/images/shared/gallery/photo-4.jpg', description: 'Photo 9' },
-  { name: './assets/images/shared/gallery/photo-5.jpg', description: 'Photo 10' },
-  { name: './assets/images/shared/gallery/photo-1.jpg', description: 'Photo 11' },
-  { name: './assets/images/shared/gallery/photo-2.jpg', description: 'Photo 12' },
-  { name: './assets/images/shared/gallery/photo-3.jpg', description: 'Photo 13' }
+  { path: 'assets/images/shared/gallery/photo-1.jpg', description: 'Photo 1' },
+  { path: 'assets/images/home/video-1.jpg', description: 'Photo 2' },
+  { path: 'assets/images/shared/gallery/photo-1.jpg', description: 'Photo 3' },
+  { path: 'assets/images/home/video-1.jpg', description: 'Photo 4' },
+  { path: 'assets/images/shared/gallery/photo-1.jpg', description: 'Photo 5' },
+  { path: 'assets/images/home/video-1.jpg', description: 'Photo 6' },
+  { path: 'assets/images/shared/gallery/photo-1.jpg', description: 'Photo 7' },
+  { path: 'assets/images/home/video-1.jpg', description: 'Photo 8' },
+  { path: 'assets/images/shared/gallery/photo-1.jpg', description: 'Photo 9' },
+  { path: 'assets/images/home/video-1.jpg', description: 'Photo 10' },
+  { path: 'assets/images/shared/gallery/photo-1.jpg', description: 'Photo 11' },
+  { path: 'assets/images/home/video-1.jpg', description: 'Photo 12' },
+  { path: 'assets/images/shared/gallery/photo-1.jpg', description: 'Photo 13' },
+  { path: 'assets/images/home/video-1.jpg', description: 'Photo 14' },
+  { path: 'assets/images/shared/gallery/photo-1.jpg', description: 'Photo 15' },
+  { path: 'assets/images/home/video-1.jpg', description: 'Photo 16' },
+  { path: 'assets/images/shared/gallery/photo-1.jpg', description: 'Photo 17' },
+  { path: 'assets/images/home/video-1.jpg', description: 'Photo 18' },
 ];
 
 @Component({

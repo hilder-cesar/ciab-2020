@@ -35,17 +35,17 @@
                   <ul>
                     <li (click)="redirectTo($event, 'congresso', 'inscricoes')" i18n>Inscrições</li>
                     <li (click)="redirectTo($event, 'congresso', 'o-congresso')" i18n>O congresso</li>
-                    <li (click)="redirectTo($event, 'congresso', 'programacao')" i18n>Programação</li>
-                    <li (click)="redirectTo($event, 'congresso', 'palestrantes')" i18n>Palestrantes</li>
                     <li (click)="redirectTo($event, 'congresso', 'keynote-speakers')">Keynote Speakers</li>
+                    <li (click)="redirectTo($event, 'congresso', 'programacao-palestrantes')" i18n>Programação</li>
+                    <li (click)="redirectTo($event, 'congresso', 'programacao-palestrantes')" i18n>Palestrantes</li>
                   </ul>
                 </li>
                 <li class="nav-item" routerLinkActive="active" (click)="redirectTo($event, 'exposicao')">
                   <ng-container i18n>Exposição</ng-container>
                   <ul>
-                    <li (click)="redirectTo($event, 'exposicao', 'quero-visitar')" i18n>Quero visitar</li>
                     <li (click)="redirectTo($event, 'exposicao', 'a-exposicao')" i18n>A exposição</li>
                     <li (click)="redirectTo($event, 'exposicao', 'mapa-e-expositores')" i18n>Mapa e expositores</li>
+                    <li (click)="redirectTo($event, 'exposicao', 'quero-visitar')" i18n>Quero visitar</li>
                     <li (click)="redirectTo($event, 'patrocinar-expor')" i18n>Patrocinar/Expor</li>
                   </ul>
                 </li>
@@ -89,7 +89,7 @@
             <a href="https://www.linkedin.com/showcase/noomis-ciab-febraban/" target="_blank" class="btn ciab-button-icon ciab-button-icon-linkedin"></a>
           </div>
           <div class="col-xl-auto">
-            <button type="button" class="btn btn-lang">EN</button>
+            <button class="btn btn-lang">EN</button>
           </div>
         </div>
       </div>

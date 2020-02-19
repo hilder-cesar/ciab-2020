@@ -1,0 +1,24 @@
+<div class="row">
+  <div class="col-lg-6 pr-lg-0">
+    <div class="app-modal-register-background">
+      <p class="m-0" i18n>Receba as novidades e fique por dentro do maior e melhor evento de tecnologia para o mercado financeiro da América Latina.</p>
+    </div>
+  </div>
+  <div class="col-lg-6 pl-lg-0">
+    <div class="app-modal-register-form">
+      <h3 i18n>Cadastre-se</h3>
+      <p i18n>Estas informações serão usadas exclusivamente para o envio de informações e novidades sobre o CIAB FEBRABAN.</p>
+      <form [formGroup]="registerForm" (ngSubmit)="handleSubmit()">
+        <div class="form-group">
+          <input type="text" class="form-control" formControlName="name" placeholder="Nome" i18n-placeholder>
+          <app-form-control-message [abstractControl]="registerForm.controls.name"></app-form-control-message>
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" formControlName="email" placeholder="E-mail" i18n-placeholder>
+          <app-form-control-message [abstractControl]="registerForm.controls.email"></app-form-control-message>
+        </div>
+        <button class="ciab-button ciab-button-block ciab-button-red" [disabled]="registerForm.valid === false" i18n>Cadastrar</button>
+      </form>
+    </div>
+  </div>
+</div>

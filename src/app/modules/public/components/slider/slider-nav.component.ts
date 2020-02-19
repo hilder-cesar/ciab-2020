@@ -3,7 +3,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 @Component({
   selector: 'app-slider-nav',
   template: `
-    <button type="button" class="btn ciab-button-icon ciab-button-icon-previous" (click)="slideToPrevious()"></button>
+    <button class="btn ciab-button-icon ciab-button-icon-previous" (click)="slideToPrevious()"></button>
     <button
       type="button"
       class="btn ciab-button-icon ciab-button-icon-circle"
@@ -11,7 +11,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
       [ngClass]="{ 'ciab-button-icon-circle-active': i === slideCurrent }"
       (click)="slideTo.emit(i)">
     </button>
-    <button type="button" class="btn ciab-button-icon ciab-button-icon-next" (click)="slideToNext()"></button>
+    <button class="btn ciab-button-icon ciab-button-icon-next" (click)="slideToNext()"></button>
   `,
   styles: [`
 
