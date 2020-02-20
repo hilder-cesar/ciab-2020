@@ -6,7 +6,6 @@ import { ModalPhotosComponent } from '../modal-photos/modal-photos.component';
 
 interface Photo {
   path: string;
-  description: string;
 }
 
 interface Gallery {
