@@ -207,7 +207,7 @@
         <target state="final">Como chegar</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/informations/informations.component.html</context>
-          <context context-type="linenumber">31</context>
+          <context context-type="linenumber">34</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/header/header.component.html</context>
@@ -219,7 +219,7 @@
         <target state="final">Visitantes estrangeiros</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/informations/informations.component.html</context>
-          <context context-type="linenumber">70</context>
+          <context context-type="linenumber">73</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/header/header.component.html</context>
@@ -591,20 +591,20 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/page-header/page-header.component.html</context>
-          <context context-type="linenumber">9</context>
+          <context context-type="linenumber">11</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="0829df17f94da35fe277e597acfbc992cb6af3a3" datatype="html">
-        <source>Event video</source>
-        <target state="final">Event video</target>
+      <trans-unit id="50ed5a14f1b287d9dc09a873cb2ecd88491b71d6" datatype="html">
+        <source>CIAB FEBRABAN 30 anos</source>
+        <target state="final">CIAB FEBRABAN 30 anos</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
           <context context-type="linenumber">33</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="9befa653ce4ee52e5d0556f40f56ca042130f5f7" datatype="html">
-        <source>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et fermentum arcu.</source>
-        <target state="final">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et fermentum arcu.</target>
+      <trans-unit id="c4dbeced2d968f532724f4501c5f9cc8ab4e3a3e" datatype="html">
+        <source>Desde 1991, debatendo os principais temas da transformação tecnológica do setor financeiro.</source>
+        <target state="final">Desde 1991, debatendo os principais temas da transformação tecnológica do setor financeiro.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
           <context context-type="linenumber">34</context>
@@ -631,11 +631,11 @@
         <target state="final">Saiba mais</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/informations/informations.component.html</context>
-          <context context-type="linenumber">87</context>
+          <context context-type="linenumber">90</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/informations/informations.component.html</context>
-          <context context-type="linenumber">95</context>
+          <context context-type="linenumber">98</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
@@ -714,6 +714,14 @@
           <context context-type="linenumber">49</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="c85099e175989d63b34943f0bb966347a13fd7b5" datatype="html">
+        <source>© FEBRABAN - Federação Brasileira de Bancos - 2017 - Todos os direitos reservados | <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>Termos de uso<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/> | <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span>"/>Política de privacidade<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/></source>
+        <target state="final">© FEBRABAN - Federação Brasileira de Bancos - 2017 - Todos os direitos reservados | <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>Termos de uso<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/> | <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span>"/>Política de privacidade<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="548259272ca164f7fc0ee70dada13df54d44ac81" datatype="html">
         <source>Cadastre-se</source>
         <target state="final">Cadastre-se</target>
@@ -722,29 +730,29 @@
           <context context-type="linenumber">84</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/components/register-form/register-form.component.html</context>
-          <context context-type="linenumber">9</context>
-        </context-group>
-        <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
           <context context-type="linenumber">52</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/components/page-header/page-header.component.html</context>
-          <context context-type="linenumber">14</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="48102fd829acb8f4c8fb4da295bc70b1ba6f26be" datatype="html">
-        <source>© FEBRABAN - Federação Brasileira de Bancos - 2017 - Todos os direitos reservados | Termos de uso | Política de privacidade</source>
-        <target state="final">© FEBRABAN - Federação Brasileira de Bancos - 2017 - Todos os direitos reservados | Termos de uso | Política de privacidade</target>
-        <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
-          <context context-type="linenumber">56</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/register-form/register-form.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/page-header/page-header.component.html</context>
+          <context context-type="linenumber">41</context>
         </context-group>
       </trans-unit>
       <trans-unit id="88a786b72bd2aa372cd6523f34880f33b75147e7" datatype="html">
         <source>Receba as novidades e fique por dentro do maior e melhor evento de tecnologia para o mercado financeiro da América Latina.</source>
         <target state="final">Receba as novidades e fique por dentro do maior e melhor evento de tecnologia para o mercado financeiro da América Latina.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/register-form/register-form.component.html</context>
           <context context-type="linenumber">4</context>
@@ -754,6 +762,10 @@
         <source>Estas informações serão usadas exclusivamente para o envio de informações e novidades sobre o CIAB FEBRABAN.</source>
         <target state="final">Estas informações serão usadas exclusivamente para o envio de informações e novidades sobre o CIAB FEBRABAN.</target>
         <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/register-form/register-form.component.html</context>
           <context context-type="linenumber">10</context>
         </context-group>
@@ -761,6 +773,10 @@
       <trans-unit id="06d0491684a3972bb9ec45b5f05b18ce11488080" datatype="html">
         <source>Nome</source>
         <target state="final">Nome</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/register-form/register-form.component.html</context>
           <context context-type="linenumber">13</context>
@@ -774,6 +790,10 @@
         <source>E-mail</source>
         <target state="final">E-mail</target>
         <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/register-form/register-form.component.html</context>
           <context context-type="linenumber">17</context>
         </context-group>
@@ -786,8 +806,156 @@
         <source>Cadastrar</source>
         <target state="final">Cadastrar</target>
         <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/register-form/register-form.component.html</context>
           <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="38d90cfe844e9cb5258b8a9e5fa71e1de12972d8" datatype="html">
+        <source>Termos de uso</source>
+        <target state="final">Termos de uso</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="29ae819eabeb91726c2c2b0c3a7052b5eadab273" datatype="html">
+        <source>O acesso do usuário a este Site e a utilização do mesmo ficam sujeitos aos termos e condições abaixo, bem como à legislação vigente. Ao acessar e navegar por este Site, o usuário aceita, sem limitação ou qualificação, os Termos e Condições aqui estipulados e fica ciente de que quaisquer outros contratos ou acordos entre o visitante e à FEBRABAN tornam-se nulos e inexequíveis.</source>
+        <target state="final">O acesso do usuário a este Site e a utilização do mesmo ficam sujeitos aos termos e condições abaixo, bem como à legislação vigente. Ao acessar e navegar por este Site, o usuário aceita, sem limitação ou qualificação, os Termos e Condições aqui estipulados e fica ciente de que quaisquer outros contratos ou acordos entre o visitante e à FEBRABAN tornam-se nulos e inexequíveis.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a3bc6ee7d31dd5c75bfd2a119c555b922d3bd403" datatype="html">
+        <source>O usuário está autorizado a descarregar, exibir ou imprimir informações contidas neste Site exclusivamente para uso privado e sem finalidades comerciais.</source>
+        <target state="final">O usuário está autorizado a descarregar, exibir ou imprimir informações contidas neste Site exclusivamente para uso privado e sem finalidades comerciais.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ce0ded4301eb047d94a3bd689d58cfd2107235e9" datatype="html">
+        <source>O usuário deverá manter e reproduzir todo e qualquer aviso de copyrights e demais avisos de direitos de exclusividade eventualmente constantes no conteúdo por ele descarregados. Entretanto, é vedado ao usuário distribuir, modificar, transmitir, reutilizar ou utilizar o conteúdo do Site para fins públicos ou comerciais, incluindo o texto, imagens, áudio e vídeo sem a autorização expressa da FEBRABAN. O usuário deverá tratar todo o conteúdo deste Site de acordo com sua condição de protegido pela lei de direitos autorais e copyright, observadas quaisquer disposições em contrário e não poderá ser utilizado salvo conforme disposições destes Termos e Condições ou no texto do Site sem a autorização expressa da FEBRABAN. A FEBRABAN não garante ou declara que a utilização, pelo usuário, de materiais exibidos no Site não venham a violar direitos de terceiros, não pertencentes à FEBRABAN ou por ela controlados.</source>
+        <target state="final">O usuário deverá manter e reproduzir todo e qualquer aviso de copyrights e demais avisos de direitos de exclusividade eventualmente constantes no conteúdo por ele descarregados. Entretanto, é vedado ao usuário distribuir, modificar, transmitir, reutilizar ou utilizar o conteúdo do Site para fins públicos ou comerciais, incluindo o texto, imagens, áudio e vídeo sem a autorização expressa da FEBRABAN. O usuário deverá tratar todo o conteúdo deste Site de acordo com sua condição de protegido pela lei de direitos autorais e copyright, observadas quaisquer disposições em contrário e não poderá ser utilizado salvo conforme disposições destes Termos e Condições ou no texto do Site sem a autorização expressa da FEBRABAN. A FEBRABAN não garante ou declara que a utilização, pelo usuário, de materiais exibidos no Site não venham a violar direitos de terceiros, não pertencentes à FEBRABAN ou por ela controlados.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="75eed1a9a194aaf9e5b88fb113efa2d61cc3263d" datatype="html">
+        <source>Com exceção da autorização limitada acima, a utilização deste Site não implica em cessão ao usuário de licenças ou direitos sobre quaisquer copyrights, sejam pertencentes à FEBRABAN ou a terceiros.</source>
+        <target state="final">Com exceção da autorização limitada acima, a utilização deste Site não implica em cessão ao usuário de licenças ou direitos sobre quaisquer copyrights, sejam pertencentes à FEBRABAN ou a terceiros.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4269d693ba7dd9b12c21979755a91d1e9f2c9faa" datatype="html">
+        <source>O site do Ciab/FEBRABAN na Internet podem conter ou citar marcas registradas, patentes, informações, tecnologias, produtos, processos ou outros direitos protegidos por patentes de propriedade de terceiros. Sob hipótese nenhuma a utilização deste Site implica em cessão ao usuário das citadas marcas registradas, patentes, informações, tecnologias, produtos, processos ou outros direitos protegidos por patentes pertencentes à parceiros ou terceiros.</source>
+        <target state="final">O site do Ciab/FEBRABAN na Internet podem conter ou citar marcas registradas, patentes, informações, tecnologias, produtos, processos ou outros direitos protegidos por patentes de propriedade de terceiros. Sob hipótese nenhuma a utilização deste Site implica em cessão ao usuário das citadas marcas registradas, patentes, informações, tecnologias, produtos, processos ou outros direitos protegidos por patentes pertencentes à parceiros ou terceiros.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1df163a71cac5c25d864612798dfe31e14584e02" datatype="html">
+        <source>Embora a FEBRABAN utilize todos os recursos ao seu alcance para exibir informações exatas e atualizadas no Site, a mesma se abstém de dar garantias ou declarações relativamente ao conteúdo deste Site, que deve ser entendido "no estado em que se encontram". A FEBRABAN não aceita quaisquer responsabilidades decorrentes ou relativas à utilização deste Site e de seu conteúdo. Em especial, a FEBRABAN não se responsabiliza pela precisão, integridade, pertinência, oportunidade ou abrangência das informações contidas neste Site. A FEBRABAN também não responderá por danos ou vírus que possam vir a infectar o computador ou equipamento ou outros bens decorrentes do acesso do usuário ao Site ou da navegação pelo mesmo ou por descarregar quaisquer materiais, dados, textos, imagens, vídeos ou áudios incluídos no Site. A FEBRABAN reserva o direito de interromper ou desativar quaisquer atividades do Site. A administradora do serviço de criação e/ou hospedagem deste Site não responderá sob hipótese alguma por qualquer interrupção ou desativação de uma ou mais atividades deste Site, seja decorrente de ações ou omissões de uma entidade da FEBRABAN ou de terceiros.</source>
+        <target state="final">Embora a FEBRABAN utilize todos os recursos ao seu alcance para exibir informações exatas e atualizadas no Site, a mesma se abstém de dar garantias ou declarações relativamente ao conteúdo deste Site, que deve ser entendido "no estado em que se encontram". A FEBRABAN não aceita quaisquer responsabilidades decorrentes ou relativas à utilização deste Site e de seu conteúdo. Em especial, a FEBRABAN não se responsabiliza pela precisão, integridade, pertinência, oportunidade ou abrangência das informações contidas neste Site. A FEBRABAN também não responderá por danos ou vírus que possam vir a infectar o computador ou equipamento ou outros bens decorrentes do acesso do usuário ao Site ou da navegação pelo mesmo ou por descarregar quaisquer materiais, dados, textos, imagens, vídeos ou áudios incluídos no Site. A FEBRABAN reserva o direito de interromper ou desativar quaisquer atividades do Site. A administradora do serviço de criação e/ou hospedagem deste Site não responderá sob hipótese alguma por qualquer interrupção ou desativação de uma ou mais atividades deste Site, seja decorrente de ações ou omissões de uma entidade da FEBRABAN ou de terceiros.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7ec62e9f5f296966bf360a3631c3d64a619202de" datatype="html">
+        <source>As informações poderão conter inexatidões técnicas ou erros de digitação. A FEBRABAN reserva o direito de fazer alterações, correções e melhorias nas Informações e nos produtos e programas descritos nas referidas informações a qualquer momento e sem prévio aviso.</source>
+        <target state="final">As informações poderão conter inexatidões técnicas ou erros de digitação. A FEBRABAN reserva o direito de fazer alterações, correções e melhorias nas Informações e nos produtos e programas descritos nas referidas informações a qualquer momento e sem prévio aviso.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9e63649e69dafbf87bf447a00fad28aaefa9b05c" datatype="html">
+        <source>Considerando que a FEBRABAN não tem controle ou endossa qualquer um dos sites externos aos quais o sua página tem um link e considerando que a FEBRABAN não verificou nenhum dos referidos sites, o usuário está ciente de que a FEBRABAN não se responsabiliza pelo conteúdo de páginas fora de seu Site ou outros sites com link para o seu Site. Ao utilizar um link para o seu Site, páginas externas ou outros sites, o usuário está agindo por sua própria conta e risco e sem a permissão da FEBRABAN. Ao utilizar os referidos links, o usuário fica ciente de que se aplicam a nota legal e a política de privacidade do site remetido pelo link, as quais poderão divergir das políticas da FEBRABAN.</source>
+        <target state="final">Considerando que a FEBRABAN não tem controle ou endossa qualquer um dos sites externos aos quais o sua página tem um link e considerando que a FEBRABAN não verificou nenhum dos referidos sites, o usuário está ciente de que a FEBRABAN não se responsabiliza pelo conteúdo de páginas fora de seu Site ou outros sites com link para o seu Site. Ao utilizar um link para o seu Site, páginas externas ou outros sites, o usuário está agindo por sua própria conta e risco e sem a permissão da FEBRABAN. Ao utilizar os referidos links, o usuário fica ciente de que se aplicam a nota legal e a política de privacidade do site remetido pelo link, as quais poderão divergir das políticas da FEBRABAN.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="02462c5e3dfe702ffb88a46bd4af8b2f3bb592bc" datatype="html">
+        <source>Logins e identificações de usuário considerados inadequados pela administração do Site Ciab/FEBRABAN (incluindo casos de mais de um login para o mesmo usuário, ofensas, identificações que possam levar os demais usuários a acreditar que você fala em nome de outra pessoa ou organização) podem ser desativados, removidos, ter seus privilégios de acesso reduzidos ou ter seu conteúdo tornado inacessível sem aviso. O login registrado no FEBRABAN, ou a disponibilização de conteúdo no mesmo, não geram nenhum direito de suporte, não cabendo qualquer tipo de reparação, compensação ou outra obrigação do FEBRABAN em caso de cancelamento, suspensão, perda, indisponibilidade ou outra situação adversa que afete o acesso, os dados ou o conteúdo do usuário.</source>
+        <target state="final">Logins e identificações de usuário considerados inadequados pela administração do Site Ciab/FEBRABAN (incluindo casos de mais de um login para o mesmo usuário, ofensas, identificações que possam levar os demais usuários a acreditar que você fala em nome de outra pessoa ou organização) podem ser desativados, removidos, ter seus privilégios de acesso reduzidos ou ter seu conteúdo tornado inacessível sem aviso. O login registrado no FEBRABAN, ou a disponibilização de conteúdo no mesmo, não geram nenhum direito de suporte, não cabendo qualquer tipo de reparação, compensação ou outra obrigação do FEBRABAN em caso de cancelamento, suspensão, perda, indisponibilidade ou outra situação adversa que afete o acesso, os dados ou o conteúdo do usuário.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="37d338030142243275efeaae371a29e4218b2be1" datatype="html">
+        <source>A FEBRABAN poderá a qualquer momento alterar estes Termos e Condições, atualizando o seu conteúdo. O usuário ficará sujeito a eventuais revisões e deverá, portanto, visitar esta página periodicamente para rever os Termos e Condições vigentes na época da visita em questão.</source>
+        <target state="final">A FEBRABAN poderá a qualquer momento alterar estes Termos e Condições, atualizando o seu conteúdo. O usuário ficará sujeito a eventuais revisões e deverá, portanto, visitar esta página periodicamente para rever os Termos e Condições vigentes na época da visita em questão.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
+          <context context-type="linenumber">98</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="17b9a0874b70c29d731c0b2503a90ee9a26047c4" datatype="html">
+        <source>Política de privacidade</source>
+        <target state="final">Política de privacidade</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
+          <context context-type="linenumber">104</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4c7c657a6280dc97a3f14edab1ac9de875f9de73" datatype="html">
+        <source>Para garantir segurança e privacidade, a FEBRABAN, entidade responsável pelo CIAB, assume os seguintes compromissos com os seus usuários:</source>
+        <target state="final">Para garantir segurança e privacidade, a FEBRABAN, entidade responsável pelo CIAB, assume os seguintes compromissos com os seus usuários:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
+          <context context-type="linenumber">105</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="48cbc5b4e1477b62e6adcf7eac42a2994d6a22aa" datatype="html">
+        <source>Fornecer sempre a possibilidade de cancelar o envio de mensagens</source>
+        <target state="final">Fornecer sempre a possibilidade de cancelar o envio de mensagens</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
+          <context context-type="linenumber">107</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="41ab600e4ef27e2a1fd64d67d78d003a831d4fdb" datatype="html">
+        <source>Todas as informações obtidas através do site são confidenciais e serão utilizadas apenas com fins estatísticos</source>
+        <target state="final">Todas as informações obtidas através do site são confidenciais e serão utilizadas apenas com fins estatísticos</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b3e1c7264a6a1a4bae38f02922d716ebebd8508b" datatype="html">
+        <source>Utilizar cookies apenas para facilitar o login de usuários cadastrados ou para controle de audiência, nunca coletar informações não autorizadas</source>
+        <target state="final">Utilizar cookies apenas para facilitar o login de usuários cadastrados ou para controle de audiência, nunca coletar informações não autorizadas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d5c2100efdb8baa51903203dfcd67be143c6cc63" datatype="html">
+        <source>Não distribuir material ofensivo, discriminatório ou potencialmente danoso para os seus usuários</source>
+        <target state="final">Não distribuir material ofensivo, discriminatório ou potencialmente danoso para os seus usuários</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
+          <context context-type="linenumber">110</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8b4453851ad5a86e5b478c265ab4edb72c27cbed" datatype="html">
+        <source>Para dúvidas, sugestões, reclamações e maiores informações, use nosso canal direto com o usuário.</source>
+        <target state="final">Para dúvidas, sugestões, reclamações e maiores informações, use nosso canal direto com o usuário.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/footer/footer.component.html</context>
+          <context context-type="linenumber">111</context>
         </context-group>
       </trans-unit>
       <trans-unit id="784cce291b72b8283b1dab467d613216990be12b" datatype="html">
@@ -1079,7 +1247,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/page-header/page-header.component.html</context>
-          <context context-type="linenumber">22</context>
+          <context context-type="linenumber">49</context>
         </context-group>
       </trans-unit>
       <trans-unit id="62c461b70899c14a80e386b4699608143ef7a6f9" datatype="html">
@@ -1175,11 +1343,11 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
-          <context context-type="linenumber">36</context>
+          <context context-type="linenumber">41</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
-          <context context-type="linenumber">37</context>
+          <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ecaa9fa7b36a3d0a3e0e28fc77187f7ced0014fd" datatype="html">
@@ -1380,9 +1548,9 @@
           <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="401e2a0ac618865a1d5e63d7ef3baf26bb8862c8" datatype="html">
-        <source>Increva-se</source>
-        <target state="final">Increva-se</target>
+      <trans-unit id="783bfa97e6b5dc056c129e5a7d70f48f776cbe2e" datatype="html">
+        <source>Inscreva-se</source>
+        <target state="final">Inscreva-se</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
           <context context-type="linenumber">16</context>
@@ -1505,7 +1673,15 @@
         <target state="final">Baixar PDF da planta</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
-          <context context-type="linenumber">27</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="65fbb092bc9b114abba5c4bf237e5c62d35c7c31" datatype="html">
+        <source>assets/images/exposure/ciab-planta-2020-pt.pdf</source>
+        <target state="final">assets/images/exposure/ciab-planta-2020-pt.pdf</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="linenumber">28</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e01cc4c07bef12e80c3779789575a004d75a2d64" datatype="html">
@@ -1513,7 +1689,7 @@
         <target state="final">Conceito inovador que visa melhor circulação no espaço</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
-          <context context-type="linenumber">30</context>
+          <context context-type="linenumber">35</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3fa3324e86c106ec38645de491a779bb0b15b2f7" datatype="html">
@@ -1521,7 +1697,7 @@
         <target state="final">A Exposição está organizada para proporcionar aos expositores interação e relacionamento com os visitantes. O CIAB FEBRABAN é o local ideal para apresentar e conhecer os lançamentos de produtos e soluções, além das últimas tendências do setor. Aproveite esta oportunidade e garanta já o espaço da sua empresa.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
-          <context context-type="linenumber">31</context>
+          <context context-type="linenumber">36</context>
         </context-group>
       </trans-unit>
       <trans-unit id="47bd25af74a75ac5869749b8e59b65323394509c" datatype="html">
@@ -1529,7 +1705,7 @@
         <target state="final">Expositores</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
-          <context context-type="linenumber">44</context>
+          <context context-type="linenumber">49</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3d901514c0cefb741164366cb047a2aaf1ead47c" datatype="html">
@@ -1537,7 +1713,7 @@
         <target state="final">Venha visitar</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
-          <context context-type="linenumber">76</context>
+          <context context-type="linenumber">81</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6e1a1d94e6ee7cdb690da17022fb1483b5991776" datatype="html">
@@ -1545,7 +1721,7 @@
         <target state="final">Faça já o seu cadastro online, ou diretamente no Transamerica Expo Center - Área credenciamento de visitantes.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
-          <context context-type="linenumber">77</context>
+          <context context-type="linenumber">82</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e69e81f7b9ae015fe075262198b672d8cdd13be6" datatype="html">
@@ -1553,7 +1729,7 @@
         <target state="final">Custo e regras de acesso à exposição</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
-          <context context-type="linenumber">79</context>
+          <context context-type="linenumber">84</context>
         </context-group>
       </trans-unit>
       <trans-unit id="25705cddd8a863d94d0b0b4cd91dae1db5ae5adf" datatype="html">
@@ -1561,7 +1737,7 @@
         <target state="final">A participação no CIAB FEBRABAN 2018 terá um custo de <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>R$ 350,00 por participante<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>, dando acesso exclusivo à área de Exposição durante os três dias de realização do evento.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
-          <context context-type="linenumber">80</context>
+          <context context-type="linenumber">85</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1faec3f40255ef4abc0eb8a6620c015ca253d0a2" datatype="html">
@@ -1569,7 +1745,7 @@
         <target state="final">Os convidados dos Expositores e Patrocinadores são isentos do pagamento, desde que tenham recebido o convite eletrônico, pessoal e intransferível, para inscrição online.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
-          <context context-type="linenumber">81</context>
+          <context context-type="linenumber">86</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4fbf8562b83efea3360bebb44bdf187547c539c4" datatype="html">
@@ -1577,7 +1753,7 @@
         <target state="final">Os associados da FEBRABAN, bem como os apoiadores e parceiros estratégicos do evento, também são isentos de pagamento. Caso não tenham recebido o convite, solicitamos entrar em contato pelo e-mail <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>eventos@febraban.org.br<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/> para solicitá-lo.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
-          <context context-type="linenumber">82</context>
+          <context context-type="linenumber">87</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9d9f5e7eb209425068564dba82ca231bcaa661a8" datatype="html">
@@ -1585,7 +1761,7 @@
         <target state="final">Todos visitantes da Exposição terão direito a assistir 01 (uma) palestra do Congresso, <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i>"/>exceto no Auditório FEBRABAN<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i>"/>, conforme disponibilidade.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
-          <context context-type="linenumber">83</context>
+          <context context-type="linenumber">88</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a80c669573be947c48208674ca73d437900b7fa7" datatype="html">
@@ -1593,7 +1769,7 @@
         <target state="final">Faça parte!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
-          <context context-type="linenumber">84</context>
+          <context context-type="linenumber">89</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a00b15bf381b3f4b5176920b39ecd867af71a4aa" datatype="html">
@@ -1909,11 +2085,11 @@
         <target state="final">Aeroportos</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/informations/informations.component.html</context>
-          <context context-type="linenumber">35</context>
+          <context context-type="linenumber">38</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/informations/informations.component.html</context>
-          <context context-type="linenumber">92</context>
+          <context context-type="linenumber">95</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9a810bf2ce91974e7afa54e0e5f7e15d003fe636" datatype="html">
@@ -1927,7 +2103,7 @@
           </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/informations/informations.component.html</context>
-          <context context-type="linenumber">36</context>
+          <context context-type="linenumber">39</context>
         </context-group>
       </trans-unit>
       <trans-unit id="fc34a12c178466cda7a5d6563f957289590d9242" datatype="html">
@@ -1941,7 +2117,7 @@
           </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/informations/informations.component.html</context>
-          <context context-type="linenumber">40</context>
+          <context context-type="linenumber">43</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e1f4ff969d37ec8e1f82bd724a96625df3d60784" datatype="html">
@@ -1949,7 +2125,7 @@
         <target state="final">Carro</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/informations/informations.component.html</context>
-          <context context-type="linenumber">46</context>
+          <context context-type="linenumber">49</context>
         </context-group>
       </trans-unit>
       <trans-unit id="383b0a3da6dd0a99e3263445e94d26aaffde1422" datatype="html">
@@ -1957,7 +2133,7 @@
         <target state="final">Acessos pela Marginal Pinheiros e Av. 23 de Maio. Próximo a importantes avenidas, como: Av. João Dias, Av. Santo Amaro, Av. Adolfo Pinheiro, Av. Roberto Marinho, Av. Eng. Luis Carlos Berrini.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/informations/informations.component.html</context>
-          <context context-type="linenumber">47</context>
+          <context context-type="linenumber">50</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c1bb974816411e9f54dc209ed92ad3094b8cf501" datatype="html">
@@ -1965,7 +2141,7 @@
         <target state="final">Metrô</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/informations/informations.component.html</context>
-          <context context-type="linenumber">50</context>
+          <context context-type="linenumber">53</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9c520a9193cf734aa111c52b7a320e88ecf3ed63" datatype="html">
@@ -1979,7 +2155,7 @@
           </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/informations/informations.component.html</context>
-          <context context-type="linenumber">51</context>
+          <context context-type="linenumber">54</context>
         </context-group>
       </trans-unit>
       <trans-unit id="01670e5f24b2d17ecd815f259501a4ccd62b29fc" datatype="html">
@@ -1987,7 +2163,7 @@
         <target state="final">Mapa do metrô</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/informations/informations.component.html</context>
-          <context context-type="linenumber">55</context>
+          <context context-type="linenumber">58</context>
         </context-group>
       </trans-unit>
       <trans-unit id="beefa12a5beedeb6a77910ed93d4b90ccdf846c5" datatype="html">
@@ -1995,7 +2171,7 @@
         <target state="final">Bem-vindos! O CIAB FEBRABAN acontecerá na cidade de São Paulo durante os dias 23, 24 e 25 de junho de 2020, no Transamerica Expo Center, das 10h às 19h.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/informations/informations.component.html</context>
-          <context context-type="linenumber">71</context>
+          <context context-type="linenumber">74</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5573c4f5891e5ea077e43816f063a97391f363fc" datatype="html">
@@ -2003,7 +2179,7 @@
         <target state="final">Além de ser uma das maiores metrópoles das Américas e a 6ª maior cidade do mundo, São Paulo é uma cidade única no Brasil, é um grande centro cultural e de entretenimento. Responsável por 18% do PIB nacional, São Paulo é o mais importante centro financeiro do Brasil. Consagrado destino de negócios, a cidade recebe mais de 90 mil eventos por ano, um a cada 6 minutos. Das grandes feiras anuais que acontecem no Brasil, 75% acontecem em São Paulo. E elas atraem mais de 4 milhões de visitantes por ano.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/informations/informations.component.html</context>
-          <context context-type="linenumber">73</context>
+          <context context-type="linenumber">76</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e75dbd6940a09f321c9134cd38105033bba99407" datatype="html">
@@ -2011,7 +2187,7 @@
         <target state="final">Apesar da fama, nem só de trabalho vive a cidade. Em São Paulo existem mais de 280 salas de cinema, 180 teatros e casas de espetáculos, mais de 90 centros culturais e 110 museus. E também muitos restaurantes e bares com 52 tipos de culinária. Não é à toa que muitos consideram a cidade um paraíso dos gourmands e dos consumistas: são mais de 240 mil lojas e mais de 75 shoppings centers.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/informations/informations.component.html</context>
-          <context context-type="linenumber">74</context>
+          <context context-type="linenumber">77</context>
         </context-group>
       </trans-unit>
       <trans-unit id="077e5e5d766315cb3bf83ac64626d5c1163c94d7" datatype="html">
@@ -2019,7 +2195,7 @@
         <target state="final">Visto para o Brasil</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/informations/informations.component.html</context>
-          <context context-type="linenumber">85</context>
+          <context context-type="linenumber">88</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5135b613d49be63b13be17c7af2b1fa8e0746ca9" datatype="html">
@@ -2027,7 +2203,7 @@
         <target state="final">Se você não é residente do Brasil, por favor, consulte a embaixada ou o consulado do Brasil localizado em seu país, para saber quais são as exigências para entrada no País.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/informations/informations.component.html</context>
-          <context context-type="linenumber">86</context>
+          <context context-type="linenumber">89</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b3279d1d257679016a2ffe6e09ee986c4454bcc7" datatype="html">
@@ -2035,7 +2211,7 @@
         <target state="final">O Transamerica Expo Center fica a aproximadamente 42 quilômetros do Aeroporto Internacional de Guarulhos (GRU) e 14 quilômetros do Aeroporto de Congonhas (CGH).</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/informations/informations.component.html</context>
-          <context context-type="linenumber">93</context>
+          <context context-type="linenumber">96</context>
         </context-group>
       </trans-unit>
       <trans-unit id="37d48b7ccbd0ed358fa4b1684a6e4e0539a0e2ca" datatype="html">
@@ -2043,7 +2219,7 @@
         <target state="final">Sugerimos que os participantes do evento contratem o táxi nos guichês das cooperativas de táxis instalados dentro dos aeroportos.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/informations/informations.component.html</context>
-          <context context-type="linenumber">94</context>
+          <context context-type="linenumber">97</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b68ea041cc0efabbd60ad01cf48280d3b6232c4f" datatype="html">
@@ -2051,7 +2227,7 @@
         <target state="final">Temperatura</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/informations/informations.component.html</context>
-          <context context-type="linenumber">102</context>
+          <context context-type="linenumber">105</context>
         </context-group>
       </trans-unit>
       <trans-unit id="cf21796ff2ff0c8fd97127a18e36d9f6f1d4771b" datatype="html">
@@ -2059,7 +2235,7 @@
         <target state="final">Em junho, a temperatura média em São Paulo é 19°.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/informations/informations.component.html</context>
-          <context context-type="linenumber">103</context>
+          <context context-type="linenumber">106</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e5b2780cc0a29061f664e12bcc5a8c549227347f" datatype="html">
@@ -2067,7 +2243,7 @@
         <target state="final">Moeda</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/informations/informations.component.html</context>
-          <context context-type="linenumber">108</context>
+          <context context-type="linenumber">111</context>
         </context-group>
       </trans-unit>
       <trans-unit id="04adb531780b3cdb2adc1c8c254485b22f1cdc7e" datatype="html">
@@ -2075,7 +2251,7 @@
         <target state="final">Real (R$).</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/informations/informations.component.html</context>
-          <context context-type="linenumber">109</context>
+          <context context-type="linenumber">112</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c5d2b17fc3e84c4a4ba4c98b02f2509360504bf1" datatype="html">
@@ -2314,9 +2490,9 @@
           <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="b640a6ca57c4c374d0138da2452dc6949584bc1a" datatype="html">
-        <source>Conheça a <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>noomis<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>, o ponto de conexão entre pessoas e empresas do setor financeiro com interesse na evolução tecnológica; um ambiente inovador com notícias e análises aprofundadas. É a plataformma digital em que você encontra informações confiáveis, analíticas e imparciais, por meio de reportagen, blogs, vídeos, podcasts e newsletter, para estar sempre atualizado e envolvido com as novidades nesse mercado.</source>
-        <target state="final">Conheça a <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>noomis<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>, o ponto de conexão entre pessoas e empresas do setor financeiro com interesse na evolução tecnológica; um ambiente inovador com notícias e análises aprofundadas. É a plataformma digital em que você encontra informações confiáveis, analíticas e imparciais, por meio de reportagen, blogs, vídeos, podcasts e newsletter, para estar sempre atualizado e envolvido com as novidades nesse mercado.</target>
+      <trans-unit id="18f53d3a33c9d9ea34f2db797d223c9423c24d44" datatype="html">
+        <source>Conheça a <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>noomis<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>, o ponto de conexão entre pessoas e empresas do setor financeiro com interesse na evolução tecnológica; um ambiente inovador com notícias e análises aprofundadas. É a plataforma digital em que você encontra informações confiáveis, analíticas e imparciais, por meio de reportagem, blogs, vídeos, podcasts e newsletter, para estar sempre atualizado e envolvido com as novidades nesse mercado.</source>
+        <target state="final">Conheça a <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>noomis<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>, o ponto de conexão entre pessoas e empresas do setor financeiro com interesse na evolução tecnológica; um ambiente inovador com notícias e análises aprofundadas. É a plataforma digital em que você encontra informações confiáveis, analíticas e imparciais, por meio de reportagem, blogs, vídeos, podcasts e newsletter, para estar sempre atualizado e envolvido com as novidades nesse mercado.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/press/press.component.html</context>
           <context context-type="linenumber">18</context>
@@ -2438,9 +2614,9 @@
           <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="45a468f378ebc03585cb7b27d329d717f411f181" datatype="html">
-        <source>Ao fazer sua inscrição com antecedência, além de você ficar tranquilo e garantir o seu lugar em um fórum especializado de tecnologia e digital, com um conteúdo qualificado, apresentado por renomados palestrantes nacionais  internacionais sobre inovações, transformações digitais  e o futuro do sistema financeiro, você ganha tempo no dia   do evento.</source>
-        <target state="final">Ao fazer sua inscrição com antecedência, além de você ficar tranquilo e garantir o seu lugar em um fórum especializado de tecnologia e digital, com um conteúdo qualificado, apresentado por renomados palestrantes nacionais  internacionais sobre inovações, transformações digitais  e o futuro do sistema financeiro, você ganha tempo no dia   do evento.</target>
+      <trans-unit id="184a371f98085893a82a2777fbb44e7565c34947" datatype="html">
+        <source>Ao fazer sua inscrição com antecedência, além de você ficar tranquilo e garantir o seu lugar em um fórum especializado de tecnologia e digital, com um conteúdo qualificado, apresentado por renomados palestrantes nacionais internacionais sobre inovações, transformações digitais e o futuro do sistema financeiro, você ganha tempo no dia do evento.</source>
+        <target state="final">Ao fazer sua inscrição com antecedência, além de você ficar tranquilo e garantir o seu lugar em um fórum especializado de tecnologia e digital, com um conteúdo qualificado, apresentado por renomados palestrantes nacionais internacionais sobre inovações, transformações digitais e o futuro do sistema financeiro, você ganha tempo no dia do evento.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
           <context context-type="linenumber">10</context>
@@ -2478,20 +2654,308 @@
           <context context-type="linenumber">16</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="dc1af84571857a97a76a872c3d12112da7ef3fae" datatype="html">
+        <source>Increva-se agora</source>
+        <target state="final">Increva-se agora</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dc32228b9196fec4fc20870641ab07350749b097" datatype="html">
+        <source>Congressista</source>
+        <target state="final">Congressista</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7e808fbf847e8202b2e7149b95441d6f2f7a2cff" datatype="html">
+        <source>03 dias de evento</source>
+        <target state="final">03 dias de evento</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="62b0d9e6237679e66129119b1fca4ea71575a63f" datatype="html">
+        <source>(valor por participante)</source>
+        <target state="final">(valor por participante)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="493bea0b6de74f60d53531bcae44f5e50d11a7b2" datatype="html">
+        <source>Acesso a área de exposição nos 3 (três) dias de evento</source>
+        <target state="final">Acesso a área de exposição nos 3 (três) dias de evento</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8468963511a4b5e6f4a36e8dc854e9632f24f464" datatype="html">
+        <source>Participação nos 3 (três) dias de evento</source>
+        <target state="final">Participação nos 3 (três) dias de evento</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="724c035edaef98504952163829d7b19ef39d4624" datatype="html">
+        <source>Acesso em todos os auditórios</source>
+        <target state="final">Acesso em todos os auditórios</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bdbf29695a21335637212e1e1a72009255dcb48a" datatype="html">
+        <source>Coffee break</source>
+        <target state="final">Coffee break</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="06b7fb5c068f479fc5bb1c0ae729e665a28314ec" datatype="html">
+        <source>Certificado online</source>
+        <target state="final">Certificado online</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dec4c44b0e70786cac9ddce115652ac77c9ebb4e" datatype="html">
+        <source>Material do evento</source>
+        <target state="final">Material do evento</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ec20d50e3e45e3a5a08a67281ecebe050dae71af" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i>"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>Não inclui:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/> almoço e estacionamento<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i>"/></source>
+        <target state="final"><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i>"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>Não inclui:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/> almoço e estacionamento<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i>"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="40f683e2568799880ac3cd59dbd15556ac40bb02" datatype="html">
+        <source>2.770,00</source>
+        <target state="final">2.770,00</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f777053c0cec4ce901aa7e5c16c61da776ec3a68" datatype="html">
+        <source>Associado</source>
+        <target state="final">Associado</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9aad479f0a86e98702709fe8b3b1adf4e76c34a4" datatype="html">
+        <source>3.475,00</source>
+        <target state="final">3.475,00</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c5676e19f43176dc86356403f69b135e38257013" datatype="html">
+        <source>Público geral</source>
+        <target state="final">Público geral</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="65b7b5c965700eac050860a29e0745782eb65dd3" datatype="html">
+        <source>Inscreva-se!</source>
+        <target state="final">Inscreva-se!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aa197e19759a3246701ae05ee9fd09c89c8a6988" datatype="html">
+        <source>01 dia de evento</source>
+        <target state="final">01 dia de evento</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b128119026801999b811cc223257c730b554e719" datatype="html">
+        <source>Acesso à área de exposição nos 3 (três) dias de evento (não somente no dia escolhido)</source>
+        <target state="final">Acesso à área de exposição nos 3 (três) dias de evento (não somente no dia escolhido)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="36c77f1bef6b4d70ea64545146b8129904d7dbec" datatype="html">
+        <source>Participação em 1 (um) dia de evento *</source>
+        <target state="final">Participação em 1 (um) dia de evento *</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b63e72bc3057f96e48cf3ca66cf31af870b57c97" datatype="html">
+        <source>Acesso em todos os auditórios durante o dia escolhido</source>
+        <target state="final">Acesso em todos os auditórios durante o dia escolhido</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2ac3a57c9479ae59a946b60e34d2ad618465b441" datatype="html">
+        <source>1.330,00</source>
+        <target state="final">1.330,00</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0cafab0cf93e20aed33ca4f0eafdfecdbe876340" datatype="html">
+        <source>1.670,00</source>
+        <target state="final">1.670,00</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7bb3549406e32d2adece2e47835a71234d36aada" datatype="html">
+        <source>Visitante</source>
+        <target state="final">Visitante</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="55c7cac02da193b936074997a0ea3d2b817b51a0" datatype="html">
+        <source>Acesso à área de exposição nos 3 (três) dias de evento (não tem acesso ao Congresso)</source>
+        <target state="final">Acesso à área de exposição nos 3 (três) dias de evento (não tem acesso ao Congresso)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="324058dae6a041cec28faada02fb19ea0d4d444f" datatype="html">
+        <source>Os visitantes terão direito a assistir 01 (uma) palestra do Congresso, exceto no Auditório FEBRABAN, conforme disponibilidade</source>
+        <target state="final">Os visitantes terão direito a assistir 01 (uma) palestra do Congresso, exceto no Auditório FEBRABAN, conforme disponibilidade</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b10915b2ac5851c1294b5baf100b31c44364f740" datatype="html">
+        <source>Isento</source>
+        <target state="final">Isento</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4920ccafff6e5a86b49a1e31f189e7e804fe6ae4" datatype="html">
+        <source>385,00</source>
+        <target state="final">385,00</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cac9919fdeae76ab0804b1a02748cbb07c464cc5" datatype="html">
+        <source>Parceiros Estratégicos/Apoiadores tem 20% de desconto sobre a taxa do Público geral.</source>
+        <target state="final">Parceiros Estratégicos/Apoiadores tem 20% de desconto sobre a taxa do Público geral.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">100</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="41490ef08eaee199f552686f893ba9c7b63221ac" datatype="html">
+        <source>Patrocinadores/Expositores tem 10% de desconto sobre a taxa do Público geral.</source>
+        <target state="final">Patrocinadores/Expositores tem 10% de desconto sobre a taxa do Público geral.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">101</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="cd0e8fb4ab6fa00957f20c5e4ce886b50e8bbca8" datatype="html">
         <source>Bonificações</source>
         <target state="final">Bonificações</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">28</context>
+          <context context-type="linenumber">110</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7b03bfba42e451f6c1d17b3c1af5771d40283bf9" datatype="html">
-        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>A cada 10 inscrições da mesma categoria a 11ª é gratuita<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/>b, válidas somente para compras em lote com 10 ou mais inscrições.</source>
-        <target state="final"><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>A cada 10 inscrições da mesma categoria a 11ª é gratuita<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/>b, válidas somente para compras em lote com 10 ou mais inscrições.</target>
+      <trans-unit id="9a13232a98e7d0975e9e2c50780e438bb75db2a0" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>A cada 10 inscrições da mesma categoria a 11ª é gratuita<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/>, válidas somente para compras em lote com 10 ou mais inscrições.</source>
+        <target state="final"><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>A cada 10 inscrições da mesma categoria a 11ª é gratuita<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/>, válidas somente para compras em lote com 10 ou mais inscrições.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">31</context>
+          <context context-type="linenumber">113</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7b5b8c450c5ad65a65f9b93062f6715abbe8b977" datatype="html">
@@ -2499,7 +2963,7 @@
         <target state="final">Inscreva-se agora!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">32</context>
+          <context context-type="linenumber">114</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b13a9d5a252eaf4934bdd70b907196bd46c768d1" datatype="html">
@@ -2507,7 +2971,7 @@
         <target state="final">Informações importantes</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">36</context>
+          <context context-type="linenumber">118</context>
         </context-group>
       </trans-unit>
       <trans-unit id="0150a5cdd24dd7877a3dda799f45f566212c3ad8" datatype="html">
@@ -2515,7 +2979,7 @@
         <target state="final">Opções de pagamento</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">39</context>
+          <context context-type="linenumber">121</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ea527656bf2ce6b7ac67461c4ca6d9fa931cdce3" datatype="html">
@@ -2523,7 +2987,7 @@
         <target state="final">Boleto Bancário e Cartões de Crédito Nacionais e Internacionais</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">40</context>
+          <context context-type="linenumber">122</context>
         </context-group>
       </trans-unit>
       <trans-unit id="dbd097182c68fa926ffba6ac17d44aaf608e7ec9" datatype="html">
@@ -2531,7 +2995,7 @@
         <target state="final">Pessoa Física (PF) ou Pessoa Jurídica (PJ)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">41</context>
+          <context context-type="linenumber">123</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b8c9d2fc61a67658d893733f19d36028702dbbbf" datatype="html">
@@ -2539,7 +3003,7 @@
         <target state="final">Nota Fiscal será enviada somente após realização do evento.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">42</context>
+          <context context-type="linenumber">124</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7ac546eb1002bdf7fd9e25626fd56b3dab2a189e" datatype="html">
@@ -2553,7 +3017,7 @@
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">43</context>
+          <context context-type="linenumber">125</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7f0c10c7800bf043b9757c668307bb717a2e074e" datatype="html">
@@ -2561,7 +3025,7 @@
         <target state="final">Reembolso e cancelamento</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">49</context>
+          <context context-type="linenumber">131</context>
         </context-group>
       </trans-unit>
       <trans-unit id="949afa7d7b9faa95e0e0b7b6ca759aa41be9bd46" datatype="html">
@@ -2569,7 +3033,7 @@
         <target state="final">Os pedidos de cancelamento de inscrições devem ser solicitados por e-mail, para <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>eventos@febraban.org.br<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/> até <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>5 dias úteis antes da realização do evento<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/>.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">50</context>
+          <context context-type="linenumber">132</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1ab7b1cf5669f4e05b408bcc46826fda537e3cdd" datatype="html">
@@ -2577,7 +3041,7 @@
         <target state="final">Os reembolsos serão efetuados pelo valor líquido, deduzidas todas as despesas bancárias provenientes da transferência bancária.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">51</context>
+          <context context-type="linenumber">133</context>
         </context-group>
       </trans-unit>
       <trans-unit id="392f803b6f84e18c42a0caa50afdf3f5680ec09f" datatype="html">
@@ -2585,7 +3049,7 @@
         <target state="final">Após o prazo estipulado acima não serão aceitos pedidos de reembolso ou cancelamentos.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">52</context>
+          <context context-type="linenumber">134</context>
         </context-group>
       </trans-unit>
       <trans-unit id="dd79793d64aeec7a8a137d51bca52662e52c4519" datatype="html">
@@ -2593,7 +3057,7 @@
         <target state="final">Substituição de participante</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">55</context>
+          <context context-type="linenumber">137</context>
         </context-group>
       </trans-unit>
       <trans-unit id="30a36d9293c24fd123a45be955f25c0c83b3068a" datatype="html">
@@ -2601,7 +3065,7 @@
         <target state="final">Os pedidos de substituição de participante devem ser solicitados por e-mail, para <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>eventos@febraban.org.br<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/> até <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>2 dias úteis antes da realização do evento<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/>. (*)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">56</context>
+          <context context-type="linenumber">138</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c6ac952dd45991a9729cc59e838ff9ba65908f1a" datatype="html">
@@ -2609,7 +3073,7 @@
         <target state="final">Para substituições solicitadas durante a realização do evento a Organização cobrará uma taxa de R$ 250,00 pela reemissão do crachá. O respectivo pagamento deverá ser efetuado no ato da solicitação.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">57</context>
+          <context context-type="linenumber">139</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5842349334afc59061715709de4cfa928cf7a095" datatype="html">
@@ -2617,7 +3081,7 @@
         <target state="final">(*) Exceção somente para o participante que precisar substituir a sua participação, e já tiver recebido antecipadamente o material do congressista, será obrigatória a apresentação da credencial do participante originalmente inscrito no credenciamento do evento, a partir do dia 10/06/2019, para o procedimento de substituição de participante e troca da credencial.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">58</context>
+          <context context-type="linenumber">140</context>
         </context-group>
       </trans-unit>
       <trans-unit id="aed5e9e7ac50484c935d6e9bdf73c0aec3d394ac" datatype="html">
@@ -2625,7 +3089,7 @@
         <target state="final">Patrocinar/expor</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/page-header/page-header.component.html</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">45</context>
         </context-group>
       </trans-unit>
       <trans-unit id="823e330f0a237c2d485661b3a26a4803d5479789" datatype="html">

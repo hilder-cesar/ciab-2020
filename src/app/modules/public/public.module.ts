@@ -6,6 +6,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { SharedModule } from './../shared/shared.module';
 import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 
 // containers
 import { HomeComponent } from './containers/home/home.component';
@@ -23,6 +24,7 @@ import { SubscriptionComponent } from './containers/subscription/subscription.co
 // components
 import { SliderComponent } from './components/slider/slider.component';
 import { SliderNavComponent } from './components/slider/slider-nav.component';
+import { ModalVideoComponent } from './components/modal-video/modal-video.component';
 import { PageHeaderComponent } from './components/page-header/page-header.component';
 import { SponsorExhibitFormComponent } from './components/sponsor-exhibit-form/sponsor-exhibit-form.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -51,6 +53,7 @@ import { RegisterFormComponent } from './components/register-form/register-form.
     // components
     SliderComponent,
     SliderNavComponent,
+    ModalVideoComponent,
     PageHeaderComponent,
     SponsorExhibitFormComponent,
     KeynoteSpeakersComponent,
@@ -73,7 +76,8 @@ import { RegisterFormComponent } from './components/register-form/register-form.
     ReactiveFormsModule,
     HttpClientModule,
     SharedModule,
-    NgbCarouselModule
+    NgbCarouselModule,
+    NgbDropdownModule
   ],
   exports: [
     // containers

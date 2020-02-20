@@ -1,0 +1,19 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "deploy-build-dev",
+      "type": "shell",
+      "command": "ng build --prod --baseHref /WebCiab/; msdeploy -verb:sync -source:contentPath='${workspaceFolder}/dist/web-ciab-site' -dest:auto,ComputerName='https:\/\/apidev.megaleios.com:8172/msdeploy.axd?site=Apis',UserName='Hilder',Password='mega@123',AuthType='Basic' -setParam:value='Apis/WebCiab',kind=ProviderPath,scope=contentPath -disableLink:AppPoolExtension -disableLink:ContentExtension -disableLink:CertificateExtension -allowUntrusted",
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "showReuseMessage": false
+      },
+      
+      "problemMatcher": []
+    }
+  ]
+}

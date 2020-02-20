@@ -2,24 +2,26 @@
 @import './imports/variables.sass'
 
 .ciab-button
+  display: inline-block
   font-weight: 600
   text-transform: uppercase
   text-decoration: none !important
   text-align: center
-  color: #FFF
+  color: #FFF !important
   padding: 14px 28px
   border: 0
   border-radius: 3px
+  cursor: pointer
   transition: background-color 0.25s, color 0.25s
   &:hover
-    color: #FFF
+    color: #FFF !important
   &:disabled
     background-color: rgba(128, 128, 128, 0.25)
-    color: rgba(128, 128, 128, 0.5)
+    color: rgba(128, 128, 128, 0.5) !important
     cursor: not-allowed
     &:hover
       background-color: rgba(128, 128, 128, 0.25)
-      color: rgba(128, 128, 128, 0.5)
+      color: rgba(128, 128, 128, 0.5) !important
 
 .ciab-button-block
   display: block
@@ -65,7 +67,7 @@
   &:hover
     background-color: darken(#001A72, 6.25%)
 
-// .ciab-button-x
+// ciab-button-x esse x significa que ainda não dei um nome para esse botão
 .ciab-button-x
   background-color: transparent
   font-size: 16px
@@ -136,11 +138,11 @@
 
 .ciab-button-secondary
   background-color: transparent
-  color: #FFF
+  color: #FFF !important
   border: 2px solid #FFF
   &:hover
     background-color: #FFF
-    color: #000
+    color: #000 !important
 
 .ciab-button-icon
   width: 34px
