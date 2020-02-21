@@ -11,13 +11,14 @@ import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 // containers
 import { HomeComponent } from './containers/home/home.component';
 import { CiabComponent } from './containers/ciab/ciab.component';
-import { CongressoComponent } from './containers/congresso/congresso.component';
-import { ExposicaoComponent } from './containers/exposicao/exposicao.component';
+import { CongressComponent } from './containers/congress/congress.component';
+import { ExposureComponent } from './containers/exposure/exposure.component';
 import { FintechComponent } from './containers/fintech/fintech.component';
 import { InformationsComponent } from './containers/informations/informations.component';
 import { PublicationsComponent } from './containers/publications/publications.component';
 import { PressComponent } from './containers/press/press.component';
 import { KeynoteSpeakersComponent } from './containers/keynote-speakers/keynote-speakers.component';
+import { ScheduleComponent } from './containers/schedule/schedule.component';
 import { SponsorExhibitComponent } from './containers/sponsor-exhibit/sponsor-exhibit.component';
 import { SubscriptionComponent } from './containers/subscription/subscription.component';
 
@@ -44,13 +45,14 @@ import { ModalPrivacyPolicyComponent } from './components/modal-privacy-policy/m
     // containers
     HomeComponent,
     CiabComponent,
-    CongressoComponent,
-    ExposicaoComponent,
+    CongressComponent,
+    ExposureComponent,
     FintechComponent,
     InformationsComponent,
     PublicationsComponent,
     PressComponent,
     KeynoteSpeakersComponent,
+    ScheduleComponent,
     SponsorExhibitComponent,
     SubscriptionComponent,
     // components
@@ -84,13 +86,14 @@ import { ModalPrivacyPolicyComponent } from './components/modal-privacy-policy/m
     // containers
     HomeComponent,
     CiabComponent,
-    CongressoComponent,
-    ExposicaoComponent,
+    CongressComponent,
+    ExposureComponent,
     FintechComponent,
     InformationsComponent,
     PublicationsComponent,
     PressComponent,
     KeynoteSpeakersComponent,
+    ScheduleComponent,
     SponsorExhibitComponent,
     SubscriptionComponent
   ]

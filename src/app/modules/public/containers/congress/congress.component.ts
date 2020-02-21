@@ -3,11 +3,11 @@ import { GenericService } from './../../../../services/generic/generic.service';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-congresso',
-  templateUrl: './congresso.component.html',
-  styleUrls: ['./congresso.component.sass']
+  selector: 'app-congress',
+  templateUrl: './congress.component.html',
+  styleUrls: ['./congress.component.sass']
 })
-export class CongressoComponent implements OnInit {
+export class CongressComponent implements OnInit {
 
   keynoteSpeakerList: any[];
 

@@ -8,11 +8,11 @@ interface ExhibitorList {
 }
 
 @Component({
-  selector: 'app-exposicao',
-  templateUrl: './exposicao.component.html',
-  styleUrls: ['./exposicao.component.sass']
+  selector: 'app-exposure',
+  templateUrl: './exposure.component.html',
+  styleUrls: ['./exposure.component.sass']
 })
-export class ExposicaoComponent implements OnInit {
+export class ExposureComponent implements OnInit {
 
   exhibitorList: ExhibitorList = {
     colOne: [],

@@ -468,7 +468,7 @@
           <context context-type="linenumber">130</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">24</context>
         </context-group>
         <context-group purpose="location">
@@ -483,7 +483,7 @@
           <context context-type="linenumber">139</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">33</context>
         </context-group>
       </trans-unit>
@@ -512,11 +512,11 @@
           <context context-type="linenumber">154</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">42</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">43</context>
         </context-group>
       </trans-unit>
@@ -667,18 +667,18 @@
       <trans-unit id="538e01aab582359c6ffc9b13ecd6f31b73fbd7e0" datatype="html">
         <source>Maior evento de TI para o setor financeiro da América Latina</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">2</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
       <trans-unit id="69719fbd033e72e9c647c4916fa396b801738381" datatype="html">
         <source>O congresso</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">9</context>
         </context-group>
         <context-group purpose="location">
@@ -689,119 +689,119 @@
       <trans-unit id="85290111eb1814cc5ac6672cf9a1c3195bf6ee88" datatype="html">
         <source>Um fórum de tecnologia, com um conteúdo diversificado, palestrantes nacionais e internacionais, debates relevantes sobre inovações tecnológicas, transformações digitais e o futuro do sistema financeiro.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">13</context>
         </context-group>
       </trans-unit>
       <trans-unit id="13aaec12ed765d82ce7b9e331b4a19d6200bf7e0" datatype="html">
         <source>Em sua 29ª edição, o tema norteou 10 trilhas sobre os grandes temas: Tendências Tecnológicas, Fintechs &amp; Startups, Serviços de Tecnologia, Regulação, Meios de Pagamentos, Seguros, Futurismo, Segurança &amp; Cybersecurity, Jornada do Cliente e Provedores de Soluções e Negócios.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b777d5e4aaa9f7782cf7b3a1332dbf7db3ac8455" datatype="html">
         <source>Oportunidade única de ficar frente a frente com os mais renomados especialistas de tecnologia e do setor financeiro!</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="fd65d0e5c26df747204585b8edaf3d700fe9b9f0" datatype="html">
         <source>Em 2020 o evento completará 30 anos e sem dúvidas será mais uma edição histórica.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">16</context>
         </context-group>
       </trans-unit>
       <trans-unit id="783bfa97e6b5dc056c129e5a7d70f48f776cbe2e" datatype="html">
         <source>Inscreva-se</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5bbea7e3b64f90ddcb8cca573c26bc3164951ce7" datatype="html">
         <source>Confira nossa</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
       <trans-unit id="86dfdfc5d05c8e4fdca45ff51848b1e5f8ceedb4" datatype="html">
         <source>programação</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">43</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3324995ad71adf5176239f72c790d03d525b2de9" datatype="html">
         <source>Conheça os</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">48</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e9c2a21826aa094fff7702ba4f762793b0b5c015" datatype="html">
         <source>palestrantes</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">49</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d92c77b63781a542492a598b8d1c9915dc888c6a" datatype="html">
         <source>Trilhas técnicas</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">62</context>
         </context-group>
       </trans-unit>
       <trans-unit id="98cee0f6138e1c1131641f1571204a244c7cecb2" datatype="html">
         <source>Tendências tecnológicas</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">65</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4ee0380cfac27bc3093198205d4c725eedded611" datatype="html">
         <source>Serviços de tecnologia</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">75</context>
         </context-group>
       </trans-unit>
       <trans-unit id="45ef089fb25a9d3e1d1e777adc8bcd2a478c3ca2" datatype="html">
         <source>Regulação e meios de pagamentos</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">79</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7133e250579d1a58c9615de6130d341b23518e0d" datatype="html">
         <source>Seguros e futurismo</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">85</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d706f901f725a70985ab2b333fdb43df9a60e47e" datatype="html">
         <source>Segurança &amp; Cybersecurity</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">89</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d15e9b3f53c3c7a5ea38d9cd440d3d2eaa5af03b" datatype="html">
         <source>Novidades, negócios e soluções em um único espaço</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">2</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5e0d22a477d95aff25049ca07b17caedeab52829" datatype="html">
         <source>A exposição</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">9</context>
         </context-group>
         <context-group purpose="location">
@@ -812,28 +812,28 @@
       <trans-unit id="df242fbfc971ce3d3fa3a7db730b6f2da75bd442" datatype="html">
         <source>Um público selecionado para sua empresa potencializar negócios</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c45f82a47615b7ad4449e9cf81b7ef3afec65c42" datatype="html">
         <source>O CIAB FEBRABAN realiza sua exposição paralelamente ao Congresso que, tradicionalmente, conta com a participação de mais de 140 empresas expositoras, o que proporciona ao visitante a oportunidade de estreitar relacionamento e de conferir em um único espaço todas as novidades e soluções tecnológicas para os próximos anos.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">13</context>
         </context-group>
       </trans-unit>
       <trans-unit id="051a9d74404f5c5b6d7cc87955a6e0b80815f1a7" datatype="html">
         <source>Além das grandes empresas expositoras e patrocinadoras, o visitante encontrará o Lounge Fintech, que reúne Fintechs, Insurtechs e Ecossistema e para networking com Executivos de Bancos e Instituições Financeiras.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="cba13ca6e30bdccc5d5847e6812089b758379e60" datatype="html">
         <source>Mapa e expositores</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">27</context>
         </context-group>
         <context-group purpose="location">
@@ -844,91 +844,91 @@
       <trans-unit id="6cc9a10c80dcda9554d025daa4c0d7d2f005b0ff" datatype="html">
         <source>Baixar PDF da planta</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">33</context>
         </context-group>
       </trans-unit>
       <trans-unit id="65fbb092bc9b114abba5c4bf237e5c62d35c7c31" datatype="html">
         <source>assets/images/exposure/ciab-planta-2020-pt.pdf</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">29</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e01cc4c07bef12e80c3779789575a004d75a2d64" datatype="html">
         <source>Conceito inovador que visa melhor circulação no espaço</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">36</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3fa3324e86c106ec38645de491a779bb0b15b2f7" datatype="html">
         <source>A Exposição está organizada para proporcionar aos expositores interação e relacionamento com os visitantes. O CIAB FEBRABAN é o local ideal para apresentar e conhecer os lançamentos de produtos e soluções, além das últimas tendências do setor. Aproveite esta oportunidade e garanta já o espaço da sua empresa.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
       <trans-unit id="47bd25af74a75ac5869749b8e59b65323394509c" datatype="html">
         <source>Expositores</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">50</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3d901514c0cefb741164366cb047a2aaf1ead47c" datatype="html">
         <source>Venha visitar</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">82</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6e1a1d94e6ee7cdb690da17022fb1483b5991776" datatype="html">
         <source>Faça já o seu cadastro online, ou diretamente no Transamerica Expo Center - Área credenciamento de visitantes.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">83</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e69e81f7b9ae015fe075262198b672d8cdd13be6" datatype="html">
         <source>Custo e regras de acesso à exposição</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">85</context>
         </context-group>
       </trans-unit>
       <trans-unit id="25705cddd8a863d94d0b0b4cd91dae1db5ae5adf" datatype="html">
         <source>A participação no CIAB FEBRABAN 2018 terá um custo de <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>R$ 350,00 por participante<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>, dando acesso exclusivo à área de Exposição durante os três dias de realização do evento.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">86</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1faec3f40255ef4abc0eb8a6620c015ca253d0a2" datatype="html">
         <source>Os convidados dos Expositores e Patrocinadores são isentos do pagamento, desde que tenham recebido o convite eletrônico, pessoal e intransferível, para inscrição online.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">87</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4fbf8562b83efea3360bebb44bdf187547c539c4" datatype="html">
         <source>Os associados da FEBRABAN, bem como os apoiadores e parceiros estratégicos do evento, também são isentos de pagamento. Caso não tenham recebido o convite, solicitamos entrar em contato pelo e-mail <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>eventos@febraban.org.br<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> para solicitá-lo.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">88</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9d9f5e7eb209425068564dba82ca231bcaa661a8" datatype="html">
         <source>Todos visitantes da Exposição terão direito a assistir 01 (uma) palestra do Congresso, <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>exceto no Auditório FEBRABAN<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>, conforme disponibilidade.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">89</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a80c669573be947c48208674ca73d437900b7fa7" datatype="html">
         <source>Faça parte!</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">90</context>
         </context-group>
       </trans-unit>

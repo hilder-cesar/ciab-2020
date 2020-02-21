@@ -74,7 +74,7 @@
         <source>O congresso</source>
         <target state="final">O congresso</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">9</context>
         </context-group>
         <context-group purpose="location">
@@ -122,7 +122,7 @@
         <source>A exposição</source>
         <target state="final">A exposição</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">9</context>
         </context-group>
         <context-group purpose="location">
@@ -134,7 +134,7 @@
         <source>Mapa e expositores</source>
         <target state="final">Mapa e expositores</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">27</context>
         </context-group>
         <context-group purpose="location">
@@ -946,7 +946,7 @@
           <context context-type="linenumber">130</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">24</context>
         </context-group>
         <context-group purpose="location">
@@ -962,7 +962,7 @@
           <context context-type="linenumber">139</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">33</context>
         </context-group>
       </trans-unit>
@@ -1322,11 +1322,11 @@
           <context context-type="linenumber">154</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">42</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">43</context>
         </context-group>
       </trans-unit>
@@ -1488,11 +1488,11 @@
         <source>Maior evento de TI para o setor financeiro da América Latina</source>
         <target state="final">Maior evento de TI para o setor financeiro da América Latina</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">2</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
@@ -1500,7 +1500,7 @@
         <source>Um fórum de tecnologia, com um conteúdo diversificado, palestrantes nacionais e internacionais, debates relevantes sobre inovações tecnológicas, transformações digitais e o futuro do sistema financeiro.</source>
         <target state="final">Um fórum de tecnologia, com um conteúdo diversificado, palestrantes nacionais e internacionais, debates relevantes sobre inovações tecnológicas, transformações digitais e o futuro do sistema financeiro.</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">13</context>
         </context-group>
       </trans-unit>
@@ -1508,7 +1508,7 @@
         <source>Em sua 29ª edição, o tema norteou 10 trilhas sobre os grandes temas: Tendências Tecnológicas, Fintechs &amp; Startups, Serviços de Tecnologia, Regulação, Meios de Pagamentos, Seguros, Futurismo, Segurança &amp; Cybersecurity, Jornada do Cliente e Provedores de Soluções e Negócios.</source>
         <target state="final">Em sua 29ª edição, o tema norteou 10 trilhas sobre os grandes temas: Tendências Tecnológicas, Fintechs &amp; Startups, Serviços de Tecnologia, Regulação, Meios de Pagamentos, Seguros, Futurismo, Segurança &amp; Cybersecurity, Jornada do Cliente e Provedores de Soluções e Negócios.</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
@@ -1516,7 +1516,7 @@
         <source>Oportunidade única de ficar frente a frente com os mais renomados especialistas de tecnologia e do setor financeiro!</source>
         <target state="final">Oportunidade única de ficar frente a frente com os mais renomados especialistas de tecnologia e do setor financeiro!</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
@@ -1524,7 +1524,7 @@
         <source>Em 2020 o evento completará 30 anos e sem dúvidas será mais uma edição histórica.</source>
         <target state="final">Em 2020 o evento completará 30 anos e sem dúvidas será mais uma edição histórica.</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">16</context>
         </context-group>
       </trans-unit>
@@ -1532,7 +1532,7 @@
         <source>Inscreva-se</source>
         <target state="final">Inscreva-se</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
@@ -1540,7 +1540,7 @@
         <source>Confira nossa</source>
         <target state="final">Confira nossa</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
@@ -1548,7 +1548,7 @@
         <source>programação</source>
         <target state="final">programação</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">43</context>
         </context-group>
       </trans-unit>
@@ -1556,7 +1556,7 @@
         <source>Conheça os</source>
         <target state="final">Conheça os</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">48</context>
         </context-group>
       </trans-unit>
@@ -1564,7 +1564,7 @@
         <source>palestrantes</source>
         <target state="final">palestrantes</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">49</context>
         </context-group>
       </trans-unit>
@@ -1572,7 +1572,7 @@
         <source>Trilhas técnicas</source>
         <target state="final">Trilhas técnicas</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">62</context>
         </context-group>
       </trans-unit>
@@ -1580,7 +1580,7 @@
         <source>Tendências tecnológicas</source>
         <target state="final">Tendências tecnológicas</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">65</context>
         </context-group>
       </trans-unit>
@@ -1588,7 +1588,7 @@
         <source>Serviços de tecnologia</source>
         <target state="final">Serviços de tecnologia</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">75</context>
         </context-group>
       </trans-unit>
@@ -1596,7 +1596,7 @@
         <source>Regulação e meios de pagamentos</source>
         <target state="final">Regulação e meios de pagamentos</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">79</context>
         </context-group>
       </trans-unit>
@@ -1604,7 +1604,7 @@
         <source>Seguros e futurismo</source>
         <target state="final">Seguros e futurismo</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">85</context>
         </context-group>
       </trans-unit>
@@ -1612,7 +1612,7 @@
         <source>Segurança &amp; Cybersecurity</source>
         <target state="final">Segurança &amp; Cybersecurity</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congresso.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/congresso/congress.component.html</context>
           <context context-type="linenumber">89</context>
         </context-group>
       </trans-unit>
@@ -1620,7 +1620,7 @@
         <source>Novidades, negócios e soluções em um único espaço</source>
         <target state="final">Novidades, negócios e soluções em um único espaço</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">2</context>
         </context-group>
       </trans-unit>
@@ -1628,7 +1628,7 @@
         <source>Um público selecionado para sua empresa potencializar negócios</source>
         <target state="final">Um público selecionado para sua empresa potencializar negócios</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
@@ -1636,7 +1636,7 @@
         <source>O CIAB FEBRABAN realiza sua exposição paralelamente ao Congresso que, tradicionalmente, conta com a participação de mais de 140 empresas expositoras, o que proporciona ao visitante a oportunidade de estreitar relacionamento e de conferir em um único espaço todas as novidades e soluções tecnológicas para os próximos anos.</source>
         <target state="final">O CIAB FEBRABAN realiza sua exposição paralelamente ao Congresso que, tradicionalmente, conta com a participação de mais de 140 empresas expositoras, o que proporciona ao visitante a oportunidade de estreitar relacionamento e de conferir em um único espaço todas as novidades e soluções tecnológicas para os próximos anos.</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">13</context>
         </context-group>
       </trans-unit>
@@ -1644,7 +1644,7 @@
         <source>Além das grandes empresas expositoras e patrocinadoras, o visitante encontrará o Lounge Fintech, que reúne Fintechs, Insurtechs e Ecossistema e para networking com Executivos de Bancos e Instituições Financeiras.</source>
         <target state="final">Além das grandes empresas expositoras e patrocinadoras, o visitante encontrará o Lounge Fintech, que reúne Fintechs, Insurtechs e Ecossistema e para networking com Executivos de Bancos e Instituições Financeiras.</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
@@ -1652,7 +1652,7 @@
         <source>Baixar PDF da planta</source>
         <target state="final">Baixar PDF da planta</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">33</context>
         </context-group>
       </trans-unit>
@@ -1660,7 +1660,7 @@
         <source>assets/images/exposure/ciab-planta-2020-pt.pdf</source>
         <target state="final">assets/images/exposure/ciab-planta-2020-pt.pdf</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">29</context>
         </context-group>
       </trans-unit>
@@ -1668,7 +1668,7 @@
         <source>Conceito inovador que visa melhor circulação no espaço</source>
         <target state="final">Conceito inovador que visa melhor circulação no espaço</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">36</context>
         </context-group>
       </trans-unit>
@@ -1676,7 +1676,7 @@
         <source>A Exposição está organizada para proporcionar aos expositores interação e relacionamento com os visitantes. O CIAB FEBRABAN é o local ideal para apresentar e conhecer os lançamentos de produtos e soluções, além das últimas tendências do setor. Aproveite esta oportunidade e garanta já o espaço da sua empresa.</source>
         <target state="final">A Exposição está organizada para proporcionar aos expositores interação e relacionamento com os visitantes. O CIAB FEBRABAN é o local ideal para apresentar e conhecer os lançamentos de produtos e soluções, além das últimas tendências do setor. Aproveite esta oportunidade e garanta já o espaço da sua empresa.</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
@@ -1684,7 +1684,7 @@
         <source>Expositores</source>
         <target state="final">Expositores</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">50</context>
         </context-group>
       </trans-unit>
@@ -1692,7 +1692,7 @@
         <source>Venha visitar</source>
         <target state="final">Venha visitar</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">82</context>
         </context-group>
       </trans-unit>
@@ -1700,7 +1700,7 @@
         <source>Faça já o seu cadastro online, ou diretamente no Transamerica Expo Center - Área credenciamento de visitantes.</source>
         <target state="final">Faça já o seu cadastro online, ou diretamente no Transamerica Expo Center - Área credenciamento de visitantes.</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">83</context>
         </context-group>
       </trans-unit>
@@ -1708,7 +1708,7 @@
         <source>Custo e regras de acesso à exposição</source>
         <target state="final">Custo e regras de acesso à exposição</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">85</context>
         </context-group>
       </trans-unit>
@@ -1716,7 +1716,7 @@
         <source>A participação no CIAB FEBRABAN 2018 terá um custo de <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>R$ 350,00 por participante<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>, dando acesso exclusivo à área de Exposição durante os três dias de realização do evento.</source>
         <target state="final">A participação no CIAB FEBRABAN 2018 terá um custo de <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>R$ 350,00 por participante<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>, dando acesso exclusivo à área de Exposição durante os três dias de realização do evento.</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">86</context>
         </context-group>
       </trans-unit>
@@ -1724,7 +1724,7 @@
         <source>Os convidados dos Expositores e Patrocinadores são isentos do pagamento, desde que tenham recebido o convite eletrônico, pessoal e intransferível, para inscrição online.</source>
         <target state="final">Os convidados dos Expositores e Patrocinadores são isentos do pagamento, desde que tenham recebido o convite eletrônico, pessoal e intransferível, para inscrição online.</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">87</context>
         </context-group>
       </trans-unit>
@@ -1732,7 +1732,7 @@
         <source>Os associados da FEBRABAN, bem como os apoiadores e parceiros estratégicos do evento, também são isentos de pagamento. Caso não tenham recebido o convite, solicitamos entrar em contato pelo e-mail <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>eventos@febraban.org.br<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/> para solicitá-lo.</source>
         <target state="final">Os associados da FEBRABAN, bem como os apoiadores e parceiros estratégicos do evento, também são isentos de pagamento. Caso não tenham recebido o convite, solicitamos entrar em contato pelo e-mail <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>eventos@febraban.org.br<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/> para solicitá-lo.</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">88</context>
         </context-group>
       </trans-unit>
@@ -1740,7 +1740,7 @@
         <source>Todos visitantes da Exposição terão direito a assistir 01 (uma) palestra do Congresso, <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i>"/>exceto no Auditório FEBRABAN<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i>"/>, conforme disponibilidade.</source>
         <target state="final">Todos visitantes da Exposição terão direito a assistir 01 (uma) palestra do Congresso, <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i>"/>exceto no Auditório FEBRABAN<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i>"/>, conforme disponibilidade.</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">89</context>
         </context-group>
       </trans-unit>
@@ -1748,7 +1748,7 @@
         <source>Faça parte!</source>
         <target state="final">Faça parte!</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposicao.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/containers/exposicao/exposure.component.html</context>
           <context context-type="linenumber">90</context>
         </context-group>
       </trans-unit>
