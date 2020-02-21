@@ -37,6 +37,7 @@ import { GalleryNavComponent } from './components/gallery/gallery-nav.component'
 import { BannerSponsorExhibitComponent } from './components/banner-sponsor-exhibit/banner-sponsor-exhibit.component';
 import { ModalPhotosComponent } from './components/modal-photos/modal-photos.component';
 import { RegisterFormComponent } from './components/register-form/register-form.component';
+import { PageHeaderMenuComponent } from './components/page-header-menu/page-header-menu.component';
 
 @NgModule({
   declarations: [
@@ -68,7 +69,8 @@ import { RegisterFormComponent } from './components/register-form/register-form.
     BannerSponsorExhibitComponent,
     ModalPhotosComponent,
     RegisterFormComponent,
-    SubscriptionComponent
+    SubscriptionComponent,
+    PageHeaderMenuComponent
   ],
   imports: [
     CommonModule,

@@ -1,53 +1,6 @@
 <div class="app-page-header">
   <div class="container">
-    <div class="text-white text-center">
-      <ng-content></ng-content>
-    </div>
-    <div class="app-page-header-menu">
-      <div class="app-page-header-info">
-        <p class="app-page-header-info-title mb-2" i18n>Quando e onde</p>
-        <div ngbDropdown class="d-inline-block">
-          <button class="btn btn-light" id="dropdownBasic1" ngbDropdownToggle>
-            <p class="app-page-header-info-text app-page-header-info-text-icon app-page-header-info-text-icon-calendar mb-1" i18n>23 a 25 de junho de 2020</p>
-            <p class="app-page-header-info-text app-page-header-info-text-icon app-page-header-info-text-icon-marker mb-0">Transamerica Expo Center, São Paulo</p>
-          </button>
-          <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
-            <a
-              ngbDropdownItem
-              href="https://calendar.google.com/calendar/r/eventedit/copy/NmhtYXFrMjhlbGk0c2V1YzYyM2wxMHJuNW4gZmVicmFiYW4uZXZlbnRvc0Bt/dGlhZ28uYXJpb2xpQG1lZ2FsZWlvcy5jb20?sf=true"
-              target="_blank"
-              class="dropdown-item-google">
-              Google Calendar
-            </a>
-            <a
-              ngbDropdownItem
-              href="assets/files/ciab-febraban-2020.ics"
-              download
-              class="dropdown-item-outlook">
-              Microsoft Outlook
-            </a>
-            <a
-              ngbDropdownItem
-              href="assets/files/ciab-febraban-2020.ics"
-              download
-              class="dropdown-item-apple">
-              Apple Calendar
-            </a>
-          </div>
-        </div>
-      </div>
-      <button (click)="openRegisterForm()">
-        <div class="app-page-header-menu-bar app-page-header-menu-bar-red"></div>
-        <p class="app-page-header-menu-text app-page-header-menu-text-red" i18n>Cadastre-se</p>
-      </button>
-      <button (click)="redirectTo('patrocinar-expor')">
-        <div class="app-page-header-menu-bar app-page-header-menu-bar-green"></div>
-        <p class="app-page-header-menu-text app-page-header-menu-text-green" i18n>Patrocinar/expor</p>
-      </button>
-      <button (click)="redirectTo('inscricao')">
-        <div class="app-page-header-menu-bar app-page-header-menu-bar-blue"></div>
-        <p class="app-page-header-menu-text app-page-header-menu-text-blue" i18n>Inscrição</p>
-      </button>
-    </div>
+    <ng-content select="h1"></ng-content>
+    <ng-content select="app-page-header-menu"></ng-content>
   </div>
 </div>
