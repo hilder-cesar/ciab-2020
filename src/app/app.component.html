@@ -148,12 +148,12 @@
           <p class="mb-0" i18n>O CIAB FEBRABAN é o ponto de encontro para ficar por dentro dos assuntos mais importantes sobre tecnologias disruptivas e as transformações digitais, e uma oportunidade única para ampliar relacionamentos e parcerias.</p>
         </div>
         <div class="col-12 col-xl-auto">
-          <button type="button" class="ciab-button ciab-button-red" i18n>Cadastre-se</button>
+          <button type="button" class="ciab-button ciab-button-red" (click)="openModalRegisterForm()" i18n>Cadastre-se</button>
         </div>
       </div>
     </div>
     <p class="text-center mt-3 mb-0" i18n>
-      © FEBRABAN - Federação Brasileira de Bancos - 2017 - Todos os direitos reservados | <span class="ciab-link-fake">Termos de uso</span> | <span class="ciab-link-fake">Política de privacidade</span>
+      © FEBRABAN - Federação Brasileira de Bancos - 2017 - Todos os direitos reservados | <span class="ciab-link-fake" (click)="openModalTermsUse()">Termos de uso</span> | <span class="ciab-link-fake" (click)="openModalPrivacyPolicy()">Política de privacidade</span>
     </p>
   </div>
 </footer>
