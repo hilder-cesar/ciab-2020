@@ -1,0 +1,43 @@
+<form [formGroup]="scheduleForm">
+  <div class="form-row align-items-end">
+    <div class="col-lg-3">
+      <div class="form-group mb-lg-0">
+        <label for="theme">Tema</label>
+        <select id="theme" class="form-control" formControlName="theme">
+          <option
+            [ngValue]="item.id"
+            *ngFor="let item of themeList">
+            {{ item.theme }}
+          </option>
+        </select>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="form-group mb-lg-0">
+        <label for="place">Auditório</label>
+        <select id="place" class="form-control" formControlName="place">
+          <option
+            [ngValue]="item.id"
+            *ngFor="let item of placeList">
+            {{ item.place }}
+          </option>
+        </select>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="form-group mb-lg-0">
+        <label for="stamp">Selos</label>
+        <select id="stamp" class="form-control" formControlName="stamp">
+          <option
+            [ngValue]="item.id"
+            *ngFor="let item of stampList">
+            {{ item.stamp }}
+          </option>
+        </select>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <button type="button" class="ciab-button ciab-button-blue-dark">Baixar programação</button>
+    </div>
+  </div>
+</form>

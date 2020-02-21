@@ -63,8 +63,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="40e21595405de5d2ceac1097c27be471fa1a017f" datatype="html">
-        <source>Inscrições</source>
-        <target state="final">Inscrições</target>
+        <source>Inscrição</source>
+        <target state="final">Inscrição</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">36</context>

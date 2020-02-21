@@ -1,1 +1,51 @@
-<p>schedule works!</p>
+<app-page-header>
+  <h1 i18n>Programação</h1>
+</app-page-header>
+<div class="ciab-section ciab-section-gray">
+  <div class="container">
+    <div class="ciab-box ciab-box-blue-light">
+      <app-schedule-form
+        (scheduleFormChange)="handleScheduleFormChange($event)">
+      </app-schedule-form>
+    </div>
+    <div class="ciab-box ciab-box-white mt-3 mt-lg-5" *ngFor="let item of eventList">
+      <div class="row">
+        <div class="col-lg-4 mb-3 mb-lg-0">
+          <p class="ciab-text-highlight ciab-text-color-blue-light ciab-text-icon-clock">{{ item.hora_Inicio }} - {{ item.hora_Fim }}</p>
+          <div class="ciab-box ciab-box-gray ciab-box-event-info">
+            <p class="ciab-text-icon-marker-blue-light">{{ item.local1 }}</p>
+          </div>
+        </div>
+        <div class="col-lg-8 ciab-box-event-content">
+          <p class="ciab-text-highlight ciab-text-color-blue-dark">{{ item.titulo1 }}</p>
+          <p>{{ item.resumo1 }}</p>
+          <p *ngFor="let item of item.palestrantes">
+            <b class="ciab-text-color-blue-light" *ngIf="item.idStatus === 'Moderador'">Moderador: </b>
+            <b>{{ item.nome }}</b> - {{ item.cargo_Empresa1 }}
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="ciab-box ciab-box-blue-light mt-3 mt-lg-5">
+      <app-schedule-speakers-form
+        (scheduleSpeakersFormChange)="handleScheduleSpeakersFormChange($event)">
+      </app-schedule-speakers-form>
+    </div>
+    <div class="ciab-box ciab-box-white mt-3 mt-lg-5" *ngFor="let item of speakerList">
+      <div class="row">
+        <div class="col-lg-4 mb-3 mb-lg-0">
+          <img src="https://img.febraban.org.br/Palestrantes/{{ item.profilePicture_small }}" [alt]="item.name" [title]="item.name">
+        </div>
+        <div class="col-lg-8 ciab-box-speaker-content">
+          <p class="ciab-text-highlight ciab-text-color-blue-dark">{{ item.name }}</p>
+          <p>{{ item.miniCV }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="ciab-section">
+  <div class="container text-center">
+    <app-sponsors></app-sponsors>
+  </div>
+</div>

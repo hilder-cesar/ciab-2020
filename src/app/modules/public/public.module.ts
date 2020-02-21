@@ -39,6 +39,8 @@ import { ModalPhotosComponent } from './components/modal-photos/modal-photos.com
 import { ModalRegisterFormComponent } from './components/modal-register-form/modal-register-form.component';
 import { ModalTermsUseComponent } from './components/modal-terms-use/modal-terms-use.component';
 import { ModalPrivacyPolicyComponent } from './components/modal-privacy-policy/modal-privacy-policy.component';
+import { ScheduleFormComponent } from './components/schedule-form/schedule-form.component';
+import { ScheduleSpeakersFormComponent } from './components/schedule-speakers-form/schedule-speakers-form.component';
 
 @NgModule({
   declarations: [
@@ -71,7 +73,9 @@ import { ModalPrivacyPolicyComponent } from './components/modal-privacy-policy/m
     ModalPhotosComponent,
     ModalRegisterFormComponent,
     ModalTermsUseComponent,
-    ModalPrivacyPolicyComponent
+    ModalPrivacyPolicyComponent,
+    ScheduleFormComponent,
+    ScheduleSpeakersFormComponent
   ],
   imports: [
     CommonModule,

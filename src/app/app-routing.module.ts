@@ -10,8 +10,9 @@ import { FintechComponent } from './modules/public/containers/fintech/fintech.co
 import { InformationsComponent } from './modules/public/containers/informations/informations.component';
 import { PublicationsComponent } from './modules/public/containers/publications/publications.component';
 import { PressComponent } from './modules/public/containers/press/press.component';
-import { SponsorExhibitComponent } from './modules/public/containers/sponsor-exhibit/sponsor-exhibit.component';
 import { KeynoteSpeakersComponent } from './modules/public/containers/keynote-speakers/keynote-speakers.component';
+import { ScheduleComponent } from './modules/public/containers/schedule/schedule.component';
+import { SponsorExhibitComponent } from './modules/public/containers/sponsor-exhibit/sponsor-exhibit.component';
 import { SubscriptionComponent } from './modules/public/containers/subscription/subscription.component';
 
 const routes: Routes = [
@@ -25,6 +26,7 @@ const routes: Routes = [
   { path: 'imprensa', component: PressComponent },
   { path: 'patrocinar-expor', component: SponsorExhibitComponent },
   { path: 'keynote-speakers', component: KeynoteSpeakersComponent },
+  { path: 'programacao', component: ScheduleComponent },
   { path: 'inscricao', component: SubscriptionComponent },
   { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
