@@ -1,3 +1,159 @@
-<app-header></app-header>
+<header class="header" [ngClass]="headerClass">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-xl-auto">
+        <div class="row align-items-center">
+          <div class="col">
+            <img
+              src="assets/images/shared/logo-ciab-febraban-2020-white.svg"
+              alt="CIAB FEBRABAN 2020"
+              title="CIAB FEBRABAN 2020"
+              class="logo"
+              i18n-alt
+              i18n-title
+              routerLink="/">
+          </div>
+          <div class="col-auto text-right ciab-button-icon-nav-container">
+            <button class="btn ciab-button-icon ciab-button-icon-nav" (click)="toggleNav()" #navButtonToggle></button>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-auto mt-3 mt-xl-0" [ngClass]="{ 'nav-hide' : navVisible === false }">
+        <div class="row nav-mobile-overflow">
+          <div class="col-xl-auto mb-3 mb-xl-0">
+            <nav class="nav">
+              <ul>
+                <li class="nav-item" routerLink="ciab" routerLinkActive="active">
+                  <ng-container i18n>O CIAB</ng-container>
+                  <ul>
+                    <li routerLink="ciab" fragment="sobre-o-ciab" i18n>Sobre o CIAB</li>
+                    <li routerLink="ciab" fragment="febraban">FEBRABAN</li>
+                  </ul>
+                </li>
+                <li class="nav-item" routerLink="congresso" routerLinkActive="active">
+                  <ng-container i18n>Congresso</ng-container>
+                  <ul>
+                    <li routerLink="congresso" fragment="inscricoes" i18n>Inscrições</li>
+                    <li routerLink="congresso" fragment="o-congresso" i18n>O congresso</li>
+                    <li routerLink="congresso" fragment="keynote-speakers">Keynote Speakers</li>
+                    <li routerLink="congresso" fragment="programacao-palestrantes" i18n>Programação</li>
+                    <li routerLink="congresso" fragment="programacao-palestrantes" i18n>Palestrantes</li>
+                  </ul>
+                </li>
+                <li class="nav-item" routerLink="exposicao" routerLinkActive="active">
+                  <ng-container i18n>Exposição</ng-container>
+                  <ul>
+                    <li routerLink="exposicao" fragment="a-exposicao" i18n>A exposição</li>
+                    <li routerLink="exposicao" fragment="mapa-e-expositores" i18n>Mapa e expositores</li>
+                    <li routerLink="exposicao" fragment="quero-visitar" i18n>Quero visitar</li>
+                    <li routerLink="patrocinar-expor" i18n>Patrocinar/Expor</li>
+                  </ul>
+                </li>
+                <li class="nav-item" routerLink="fintech" routerLinkActive="active">
+                  Fintech
+                  <ul>
+                    <li routerLink="fintech" fragment="fintech-lounge" i18n>Fintech Lounge</li>
+                    <li routerLink="fintech" fragment="competicao" i18n>Competição</li>
+                    <li routerLink="fintech" fragment="resultados" i18n>Resultados</li>
+                  </ul>
+                </li>
+                <li class="nav-item" routerLink="informacoes" routerLinkActive="active">
+                  <ng-container i18n>Informações</ng-container>
+                  <ul>
+                    <li routerLink="informacoes" fragment="data-e-localizacao" i18n>Data e localização</li>
+                    <li routerLink="informacoes" fragment="como-chegar" i18n>Como chegar</li>
+                    <li routerLink="informacoes" fragment="visitantes-estrangeiros" i18n>Visitantes estrangeiros</li>
+                  </ul>
+                </li>
+                <li class="nav-item" routerLink="publicacoes" routerLinkActive="active">
+                  <ng-container i18n>Publicações</ng-container>
+                  <ul>
+                    <li routerLink="publicacoes" fragment="revista-ciab-febraban" i18n>Revista CIAB FEBRABAN</li>
+                    <li routerLink="publicacoes" fragment="pesquisa-febraban" i18n>Pesquisa FEBRABAN</li>
+                    <li routerLink="publicacoes" fragment="quero-anunciar" i18n>Quero anunciar</li>
+                  </ul>
+                </li>
+                <li class="nav-item" routerLink="imprensa" routerLinkActive="active">
+                  <ng-container i18n>Imprensa</ng-container>
+                  <ul>
+                    <li routerLink="imprensa" fragment="assessoria-de-imprensa" i18n>Assessoria de imprensa</li>
+                    <li routerLink="imprensa" fragment="noticias" i18n>Notícias</li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-xl-auto mb-3 mb-xl-0">
+            <a href="https://www.facebook.com/noomisoficial/" target="_blank" class="btn ciab-button-icon ciab-button-icon-facebook"></a>
+            <a href="https://twitter.com/NOOMISOFICIAL/" target="_blank" class="btn ciab-button-icon ciab-button-icon-twitter"></a>
+            <a href="https://www.linkedin.com/showcase/noomis-ciab-febraban/" target="_blank" class="btn ciab-button-icon ciab-button-icon-linkedin"></a>
+          </div>
+          <div class="col-xl-auto">
+            <button class="btn btn-lang">EN</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
 <router-outlet></router-outlet>
-<app-footer></app-footer>
+<footer class="ciab-section ciab-section-gray">
+  <div class="container">
+    <div class="row mb-3">
+      <div class="col-md-4 mb-3 mb-md-0">
+        <img
+          class="app-footer-logo"
+          src="assets/images/shared/logo-ciab-febraban-2020-black.svg"
+          alt="CIAB FEBRABAN 2020"
+          title="CIAB FEBRABAN 2020"
+          i18n-alt
+          i18n-title>
+        <p i18n>
+          23 a 25 de junho de 2020<br>
+          Transamerica Expo Center, São Paulo<br>
+          10h às 19h
+        </p>
+        <div>
+          <a href="https://www.facebook.com/noomisoficial/" target="_blank" class="btn ciab-button-icon ciab-button-icon-facebook-black"></a>
+          <a href="https://twitter.com/NOOMISOFICIAL/" target="_blank" class="btn ciab-button-icon ciab-button-icon-twitter-black"></a>
+          <a href="https://www.linkedin.com/showcase/noomis-ciab-febraban/" target="_blank" class="btn ciab-button-icon ciab-button-icon-linkedin-black"></a>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3 mb-md-0">
+        <h3 i18n>Quer patrocinar/expor?</h3>
+        <p i18n>Participe e fique frente a frente com os melhores especialistas de tecnologia e do setor financeiro.</p>
+        <button class="app-know-more" routerLink="patrocinar-expor" i18n>Saiba mais</button>
+      </div>
+      <div class="col-md-4">
+        <h3 i18n>Contato</h3>
+        <p i18n>
+          (+55 11) 3244-9897 ou (+55 11) 3244-9838<br>
+          comercial.ciab@febraban.org.br
+        </p>
+        <p i18n>
+          Diretoria de Eventos da FEBRABAN<br>
+          (+55 11) 3244-9860<br>
+          eventos@febraban.org.br
+        </p>
+        <p class="mb-0" i18n>
+          (+55 11) 3244-9831<br>
+          imprensa@febraban.org.br
+        </p>
+      </div>
+    </div>
+    <div class="app-footer-register-box">
+      <div class="row align-items-center">
+        <div class="col-12 col-xl mb-3 mb-xl-0">
+          <h3 i18n>Cadastre-se e receba as novidades do evento</h3>
+          <p class="mb-0" i18n>O CIAB FEBRABAN é o ponto de encontro para ficar por dentro dos assuntos mais importantes sobre tecnologias disruptivas e as transformações digitais, e uma oportunidade única para ampliar relacionamentos e parcerias.</p>
+        </div>
+        <div class="col-12 col-xl-auto">
+          <button type="button" class="ciab-button ciab-button-red" i18n>Cadastre-se</button>
+        </div>
+      </div>
+    </div>
+    <p class="text-center mt-3 mb-0" i18n>
+      © FEBRABAN - Federação Brasileira de Bancos - 2017 - Todos os direitos reservados | <span class="ciab-link-fake">Termos de uso</span> | <span class="ciab-link-fake">Política de privacidade</span>
+    </p>
+  </div>
+</footer>

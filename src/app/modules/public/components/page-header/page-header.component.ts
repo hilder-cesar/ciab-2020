@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
-import { RegisterFormComponent } from './../../components/register-form/register-form.component';
+import { ModalRegisterFormComponent } from './../../components/modal-register-form/modal-register-form.component';
 
 @Component({
   selector: 'app-page-header',
@@ -20,7 +20,7 @@ export class PageHeaderComponent {
   }
 
   openRegisterForm() {
-    this.ngbModal.open(RegisterFormComponent, { size: 'lg', centered: true })
+    this.ngbModal.open(ModalRegisterFormComponent, { size: 'lg', centered: true })
       .result
         .then((result: any) => {
           console.log('result', result);

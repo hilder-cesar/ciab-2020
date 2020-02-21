@@ -349,7 +349,7 @@
           <context context-type="linenumber">68</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/components/register-form/register-form.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/modal-register-form/modal-register-form.component.html</context>
           <context context-type="linenumber">9</context>
         </context-group>
         <context-group purpose="location">
@@ -2393,7 +2393,7 @@
           <context context-type="linenumber">63</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/components/register-form/register-form.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/modal-register-form/modal-register-form.component.html</context>
           <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
@@ -2404,7 +2404,7 @@
           <context context-type="linenumber">69</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/components/register-form/register-form.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/modal-register-form/modal-register-form.component.html</context>
           <context context-type="linenumber">10</context>
         </context-group>
       </trans-unit>
@@ -2415,7 +2415,7 @@
           <context context-type="linenumber">72</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/components/register-form/register-form.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/modal-register-form/modal-register-form.component.html</context>
           <context context-type="linenumber">13</context>
         </context-group>
         <context-group purpose="location">
@@ -2430,7 +2430,7 @@
           <context context-type="linenumber">76</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/components/register-form/register-form.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/modal-register-form/modal-register-form.component.html</context>
           <context context-type="linenumber">17</context>
         </context-group>
         <context-group purpose="location">
@@ -2445,7 +2445,7 @@
           <context context-type="linenumber">79</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/components/register-form/register-form.component.html</context>
+          <context context-type="sourcefile">src/app/modules/public/components/modal-register-form/modal-register-form.component.html</context>
           <context context-type="linenumber">20</context>
         </context-group>
       </trans-unit>

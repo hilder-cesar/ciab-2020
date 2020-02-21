@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
-import { RegisterFormComponent } from './../../components/register-form/register-form.component';
+import { ModalRegisterFormComponent } from './../../components/modal-register-form/modal-register-form.component';
 
 @Component({
   selector: 'app-page-header-menu',
@@ -20,7 +20,7 @@ export class PageHeaderMenuComponent {
   }
 
   openRegisterForm() {
-    this.ngbModal.open(RegisterFormComponent, {
+    this.ngbModal.open(ModalRegisterFormComponent, {
       size: 'lg',
       centered: true
     })

@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 
 @Component({
-  selector: 'app-register-form',
-  templateUrl: './register-form.component.html',
-  styleUrls: ['./register-form.component.sass']
+  selector: 'app-modal-register-form',
+  templateUrl: './modal-register-form.component.html',
+  styleUrls: ['./modal-register-form.component.sass']
 })
-export class RegisterFormComponent {
+export class ModalRegisterFormComponent {
 
   registerForm: FormGroup;
 

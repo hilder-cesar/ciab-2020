@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 
 // modules
 import { PublicModule } from './modules/public/public.module';
+import { ReactiveFormsModule } from '@angular/forms';
+import { SharedModule } from './modules/shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,9 @@ import { PublicModule } from './modules/public/public.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ReactiveFormsModule,
     // modules
+    SharedModule,
     PublicModule
   ],
   providers: [],

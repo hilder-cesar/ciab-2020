@@ -27,8 +27,6 @@ import { SliderNavComponent } from './components/slider/slider-nav.component';
 import { ModalVideoComponent } from './components/modal-video/modal-video.component';
 import { PageHeaderComponent } from './components/page-header/page-header.component';
 import { SponsorExhibitFormComponent } from './components/sponsor-exhibit-form/sponsor-exhibit-form.component';
-import { HeaderComponent } from './components/header/header.component';
-import { FooterComponent } from './components/footer/footer.component';
 import { KeynoteSpeakerComponent } from './components/keynote-speaker/keynote-speaker.component';
 import { KeynoteSpeakerModalComponent } from './components/keynote-speaker-modal/keynote-speaker-modal.component';
 import { SponsorsComponent } from './components/sponsors/sponsors.component';
@@ -36,8 +34,10 @@ import { GalleryComponent } from './components/gallery/gallery.component';
 import { GalleryNavComponent } from './components/gallery/gallery-nav.component';
 import { BannerSponsorExhibitComponent } from './components/banner-sponsor-exhibit/banner-sponsor-exhibit.component';
 import { ModalPhotosComponent } from './components/modal-photos/modal-photos.component';
-import { RegisterFormComponent } from './components/register-form/register-form.component';
+import { ModalRegisterFormComponent } from './components/modal-register-form/modal-register-form.component';
 import { PageHeaderMenuComponent } from './components/page-header-menu/page-header-menu.component';
+import { ModalTermsUseComponent } from './components/modal-terms-use/modal-terms-use.component';
+import { ModalPrivacyPolicyComponent } from './components/modal-privacy-policy/modal-privacy-policy.component';
 
 @NgModule({
   declarations: [
@@ -58,8 +58,6 @@ import { PageHeaderMenuComponent } from './components/page-header-menu/page-head
     PageHeaderComponent,
     SponsorExhibitFormComponent,
     KeynoteSpeakersComponent,
-    HeaderComponent,
-    FooterComponent,
     KeynoteSpeakersComponent,
     KeynoteSpeakerComponent,
     KeynoteSpeakerModalComponent,
@@ -68,9 +66,11 @@ import { PageHeaderMenuComponent } from './components/page-header-menu/page-head
     GalleryNavComponent,
     BannerSponsorExhibitComponent,
     ModalPhotosComponent,
-    RegisterFormComponent,
+    ModalRegisterFormComponent,
     SubscriptionComponent,
-    PageHeaderMenuComponent
+    PageHeaderMenuComponent,
+    ModalTermsUseComponent,
+    ModalPrivacyPolicyComponent
   ],
   imports: [
     CommonModule,
@@ -93,10 +93,7 @@ import { PageHeaderMenuComponent } from './components/page-header-menu/page-head
     PressComponent,
     SponsorExhibitComponent,
     KeynoteSpeakersComponent,
-    SubscriptionComponent,
-    // components
-    HeaderComponent,
-    FooterComponent
+    SubscriptionComponent
   ]
 })
 export class PublicModule { }

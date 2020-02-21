@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HeaderComponent } from './header.component';
+import { ModalPrivacyPolicyComponent } from './modal-privacy-policy.component';
 
-describe('HeaderComponent', () => {
-  let component: HeaderComponent;
-  let fixture: ComponentFixture<HeaderComponent>;
+describe('ModalPrivacyPolicyComponent', () => {
+  let component: ModalPrivacyPolicyComponent;
+  let fixture: ComponentFixture<ModalPrivacyPolicyComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ HeaderComponent ]
+      declarations: [ ModalPrivacyPolicyComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HeaderComponent);
+    fixture = TestBed.createComponent(ModalPrivacyPolicyComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
