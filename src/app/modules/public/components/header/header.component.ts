@@ -15,8 +15,9 @@ export class HeaderComponent implements AfterViewInit {
   @ViewChild('navButtonToggle', { static: true })
   navButtonToggle: ElementRef;
 
-  constructor(private router: Router) {
-  }
+  constructor(
+    private router: Router
+  ) { }
 
   ngAfterViewInit(): void {
     const $windowResize = fromEvent(window, 'resize');
@@ -30,6 +31,11 @@ export class HeaderComponent implements AfterViewInit {
           this.headerClass = this.navVisible || window.scrollY > 0 ? 'header-background-color' : '';
         }
       });
+  }
+
+  isRoute(route: string): boolean {
+    const regExp = new RegExp(`^${route}`);
+    return regExp.test(this.router.url);
   }
 
   redirectTo(event: any, route: string, fragment?: string): void {
