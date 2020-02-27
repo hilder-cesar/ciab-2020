@@ -30,7 +30,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
     }
 
     .ciab-button-icon-previous {
-      background-image: url('assets/images/icons/angle-down-solid-white.svg');
+      background-image: url('../assets/images/icons/angle-down-solid-white.svg');
       background-size: 20px;
       margin-bottom: 8px;
       transform: rotate(180deg)
@@ -59,7 +59,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
     }
 
     .ciab-button-icon-next {
-      background-image: url('assets/images/icons/angle-down-solid-white.svg');
+      background-image: url('../assets/images/icons/angle-down-solid-white.svg');
       background-size: 20px;
       margin-top: 8px;
     }

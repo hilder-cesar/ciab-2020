@@ -1,4 +1,5 @@
 import { Component, OnInit, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
+import { GenericService } from './services/generic/generic.service';
 import { Router, Scroll } from '@angular/router';
 import { ViewportScroller } from '@angular/common';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
@@ -22,6 +23,7 @@ export class AppComponent implements OnInit, AfterViewInit {
   navButtonToggle: ElementRef;
 
   constructor(
+    private genericService: GenericService,
     private router: Router,
     viewportScroller: ViewportScroller,
     private modalService: NgbModal
@@ -37,6 +39,14 @@ export class AppComponent implements OnInit, AfterViewInit {
           viewportScroller.scrollToPosition([0, 0]);
         }
       });
+  }
+
+  get buttonLanguageText(): string {
+    return this.genericService.language === 'pt' ? 'EN' : 'PT';
+  }
+
+  get buttonLanguageHref(): string {
+    return this.genericService.language === 'pt' ? '../en' : '../pt';
   }
 
   ngOnInit(): void {
@@ -78,10 +88,6 @@ export class AppComponent implements OnInit, AfterViewInit {
 
   openModalPrivacyPolicy(): void {
     this.modalService.open(ModalPrivacyPolicyComponent, { size: 'lg', centered: true });
-  }
-
-  toggleLanguage(): void {
-    console.log(this.router.url);
   }
 
 }

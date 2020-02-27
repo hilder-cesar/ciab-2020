@@ -5,7 +5,7 @@
         <div class="row align-items-center">
           <div class="col">
             <img
-              src="assets/images/shared/logo-ciab-febraban-2020-white.svg"
+              src="../assets/images/shared/logo-ciab-febraban-2020-white.svg"
               alt="CIAB FEBRABAN 2020"
               title="CIAB FEBRABAN 2020"
               class="logo"
@@ -89,7 +89,7 @@
             <a href="https://www.linkedin.com/showcase/noomis-ciab-febraban/" target="_blank" class="btn ciab-button-icon ciab-button-icon-linkedin"></a>
           </div>
           <div class="col-xl-auto">
-            <button class="btn btn-lang" (click)="toggleLanguage()">EN</button>
+            <a [href]="buttonLanguageHref" class="btn btn-lang">{{ buttonLanguageText }}</a>
           </div>
         </div>
       </div>
@@ -103,7 +103,7 @@
       <div class="col-md-4 mb-3 mb-md-0">
         <img
           class="app-footer-logo"
-          src="assets/images/shared/logo-ciab-febraban-2020-black.svg"
+          src="../assets/images/shared/logo-ciab-febraban-2020-black.svg"
           alt="CIAB FEBRABAN 2020"
           title="CIAB FEBRABAN 2020"
           i18n-alt
