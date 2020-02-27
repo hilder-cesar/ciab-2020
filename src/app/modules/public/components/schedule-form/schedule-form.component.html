@@ -5,7 +5,7 @@
         <label for="theme">Tema</label>
         <select id="theme" class="form-control" formControlName="theme">
           <option
-            [ngValue]="item.id"
+            [ngValue]="item.theme"
             *ngFor="let item of themeList">
             {{ item.theme }}
           </option>
@@ -17,7 +17,7 @@
         <label for="place">Auditório</label>
         <select id="place" class="form-control" formControlName="place">
           <option
-            [ngValue]="item.id"
+            [ngValue]="item.place"
             *ngFor="let item of placeList">
             {{ item.place }}
           </option>

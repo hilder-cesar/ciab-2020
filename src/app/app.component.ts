@@ -22,11 +22,11 @@ export class AppComponent implements OnInit, AfterViewInit {
   navButtonToggle: ElementRef;
 
   constructor(
-    router: Router,
+    private router: Router,
     viewportScroller: ViewportScroller,
     private modalService: NgbModal
   ) {
-    router.events
+    this.router.events
       .pipe(filter((event: Scroll) => event instanceof Scroll))
       .subscribe(event => {
         if (event.position) {
@@ -78,6 +78,10 @@ export class AppComponent implements OnInit, AfterViewInit {
 
   openModalPrivacyPolicy(): void {
     this.modalService.open(ModalPrivacyPolicyComponent, { size: 'lg', centered: true });
+  }
+
+  toggleLanguage(): void {
+    console.log(this.router.url);
   }
 
 }

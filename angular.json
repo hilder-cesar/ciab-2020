@@ -32,8 +32,16 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets/",
-              "src/web.config"
+              {
+                "glob": "**/*",
+                "input": "src/assets/",
+                "output": "../assets/"
+              },
+              {
+                "glob": "web.config",
+                "input": "src/",
+                "output": "../"
+              }
             ],
             "styles": [
               "src/styles.sass"
@@ -98,7 +106,13 @@
               ]
             },
             "en": {
-              "localize": ["en"]
+              "localize": ["en"],
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ]
             }
           }
         },

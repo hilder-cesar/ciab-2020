@@ -14,6 +14,18 @@
       },
       
       "problemMatcher": []
+    },
+    {
+      "label": "deploy-build-localize",
+      "type": "shell",
+      "command": "ng build --prod --localize --baseHref /WebCiab/; msdeploy -verb:sync -source:contentPath='${workspaceFolder}/dist/web-ciab-site' -dest:auto,ComputerName='https:\/\/apidev.megaleios.com:8172/msdeploy.axd?site=Apis',UserName='Hilder',Password='mega@123',AuthType='Basic' -setParam:value='Apis/WebCiab',kind=ProviderPath,scope=contentPath -disableLink:AppPoolExtension -disableLink:ContentExtension -disableLink:CertificateExtension -allowUntrusted",
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "showReuseMessage": false
+      },
+      
+      "problemMatcher": []
     }
   ]
 }

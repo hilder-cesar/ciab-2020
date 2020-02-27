@@ -4,11 +4,11 @@ import { GenericService } from 'src/app/services/generic/generic.service';
 import { debounceTime, distinctUntilChanged } from 'rxjs/operators';
 
 const SELECT_ONE_THEME = {
-  id: null, theme: 'Todos'
+  theme: 'Todos'
 };
 
 const SELECT_ONE_PLACE = {
-  id: null, place: 'Todos'
+  place: 'Todos'
 };
 
 const SELECT_ONE_STAMP = {
@@ -36,8 +36,8 @@ export class ScheduleFormComponent implements OnInit {
     private genericService: GenericService
   ) {
     this.scheduleForm = formBuilder.group({
-      theme: [null],
-      place: [null],
+      theme: [SELECT_ONE_THEME.theme],
+      place: [SELECT_ONE_PLACE.place],
       stamp: [null]
     });
   }
@@ -52,7 +52,6 @@ export class ScheduleFormComponent implements OnInit {
     this.scheduleForm.valueChanges
       .pipe(debounceTime(250), distinctUntilChanged())
       .subscribe((value) => this.scheduleFormChange.emit(value));
-
   }
 
 }

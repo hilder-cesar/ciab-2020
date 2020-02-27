@@ -74,7 +74,6 @@ export class ScheduleSpeakersFormComponent implements OnInit {
     this.scheduleSpeakersForm.valueChanges
       .pipe(debounceTime(250), distinctUntilChanged())
       .subscribe((value) => this.scheduleSpeakersFormChange.emit(value));
-
   }
 
 }
