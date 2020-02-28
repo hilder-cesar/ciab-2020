@@ -32,11 +32,18 @@ export class ScheduleComponent implements OnInit {
           } else {
             return item;
           }
-        }))
+        })
+      )
       .subscribe((response: any) => this.eventList = response.data);
 
-    this.genericService.get('Events/GetAllKeyNoteSpeakers')
-      .subscribe((response: any) => this.speakerList = response.data);
+    this.genericService.post('Events/GetSpeakersUsingFilter', {
+      theme: ['Abertura'],
+      name: [''],
+      page: 1,
+      limit: 1,
+      eventId: 92
+    })
+      .subscribe((response: any) => this.speakerList = [response.data[0]]);
 
   }
 
