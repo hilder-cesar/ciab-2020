@@ -6,7 +6,10 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { SharedModule } from './../shared/shared.module';
 import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
-import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
+import { MatButtonModule } from '@angular/material/button';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatSelectModule } from '@angular/material/select';
 
 // containers
 import { HomeComponent } from './containers/home/home.component';
@@ -39,7 +42,7 @@ import { ModalPhotosComponent } from './components/modal-photos/modal-photos.com
 import { ModalRegisterFormComponent } from './components/modal-register-form/modal-register-form.component';
 import { ModalTermsUseComponent } from './components/modal-terms-use/modal-terms-use.component';
 import { ModalPrivacyPolicyComponent } from './components/modal-privacy-policy/modal-privacy-policy.component';
-import { ScheduleFormComponent } from './components/schedule-form/schedule-form.component';
+import { ScheduleEventsFormComponent } from './components/schedule-events-form/schedule-events-form.component';
 import { ScheduleSpeakersFormComponent } from './components/schedule-speakers-form/schedule-speakers-form.component';
 
 @NgModule({
@@ -74,7 +77,7 @@ import { ScheduleSpeakersFormComponent } from './components/schedule-speakers-fo
     ModalRegisterFormComponent,
     ModalTermsUseComponent,
     ModalPrivacyPolicyComponent,
-    ScheduleFormComponent,
+    ScheduleEventsFormComponent,
     ScheduleSpeakersFormComponent
   ],
   imports: [
@@ -84,7 +87,10 @@ import { ScheduleSpeakersFormComponent } from './components/schedule-speakers-fo
     HttpClientModule,
     SharedModule,
     NgbCarouselModule,
-    NgbDropdownModule
+    MatButtonModule,
+    MatMenuModule,
+    MatFormFieldModule,
+    MatSelectModule
   ],
   exports: [
     // containers

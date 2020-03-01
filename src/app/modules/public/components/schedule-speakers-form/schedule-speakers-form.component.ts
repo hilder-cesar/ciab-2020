@@ -1,18 +1,8 @@
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { FormGroup, FormBuilder } from '@angular/forms';
-import { GenericService } from 'src/app/services/generic/generic.service';
 import { debounceTime, distinctUntilChanged } from 'rxjs/operators';
 
-const SELECT_ONE_THEME = {
-  id: null, theme: 'Todos'
-};
-
-const SELECT_ONE_LETTER = {
-  id: null, letter: 'Todas'
-};
-
 const LETTER_LIST = [
-  SELECT_ONE_LETTER,
   { id: 'A', letter: 'A' },
   { id: 'B', letter: 'B' },
   { id: 'C', letter: 'C' },
@@ -48,7 +38,9 @@ const LETTER_LIST = [
 })
 export class ScheduleSpeakersFormComponent implements OnInit {
 
-  themeList: any[] = [SELECT_ONE_THEME];
+  @Input()
+  themeList: any[] = [];
+
   letterList: any[] = LETTER_LIST;
 
   scheduleSpeakersForm: FormGroup;
@@ -57,20 +49,15 @@ export class ScheduleSpeakersFormComponent implements OnInit {
   scheduleSpeakersFormChange: EventEmitter<any> = new EventEmitter();
 
   constructor(
-    formBuilder: FormBuilder,
-    private genericService: GenericService
+    formBuilder: FormBuilder
   ) {
     this.scheduleSpeakersForm = formBuilder.group({
-      theme: [null],
-      place: [null],
-      stamp: [null]
+      themes: [[]],
+      letters: [[]]
     });
   }
 
   ngOnInit(): void {
-    this.genericService.get('Events/GetThemes')
-      .subscribe((response: any) => this.themeList = [SELECT_ONE_THEME, ...response.data]);
-
     this.scheduleSpeakersForm.valueChanges
       .pipe(debounceTime(250), distinctUntilChanged())
       .subscribe((value) => this.scheduleSpeakersFormChange.emit(value));

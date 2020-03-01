@@ -1,28 +1,22 @@
 <form [formGroup]="scheduleSpeakersForm">
-  <div class="form-row align-items-end">
+  <div class="form-row">
     <div class="col-lg-3">
       <div class="form-group mb-lg-0">
-        <label for="theme">Tema</label>
-        <select id="theme" class="form-control" formControlName="theme">
-          <option
-            [ngValue]="item.id"
-            *ngFor="let item of themeList">
-            {{ item.theme }}
-          </option>
-        </select>
+        <mat-form-field appearance="outline">
+          <mat-label>Temas</mat-label>
+          <mat-select formControlName="themes" multiple>
+            <mat-option *ngFor="let theme of themeList" [value]="theme.theme">{{ theme.theme }}</mat-option>
+          </mat-select>
+        </mat-form-field>
       </div>
     </div>
     <div class="col-lg-3">
-      <div class="form-group mb-lg-0">
-        <label for="place">Letra inicial</label>
-        <select id="place" class="form-control" formControlName="place">
-          <option
-            [ngValue]="item.id"
-            *ngFor="let item of letterList">
-            {{ item.letter }}
-          </option>
-        </select>
-      </div>
+      <mat-form-field appearance="outline">
+        <mat-label>Letra inicial</mat-label>
+        <mat-select formControlName="letters" multiple>
+          <mat-option *ngFor="let letter of letterList" [value]="letter.letter">{{ letter.letter }}</mat-option>
+        </mat-select>
+      </mat-form-field>
     </div>
   </div>
 </form>

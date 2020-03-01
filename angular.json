@@ -36,6 +36,7 @@
               "src/web.config"
             ],
             "styles": [
+              "src/custom-theme.scss",
               "src/styles.sass"
             ],
             "scripts": []
@@ -83,7 +84,9 @@
               ]
             },
             "en": {
-              "localize": ["en"],
+              "localize": [
+                "en"
+              ],
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
