@@ -1,6 +1,6 @@
 import { Component, OnInit, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
 import { GenericService } from './services/generic/generic.service';
-import { Router, Scroll } from '@angular/router';
+import { Router, Scroll, NavigationEnd, NavigationStart } from '@angular/router';
 import { ViewportScroller } from '@angular/common';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { filter } from 'rxjs/operators';
@@ -30,7 +30,10 @@ export class AppComponent implements OnInit, AfterViewInit {
   ) {
     this.router.events
       .pipe(filter((event: Scroll) => event instanceof Scroll))
-      .subscribe(event => {
+      .subscribe((event: any) => {
+        if (event.routerEvent instanceof NavigationEnd) {
+          this.navVisible = false;
+        }
         if (event.position) {
           viewportScroller.scrollToPosition(event.position);
         } else if (event.anchor) {
