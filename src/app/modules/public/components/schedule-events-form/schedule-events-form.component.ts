@@ -15,6 +15,9 @@ export class ScheduleEventsFormComponent implements OnInit {
   @Input()
   placeList: any[] = [];
 
+  @Input()
+  sealList: any[] = [];
+
   scheduleEventsForm: FormGroup;
 
   @Output()
@@ -25,7 +28,8 @@ export class ScheduleEventsFormComponent implements OnInit {
   ) {
     this.scheduleEventsForm = formBuilder.group({
       themes: [[]],
-      places: [[]]
+      places: [[]],
+      seals: [[]]
     });
   }
 

@@ -5,71 +5,79 @@
   <div class="container">
     <div class="form-row">
       <div class="col-4">
-        <button class="ciab-schedule-date-button" [class.active]="day === 23" (click)="setDay(23)">
+        <button class="ciab-schedule-date-button" [class.active]="eventsModel.date === '2019-06-11'" (click)="setDate('2019-06-11')">
           <div class="form-row justify-content-center align-items-center">
             <div class="col-auto">
-              <span class="ciab-schedule-date-button-day">23</span>
+              <span class="ciab-schedule-date-button-day">11</span>
             </div>
             <div class="col-auto">
               <span class="ciab-schedule-date-button-month-year">Junho</span>
-              <span class="ciab-schedule-date-button-month-year">2020</span>
+              <span class="ciab-schedule-date-button-month-year">2019</span>
             </div>
           </div>
         </button>
       </div>
       <div class="col-4">
-        <button class="ciab-schedule-date-button" [class.active]="day === 24" (click)="setDay(24)">
+        <button class="ciab-schedule-date-button" [class.active]="eventsModel.date === '2019-06-12'" (click)="setDate('2019-06-12')">
           <div class="form-row justify-content-center align-items-center">
             <div class="col-auto">
-              <span class="ciab-schedule-date-button-day">24</span>
+              <span class="ciab-schedule-date-button-day">12</span>
             </div>
             <div class="col-auto">
               <span class="ciab-schedule-date-button-month-year">Junho</span>
-              <span class="ciab-schedule-date-button-month-year">2020</span>
+              <span class="ciab-schedule-date-button-month-year">2019</span>
             </div>
           </div>
         </button>
       </div>
       <div class="col-4">
-        <button class="ciab-schedule-date-button" [class.active]="day === 25" (click)="setDay(25)">
+        <button class="ciab-schedule-date-button" [class.active]="eventsModel.date === '2019-06-13'" (click)="setDate('2019-06-13')">
           <div class="form-row justify-content-center align-items-center">
             <div class="col-auto">
-              <span class="ciab-schedule-date-button-day">25</span>
+              <span class="ciab-schedule-date-button-day">13</span>
             </div>
             <div class="col-auto">
               <span class="ciab-schedule-date-button-month-year">Junho</span>
-              <span class="ciab-schedule-date-button-month-year">2020</span>
+              <span class="ciab-schedule-date-button-month-year">2019</span>
             </div>
           </div>
         </button>
       </div>
     </div>
-    <!-- <div class="ciab-box ciab-box-blue-light">
+    <div class="ciab-box ciab-box-blue-light my-3">
       <app-schedule-events-form
         [themeList]="themeList"
         [placeList]="placeList"
         (scheduleEventsFormChange)="handlescheduleEventsFormChange($event)">
       </app-schedule-events-form>
     </div>
-    <div class="ciab-box ciab-box-white mt-3 mt-lg-5" *ngFor="let item of eventList">
-      <div class="row">
-        <div class="col-lg-4 mb-3 mb-lg-0">
-          <p class="ciab-text-highlight ciab-text-color-blue-light ciab-text-icon-clock">{{ item.hora_Inicio }} - {{ item.hora_Fim }}</p>
-          <div class="ciab-box ciab-box-gray ciab-box-event-info">
-            <p class="ciab-text-icon-marker-blue-light">{{ item.local1 }}</p>
+    <div class="ciab-schedule-speaker-container">
+      <div class="ciab-schedule-event" *ngFor="let item of eventList">
+        <div class="row">
+          <div class="col-lg-4 mb-3 mb-lg-0">
+            <p class="ciab-schedule-event-time ciab-text-highlight ciab-text-color-blue-light">{{ item.hora_Inicio | date: 'HH:mm' }} - {{ item.hora_Fim | date: 'HH:mm' }}</p>
+            <div class="ciab-schedule-event-info">
+              <p class="ciab-schedule-event-info-place">{{ item.local1 }}</p>
+              <p class="ciab-schedule-event-info-theme">{{ item.subtema }}</p>
+              <p class="ciab-schedule-event-info-stamp">{{ item.selo }}</p>
+            </div>
+          </div>
+          <div class="col-lg-8 ciab-box-event-content">
+            <p class="ciab-text-highlight ciab-text-color-blue-dark">{{ item.titulo1 }}</p>
+            <p>{{ item.resumo1 }}</p>
+            <div class="ciab-schedule-event-speaker-container">
+              <p class="ciab-schedule-event-speaker" *ngFor="let item of item.palestrantes">
+                <b class="ciab-text-color-blue-light" *ngIf="item.idStatus === 'Moderador'">Moderador: </b>
+                <b>{{ item.nome }}</b> - {{ item.cargo_Empresa1 }}
+              </p>
+            </div>
           </div>
         </div>
-        <div class="col-lg-8 ciab-box-event-content">
-          <p class="ciab-text-highlight ciab-text-color-blue-dark">{{ item.titulo1 }}</p>
-          <p>{{ item.resumo1 }}</p>
-          <p *ngFor="let item of item.palestrantes">
-            <b class="ciab-text-color-blue-light" *ngIf="item.idStatus === 'Moderador'">Moderador: </b>
-            <b>{{ item.nome }}</b> - {{ item.cargo_Empresa1 }}
-          </p>
-        </div>
       </div>
-    </div> -->
-
+    </div>
+    <div class="text-center mt-3">
+      <button type="button" class="ciab-button ciab-button-blue-dark" [disabled]="eventsDone" (click)="getEvents(true)">Carregar mais eventos</button>
+    </div>
     <div class="ciab-box ciab-box-blue-light my-3">
       <app-schedule-speakers-form
         [themeList]="themeList"
@@ -98,86 +106,39 @@
             <p class="ciab-schedule-speaker-lecture-title">Palestras</p>
           </div>
         </div>
-        <div class="ciab-schedule-speaker-lecture" *ngFor="let lecture of speaker.lectures">
+        <div class="ciab-schedule-speaker-lecture-date-container" *ngFor="let day of speaker.lecturesByDay | keyvalue">
           <div class="row align-items-center">
             <div class="col-lg-2 mb-3 mb-lg-0">
               <p class="ciab-schedule-speaker-lecture-date text-lg-center">
-                <span class="ciab-schedule-speaker-lecture-day">25</span>
-                <span class="ciab-schedule-speaker-lecture-month">Junho</span>
+                <span class="ciab-schedule-speaker-lecture-day">{{ day.key | date: 'dd' }}</span>
+                <span class="ciab-schedule-speaker-lecture-month">{{ day.key | date: 'MMMM' }}</span>
               </p>
             </div>
             <div class="col-lg-10">
-              <p class="ciab-schedule-speaker-lecture-name">{{ lecture.name }}</p>
-              <div class="ciab-schedule-speaker-lecture-info">
-                <div class="row">
-                  <div class="col-lg-4 mb-3 mb-lg-0">
-                    <p class="ciab-schedule-speaker-lecture-info-time">{{ lecture.startTime }} - {{ lecture.finishTime }}</p>
-                  </div>
-                  <div class="col-lg-4 mb-3 mb-lg-0">
-                    <p class="ciab-schedule-speaker-lecture-info-theme">{{ lecture.theme }}</p>
-                  </div>
-                  <div class="col-lg-4">
-                    <p class="ciab-schedule-speaker-lecture-info-place">{{ lecture.place }}</p>
+              <div class="ciab-schedule-speaker-lecture" *ngFor="let lecture of day.value">
+                <p class="ciab-text-highlight ciab-text-color-blue-dark">{{ lecture.name }}</p>
+                <div class="ciab-schedule-speaker-lecture-info">
+                  <div class="row">
+                    <div class="col-lg-4 mb-3 mb-lg-0">
+                      <p class="ciab-schedule-speaker-lecture-info-time">{{ lecture.startTime | date: 'HH:mm' }} - {{ lecture.finishTime | date: 'HH:mm' }}</p>
+                    </div>
+                    <div class="col-lg-4 mb-3 mb-lg-0">
+                      <p class="ciab-schedule-speaker-lecture-info-theme">{{ lecture.theme }}</p>
+                    </div>
+                    <div class="col-lg-4">
+                      <p class="ciab-schedule-speaker-lecture-info-place">{{ lecture.place }}</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <div class="text-center">
+        <button type="button" class="ciab-button ciab-button-blue-dark" [disabled]="speakersDone" (click)="getSpeakers(true)">Carregar mais palestrantes</button>
       </div>
     </div>
-    <!-- <div class="ciab-box ciab-box-white mt-3 mt-lg-5" *ngFor="let item of speakerList">
-      <div class="row">
-        <div class="col-lg-3 mb-3 mb-lg-0">
-          <img src="https://img.febraban.org.br/Palestrantes/{{ item.profilePicture_small }}" [alt]="item.name" [title]="item.name">
-        </div>
-        <div class="col-lg-9 ciab-box-speaker-content">
-          <div class="form-row">
-            <div class="col">
-              <p class="ciab-text-highlight ciab-text-color-blue-dark mb-0">{{ item.name }}</p>
-              <p class="ciab-text-function">{{ item.function }}</p>
-            </div>
-            <div class="col-lg-auto mb-3 mb-lg-0" *ngIf="item.facebook || item.twitter || item.linkedin">
-              <a [href]="item.facebook" target="_blank" class="btn ciab-button-icon ciab-button-icon-facebook-white" *ngIf="item.facebook"></a>
-              <a [href]="item.twitter" target="_blank" class="btn ciab-button-icon ciab-button-icon-twitter-white" *ngIf="item.twitter"></a>
-              <a [href]="item.linkedin" target="_blank" class="btn ciab-button-icon ciab-button-icon-linkedin-white" *ngIf="item.linkedin"></a>
-            </div>
-          </div>
-          <p>{{ item.miniCV }}</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-9 offset-lg-3">
-          <p class="palestras">Palestras</p>
-        </div>
-      </div>
-      <div class="ciab-speaker-day">
-        <div class="row align-items-center">
-          <div class="col-lg-3">
-            <p class="d-flex justify-content-lg-center align-items-center mb-3 mb-lg-0">
-              <span class="date-day">25</span>
-              <span class="date-month">Junho</span>
-            </p>
-          </div>
-          <div class="col-lg-9">
-            <p class="title-1">Contactless: a expansão dos pagamentos por aproximação no Brasil</p>
-            <div class="ciab-box ciab-box-small ciab-box-gray">
-              <div class="row">
-                <div class="col-lg-4 mb-3 mb-lg-0">
-                  <p class="ciab-text-icon-clock-blue-light mb-0">13:30 - 14:30</p>
-                </div>
-                <div class="col-lg-4 mb-3 mb-lg-0">
-                  <p class="ciab-text-icon-file-blue-light mb-0">Meios de Pagamentos</p>
-                </div>
-                <div class="col-lg-4">
-                  <p class="ciab-text-icon-marker-blue-light mb-0">Auditório A</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
   </div>
 </div>
 <div class="ciab-section">

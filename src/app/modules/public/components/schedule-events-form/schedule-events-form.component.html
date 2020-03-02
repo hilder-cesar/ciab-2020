@@ -1,23 +1,34 @@
 <form [formGroup]="scheduleEventsForm">
-  <div class="form-row align-items-end">
+  <div class="form-row align-items-center">
     <div class="col-lg-3">
-      <mat-form-field appearance="outline">
-        <mat-label>Temas</mat-label>
-        <mat-select formControlName="themes" multiple>
-          <mat-option *ngFor="let theme of themeList" [value]="theme.theme">{{ theme.theme }}</mat-option>
-        </mat-select>
-      </mat-form-field>
+      <div class="form-group">
+        <mat-form-field appearance="outline">
+          <mat-label>Temas</mat-label>
+          <mat-select formControlName="themes" multiple>
+            <mat-option *ngFor="let theme of themeList" [value]="theme.theme">{{ theme.theme }}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
     </div>
     <div class="col-lg-3">
-      <mat-form-field appearance="outline">
-        <mat-label>Auditório</mat-label>
-        <mat-select formControlName="places" multiple>
-          <mat-option *ngFor="let place of placeList" [value]="place.place">{{ place.place }}</mat-option>
-        </mat-select>
-      </mat-form-field>
+      <div class="form-group">
+        <mat-form-field appearance="outline">
+          <mat-label>Auditórios</mat-label>
+          <mat-select formControlName="places" multiple>
+            <mat-option *ngFor="let place of placeList" [value]="place.place">{{ place.place }}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
     </div>
     <div class="col-lg-3">
-      
+      <div class="form-group">
+        <mat-form-field appearance="outline">
+          <mat-label>Selos</mat-label>
+          <mat-select formControlName="seals" multiple>
+            <mat-option *ngFor="let seal of sealList" [value]="seal.seal">{{ seal.seal }}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
     </div>
     <div class="col-lg-3">
       <button type="button" class="ciab-button ciab-button-blue-dark">Baixar programação</button>

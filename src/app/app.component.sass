@@ -3,7 +3,7 @@
 
 .header
   position: fixed
-  z-index: 100
+  z-index: 1001
   top: 0
   left: 0
   min-width: 320px
@@ -28,8 +28,12 @@
   display: none
 
 .nav-mobile-overflow
-  max-height: calc(100vh - 94px)
+  max-height: calc(100vh - 78px)
+  padding-bottom: 16px
   overflow: auto
+  @include MQ(LG)
+    max-height: calc(100vh - 94px)
+    padding-bottom: 0
 
 .nav
   display: block
@@ -46,7 +50,9 @@
       position: relative
       display: block
       cursor: pointer
-      padding: 8px 19px 8px 8px
+      padding: 8px 19px 8px 0px
+      @include MQ(LG)
+        padding-left: 8px
       &:hover
         &::before
           transform: rotate(180deg)

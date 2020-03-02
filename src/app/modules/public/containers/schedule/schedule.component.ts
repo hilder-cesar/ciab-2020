@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { GenericService } from 'src/app/services/generic/generic.service';
 import { map } from 'rxjs/operators';
+import { DateTime } from 'luxon';
+import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
 
 interface Events {
   theme: string[];
@@ -34,25 +36,25 @@ export class ScheduleComponent implements OnInit {
   eventList: any[] = [];
   speakerList: any[] = [];
 
-  day = 23;
-
+  eventsDone = false;
   eventsModel: Events = {
     theme: [],
     place: [],
-    date: '06/11/2019 00:00:00',
+    date: '2019-06-11',
     page: 1,
-    limit: 2,
+    limit: 10,
     eventId: 92,
     lectureId: [],
     speakerId: [],
     seal: []
   };
 
+  speakersDone = false;
   speakersModel: Speakers = {
     theme: [],
     name: [],
     page: 1,
-    limit: 2,
+    limit: 10,
     eventId: 92
   };
 
@@ -70,14 +72,70 @@ export class ScheduleComponent implements OnInit {
       .subscribe((response: any) => this.placeList = response.data);
   }
 
-  private getEvents(): void {
+  getEvents(push?: boolean): void {
+    if (push === true) {
+      this.eventsModel.page++;
+    } else {
+      this.eventsModel.page = 1;
+    }
     this.genericService.post('Events/GetEventUsingFilter', this.eventsModel)
-      .subscribe((response: any) => this.eventList = response.data);
+      .pipe(
+        map((response) => {
+          if (response.data.length % 10 !== 0 || response.data.length === 0) {
+            this.eventsDone = true;
+          }
+          return response.data.map((event) => {
+            event.data = DateTime.fromISO(event.data);
+            // tslint:disable-next-line: max-line-length
+            event.hora_Inicio = DateTime.fromFormat((event.data as DateTime).toFormat('dd/MM/yyyy') + ' ' + event.hora_Inicio, 'dd/MM/yyyy HH:mm:ss');
+            // tslint:disable-next-line: max-line-length
+            event.hora_Fim = DateTime.fromFormat((event.data as DateTime).toFormat('dd/MM/yyyy') + ' ' + event.hora_Fim, 'dd/MM/yyyy HH:mm:ss');
+            return event;
+          });
+        })
+      )
+      .subscribe((data: any) => {
+        this.eventList = push === true ? [...this.eventList, ...data] : data;
+      });
   }
 
-  private getSpeakers(): void {
+  getSpeakers(push?: boolean): void {
+    if (push === true) {
+      this.speakersModel.page++;
+    } else {
+      this.speakersModel.page = 1;
+    }
     this.genericService.post('Events/GetSpeakersUsingFilter', this.speakersModel)
-      .subscribe((response: any) => this.speakerList = response.data);
+      .pipe(
+        map((response) => {
+          if (response.data.length % 10 !== 0 || response.data.length === 0) {
+            this.speakersDone = true;
+          }
+          return response.data.map((speaker) => {
+            speaker.lectures = speaker.lectures.map((lecture) => {
+              lecture.lectureDate = DateTime.fromFormat(lecture.lectureDate, 'dd/MM/yyyy HH:mm:ss');
+              // tslint:disable-next-line: max-line-length
+              lecture.startTime = DateTime.fromFormat((lecture.lectureDate as DateTime).toFormat('dd/MM/yyyy') + ' ' + lecture.startTime, 'dd/MM/yyyy HH:mm:ss');
+              // tslint:disable-next-line: max-line-length
+              lecture.finishTime = DateTime.fromFormat((lecture.lectureDate as DateTime).toFormat('dd/MM/yyyy') + ' ' + lecture.finishTime, 'dd/MM/yyyy HH:mm:ss');
+              return lecture;
+            });
+            speaker.lectures.sort((item, next) => item.lectureDate.ts - next.lectureDate.ts);
+            speaker.lecturesByDay = [];
+            speaker.lectures.forEach((item) => {
+              if (speaker.lecturesByDay[item.lectureDate]) {
+                speaker.lecturesByDay[item.lectureDate].push(item);
+              } else {
+                speaker.lecturesByDay[item.lectureDate] = [item];
+              }
+            });
+            return speaker;
+          });
+        })
+      )
+      .subscribe((data: any) => {
+        this.speakerList = push === true ? [...this.speakerList, ...data] : data;
+      });
   }
 
   ngOnInit(): void {
@@ -87,8 +145,9 @@ export class ScheduleComponent implements OnInit {
     this.getSpeakers();
   }
 
-  setDay(day: number): void {
-    this.day = day;
+  setDate(date: string): void {
+    this.eventsModel.date = date;
+    this.getEvents();
   }
 
   handlescheduleEventsFormChange(value: any): void {
@@ -100,6 +159,7 @@ export class ScheduleComponent implements OnInit {
   handleScheduleSpeakersFormChange(value: any): void {
     this.speakersModel.theme = value.themes;
     this.speakersModel.name = value.letters;
+    this.speakersModel.page = 1;
     this.getSpeakers();
   }
 

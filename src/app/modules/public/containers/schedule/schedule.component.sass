@@ -43,6 +43,7 @@ app-page-header
   &:first-child
     margin-bottom: 4px
 
+.ciab-schedule-event,
 .ciab-schedule-speaker
   background-color: #FFF
   padding: 16px
@@ -53,10 +54,22 @@ app-page-header
   @include MQ(LG)
     padding: 32px
 
+.ciab-schedule-event-info
+  background-color: #F5F5F5
+  padding: 16px
+  p
+    font-size: 14px
+    font-weight: 600
+    margin: 0
+
+.ciab-schedule-event-speaker-container
+  > p:last-child
+    margin-bottom: 0
+
 .ciab-schedule-speaker-name
   font-size: 20px
   font-weight: bold
-  color: #001A72
+  color: $BLUE_DARK
   text-transform: uppercase
   margin-bottom: 0
 
@@ -69,7 +82,7 @@ app-page-header
   background-color: $BLUE_LIGHT
   border-radius: 4px
 
-.ciab-schedule-speaker-lecture
+.ciab-schedule-speaker-lecture-date-container
   border-top: 1px solid #E1E1E1
   padding: 16px 0
   &:last-child
@@ -78,12 +91,12 @@ app-page-header
 .ciab-schedule-speaker-lecture-title
   font-size: 16px
   font-weight: bold
-  color: #001A72
+  color: $BLUE_DARK
   text-transform: uppercase
 
 .ciab-schedule-speaker-lecture-date
   font-weight: bold
-  color: #00A9CE
+  color: $BLUE_LIGHT
   line-height: 1
   margin: 0
 
@@ -92,11 +105,11 @@ app-page-header
 
 .ciab-schedule-speaker-lecture-month
   font-size: 14px
+  margin-left: 4px
 
-.ciab-schedule-speaker-lecture-name
-  font-size: 16px
-  font-weight: bold
-  color: #001A72
+.ciab-schedule-speaker-lecture
+  &:not(:first-child)
+    margin-top: 16px
 
 .ciab-schedule-speaker-lecture-info
   background-color: #F5F5F5
@@ -134,92 +147,3 @@ app-page-header
   background-position: left top
   @include MQ(LG)
     padding-left: 25px + 8px
-
-// .ciab-box-white
-//   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05)
-
-// .ciab-text-icon-clock
-//   background-image: url('/assets/images/icons/clock-blue-dark.svg')
-//   background-repeat: no-repeat
-//   background-size: 23px 22px
-//   background-position: left top 3px
-//   line-height: 28px
-//   padding-left: 23px + 8px
-
-// .ciab-text-icon-marker-blue-light
-//   background-image: url('/assets/images/icons/map-marker-alt-blue.svg')
-//   background-repeat: no-repeat
-//   background-size: 20px 25px
-//   background-position: left top 1px
-//   padding-left: 20px + 8px
-
-// .ciab-box-event-info
-//   font-weight: 600
-//   >
-//     p
-//       margin-bottom: 4px
-//       &:last-child
-//         margin-bottom: 0
-
-// .ciab-box-event-content
-//   > p:last-child
-//     margin-bottom: 0
-
-// .ciab-text-function
-//   font-size: 14px
-//   font-weight: bold
-//   color: #5461C8
-
-// .palestras
-//   font-size: 16px
-//   font-weight: bold
-//   color: #001A72
-//   text-transform: uppercase
-
-// .date-day
-//   font-size: 44px
-//   font-weight: bold
-//   color: #00A9CE
-//   line-height: 1
-//   margin-right: 4px
-
-// .date-month
-//   font-size: 14px
-//   font-weight: bold
-//   color: #00A9CE
-//   line-height: 1
-
-// .title-1
-//   font-size: 16px
-//   font-weight: bold
-//   color: #001A72
-
-// .ciab-box-small
-//   font-size: 14px
-//   font-weight: 600
-//   padding: 16px
-
-// .ciab-speaker-day
-//   padding-top: 16px
-//   border-top: 1px solid #E2E2E2
-
-// .ciab-text-icon-clock-blue-light
-//   background-image: url('/assets/images/icons/clock-blue-light.svg')
-//   background-repeat: no-repeat
-//   background-size: 23px 22px
-//   background-position: left top
-//   padding-left: 23px + 8px
-
-// .ciab-text-icon-file-blue-light
-//   background-image: url('/assets/images/icons/file-blue-light.svg')
-//   background-repeat: no-repeat
-//   background-size: 18px 20px
-//   background-position: left top
-//   padding-left: 18px + 8px
-
-// .ciab-text-icon-marker-blue-light
-//   background-image: url('/assets/images/icons/map-marker-alt-blue-light.svg')
-//   background-repeat: no-repeat
-//   background-size: 20px 25px
-//   background-position: left top
-//   padding-left: 25px + 8px
