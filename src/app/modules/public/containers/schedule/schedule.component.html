@@ -56,10 +56,10 @@
         <div class="row">
           <div class="col-lg-4 mb-3 mb-lg-0">
             <p class="ciab-schedule-event-time ciab-text-highlight ciab-text-color-blue-light">{{ item.hora_Inicio | date: 'HH:mm' }} - {{ item.hora_Fim | date: 'HH:mm' }}</p>
-            <div class="ciab-schedule-event-info">
-              <p class="ciab-schedule-event-info-place">{{ item.local1 }}</p>
-              <p class="ciab-schedule-event-info-theme">{{ item.subtema }}</p>
-              <p class="ciab-schedule-event-info-stamp">{{ item.selo }}</p>
+            <div class="ciab-schedule-info-event ciab-schedule-info">
+              <p class="ciab-schedule-info-place">{{ item.local1 }}</p>
+              <p class="ciab-schedule-info-theme">{{ item.subtema }}</p>
+              <p class="ciab-schedule-info-stamp" *ngIf="item.selo">{{ item.selo }}</p>
             </div>
           </div>
           <div class="col-lg-8 ciab-box-event-content">
@@ -118,16 +118,16 @@
             <div class="col-lg-10">
               <div class="ciab-schedule-speaker-lecture" *ngFor="let lecture of day.value">
                 <p class="ciab-text-highlight ciab-text-color-blue-dark">{{ lecture.name }}</p>
-                <div class="ciab-schedule-speaker-lecture-info">
+                <div class="ciab-schedule-info-speaker ciab-schedule-info">
                   <div class="row">
-                    <div class="col-lg-4 mb-3 mb-lg-0">
-                      <p class="ciab-schedule-speaker-lecture-info-time">{{ lecture.startTime | date: 'HH:mm' }} - {{ lecture.finishTime | date: 'HH:mm' }}</p>
-                    </div>
-                    <div class="col-lg-4 mb-3 mb-lg-0">
-                      <p class="ciab-schedule-speaker-lecture-info-theme">{{ lecture.theme }}</p>
+                    <div class="col-lg-4">
+                      <p class="ciab-schedule-info-time">{{ lecture.startTime | date: 'HH:mm' }} - {{ lecture.finishTime | date: 'HH:mm' }}</p>
                     </div>
                     <div class="col-lg-4">
-                      <p class="ciab-schedule-speaker-lecture-info-place">{{ lecture.place }}</p>
+                      <p class="ciab-schedule-info-theme">{{ lecture.theme }}</p>
+                    </div>
+                    <div class="col-lg-4">
+                      <p class="ciab-schedule-info-place">{{ lecture.place }}</p>
                     </div>
                   </div>
                 </div>

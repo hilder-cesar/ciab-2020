@@ -1,6 +1,6 @@
 import { Component, OnInit, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
 import { GenericService } from './services/generic/generic.service';
-import { Router, Scroll, NavigationEnd, NavigationStart } from '@angular/router';
+import { Router, Scroll, NavigationEnd } from '@angular/router';
 import { ViewportScroller } from '@angular/common';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { filter } from 'rxjs/operators';
