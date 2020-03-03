@@ -276,7 +276,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/page-header-menu/page-header-menu.component.html</context>
-          <context context-type="linenumber">6</context>
+          <context context-type="linenumber">5</context>
         </context-group>
       </trans-unit>
       <trans-unit id="50ed5a14f1b287d9dc09a873cb2ecd88491b71d6" datatype="html">
@@ -364,7 +364,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/page-header-menu/page-header-menu.component.html</context>
-          <context context-type="linenumber">36</context>
+          <context context-type="linenumber">31</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5a942f247538b1c758023af6692eb4d3a5ddbf14" datatype="html">
@@ -404,7 +404,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/page-header-menu/page-header-menu.component.html</context>
-          <context context-type="linenumber">44</context>
+          <context context-type="linenumber">39</context>
         </context-group>
       </trans-unit>
       <trans-unit id="62c461b70899c14a80e386b4699608143ef7a6f9" datatype="html">
@@ -574,6 +574,10 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/ciab/ciab.component.html</context>
           <context context-type="linenumber">44</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/schedule/schedule.component.html</context>
+          <context context-type="linenumber">81</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
@@ -1839,6 +1843,49 @@
           <context context-type="linenumber">39</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="6eb3b5722d27b60b473ba2352a232725bd5d4d45" datatype="html">
+        <source>Junho</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/schedule/schedule.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/schedule/schedule.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/schedule/schedule.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b59adc480ee6e3ea6288ca7d1fdaf85d1bd20d5b" datatype="html">
+        <source>Moderador: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/schedule/schedule.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6b3c7d55a4fa5a1cce3101cb8078eedc7a53ad93" datatype="html">
+        <source>Carregar mais eventos</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/schedule/schedule.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a66c713b7f27ed25e04e5fa5ffa8e0f483edbce9" datatype="html">
+        <source>Palestras</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/schedule/schedule.component.html</context>
+          <context context-type="linenumber">107</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ffce2bad0221e3bc2aa3cf14af287bea87f50447" datatype="html">
+        <source>Carregar mais palestrantes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/schedule/schedule.component.html</context>
+          <context context-type="linenumber">140</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="211b5e692ebf853e62e6b3e4aa486bfa06aed381" datatype="html">
         <source>Quer patrocinar ou expor?</source>
         <context-group purpose="location">
@@ -2815,7 +2862,7 @@
         <source>Patrocinar/expor</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/page-header-menu/page-header-menu.component.html</context>
-          <context context-type="linenumber">40</context>
+          <context context-type="linenumber">35</context>
         </context-group>
       </trans-unit>
       <trans-unit id="823e330f0a237c2d485661b3a26a4803d5479789" datatype="html">
@@ -2837,6 +2884,45 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/sponsor-exhibit-form/sponsor-exhibit-form.component.html</context>
           <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8c860ad4942614c6272b9dd2af1bace2721dd5ce" datatype="html">
+        <source>Temas</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/schedule-events-form/schedule-events-form.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/schedule-speakers-form/schedule-speakers-form.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="49e8058a13a65b7dbbbb9194265a25ee08d16d0e" datatype="html">
+        <source>Auditórios</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/schedule-events-form/schedule-events-form.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dfe2e30dfc4e1b05dad91bad9e8aa654b6bd6ee3" datatype="html">
+        <source>Selos</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/schedule-events-form/schedule-events-form.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c962060710966f834eca73ff733f8c07731ba8f7" datatype="html">
+        <source>Baixar programação</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/schedule-events-form/schedule-events-form.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bd9b8477b54a11cb92d2cd98f25ae1fe61e01213" datatype="html">
+        <source>Letra inicial</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/schedule-speakers-form/schedule-speakers-form.component.html</context>
+          <context context-type="linenumber">16</context>
         </context-group>
       </trans-unit>
     </body>

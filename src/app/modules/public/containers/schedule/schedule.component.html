@@ -11,7 +11,7 @@
               <span class="ciab-schedule-date-button-day">11</span>
             </div>
             <div class="col-auto">
-              <span class="ciab-schedule-date-button-month-year">Junho</span>
+              <span class="ciab-schedule-date-button-month-year" i18n>Junho</span>
               <span class="ciab-schedule-date-button-month-year">2019</span>
             </div>
           </div>
@@ -24,7 +24,7 @@
               <span class="ciab-schedule-date-button-day">12</span>
             </div>
             <div class="col-auto">
-              <span class="ciab-schedule-date-button-month-year">Junho</span>
+              <span class="ciab-schedule-date-button-month-year" i18n>Junho</span>
               <span class="ciab-schedule-date-button-month-year">2019</span>
             </div>
           </div>
@@ -37,7 +37,7 @@
               <span class="ciab-schedule-date-button-day">13</span>
             </div>
             <div class="col-auto">
-              <span class="ciab-schedule-date-button-month-year">Junho</span>
+              <span class="ciab-schedule-date-button-month-year" i18n>Junho</span>
               <span class="ciab-schedule-date-button-month-year">2019</span>
             </div>
           </div>
@@ -67,7 +67,7 @@
             <p>{{ item.resumo1 }}</p>
             <div class="ciab-schedule-event-speaker-container">
               <p class="ciab-schedule-event-speaker" *ngFor="let item of item.palestrantes">
-                <b class="ciab-text-color-blue-light" *ngIf="item.idStatus === 'Moderador'">Moderador: </b>
+                <b class="ciab-text-color-blue-light" *ngIf="item.idStatus === 'Moderador'" i18n>Moderador: </b>
                 <b>{{ item.nome }}</b> - {{ item.cargo_Empresa1 }}
               </p>
             </div>
@@ -76,9 +76,9 @@
       </div>
     </div>
     <div class="text-center my-3">
-      <button type="button" class="ciab-button ciab-button-blue-dark" [disabled]="eventsDone" (click)="getEvents(true)">Carregar mais eventos</button>
+      <button type="button" class="ciab-button ciab-button-blue-dark" [disabled]="eventsDone" (click)="getEvents(true)" i18n>Carregar mais eventos</button>
     </div>
-    <h2 class="text-center my-3 my-lg-5">Palestrantes</h2>
+    <h2 class="text-center my-3 my-lg-5" i18n>Palestrantes</h2>
     <div class="ciab-box ciab-box-blue-light my-3">
       <app-schedule-speakers-form
         [themeList]="themeList"
@@ -87,7 +87,7 @@
     </div>
     <div class="ciab-schedule-speaker-container">
       <div class="ciab-schedule-speaker" *ngFor="let speaker of speakerList">
-        <div class="row">
+        <div class="row mb-3">
           <div class="col-lg-2 mb-3 mb-lg-0">
             <img src="https://img.febraban.org.br/Palestrantes/{{ speaker.profilePicture_small }}" [alt]="speaker.name" [title]="speaker.name">
           </div>
@@ -103,8 +103,8 @@
                 <a [href]="speaker.linkedin" target="_blank" class="btn ciab-button-icon ciab-button-icon-linkedin-white" *ngIf="speaker.linkedin"></a>
               </div>
             </div>
-            <p>{{ speaker.miniCV }}</p>
-            <p class="ciab-schedule-speaker-lecture-title">Palestras</p>
+            <p *ngIf="speaker.miniCV">{{ speaker.miniCV }}</p>
+            <p class="ciab-schedule-speaker-lecture-title mb-0" i18n>Palestras</p>
           </div>
         </div>
         <div class="ciab-schedule-speaker-lecture-date-container" *ngFor="let day of speaker.lecturesByDay | keyvalue">
@@ -137,7 +137,7 @@
         </div>
       </div>
       <div class="text-center">
-        <button type="button" class="ciab-button ciab-button-blue-dark" [disabled]="speakersDone" (click)="getSpeakers(true)">Carregar mais palestrantes</button>
+        <button type="button" class="ciab-button ciab-button-blue-dark" [disabled]="speakersDone" (click)="getSpeakers(true)" i18n>Carregar mais palestrantes</button>
       </div>
     </div>
   </div>

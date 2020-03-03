@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { GenericService } from 'src/app/services/generic/generic.service';
 import { map } from 'rxjs/operators';
 import { DateTime } from 'luxon';
-import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
+import { APP_LOCALE_ID } from './../../../../app-locale';
 
 interface Events {
   theme: string[];
@@ -64,12 +64,22 @@ export class ScheduleComponent implements OnInit {
 
   private getThemes(): void {
     this.genericService.get('Events/GetThemes')
-      .subscribe((response: any) => this.themeList = response.data);
+      .subscribe((response: any) => {
+        if (APP_LOCALE_ID === 'en') {
+          response.data.map((item) => item.theme = item.theme_en);
+        }
+        this.themeList = response.data;
+      });
   }
 
   private getPlaces(): void {
     this.genericService.get('Events/GetPlaces/92')
-      .subscribe((response: any) => this.placeList = response.data);
+      .subscribe((response: any) => {
+        // if (APP_LOCALE_ID === 'en') {
+        //   response.data.map((item) => item.place = item.place_en);
+        // }
+        this.placeList = response.data;
+      });
   }
 
   getEvents(push?: boolean): void {
@@ -90,11 +100,27 @@ export class ScheduleComponent implements OnInit {
             event.hora_Inicio = DateTime.fromFormat((event.data as DateTime).toFormat('dd/MM/yyyy') + ' ' + event.hora_Inicio, 'dd/MM/yyyy HH:mm:ss');
             // tslint:disable-next-line: max-line-length
             event.hora_Fim = DateTime.fromFormat((event.data as DateTime).toFormat('dd/MM/yyyy') + ' ' + event.hora_Fim, 'dd/MM/yyyy HH:mm:ss');
+
             return event;
           });
         })
       )
       .subscribe((data: any) => {
+        if (APP_LOCALE_ID === 'en') {
+          data = data.map((event) => {
+            event.local1 = event.local2;
+            event.titulo1 = event.titulo2;
+            event.resumo1 = event.resumo2;
+            event.selo = event.seloIngles;
+            event.subtema = event.subtemaIngles;
+            event.cargo_Empresa1 = event.cargo_Empresa2;
+            event.palestrantes.map((palestrante) => {
+              palestrante.cargo_Empresa1 = palestrante.cargo_Empresa2;
+              return palestrante;
+            });
+            return event;
+          });
+        }
         this.eventList = push === true ? [...this.eventList, ...data] : data;
       });
   }
@@ -134,6 +160,19 @@ export class ScheduleComponent implements OnInit {
         })
       )
       .subscribe((data: any) => {
+        if (APP_LOCALE_ID === 'en') {
+          data = data.map((speaker) => {
+            speaker.function = speaker.function_en;
+            speaker.miniCV = speaker.miniCVEn;
+            speaker.lectures.map((lecture) => {
+              lecture.name = lecture.name_en;
+              lecture.place = lecture.place_en;
+              lecture.theme = lecture.theme_en;
+              return lecture;
+            });
+            return speaker;
+          });
+        }
         this.speakerList = push === true ? [...this.speakerList, ...data] : data;
       });
   }

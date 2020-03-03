@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { GenericService } from './../../../../services/generic/generic.service';
-import { APP_LOCALE_ID } from 'src/app/app-locale';
+import { APP_LOCALE_ID } from './../../../../app-locale';
 
 @Component({
   selector: 'app-keynote-speakers',
