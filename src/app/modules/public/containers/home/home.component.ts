@@ -3,6 +3,8 @@ import { GenericService } from './../../../../services/generic/generic.service';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { Router } from '@angular/router';
 import { ModalVideoComponent } from '../../components/modal-video/modal-video.component';
+import { map } from 'rxjs/operators';
+import { APP_LOCALE_ID } from './../../../../app-locale';
 
 interface Photo {
   path: string;
@@ -49,7 +51,15 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.genericService.get('Events/GetAllKeyNoteSpeakers?limit=3')
-      .subscribe((response: any) => this.keynoteSpeakerList = response.data);
+      .subscribe((response: any) => {
+        if (APP_LOCALE_ID === 'en') {
+          response.data.map((item) => {
+            item.function = item.function_en;
+            item.miniCV = item.miniCVEn;
+          });
+        }
+        this.keynoteSpeakerList = response.data;
+      });
   }
 
   openModalVideo(videoId: string): void {

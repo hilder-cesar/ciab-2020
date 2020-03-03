@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { GenericService } from './../../../../services/generic/generic.service';
+import { APP_LOCALE_ID } from 'src/app/app-locale';
 
 @Component({
   selector: 'app-keynote-speakers',
@@ -16,7 +17,15 @@ export class KeynoteSpeakersComponent implements OnInit {
 
   ngOnInit(): void {
     this.genericService.get('Events/GetAllKeyNoteSpeakers')
-      .subscribe((response: any) => this.collection = response.data);
+      .subscribe((response: any) => {
+        if (APP_LOCALE_ID === 'en') {
+          response.data.map((item) => {
+            item.function = item.function_en;
+            item.miniCV = item.miniCVEn;
+          });
+        }
+        this.collection = response.data;
+      });
   }
 
 }
