@@ -75,9 +75,9 @@ export class ScheduleComponent implements OnInit {
   private getPlaces(): void {
     this.genericService.get('Events/GetPlaces/92')
       .subscribe((response: any) => {
-        // if (this.localeId === 'en') {
-        //   response.data.map((item) => item.place = item.place_en);
-        // }
+        if (this.localeId === 'en') {
+          response.data.map((item) => item.place = item.place_En);
+        }
         this.placeList = response.data;
       });
   }

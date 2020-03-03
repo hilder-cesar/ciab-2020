@@ -8,7 +8,11 @@
     <app-form-control-message [abstractControl]="sponsorExhibitForm.controls.email"></app-form-control-message>
   </div>
   <div class="form-group">
-    <input type="text" class="form-control" formControlName="subject" placeholder="Assunto" i18n-placeholder>
+    <select class="form-control" formControlName="subject">
+      <option [ngValue]="null" i18n>Selecione um assunto</option>
+      <option [ngValue]="'Quero patrocinar'" i18n>Quero patrocinar</option>
+      <option [ngValue]="'Quero expor'" i18n>Quero expor</option>
+    </select>
     <app-form-control-message [abstractControl]="sponsorExhibitForm.controls.subject"></app-form-control-message>
   </div>
   <div class="form-group">
@@ -17,3 +21,9 @@
   </div>
   <button class="ciab-button ciab-button-block ciab-button-green" [disabled]="sponsorExhibitForm.valid === false" i18n>Enviar</button>
 </form>
+<div
+  class="alert mt-3 mb-0"
+  [ngClass]="alertClass()"
+  *ngIf="message">
+  {{ message }}
+</div>

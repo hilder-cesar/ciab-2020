@@ -19,6 +19,12 @@
         </div>
         <button class="ciab-button ciab-button-block ciab-button-red" [disabled]="registerForm.valid === false" i18n>Cadastrar</button>
       </form>
+      <div
+        class="alert mt-3 mb-0"
+        [ngClass]="alertClass()"
+        *ngIf="message">
+        {{ message }}
+      </div>
     </div>
   </div>
 </div>

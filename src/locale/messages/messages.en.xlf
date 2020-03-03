@@ -3260,12 +3260,28 @@
           <context context-type="linenumber">35</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="823e330f0a237c2d485661b3a26a4803d5479789" datatype="html">
-        <source>Assunto</source>
-        <target state="final">Subject</target>
+      <trans-unit id="e539a48f63034c3866c67bb0b1a341a66940dae4" datatype="html">
+        <source>Selecione um assunto</source>
+        <target state="final">Select a subject</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/sponsor-exhibit-form/sponsor-exhibit-form.component.html</context>
-          <context context-type="linenumber">11</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6bf7bdeed708fa41d21eff3d75bf74022eb65f5d" datatype="html">
+        <source>Quero patrocinar</source>
+        <target state="final">I want to sponsor</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/sponsor-exhibit-form/sponsor-exhibit-form.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="71646a09dc214789558c1fcbc0dc09fbc5985b06" datatype="html">
+        <source>Quero expor</source>
+        <target state="final">I want to exhibit</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/sponsor-exhibit-form/sponsor-exhibit-form.component.html</context>
+          <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="25def87482f096ad8dfbce2ef91c545c400c51e3" datatype="html">
@@ -3273,7 +3289,7 @@
         <target state="final">Message</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/sponsor-exhibit-form/sponsor-exhibit-form.component.html</context>
-          <context context-type="linenumber">15</context>
+          <context context-type="linenumber">19</context>
         </context-group>
       </trans-unit>
       <trans-unit id="01de17158ec5ff25baf3c6ffa9fc3375a25e0c6d" datatype="html">
@@ -3281,7 +3297,7 @@
         <target state="final">Submit</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/sponsor-exhibit-form/sponsor-exhibit-form.component.html</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">22</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8c860ad4942614c6272b9dd2af1bace2721dd5ce" datatype="html">

@@ -52,7 +52,6 @@ export class AppComponent implements OnInit, AfterViewInit {
   }
 
   ngOnInit(): void {
-    console.log('this.localeId', this.localeId);
     const liList = document.querySelectorAll('.nav-item > ul > li');
     liList.forEach((item) => item.addEventListener('click', (event) => event.stopPropagation()));
   }
