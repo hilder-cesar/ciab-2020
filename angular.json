@@ -29,6 +29,7 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
+            "i18nLocale": "pt",
             "aot": true,
             "assets": [
               "src/favicon.ico",
@@ -84,15 +85,8 @@
               ]
             },
             "en": {
-              "fileReplacements": [
-                {
-                  "replace": "src/app/app-locale.ts",
-                  "with": "src/app/app-locale.en.ts"
-                }
-              ],
-              "localize": [
-                "en"
-              ]
+              "i18nLocale": "en",
+              "localize": ["en"]
             }
           }
         },

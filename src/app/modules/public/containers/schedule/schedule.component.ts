@@ -1,8 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Inject, LOCALE_ID } from '@angular/core';
 import { GenericService } from 'src/app/services/generic/generic.service';
 import { map } from 'rxjs/operators';
 import { DateTime } from 'luxon';
-import { APP_LOCALE_ID } from './../../../../app-locale';
 
 interface Events {
   theme: string[];
@@ -59,13 +58,14 @@ export class ScheduleComponent implements OnInit {
   };
 
   constructor(
+    @Inject(LOCALE_ID) public localeId: string,
     private genericService: GenericService
   ) { }
 
   private getThemes(): void {
     this.genericService.get('Events/GetThemes')
       .subscribe((response: any) => {
-        if (APP_LOCALE_ID === 'en') {
+        if (this.localeId === 'en') {
           response.data.map((item) => item.theme = item.theme_en);
         }
         this.themeList = response.data;
@@ -75,7 +75,7 @@ export class ScheduleComponent implements OnInit {
   private getPlaces(): void {
     this.genericService.get('Events/GetPlaces/92')
       .subscribe((response: any) => {
-        // if (APP_LOCALE_ID === 'en') {
+        // if (this.localeId === 'en') {
         //   response.data.map((item) => item.place = item.place_en);
         // }
         this.placeList = response.data;
@@ -106,7 +106,7 @@ export class ScheduleComponent implements OnInit {
         })
       )
       .subscribe((data: any) => {
-        if (APP_LOCALE_ID === 'en') {
+        if (this.localeId === 'en') {
           data = data.map((event) => {
             event.local1 = event.local2;
             event.titulo1 = event.titulo2;
@@ -160,7 +160,7 @@ export class ScheduleComponent implements OnInit {
         })
       )
       .subscribe((data: any) => {
-        if (APP_LOCALE_ID === 'en') {
+        if (this.localeId === 'en') {
           data = data.map((speaker) => {
             speaker.function = speaker.function_en;
             speaker.miniCV = speaker.miniCVEn;

@@ -1,10 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Inject, LOCALE_ID } from '@angular/core';
 import { GenericService } from './../../../../services/generic/generic.service';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { Router } from '@angular/router';
 import { ModalVideoComponent } from '../../components/modal-video/modal-video.component';
-import { map } from 'rxjs/operators';
-import { APP_LOCALE_ID } from './../../../../app-locale';
 
 interface Photo {
   path: string;
@@ -44,6 +42,7 @@ export class HomeComponent implements OnInit {
   keynoteSpeakerList: any[];
 
   constructor(
+    @Inject(LOCALE_ID) public localeId: string,
     private genericService: GenericService,
     private ngbModal: NgbModal,
     private router: Router
@@ -52,7 +51,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.genericService.get('Events/GetAllKeyNoteSpeakers?limit=3')
       .subscribe((response: any) => {
-        if (APP_LOCALE_ID === 'en') {
+        if (this.localeId === 'en') {
           response.data.map((item) => {
             item.function = item.function_en;
             item.miniCV = item.miniCVEn;

@@ -8,18 +8,11 @@ import { Observable } from 'rxjs';
 })
 export class GenericService {
 
-  language = 'pt';
   private baseUrl = environment.baseUrl;
 
   constructor(
     private httpClient: HttpClient
-  ) {
-    const path = window.location.pathname;
-    const regExp = new RegExp('/en/');
-    if (regExp.test(path)) {
-      this.language = 'en';
-    }
-  }
+  ) { }
 
   get(route: string): Observable<any> {
     return this.httpClient.get(`${this.baseUrl}/${route}`);

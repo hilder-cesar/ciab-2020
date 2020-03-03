@@ -1,5 +1,4 @@
-import { Component, OnInit, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
-import { GenericService } from './services/generic/generic.service';
+import { Component, OnInit, AfterViewInit, ViewChild, ElementRef, Inject, LOCALE_ID } from '@angular/core';
 import { Router, Scroll, NavigationEnd } from '@angular/router';
 import { ViewportScroller } from '@angular/common';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
@@ -23,7 +22,7 @@ export class AppComponent implements OnInit, AfterViewInit {
   navButtonToggle: ElementRef;
 
   constructor(
-    private genericService: GenericService,
+    @Inject(LOCALE_ID) public localeId: string,
     private router: Router,
     viewportScroller: ViewportScroller,
     private modalService: NgbModal
@@ -45,14 +44,15 @@ export class AppComponent implements OnInit, AfterViewInit {
   }
 
   get buttonLanguageText(): string {
-    return this.genericService.language === 'pt' ? 'EN' : 'PT';
+    return this.localeId === 'pt' ? 'EN' : 'PT';
   }
 
   get buttonLanguageHref(): string {
-    return this.genericService.language === 'pt' ? '../en' : '../pt';
+    return this.localeId === 'pt' ? '../en' : '../pt';
   }
 
   ngOnInit(): void {
+    console.log('this.localeId', this.localeId);
     const liList = document.querySelectorAll('.nav-item > ul > li');
     liList.forEach((item) => item.addEventListener('click', (event) => event.stopPropagation()));
   }
