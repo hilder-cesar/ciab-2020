@@ -39,8 +39,7 @@ const PHOTO_LIST: Photo[] = [
 export class HomeComponent implements OnInit {
 
   photoList: Photo[] = PHOTO_LIST;
-
-  keynoteSpeakerList: any[];
+  speakerList: any[];
 
   constructor(
     @Inject(LOCALE_ID) public localeId: string,
@@ -58,7 +57,7 @@ export class HomeComponent implements OnInit {
             item.miniCV = item.miniCVEn;
           });
         }
-        this.keynoteSpeakerList = response.data;
+        this.speakerList = response.data;
       });
   }
 
@@ -72,13 +71,7 @@ export class HomeComponent implements OnInit {
   }
 
   openModalRegisterForm(): void {
-    this.ngbModal.open(ModalRegisterFormComponent, { size: 'lg', centered: true })
-      .result
-        .then((result) => {
-          console.log('result', result);
-        })
-        .catch(() => {
-        });
+    this.ngbModal.open(ModalRegisterFormComponent, { size: 'lg', centered: true });
   }
 
   redirectTo(route: string, fragment?: string): void {

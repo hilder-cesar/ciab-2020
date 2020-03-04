@@ -29,8 +29,6 @@ import { SubscriptionComponent } from './containers/subscription/subscription.co
 import { SliderComponent } from './components/slider/slider.component';
 import { SliderNavComponent } from './components/slider/slider-nav.component';
 import { ModalVideoComponent } from './components/modal-video/modal-video.component';
-import { KeynoteSpeakerComponent } from './components/keynote-speaker/keynote-speaker.component';
-import { KeynoteSpeakerModalComponent } from './components/keynote-speaker-modal/keynote-speaker-modal.component';
 import { BannerSponsorExhibitComponent } from './components/banner-sponsor-exhibit/banner-sponsor-exhibit.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { GalleryNavComponent } from './components/gallery/gallery-nav.component';
@@ -45,6 +43,8 @@ import { ModalPrivacyPolicyComponent } from './components/modal-privacy-policy/m
 import { ScheduleEventsFormComponent } from './components/schedule-events-form/schedule-events-form.component';
 import { ScheduleSpeakersFormComponent } from './components/schedule-speakers-form/schedule-speakers-form.component';
 import { ModalRegulationComponent } from './components/modal-regulation/modal-regulation.component';
+import { SpeakerListComponent } from './components/speaker-list/speaker-list.component';
+import { SpeakerListModalComponent } from './components/speaker-list-modal/speaker-list-modal.component';
 
 @NgModule({
   declarations: [
@@ -65,8 +65,6 @@ import { ModalRegulationComponent } from './components/modal-regulation/modal-re
     SliderComponent,
     SliderNavComponent,
     ModalVideoComponent,
-    KeynoteSpeakerComponent,
-    KeynoteSpeakerModalComponent,
     BannerSponsorExhibitComponent,
     GalleryComponent,
     GalleryNavComponent,
@@ -80,7 +78,9 @@ import { ModalRegulationComponent } from './components/modal-regulation/modal-re
     ModalPrivacyPolicyComponent,
     ScheduleEventsFormComponent,
     ScheduleSpeakersFormComponent,
-    ModalRegulationComponent
+    ModalRegulationComponent,
+    SpeakerListComponent,
+    SpeakerListModalComponent
   ],
   imports: [
     CommonModule,

@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { KeynoteSpeakerComponent } from './keynote-speaker.component';
+import { SpeakerListModalComponent } from './speaker-list-modal.component';
 
-describe('KeynoteSpeakerComponent', () => {
-  let component: KeynoteSpeakerComponent;
-  let fixture: ComponentFixture<KeynoteSpeakerComponent>;
+describe('SpeakerListModalComponent', () => {
+  let component: SpeakerListModalComponent;
+  let fixture: ComponentFixture<SpeakerListModalComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ KeynoteSpeakerComponent ]
+      declarations: [ SpeakerListModalComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(KeynoteSpeakerComponent);
+    fixture = TestBed.createComponent(SpeakerListModalComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

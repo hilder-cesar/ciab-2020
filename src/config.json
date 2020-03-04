@@ -1,4 +1,4 @@
 {
-  "baseUrl": "//api.ciab.com.br/api/v1",
-  "baseUrlDEV": "//pi.api.ciab.com.br/api/v1"
+  "baseUrl": "//api-ciab2020.megaleios.com/api/v1",
+  "baseUrlDEV": "//api-ciab2020.megaleios.com/api/v1"
 }

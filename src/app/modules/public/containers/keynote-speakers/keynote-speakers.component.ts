@@ -8,7 +8,7 @@ import { GenericService } from './../../../../services/generic/generic.service';
 })
 export class KeynoteSpeakersComponent implements OnInit {
 
-  collection: any[];
+  speakerList: any[];
 
   constructor(
     @Inject(LOCALE_ID) public localeId: string,
@@ -24,7 +24,7 @@ export class KeynoteSpeakersComponent implements OnInit {
             item.miniCV = item.miniCVEn;
           });
         }
-        this.collection = response.data;
+        this.speakerList = response.data;
       });
   }
 

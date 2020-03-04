@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="col-md-4 mb-3" *ngFor="let speaker of speakerList; let i = index;">
+    <div class="ciab-speaker">
+      <div class="text-center">
+        <img
+          src="https://img.febraban.org.br/Palestrantes/{{ speaker.profilePicture_small }}"
+          [alt]="speaker.name"
+          [title]="speaker.name"
+          class="ciab-speaker-photo">
+      </div>
+      <div class="ciab-speaker-info">
+        <h3 class="ciab-speaker-name">{{ speaker.name }}</h3>
+        <p>{{ speaker.function }}</p>
+        <button class="ciab-button-x ciab-button-x-blue-light" (click)="openSpeakerListModal(i)" i18n>Saiba mais</button>
+      </div>
+    </div>
+  </div>
+</div>

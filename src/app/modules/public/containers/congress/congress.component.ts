@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 })
 export class CongressComponent implements OnInit {
 
-  keynoteSpeakerList: any[];
+  speakerList: any[];
 
   constructor(
     @Inject(LOCALE_ID) public localeId: string,
@@ -26,7 +26,7 @@ export class CongressComponent implements OnInit {
             item.miniCV = item.miniCVEn;
           });
         }
-        this.keynoteSpeakerList = response.data;
+        this.speakerList = response.data;
       });
   }
 

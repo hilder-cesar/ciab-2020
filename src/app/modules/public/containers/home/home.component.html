@@ -128,13 +128,7 @@
 <div class="ciab-section">
   <div class="container">
     <h2 class="text-center mb-3 mb-lg-5" i18n>Keynote speakers</h2>
-    <div class="row">
-      <div class="col-md-4 mb-3" *ngFor="let item of keynoteSpeakerList">
-        <app-keynote-speaker
-          [item]="item">
-        </app-keynote-speaker>
-      </div>
-    </div>
+    <app-speaker-list [speakerList]="speakerList"></app-speaker-list>
     <div class="text-center">
       <button class="ciab-button ciab-button-blue" (click)="redirectTo('keynote-speakers')" i18n>Ver todos os keynote speakers</button>
     </div>
