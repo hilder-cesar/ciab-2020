@@ -84,11 +84,13 @@ export class AppComponent implements OnInit, AfterViewInit {
         });
   }
 
-  openModalTermsUse(): void {
+  openModalTermsUse(event: any): void {
+    event.preventDefault();
     this.ngbModal.open(ModalTermsUseComponent, { size: 'lg', centered: true });
   }
 
-  openModalPrivacyPolicy(): void {
+  openModalPrivacyPolicy(event: any): void {
+    event.preventDefault();
     this.ngbModal.open(ModalPrivacyPolicyComponent, { size: 'lg', centered: true });
   }
 
