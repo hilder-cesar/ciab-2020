@@ -1844,9 +1844,9 @@
           <context context-type="linenumber">33</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="65fbb092bc9b114abba5c4bf237e5c62d35c7c31" datatype="html">
-        <source>assets/images/exposure/ciab-planta-2020-pt.pdf</source>
-        <target state="final">assets/images/exposure/ciab-planta-2020-pt.pdf</target>
+      <trans-unit id="e4ba149b763b5d21055c94727c5cd048e0650d05" datatype="html">
+        <source>../assets/files/ciab-planta-2020-pt.pdf</source>
+        <target state="final">../assets/files/ciab-planta-2020-pt.pdf</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposure/exposure.component.html</context>
           <context context-type="linenumber">29</context>
@@ -1938,6 +1938,38 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposure/exposure.component.html</context>
           <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ae9b9ab3f803772dec97dc36708b211fa704f07e" datatype="html">
+        <source>Regulamento</source>
+        <target state="final">Regulamento</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/modal-regulation/modal-regulation.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f7d5d7210d3fe48b4638868e9cf7701922a7f927" datatype="html">
+        <source>CONCURSO EXCLUSIVAMENTE CULTURAL</source>
+        <target state="final">CONCURSO EXCLUSIVAMENTE CULTURAL</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/modal-regulation/modal-regulation.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="26b78767d4d83f99e98e4da33f9c4e44ecb2e22b" datatype="html">
+        <source>REGULAMENTO - CIAB FINTECH LOUNGE 2019</source>
+        <target state="final">REGULAMENTO - CIAB FINTECH LOUNGE 2019</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/modal-regulation/modal-regulation.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0bd1c72a472b021cb1d736c69698a2a035079f65" datatype="html">
+        <source>4ª edição - 2019</source>
+        <target state="final">4ª edição - 2019</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/modal-regulation/modal-regulation.component.html</context>
+          <context context-type="linenumber">5</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a00b15bf381b3f4b5176920b39ecd867af71a4aa" datatype="html">

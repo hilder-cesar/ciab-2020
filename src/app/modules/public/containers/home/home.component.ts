@@ -3,6 +3,7 @@ import { GenericService } from './../../../../services/generic/generic.service';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { Router } from '@angular/router';
 import { ModalVideoComponent } from '../../components/modal-video/modal-video.component';
+import { ModalRegisterFormComponent } from '../../components/modal-register-form/modal-register-form.component';
 
 interface Photo {
   path: string;
@@ -68,6 +69,16 @@ export class HomeComponent implements OnInit {
       centered: true
     });
     modalRef.componentInstance.videoId = videoId;
+  }
+
+  openModalRegisterForm(): void {
+    this.ngbModal.open(ModalRegisterFormComponent, { size: 'lg', centered: true })
+      .result
+        .then((result) => {
+          console.log('result', result);
+        })
+        .catch(() => {
+        });
   }
 
   redirectTo(route: string, fragment?: string): void {

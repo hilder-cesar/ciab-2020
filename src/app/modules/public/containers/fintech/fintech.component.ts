@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { ModalRegulationComponent } from '../../components/modal-regulation/modal-regulation.component';
 
 @Component({
   selector: 'app-fintech',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FintechComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    public ngbModal: NgbModal
+  ) { }
 
   ngOnInit(): void {
+  }
+
+  openModalRegulation(): void {
+    this.ngbModal.open(ModalRegulationComponent, { size: 'lg', centered: true });
   }
 
 }

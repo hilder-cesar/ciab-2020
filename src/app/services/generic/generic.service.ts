@@ -16,7 +16,6 @@ export class GenericService {
     private httpClient: HttpClient
   ) {
     this.baseUrl = environment.production ? configService.getConfig().baseUrl : configService.getConfig().baseUrlDEV;
-    console.log(this.baseUrl);
   }
 
   get(route: string): Observable<any> {

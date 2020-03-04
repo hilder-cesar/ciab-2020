@@ -25,7 +25,7 @@ export class AppComponent implements OnInit, AfterViewInit {
     @Inject(LOCALE_ID) public localeId: string,
     private router: Router,
     viewportScroller: ViewportScroller,
-    private modalService: NgbModal
+    private ngbModal: NgbModal
   ) {
     this.router.events
       .pipe(filter((event: Scroll) => event instanceof Scroll))
@@ -75,7 +75,7 @@ export class AppComponent implements OnInit, AfterViewInit {
   }
 
   openModalRegisterForm(): void {
-    this.modalService.open(ModalRegisterFormComponent, { size: 'lg', centered: true })
+    this.ngbModal.open(ModalRegisterFormComponent, { size: 'lg', centered: true })
       .result
         .then((result) => {
           console.log('result', result);
@@ -85,11 +85,11 @@ export class AppComponent implements OnInit, AfterViewInit {
   }
 
   openModalTermsUse(): void {
-    this.modalService.open(ModalTermsUseComponent, { size: 'lg', centered: true });
+    this.ngbModal.open(ModalTermsUseComponent, { size: 'lg', centered: true });
   }
 
   openModalPrivacyPolicy(): void {
-    this.modalService.open(ModalPrivacyPolicyComponent, { size: 'lg', centered: true });
+    this.ngbModal.open(ModalPrivacyPolicyComponent, { size: 'lg', centered: true });
   }
 
 }

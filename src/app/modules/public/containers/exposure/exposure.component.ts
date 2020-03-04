@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { GenericService } from 'src/app/services/generic/generic.service';
+import { Router } from '@angular/router';
 
 interface ExhibitorList {
   colOne: any[];
@@ -21,7 +22,8 @@ export class ExposureComponent implements OnInit {
   };
 
   constructor(
-    private genericService: GenericService
+    private genericService: GenericService,
+    private router: Router
   ) { }
 
   ngOnInit(): void {
@@ -42,6 +44,10 @@ export class ExposureComponent implements OnInit {
 
         this.exhibitorList.colThree = this.exhibitorList.colThree.splice(itemsPerCol * 2, itemsPerCol);
       });
+  }
+
+  redirectTo(route: string): void {
+    this.router.navigate([route]);
   }
 
 }

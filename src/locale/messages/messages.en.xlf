@@ -20,7 +20,7 @@
       </trans-unit>
       <trans-unit id="8b8a11aa4396149b7deb0a2f011efa50026f2462" datatype="html">
         <source>CIAB FEBRABAN 2020</source>
-        <target state="final">FEBRABAN CIAB 2020</target>
+        <target state="final">CIAB FEBRABAN 2020</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">9</context>
@@ -288,7 +288,7 @@
       </trans-unit>
       <trans-unit id="0959fc2a0a3ce732003358b13a4679d210d47b09" datatype="html">
         <source>Revista CIAB FEBRABAN</source>
-        <target state="final">FEBRABAN CIAB Magazine</target>
+        <target state="final">CIAB FEBRABAN Magazine</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/publications/publications.component.html</context>
           <context context-type="linenumber">18</context>
@@ -756,7 +756,7 @@
       </trans-unit>
       <trans-unit id="4b3508a1bbda328afd586be2d987266355f2c0e8" datatype="html">
         <source>O CIAB FEBRABAN é o ponto de encontro para ficar por dentro dos assuntos mais importantes sobre tecnologias disruptivas e as transformações digitais, e uma oportunidade única para ampliar relacionamentos e parcerias.</source>
-        <target state="final">FEBRABAN CIAB is the meeting point to stay on top of the most important issues about disruptive technologies and digital transformations, and a unique opportunity to expand relationships and partnerships.</target>
+        <target state="final">CIAB FEBRABAN is the meeting point to stay on top of the most important issues about disruptive technologies and digital transformations, and a unique opportunity to expand relationships and partnerships.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">148</context>
@@ -804,7 +804,7 @@
       </trans-unit>
       <trans-unit id="ac678eab23dfd614c5ee28fd54346bec0fea9b6a" datatype="html">
         <source>Estas informações serão usadas exclusivamente para o envio de informações e novidades sobre o CIAB FEBRABAN.</source>
-        <target state="final">This information will be used exclusively for sending information and news about FEBRABAN CIAB.</target>
+        <target state="final">This information will be used exclusively for sending information and news about CIAB FEBRABAN.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/modal-register-form/modal-register-form.component.html</context>
           <context context-type="linenumber">10</context>
@@ -1200,7 +1200,7 @@
       </trans-unit>
       <trans-unit id="98e6e434c0ad9e276567f280b89384d22da164ad" datatype="html">
         <source>O CIAB FEBRABAN agora tem dia para começar, mas não tem dia para terminar.</source>
-        <target state="final">FEBRABAN CIAB now has a day to start, but it has no day to end.</target>
+        <target state="final">CIAB FEBRABAN now has a day to start, but it has no day to end.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
           <context context-type="linenumber">49</context>
@@ -1220,7 +1220,7 @@
       </trans-unit>
       <trans-unit id="ebf6a8c2469f99bce8fc075d3726d2e0707bc719" datatype="html">
         <source>noomis CIAB FEBRABAN</source>
-        <target state="final">FEBRABAN CIAB noomis</target>
+        <target state="final">CIAB FEBRABAN noomis</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
           <context context-type="linenumber">55</context>
@@ -1292,7 +1292,7 @@
       </trans-unit>
       <trans-unit id="5b87523fa3cfd76e5d92709dfee5f08d073cf63b" datatype="html">
         <source>Sobre o CIAB FEBRABAN</source>
-        <target state="final">About FEBRABAN CIAB</target>
+        <target state="final">About CIAB FEBRABAN</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
           <context context-type="linenumber">106</context>
@@ -1312,7 +1312,7 @@
       </trans-unit>
       <trans-unit id="6f6abd786bc796e3f8863e9b90431fd1b8694699" datatype="html">
         <source>O CIAB FEBRABAN é o lugar para ficar por dentro dos assuntos mais importantes sobre tecnologias disruptivas, transformações digitais e o futuro do sistema financeiro.</source>
-        <target state="final">FEBRABAN CIAB is the place to stay on top of the most important issues about disruptive technologies, digital transformations and the future of the financial system.</target>
+        <target state="final">CIAB FEBRABAN is the place to stay on top of the most important issues about disruptive technologies, digital transformations and the future of the financial system.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
           <context context-type="linenumber">112</context>
@@ -1324,7 +1324,7 @@
       </trans-unit>
       <trans-unit id="a9112f932aba01f2fb7089d3ac6a5a7163d5a8f6" datatype="html">
         <source>Anote na sua agenda! O <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>CIAB FEBRABAN 2020<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/> acontecerá de <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>23 a 25 de junho de 2020<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/> - Transamerica Expo Center, em São Paulo - 10h às 19h.</source>
-        <target state="final">Write it on your calendar! <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>FEBRABAN CIAB 2020<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/> will take place from <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>June 23 to 25, 2020<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/> - Transamerica Expo Center, in São Paulo - from 10 am to 7 pm.</target>
+        <target state="final">Write it on your calendar! <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>CIAB FEBRABAN 2020<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/> will take place from <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>June 23 to 25, 2020<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/> - Transamerica Expo Center, in São Paulo - from 10 am to 7 pm.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
           <context context-type="linenumber">113</context>
@@ -1336,7 +1336,7 @@
       </trans-unit>
       <trans-unit id="c8eb63c621bfd9cebf983344ed3193f95e2ec441" datatype="html">
         <source>Evento CIAB FEBRABAN</source>
-        <target state="final">FEBRABAN CIAB event</target>
+        <target state="final">CIAB FEBRABAN event</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
           <context context-type="linenumber">119</context>
@@ -1364,7 +1364,7 @@
       </trans-unit>
       <trans-unit id="8f0a055c662b55026c1c10cc4859e3b2d5c8f4d1" datatype="html">
         <source>Planta oficial CIAB FEBRABAN</source>
-        <target state="final">FEBRABAN CIAB official plant</target>
+        <target state="final">CIAB FEBRABAN official plant</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
           <context context-type="linenumber">153</context>
@@ -1400,7 +1400,7 @@
       </trans-unit>
       <trans-unit id="7a857ccfd5937ffd9a266d792565bb8d19f387e7" datatype="html">
         <source>O CIAB FEBRABAN é o maior congresso de tecnologia da informação para o setor financeiro</source>
-        <target state="final">FEBRABAN CIAB is the largest information technology congress for the financial sector</target>
+        <target state="final">CIAB FEBRABAN is the largest information technology congress for the financial sector</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/ciab/ciab.component.html</context>
           <context context-type="linenumber">2</context>
@@ -1413,7 +1413,7 @@
         </source>
         <target state="translated">
           About<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
-          FEBRABAN CIAB
+          CIAB FEBRABAN
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/ciab/ciab.component.html</context>
@@ -1438,7 +1438,7 @@
       </trans-unit>
       <trans-unit id="6ec6a3fceeb83676b41a65076be777389d5311e4" datatype="html">
         <source>Edições de CIAB FEBRABAN</source>
-        <target state="final">Editions of FEBRABAN CIAB</target>
+        <target state="final">Editions of CIAB FEBRABAN</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/ciab/ciab.component.html</context>
           <context context-type="linenumber">50</context>
@@ -1454,7 +1454,7 @@
       </trans-unit>
       <trans-unit id="2fb2350c671019cf1b156211ca7cd50c2badddbc" datatype="html">
         <source>Desde a sua primeira edição em 1990, o CIAB FEBRABAN – incentiva o desenvolvimento da tecnologia e das transformações digitais, contribui para a evolução do setor e gera oportunidades de negócios para os participantes.</source>
-        <target state="final">Since its first edition in 1990, FEBRABAN CIAB - encourages the development of technology and digital transformations, contributes to the evolution of the sector and generates business opportunities for participants.</target>
+        <target state="final">Since its first edition in 1990, CIAB FEBRABAN - encourages the development of technology and digital transformations, contributes to the evolution of the sector and generates business opportunities for participants.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/ciab/ciab.component.html</context>
           <context context-type="linenumber">59</context>
@@ -1470,7 +1470,7 @@
       </trans-unit>
       <trans-unit id="facbbc417f40d586bfb4cd061308ac071c0657bf" datatype="html">
         <source>A trajetória de sucesso do CIAB FEBRABAN é acompanhada por um público altamente qualificado, formado por executivos do setor financeiro das áreas de tecnologia, canais, pesquisa, inovação tecnológica, riscos, segurança da informação, meios de pagamento, serviços bancários, seguros, entre outros que frequentam os três dias do congresso e da exposição.</source>
-        <target state="final">The successful trajectory of FEBRABAN CIAB is accompanied by a highly qualified public, formed by executives from the financial sector in the areas of technology, channels, research, technological innovation, risks, information security, means of payment, banking services, insurance, among others. who attend the three days of the congress and the exhibition.</target>
+        <target state="final">The successful trajectory of CIAB FEBRABAN is accompanied by a highly qualified public, formed by executives from the financial sector in the areas of technology, channels, research, technological innovation, risks, information security, means of payment, banking services, insurance, among others. who attend the three days of the congress and the exhibition.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/ciab/ciab.component.html</context>
           <context context-type="linenumber">63</context>
@@ -1502,7 +1502,7 @@
       </trans-unit>
       <trans-unit id="1b11443e66bedf558d2930800344fc3228719ccb" datatype="html">
         <source>O CIAB FEBRABAN 2018 reuniu mais de 23 mil pessoas entre visitantes e congressistas. Veja algumas fotos e vídeos do evento.</source>
-        <target state="final">The FEBRABAN CIAB 2018 brought together more than 23 thousand people, including visitors and participants. See some photos and videos of the event.</target>
+        <target state="final">The CIAB FEBRABAN 2018 brought together more than 23 thousand people, including visitors and participants. See some photos and videos of the event.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/ciab/ciab.component.html</context>
           <context context-type="linenumber">78</context>
@@ -1822,7 +1822,7 @@
       </trans-unit>
       <trans-unit id="c45f82a47615b7ad4449e9cf81b7ef3afec65c42" datatype="html">
         <source>O CIAB FEBRABAN realiza sua exposição paralelamente ao Congresso que, tradicionalmente, conta com a participação de mais de 140 empresas expositoras, o que proporciona ao visitante a oportunidade de estreitar relacionamento e de conferir em um único espaço todas as novidades e soluções tecnológicas para os próximos anos.</source>
-        <target state="final">FEBRABAN CIAB holds its exhibition in parallel to the Congress, which traditionally has the participation of more than 140 exhibiting companies, which provides the visitor with the opportunity to strengthen relationships and to check in a single space all the news and technological solutions for the coming years.</target>
+        <target state="final">CIAB FEBRABAN holds its exhibition in parallel to the Congress, which traditionally has the participation of more than 140 exhibiting companies, which provides the visitor with the opportunity to strengthen relationships and to check in a single space all the news and technological solutions for the coming years.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposure/exposure.component.html</context>
           <context context-type="linenumber">13</context>
@@ -1844,9 +1844,9 @@
           <context context-type="linenumber">33</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="65fbb092bc9b114abba5c4bf237e5c62d35c7c31" datatype="html">
-        <source>assets/images/exposure/ciab-planta-2020-pt.pdf</source>
-        <target state="final">assets/images/exposure/ciab-planta-2020-en.pdf</target>
+      <trans-unit id="e4ba149b763b5d21055c94727c5cd048e0650d05" datatype="html">
+        <source>../assets/files/ciab-planta-2020-pt.pdf</source>
+        <target state="final">../assets/files/ciab-planta-2020-en.pdf</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposure/exposure.component.html</context>
           <context context-type="linenumber">29</context>
@@ -1862,7 +1862,7 @@
       </trans-unit>
       <trans-unit id="3fa3324e86c106ec38645de491a779bb0b15b2f7" datatype="html">
         <source>A Exposição está organizada para proporcionar aos expositores interação e relacionamento com os visitantes. O CIAB FEBRABAN é o local ideal para apresentar e conhecer os lançamentos de produtos e soluções, além das últimas tendências do setor. Aproveite esta oportunidade e garanta já o espaço da sua empresa.</source>
-        <target state="final">The Exhibition is organized to provide exhibitors with interaction and relationships with visitors. The FEBRABAN CIAB is the ideal place to present and learn about the launches of products and solutions, in addition to the latest trends in the sector. Take advantage of this opportunity and guarantee your company's space now.</target>
+        <target state="final">The Exhibition is organized to provide exhibitors with interaction and relationships with visitors. The CIAB FEBRABAN is the ideal place to present and learn about the launches of products and solutions, in addition to the latest trends in the sector. Take advantage of this opportunity and guarantee your company's space now.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposure/exposure.component.html</context>
           <context context-type="linenumber">37</context>
@@ -1902,7 +1902,7 @@
       </trans-unit>
       <trans-unit id="25705cddd8a863d94d0b0b4cd91dae1db5ae5adf" datatype="html">
         <source>A participação no CIAB FEBRABAN 2018 terá um custo de <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>R$ 350,00 por participante<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>, dando acesso exclusivo à área de Exposição durante os três dias de realização do evento.</source>
-        <target state="final">Participation in FEBRABAN CIAB 2018 will cost <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>R$ 350.00 per participant<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>, giving exclusive access to the Exhibition area during the three days of the event.</target>
+        <target state="final">Participation in CIAB FEBRABAN 2018 will cost <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>R$ 350.00 per participant<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>, giving exclusive access to the Exhibition area during the three days of the event.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposure/exposure.component.html</context>
           <context context-type="linenumber">86</context>
@@ -1938,6 +1938,38 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposure/exposure.component.html</context>
           <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ae9b9ab3f803772dec97dc36708b211fa704f07e" datatype="html">
+        <source>Regulamento</source>
+        <target state="new">Regulamento</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/modal-regulation/modal-regulation.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f7d5d7210d3fe48b4638868e9cf7701922a7f927" datatype="html">
+        <source>CONCURSO EXCLUSIVAMENTE CULTURAL</source>
+        <target state="new">CONCURSO EXCLUSIVAMENTE CULTURAL</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/modal-regulation/modal-regulation.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="26b78767d4d83f99e98e4da33f9c4e44ecb2e22b" datatype="html">
+        <source>REGULAMENTO - CIAB FINTECH LOUNGE 2019</source>
+        <target state="new">REGULAMENTO - CIAB FINTECH LOUNGE 2019</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/modal-regulation/modal-regulation.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0bd1c72a472b021cb1d736c69698a2a035079f65" datatype="html">
+        <source>4ª edição - 2019</source>
+        <target state="new">4ª edição - 2019</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/components/modal-regulation/modal-regulation.component.html</context>
+          <context context-type="linenumber">5</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a00b15bf381b3f4b5176920b39ecd867af71a4aa" datatype="html">
@@ -2336,7 +2368,7 @@
       </trans-unit>
       <trans-unit id="beefa12a5beedeb6a77910ed93d4b90ccdf846c5" datatype="html">
         <source>Bem-vindos! O CIAB FEBRABAN acontecerá na cidade de São Paulo durante os dias 23, 24 e 25 de junho de 2020, no Transamerica Expo Center, das 10h às 19h.</source>
-        <target state="final">Welcome! The FEBRABAN CIAB will take place in the city of São Paulo on June 23, 24 and 25, 2020, at the Transamerica Expo Center, from 10 am to 7 pm.</target>
+        <target state="final">Welcome! The CIAB FEBRABAN will take place in the city of São Paulo on June 23, 24 and 25, 2020, at the Transamerica Expo Center, from 10 am to 7 pm.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/informations/informations.component.html</context>
           <context context-type="linenumber">75</context>
@@ -2644,7 +2676,7 @@
       </trans-unit>
       <trans-unit id="60ed138de01e02f81e91641d4b1070b7ca78d152" datatype="html">
         <source>Informações sobre o CIAB FEBRABAN</source>
-        <target state="final">Information about FEBRABAN CIAB</target>
+        <target state="final">Information about CIAB FEBRABAN</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/press/press.component.html</context>
           <context context-type="linenumber">2</context>
@@ -2668,7 +2700,7 @@
       </trans-unit>
       <trans-unit id="090d4f55d682cee253b6194a898aeac77acdbc88" datatype="html">
         <source>A plataforma, uma iniciativa CIAB FEBRABAN, tem, na sua essência, o conceito de "conectar para expandir". Por meio de uma cuidadosa produção e curadoria, a noomis vai reunir os profissionais e especialistas mais relevantes da área, e oferecer um espaço de trocas e conexões ligadas à vanguarda de tecnologia do setor, que desponta entre os mais avançados do mundo.</source>
-        <target state="final">The platform, a FEBRABAN CIAB initiative, has, in essence, the concept of "connecting to expand". Through careful production and curatorship, noomis will bring together the most relevant professionals and specialists in the area, and offer a space for exchanges and connections linked to the sector's technology vanguard, which stands out among the most advanced in the world.</target>
+        <target state="final">The platform, a CIAB FEBRABAN initiative, has, in essence, the concept of "connecting to expand". Through careful production and curatorship, noomis will bring together the most relevant professionals and specialists in the area, and offer a space for exchanges and connections linked to the sector's technology vanguard, which stands out among the most advanced in the world.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/press/press.component.html</context>
           <context context-type="linenumber">20</context>
@@ -2702,7 +2734,7 @@
             Comunicação FEBRABAN
           </source>
         <target state="translated">
-            <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>FEBRABAN CIAB Press Office<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
+            <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>CIAB FEBRABAN Press Office<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
             FEBRABAN Communication
           </target>
         <context-group purpose="location">
@@ -2744,7 +2776,7 @@
       </trans-unit>
       <trans-unit id="34ddf685541675ad71d09b008bb6f38a3577fab5" datatype="html">
         <source>Em 2019, o CIAB FEBRABAN recebeu mais de 26 mil pessoas.</source>
-        <target state="final">In 2019, FEBRABAN CIAB received more than 26 thousand people.</target>
+        <target state="final">In 2019, CIAB FEBRABAN received more than 26 thousand people.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/sponsor-exhibit/sponsor-exhibit.component.html</context>
           <context context-type="linenumber">16</context>
