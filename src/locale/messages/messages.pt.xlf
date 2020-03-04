@@ -702,44 +702,44 @@
           <context context-type="linenumber">128</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2bdbed72a69655e825bb48c677401c4a0187f4f6" datatype="html">
+      <trans-unit id="ca7c583cc766785fa89481c42407e4bec2a60647" datatype="html">
         <source>
           (+55 11) 3244-9897 ou (+55 11) 3244-9838<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
-          comercial.ciab@febraban.org.br
+          <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>comercial.ciab@febraban.org.br<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>
         </source>
         <target state="final">
           (+55 11) 3244-9897 ou (+55 11) 3244-9838<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
-          comercial.ciab@febraban.org.br
+          <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>comercial.ciab@febraban.org.br<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">129</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="e615822735aa372606615b57eb1a53a22971b0a4" datatype="html">
+      <trans-unit id="294c8eca3328c593996f2defa0dd387771bc3be0" datatype="html">
         <source>
           Diretoria de Eventos da FEBRABAN<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
           (+55 11) 3244-9860<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
-          eventos@febraban.org.br
+          <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>eventos@febraban.org.br<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>
         </source>
         <target state="final">
           Diretoria de Eventos da FEBRABAN<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
           (+55 11) 3244-9860<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
-          eventos@febraban.org.br
+          <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>eventos@febraban.org.br<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">133</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6e45adc174eec38752900b35d9c14f95e93156da" datatype="html">
+      <trans-unit id="827fb396962f480b3527b146b73bab349947e3e7" datatype="html">
         <source>
           (+55 11) 3244-9831<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
-          imprensa@febraban.org.br
+          <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>imprensa@febraban.org.br<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>
         </source>
         <target state="final">
           (+55 11) 3244-9831<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
-          imprensa@febraban.org.br
+          <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>imprensa@febraban.org.br<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
@@ -1844,7 +1844,7 @@
           <context context-type="linenumber">33</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="e4ba149b763b5d21055c94727c5cd048e0650d05" datatype="html">
+      <trans-unit id="ae46b4ba28cf5c9a5193ea0ba1288f5514a64be2" datatype="html">
         <source>../assets/files/ciab-planta-2020-pt.pdf</source>
         <target state="final">../assets/files/ciab-planta-2020-pt.pdf</target>
         <context-group purpose="location">
@@ -1916,9 +1916,9 @@
           <context context-type="linenumber">87</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4fbf8562b83efea3360bebb44bdf187547c539c4" datatype="html">
-        <source>Os associados da FEBRABAN, bem como os apoiadores e parceiros estratégicos do evento, também são isentos de pagamento. Caso não tenham recebido o convite, solicitamos entrar em contato pelo e-mail <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>eventos@febraban.org.br<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/> para solicitá-lo.</source>
-        <target state="final">Os associados da FEBRABAN, bem como os apoiadores e parceiros estratégicos do evento, também são isentos de pagamento. Caso não tenham recebido o convite, solicitamos entrar em contato pelo e-mail <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>eventos@febraban.org.br<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/> para solicitá-lo.</target>
+      <trans-unit id="b7d8c4fad10f9533da54869cee64d7935e52bb7b" datatype="html">
+        <source>Os associados da FEBRABAN, bem como os apoiadores e parceiros estratégicos do evento, também são isentos de pagamento. Caso não tenham recebido o convite, solicitamos entrar em contato pelo e-mail <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>eventos@febraban.org.br<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/> para solicitá-lo.</source>
+        <target state="final">Os associados da FEBRABAN, bem como os apoiadores e parceiros estratégicos do evento, também são isentos de pagamento. Caso não tenham recebido o convite, solicitamos entrar em contato pelo e-mail <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>eventos@febraban.org.br<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/> para solicitá-lo.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposure/exposure.component.html</context>
           <context context-type="linenumber">88</context>
@@ -2974,14 +2974,6 @@
           <context context-type="linenumber">89</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="40f683e2568799880ac3cd59dbd15556ac40bb02" datatype="html">
-        <source>2.770,00</source>
-        <target state="final">2.770,00</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">45</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="f777053c0cec4ce901aa7e5c16c61da776ec3a68" datatype="html">
         <source>Associado</source>
         <target state="final">Associado</target>
@@ -2996,14 +2988,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
           <context context-type="linenumber">93</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="9aad479f0a86e98702709fe8b3b1adf4e76c34a4" datatype="html">
-        <source>3.475,00</source>
-        <target state="final">3.475,00</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">47</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c5676e19f43176dc86356403f69b135e38257013" datatype="html">
@@ -3070,22 +3054,6 @@
           <context context-type="linenumber">62</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2ac3a57c9479ae59a946b60e34d2ad618465b441" datatype="html">
-        <source>1.330,00</source>
-        <target state="final">1.330,00</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">69</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="0cafab0cf93e20aed33ca4f0eafdfecdbe876340" datatype="html">
-        <source>1.670,00</source>
-        <target state="final">1.670,00</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">71</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="7bb3549406e32d2adece2e47835a71234d36aada" datatype="html">
         <source>Visitante</source>
         <target state="final">Visitante</target>
@@ -3116,14 +3084,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
           <context context-type="linenumber">92</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="4920ccafff6e5a86b49a1e31f189e7e804fe6ae4" datatype="html">
-        <source>385,00</source>
-        <target state="final">385,00</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">94</context>
         </context-group>
       </trans-unit>
       <trans-unit id="cac9919fdeae76ab0804b1a02748cbb07c464cc5" datatype="html">
@@ -3228,9 +3188,9 @@
           <context context-type="linenumber">132</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="949afa7d7b9faa95e0e0b7b6ca759aa41be9bd46" datatype="html">
-        <source>Os pedidos de cancelamento de inscrições devem ser solicitados por e-mail, para <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>eventos@febraban.org.br<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/> até <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>5 dias úteis antes da realização do evento<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/>.</source>
-        <target state="final">Os pedidos de cancelamento de inscrições devem ser solicitados por e-mail, para <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>eventos@febraban.org.br<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/> até <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>5 dias úteis antes da realização do evento<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/>.</target>
+      <trans-unit id="a78346021f0aa38f6740139aba528f8b0883e549" datatype="html">
+        <source>Os pedidos de cancelamento de inscrições devem ser solicitados por e-mail, para <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>eventos@febraban.org.br<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/> até <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>5 dias úteis antes da realização do evento<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/>.</source>
+        <target state="final">Os pedidos de cancelamento de inscrições devem ser solicitados por e-mail, para <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>eventos@febraban.org.br<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/> até <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>5 dias úteis antes da realização do evento<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/>.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
           <context context-type="linenumber">133</context>
@@ -3260,9 +3220,9 @@
           <context context-type="linenumber">138</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="30a36d9293c24fd123a45be955f25c0c83b3068a" datatype="html">
-        <source>Os pedidos de substituição de participante devem ser solicitados por e-mail, para <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>eventos@febraban.org.br<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/> até <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>2 dias úteis antes da realização do evento<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/>. (*)</source>
-        <target state="final">Os pedidos de substituição de participante devem ser solicitados por e-mail, para <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>eventos@febraban.org.br<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/> até <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>2 dias úteis antes da realização do evento<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/>. (*)</target>
+      <trans-unit id="9ec596f067795d9058ad1a687bfef04d6615dede" datatype="html">
+        <source>Os pedidos de substituição de participante devem ser solicitados por e-mail, para <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>eventos@febraban.org.br<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/> até <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>2 dias úteis antes da realização do evento<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/>. (*)</source>
+        <target state="final">Os pedidos de substituição de participante devem ser solicitados por e-mail, para <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>eventos@febraban.org.br<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/> até <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>2 dias úteis antes da realização do evento<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/>. (*)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
           <context context-type="linenumber">139</context>

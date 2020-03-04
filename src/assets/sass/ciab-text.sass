@@ -1,9 +1,6 @@
 
 @import './imports/variables.sass'
 
-.ciab-text-color-white
-  color: #FFF
-
 .ciab-text-color-blue-light
   color: $BLUE_LIGHT
 
@@ -27,6 +24,24 @@
 
 .ciab-text-color-gray
   color: $GRAY
+
+a:hover
+  &.ciab-text-color-blue-light
+    color: darken($BLUE_LIGHT, 5%)
+  &.ciab-text-color-blue-dark
+    color: darken($BLUE_DARK, 5%)
+  &.ciab-text-color-blue-flat
+    color: darken($BLUE_FLAT, 5%)
+  &.ciab-text-color-red
+    color: darken($RED, 5%)
+  &.ciab-text-color-green
+    color: darken($GREEN, 5%)
+  &.ciab-text-color-purple
+    color: darken($PURPLE, 5%)
+  &.ciab-text-color-yellow
+    color: darken($YELLOW, 5%)
+  &.ciab-text-color-gray
+    color: darken($GRAY, 5%)
 
 .ciab-text-highlight
   font-size: 26px
