@@ -527,36 +527,36 @@
         <source>Ver todos os keynote speakers</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">139</context>
+          <context context-type="linenumber">133</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">33</context>
+          <context context-type="linenumber">27</context>
         </context-group>
       </trans-unit>
       <trans-unit id="fd46781c4103a1cd1565ffd69dd3cbe9f2dd108a" datatype="html">
         <source>Planta da exposição</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">145</context>
+          <context context-type="linenumber">139</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a60df6f4ff71462aaa30a1a3e946e38f8452c25a" datatype="html">
         <source>Conheça as oportunidades e garanta já o seu espaço. Venha expor a sua empresa no maior evento do setor.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">148</context>
+          <context context-type="linenumber">142</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8f0a055c662b55026c1c10cc4859e3b2d5c8f4d1" datatype="html">
         <source>Planta oficial CIAB FEBRABAN</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">153</context>
+          <context context-type="linenumber">147</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">154</context>
+          <context context-type="linenumber">148</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposure/exposure.component.html</context>
@@ -571,14 +571,14 @@
         <source>Ver expositores</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">158</context>
+          <context context-type="linenumber">152</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e97751ca0552a3a1f3697efb0870c972bee82234" datatype="html">
         <source>Vídeos</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">166</context>
+          <context context-type="linenumber">160</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7a857ccfd5937ffd9a266d792565bb8d19f387e7" datatype="html">
@@ -776,189 +776,189 @@
         <source>Confira nossa</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">42</context>
+          <context context-type="linenumber">36</context>
         </context-group>
       </trans-unit>
       <trans-unit id="86dfdfc5d05c8e4fdca45ff51848b1e5f8ceedb4" datatype="html">
         <source>programação</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">43</context>
+          <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3324995ad71adf5176239f72c790d03d525b2de9" datatype="html">
         <source>Conheça os</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">48</context>
+          <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e9c2a21826aa094fff7702ba4f762793b0b5c015" datatype="html">
         <source>palestrantes</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">49</context>
+          <context context-type="linenumber">43</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d92c77b63781a542492a598b8d1c9915dc888c6a" datatype="html">
         <source>Trilhas técnicas</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">62</context>
+          <context context-type="linenumber">56</context>
         </context-group>
       </trans-unit>
       <trans-unit id="020d30ec5d44495ddef15012b62628d083d8b908" datatype="html">
         <source>Tendências Tecnológicas</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">65</context>
+          <context context-type="linenumber">59</context>
         </context-group>
       </trans-unit>
       <trans-unit id="fa1292691f6b76cfd90716be6886ca30c5940198" datatype="html">
         <source>O impacto das tecnologias emergentes no mercado financeiro.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">66</context>
+          <context context-type="linenumber">60</context>
         </context-group>
       </trans-unit>
       <trans-unit id="646749406b50858b3f67df41a566303084d23b6c" datatype="html">
         <source>Blockchain</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">67</context>
+          <context context-type="linenumber">61</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7058795f2692243c592b1ba8a3ffa50ea97c19e0" datatype="html">
         <source>Plataformas de blockchain remodelando negócios.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">68</context>
+          <context context-type="linenumber">62</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8afd6c708291e3fee3ccd53546d3d66cffa224ba" datatype="html">
         <source>Fintechs &amp; Startups</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">69</context>
+          <context context-type="linenumber">63</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ee7ea60293607fd0cf93bf35881d09aefb9dc6a8" datatype="html">
         <source>A cooperação entre instituições tradicionais e startups revolucionando os serviços financeiros.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">70</context>
+          <context context-type="linenumber">64</context>
         </context-group>
       </trans-unit>
       <trans-unit id="05e985fda0fa147ea55916242e88f30dd4505a07" datatype="html">
         <source>Regulação</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">71</context>
+          <context context-type="linenumber">65</context>
         </context-group>
       </trans-unit>
       <trans-unit id="38547cb3574f34f1da01ca1358ae3250f3faf8e4" datatype="html">
         <source>A assimetria regulatória entre os diferentes players e o impacto das novas leis regulatórias.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">72</context>
+          <context context-type="linenumber">66</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5305a889fece2c10f0739c69262e82fdcb78d242" datatype="html">
         <source>Serviços de Tecnologia</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">73</context>
+          <context context-type="linenumber">67</context>
         </context-group>
       </trans-unit>
       <trans-unit id="0e1854932e20c12f10e8ca378200372131d23d7c" datatype="html">
         <source>Os serviços de tecnologia por trás da transformação digital.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">74</context>
+          <context context-type="linenumber">68</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4fa08603e450ac1aac7e7a07fd4b0c6fe42800bd" datatype="html">
         <source>Marketing Digital para Serviços Financeiros</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">75</context>
+          <context context-type="linenumber">69</context>
         </context-group>
       </trans-unit>
       <trans-unit id="bb8346e619d6a22788c917c9ddc5c67d4fa6df35" datatype="html">
         <source>Tecnologia aprimorando a comunicação com clientes no mundo digital</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">76</context>
+          <context context-type="linenumber">70</context>
         </context-group>
       </trans-unit>
       <trans-unit id="52dd84360d87108afbf908f6b8e94ddaccb7ceb2" datatype="html">
         <source>Meios de Pagamento</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">79</context>
+          <context context-type="linenumber">73</context>
         </context-group>
       </trans-unit>
       <trans-unit id="96fc7b380a1decdfb88f4c0bf88de8db05a4d2de" datatype="html">
         <source>Pagamentos digitais transformando o modo como as pessoas e empresas transferem valores.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">80</context>
+          <context context-type="linenumber">74</context>
         </context-group>
       </trans-unit>
       <trans-unit id="62ed0917ace91e45821afb1629396fd96fb42403" datatype="html">
         <source>Seguros</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">81</context>
+          <context context-type="linenumber">75</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1fb0cc07d42713aec8151185a85c97246454bb8e" datatype="html">
         <source>Os novos modelos de negócios de seguros para atender as crescentes demandas dos clientes.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">82</context>
+          <context context-type="linenumber">76</context>
         </context-group>
       </trans-unit>
       <trans-unit id="773d955a225e450007ca771c986064f9626158e3" datatype="html">
         <source>Futurismo &amp; Comportamento</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">83</context>
+          <context context-type="linenumber">77</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6355a3f1829a04aebdf619a0e4ef73fe6162e660" datatype="html">
         <source>A revolução tecnológica e a revolução cultural transformando o mercado e a sociedade.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">84</context>
+          <context context-type="linenumber">78</context>
         </context-group>
       </trans-unit>
       <trans-unit id="531985d3c6697ce60646f522da09c33023f4eab6" datatype="html">
         <source>Segurança &amp; Cyber Security</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">85</context>
+          <context context-type="linenumber">79</context>
         </context-group>
       </trans-unit>
       <trans-unit id="dab771339392692ba449542a474eeb138bd2ff50" datatype="html">
         <source>Métodos para aprimorar a resiliência cibernética e mitigar riscos associados à lavagem de dinheiro e fraudes.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">86</context>
+          <context context-type="linenumber">80</context>
         </context-group>
       </trans-unit>
       <trans-unit id="dffec07158b208040a848042750177cd5c6b1883" datatype="html">
         <source>Jornada do Cliente</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">87</context>
+          <context context-type="linenumber">81</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9154b572bf337b4d004ca5ff2640ae51a225da6c" datatype="html">
         <source>Serviços digitais personalizados para impulsionar a demanda e aumentar a fidelidade dos clientes.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">88</context>
+          <context context-type="linenumber">82</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d15e9b3f53c3c7a5ea38d9cd440d3d2eaa5af03b" datatype="html">
@@ -1137,65 +1137,135 @@
           <context context-type="linenumber">2</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="e9b839a5cb7fd71b6737ae0c4d4a2545d9f7e0f7" datatype="html">
-        <source>CIAB Fintech Lounge 2020</source>
+      <trans-unit id="ccf162d7f47d3ee10ad87d04d366aba5858f882f" datatype="html">
+        <source>CIAB Fintech Lounge</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">11</context>
+          <context context-type="linenumber">9</context>
         </context-group>
+      </trans-unit>
+      <trans-unit id="b5101d2f98b32fee1a1879644ab5547626d4b326" datatype="html">
+        <source>De 23 a 25 de junho, o maior encontro de startups e instituições financeiras da América Latina</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2cf574110a46e4ea0bdfde83cfc3555425f5f1f8" datatype="html">
+        <source>O Fintech Lounge é um espaço integrado à exposição do CIAB FEBRABAN onde fintechs e startups poderão apresentar suas soluções inovadoras para executivos de diferentes áreas das instituições financeiras.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
           <context context-type="linenumber">12</context>
         </context-group>
+      </trans-unit>
+      <trans-unit id="99be85f6c6a001b7d447cfa581fc9ec05cb1bdae" datatype="html">
+        <source>Objetivo do Fintech Lounge</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">19</context>
+          <context context-type="linenumber">13</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="94bc3f7f9fa7bc0c230ece2a3bee40527f90bd9a" datatype="html">
-        <source>De 11 a 13 de Junho</source>
+      <trans-unit id="9ee9f88a295ff167c54cbd62858b91c778a5091b" datatype="html">
+        <source>Incentivar negócios entre fintechs e startups com as instituições financeiras, por meio de curadoria das soluções inovadoras que tenham potencial de agregar valor aos modelos de negócios dos bancos brasileiros.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">24</context>
+          <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="c7b4419636a5256d75c9daf51d8287aa9b674a52" datatype="html">
-        <source>Com o objetivo de incentivar negócios entre startups e instituições financeiras, o Lounge Fintech é o ponto de encontro de Executivos de Bancos, Seguradoras, Meios de Pagamento e VCs com fintechs, startups, aceleradoras, incubadoras e hubs de inovação.</source>
+      <trans-unit id="055b3853b70e256d3db1e6a7a62f0411b1138a83" datatype="html">
+        <source>Curadores</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">26</context>
+          <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2921c0d5b59b2a1371f2f4cd100173798fc45acb" datatype="html">
-        <source>Incubadoras, aceleradoras e hubs de inovação poderão locar estações de trabalho com 5 balcões de exposição para levar grupos de startups.</source>
+      <trans-unit id="5fafed096983fea6e7c0d179487ef0c7285bb65a" datatype="html">
+        <source>Os bancos membros da Comissão de Conteúdo do CIAB indicam os responsáveis por inovação em suas instituições, que vão avaliar as soluções das fintechs e startups participantes.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e9b839a5cb7fd71b6737ae0c4d4a2545d9f7e0f7" datatype="html">
+        <source>CIAB Fintech Lounge 2020</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
           <context context-type="linenumber">28</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="d2c15c8cce0ed1c336395de72f3ca1824c4007d9" datatype="html">
-        <source>Startups poderão demonstrar suas soluções para Executivos de Instituições Financeiras em balcões de exposição dentro do Lounge com um preço muito diferenciado em relação ao preço do m² do CIAB.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">30</context>
+          <context context-type="linenumber">29</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="05ffa15e7307788dbeb30b470325c1f070d9e976" datatype="html">
-        <source>As Startups participantes do Fintech Lounge participarão da seleção para o campeonato de pitches. Um júri, composto por executivos de instituições financeiras e VCs, selecionará 10 startups o campeonato, as vencedoras terão reuniões garantidas com bancos para estudarem possibilidade de negócios. (o regulamento do campeonato será divulgado em breve).</source>
+      <trans-unit id="ecec4f420ef8646758e85e73dc0901862e42c323" datatype="html">
+        <source>Quem deve participar?</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">32</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ebcfbc815b6d742afa291a09f4f2db25259e394c" datatype="html">
+        <source>Fintechs e startups que tenham soluções que possam ser utilizadas por bancos, seguradoras, empresas de meios de pagamento e outras instituições financeiras.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ff3c90bfde7a62b6273d2a9940fc2f77603eb06f" datatype="html">
+        <source>Curadoria e seleção</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dd2e5d1458e552a1526e206b1ca825e004f0c40c" datatype="html">
+        <source>Todas as fintechs e startups que participarem do CIAB Fintech Lounge passarão por um processo de curadoria. A equipe de Curadores será composta por executivos de Bancos, que analisarão todas as soluções inscritas e elegerão:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d176fd06916a90066391d2eb4c4549fdd5e88a4a" datatype="html">
+        <source>As 25 melhores soluções do CIAB Fintech Lounge 2020. As empresas selecionadas terão espaço de divulgação exclusivo na plataforma noomis <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>https://noomis.febraban.org.br/home<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="65a9f66117e1458ded2b525568e4d303b253c7a6" datatype="html">
+        <source>As 10 soluções mais votadas entre as 25 melhores soluções do CIAB 2020 irão participar do Campeonato de Pitches, que premiará cinco vencedores com reuniões com executivos de bancos.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9f908251a18199b3c21fa80523e942cec7ec0bc9" datatype="html">
+        <source>Vagas limitadas</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5fc205b9e152268fb5c6b8e6196d94ae817a46bc" datatype="html">
+        <source>Se a sua fintech tem uma solução inovadora, você não pode ficar de fora! Não perca tempo e alugue já o seu balcão.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
+          <context context-type="linenumber">43</context>
         </context-group>
       </trans-unit>
       <trans-unit id="327954aa4032dc0aef92b75496b637304da127da" datatype="html">
         <source>Competição</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">46</context>
+          <context context-type="linenumber">55</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
@@ -1206,98 +1276,98 @@
         <source>O campeonato de pitches identificará soluções inovadoras que possam ter sinergia para colaborar com Bancos, Seguradoras e Instituições Financeiras.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">47</context>
+          <context context-type="linenumber">56</context>
         </context-group>
       </trans-unit>
       <trans-unit id="25456bf067602dd9faaa1872ec88cc37110ea6c3" datatype="html">
         <source>As inscrições iniciam-se em 28 de Janeiro e vão até 25 de Março de 2020.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">48</context>
+          <context context-type="linenumber">57</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8d74b4883d726192e1625ed3370899f8d097cffb" datatype="html">
         <source>Premiação</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">49</context>
+          <context context-type="linenumber">58</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b25d9f7d0703950ba9d6bdb7761ac619c49f09bb" datatype="html">
         <source>35 startups brasileiras selecionadas para participar do CIAB Fintech Lounge: balcão de exposição dentro do lounge + 2 credenciais de congressistas.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">50</context>
+          <context context-type="linenumber">59</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d7259a070a0a94bb6588dc53d63ce56a7ec70eb0" datatype="html">
         <source>5 startups internacionais selecionadas para participar do CIAB Fintech Lounge: passagem aérea e hospedagem para duas pessoas participarem do CIAB Fintech Lounge + balcão de exposição dentro do lounge + 2 credenciais de congressistas.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">51</context>
+          <context context-type="linenumber">60</context>
         </context-group>
       </trans-unit>
       <trans-unit id="068baaf3500422272511039b1001800de69e78d7" datatype="html">
         <source>10 startups serão selecionadas para o Campeonato de pitches e 5 startups sairão vencedoras: troféus de vencedores e pelo menos 3 reuniões com lideranças de Bancos.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">52</context>
+          <context context-type="linenumber">61</context>
         </context-group>
       </trans-unit>
       <trans-unit id="509edf05e014018c1204a2d62f784a7789b630ee" datatype="html">
         <source>3 startups brasileiras melhor colocadas no campeonato de pitches: passagem aérea e hospedagem para um representante de cada startup participar do estande do CIAB na Money 2020 em Las Vegas, EUA (outubro/2019).</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">53</context>
+          <context context-type="linenumber">62</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4bcbedee4ecff11242a5efc9da066ff32bc679ee" datatype="html">
         <source>Cronograma</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">54</context>
+          <context context-type="linenumber">63</context>
         </context-group>
       </trans-unit>
       <trans-unit id="eeadfb40e439f05fba17abc389d05bf5ae98a6c7" datatype="html">
         <source>Prazo de inscrição: 28 de Janeiro a 25 de Março de 2019.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">55</context>
+          <context context-type="linenumber">64</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c8f1837a8b63683c12354ace459c67fd603aae58" datatype="html">
         <source>Divulgação das 40 startups que participarão do Fintech Lounge: 29 de Abril.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">56</context>
+          <context context-type="linenumber">65</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9eada9ae355c74670efda84abfe7dc1dc8a2036b" datatype="html">
         <source>Divulgação das 10 startups finalistas que participarão do campeonato de pitches: 12 de Junho.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">57</context>
+          <context context-type="linenumber">66</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3701c74135e67ccaf8d7728a122c0fd3cd7f6ca2" datatype="html">
         <source>Campeonato de pitches e divulgação das 5 startups vencedoras: 13 de junho.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">58</context>
+          <context context-type="linenumber">67</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4bfaa2a5541f4693952abf9861c6ad0d81b2f4c3" datatype="html">
         <source>Leia o regulamento</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">60</context>
+          <context context-type="linenumber">69</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9d189e51145762dc3874e10d0b31dbe2f7a89371" datatype="html">
         <source>Resultados</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">71</context>
+          <context context-type="linenumber">80</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
@@ -1308,42 +1378,42 @@
         <source>Conheçam as 40 fintechs finalistas que estarão no Fintech Lounge durante os três dias de evento. Parabenizamos a todos que participaram.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">72</context>
+          <context context-type="linenumber">81</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9b3c1812d0fd6ee542d18b8e90f14778abfc4063" datatype="html">
         <source>Empresa</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">79</context>
+          <context context-type="linenumber">88</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8d1ea5a02f6d846c73b04d6bf984bbb70e87b6dc" datatype="html">
         <source>Nacionalidade</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">80</context>
+          <context context-type="linenumber">89</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c90a45545297c70457dee18e0a95a236330827e6" datatype="html">
         <source>Site</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">81</context>
+          <context context-type="linenumber">90</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9c960600181bc1a412cdf5e32ab4209a36d69ccf" datatype="html">
         <source>Briefing da solução</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">82</context>
+          <context context-type="linenumber">91</context>
         </context-group>
       </trans-unit>
       <trans-unit id="fdcd5939a9be1cce77f6281fef8a1dedc5e62c48" datatype="html">
         <source>Patrocinadores</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">195</context>
+          <context context-type="linenumber">204</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/sponsors/sponsors.component.html</context>
@@ -1354,30 +1424,30 @@
         <source>Patrocinadores Fintech Lounge</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">196</context>
+          <context context-type="linenumber">205</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">199</context>
+          <context context-type="linenumber">208</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">200</context>
+          <context context-type="linenumber">209</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9601c450fc116473cc4129d1221ff5502322b066" datatype="html">
         <source>Apoio Fintech Lounge</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">204</context>
+          <context context-type="linenumber">213</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">207</context>
+          <context context-type="linenumber">216</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">208</context>
+          <context context-type="linenumber">217</context>
         </context-group>
       </trans-unit>
       <trans-unit id="535e2c88ac47f6785ca47fd2cc90893d49126472" datatype="html">
@@ -1568,8 +1638,8 @@
           <context context-type="linenumber">125</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/components/keynote-speaker/keynote-speaker.component.html</context>
-          <context context-type="linenumber">15</context>
+          <context context-type="sourcefile">src/app/modules/public/components/speaker-list/speaker-list.component.html</context>
+          <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b3279d1d257679016a2ffe6e09ee986c4454bcc7" datatype="html">
@@ -2066,8 +2136,8 @@
           <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="dc1af84571857a97a76a872c3d12112da7ef3fae" datatype="html">
-        <source>Increva-se agora</source>
+      <trans-unit id="28c78c859df518071e9aa145a1bfe47905f22c22" datatype="html">
+        <source>Inscreva-se agora</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
           <context context-type="linenumber">18</context>
@@ -2718,9 +2788,9 @@
           <context context-type="linenumber">148</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="b3fa9e5ed07189eb0194c67f9334bd45ff3a68c4" datatype="html">
+      <trans-unit id="260507f29363144488671c77c4515aab811ec8d5" datatype="html">
         <source>
-      © FEBRABAN - Federação Brasileira de Bancos - 2017 - Todos os direitos reservados | <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Termos de uso<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> | <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>Política de privacidade<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+      © FEBRABAN - Federação Brasileira de Bancos - 2017 - Todos os direitos reservados | <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Termos de uso<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> | <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/>Política de privacidade<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
     </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
