@@ -2150,8 +2150,8 @@
           <context context-type="linenumber">27</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7e808fbf847e8202b2e7149b95441d6f2f7a2cff" datatype="html">
-        <source>03 dias de evento</source>
+      <trans-unit id="2534689b892912231d05a12836613b4cf6f7d5d4" datatype="html">
+        <source>3 dias de evento</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
           <context context-type="linenumber">32</context>
@@ -2290,8 +2290,8 @@
           <context context-type="linenumber">96</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="aa197e19759a3246701ae05ee9fd09c89c8a6988" datatype="html">
-        <source>01 dia de evento</source>
+      <trans-unit id="75edb1e4ecd3cf2a56bbae190c9c7cde4050ddf5" datatype="html">
+        <source>1 dia de evento</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
           <context context-type="linenumber">56</context>
@@ -2332,8 +2332,8 @@
           <context context-type="linenumber">87</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="324058dae6a041cec28faada02fb19ea0d4d444f" datatype="html">
-        <source>Os visitantes terão direito a assistir 01 (uma) palestra do Congresso, exceto no Auditório FEBRABAN, conforme disponibilidade</source>
+      <trans-unit id="dc7c6ca108311718c79ddd3b4e1e7d7498f6775b" datatype="html">
+        <source>Os visitantes terão direito a assistir 1 (uma) palestra do Congresso, exceto no Auditório FEBRABAN, conforme disponibilidade</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
           <context context-type="linenumber">88</context>
@@ -2402,15 +2402,15 @@
           <context context-type="linenumber">123</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="dbd097182c68fa926ffba6ac17d44aaf608e7ec9" datatype="html">
-        <source>Pessoa Física (PF) ou Pessoa Jurídica (PJ)</source>
+      <trans-unit id="6785f02dff656d412f60cd77320019c7e2e9fcc8" datatype="html">
+        <source>Pessoa Física (PF) ou Pessoa Jurídica (PJ)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
           <context context-type="linenumber">124</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="b8c9d2fc61a67658d893733f19d36028702dbbbf" datatype="html">
-        <source>Nota Fiscal será enviada somente após realização do evento.</source>
+      <trans-unit id="adb1771fdac1d0102b3a4915d408dc60f0576db8" datatype="html">
+        <source>A nota fiscal será emitida após o recebimento do pagamento.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
           <context context-type="linenumber">125</context>
@@ -2433,15 +2433,15 @@
           <context context-type="linenumber">132</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="a78346021f0aa38f6740139aba528f8b0883e549" datatype="html">
-        <source>Os pedidos de cancelamento de inscrições devem ser solicitados por e-mail, para <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>eventos@febraban.org.br<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> até <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>5 dias úteis antes da realização do evento<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>.</source>
+      <trans-unit id="800446246f5e648246cc94bc58632323b6cf7996" datatype="html">
+        <source>Os pedidos de cancelamento de inscrições devem ser solicitados por e-mail, para <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>eventos@febraban.org.br<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> até <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>10 dias úteis antes da realização do evento<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
           <context context-type="linenumber">133</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1ab7b1cf5669f4e05b408bcc46826fda537e3cdd" datatype="html">
-        <source>Os reembolsos serão efetuados pelo valor líquido, deduzidas todas as despesas bancárias provenientes da transferência bancária.</source>
+      <trans-unit id="3e29429b48b824f0212b18096d928d233cbd4126" datatype="html">
+        <source>Os reembolsos serão efetuados, deduzidas as despesas bancárias e administrativas equivalentes a 15% do valor pago.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
           <context context-type="linenumber">134</context>
@@ -2461,8 +2461,8 @@
           <context context-type="linenumber">138</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="9ec596f067795d9058ad1a687bfef04d6615dede" datatype="html">
-        <source>Os pedidos de substituição de participante devem ser solicitados por e-mail, para <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>eventos@febraban.org.br<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> até <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>2 dias úteis antes da realização do evento<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>. (*)</source>
+      <trans-unit id="e6ad01bd1bf18e812de00b783b517eae05024d3c" datatype="html">
+        <source>Os pedidos de substituição de participante devem ser solicitados por e-mail, para <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>eventos@febraban.org.br<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> até <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>5 dias úteis antes da realização do evento<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>. (*)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
           <context context-type="linenumber">139</context>
@@ -2479,7 +2479,7 @@
         <source>(*) Exceção somente para o participante que precisar substituir a sua participação, e já tiver recebido antecipadamente o material do congressista, será obrigatória a apresentação da credencial do participante originalmente inscrito no credenciamento do evento, a partir do dia 10/06/2019, para o procedimento de substituição de participante e troca da credencial.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">141</context>
+          <context context-type="linenumber">142</context>
         </context-group>
       </trans-unit>
       <trans-unit id="38d90cfe844e9cb5258b8a9e5fa71e1de12972d8" datatype="html">
