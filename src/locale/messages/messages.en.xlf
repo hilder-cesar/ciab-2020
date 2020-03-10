@@ -779,7 +779,7 @@
         <target state="final">Register</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/modal-register-form/modal-register-form.component.html</context>
-          <context context-type="linenumber">9</context>
+          <context context-type="linenumber">13</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
@@ -799,7 +799,7 @@
         <target state="final">Receive news and stay on top of the biggest and best technology event for the financial market in Latin America.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/modal-register-form/modal-register-form.component.html</context>
-          <context context-type="linenumber">4</context>
+          <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ac678eab23dfd614c5ee28fd54346bec0fea9b6a" datatype="html">
@@ -807,7 +807,7 @@
         <target state="final">This information will be used exclusively for sending information and news about CIAB FEBRABAN.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/modal-register-form/modal-register-form.component.html</context>
-          <context context-type="linenumber">10</context>
+          <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="06d0491684a3972bb9ec45b5f05b18ce11488080" datatype="html">
@@ -815,7 +815,7 @@
         <target state="final">Name</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/modal-register-form/modal-register-form.component.html</context>
-          <context context-type="linenumber">13</context>
+          <context context-type="linenumber">17</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/sponsor-exhibit-form/sponsor-exhibit-form.component.html</context>
@@ -827,7 +827,7 @@
         <target state="final">Email</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/modal-register-form/modal-register-form.component.html</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="linenumber">21</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/sponsor-exhibit-form/sponsor-exhibit-form.component.html</context>
@@ -839,7 +839,7 @@
         <target state="final">Register</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/modal-register-form/modal-register-form.component.html</context>
-          <context context-type="linenumber">20</context>
+          <context context-type="linenumber">24</context>
         </context-group>
       </trans-unit>
       <trans-unit id="38d90cfe844e9cb5258b8a9e5fa71e1de12972d8" datatype="html">
@@ -847,7 +847,7 @@
         <target state="final">Terms of use</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/modal-terms-use/modal-terms-use.component.html</context>
-          <context context-type="linenumber">2</context>
+          <context context-type="linenumber">5</context>
         </context-group>
       </trans-unit>
       <trans-unit id="29ae819eabeb91726c2c2b0c3a7052b5eadab273" datatype="html">
@@ -855,7 +855,7 @@
         <target state="final">The user's access to this Site and the use of it are subject to the terms and conditions below, as well as the current legislation. When accessing and browsing this Site, the user accepts, without limitation or qualification, the Terms and Conditions stipulated herein and is aware that any other contracts or agreements between the visitor and FEBRABAN become null and void.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/modal-terms-use/modal-terms-use.component.html</context>
-          <context context-type="linenumber">3</context>
+          <context context-type="linenumber">6</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a3bc6ee7d31dd5c75bfd2a119c555b922d3bd403" datatype="html">
@@ -863,7 +863,7 @@
         <target state="final">The user is authorized to download, display or print information contained in this Site exclusively for private use and without commercial purposes.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/modal-terms-use/modal-terms-use.component.html</context>
-          <context context-type="linenumber">5</context>
+          <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ce0ded4301eb047d94a3bd689d58cfd2107235e9" datatype="html">
@@ -871,7 +871,7 @@
         <target state="final">The user must maintain and reproduce any and all copyright notices and other notices of exclusive rights that may appear in the content downloaded by him. However, the user is forbidden to distribute, modify, transmit, reuse or use the content of the Site for public or commercial purposes, including text, images, audio and video without the express authorization of FEBRABAN. The user must treat all the content of this Site in accordance with his condition of protected by copyright and copyright law, observing any provisions to the contrary and may not be used except in accordance with the provisions of these Terms and Conditions or in the text of the Site without the express authorization FEBRABAN. FEBRABAN does not guarantee or declare that the use, by the user, of materials displayed on the Site will not violate the rights of third parties, not belonging to FEBRABAN or controlled by it.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/modal-terms-use/modal-terms-use.component.html</context>
-          <context context-type="linenumber">6</context>
+          <context context-type="linenumber">9</context>
         </context-group>
       </trans-unit>
       <trans-unit id="75eed1a9a194aaf9e5b88fb113efa2d61cc3263d" datatype="html">
@@ -879,7 +879,7 @@
         <target state="final">Com exceção da autorização limitada acima, a utilização deste Site não implica em cessão ao usuário de licenças ou direitos sobre quaisquer copyrights, sejam pertencentes à FEBRABAN ou a terceiros.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/modal-terms-use/modal-terms-use.component.html</context>
-          <context context-type="linenumber">7</context>
+          <context context-type="linenumber">10</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4269d693ba7dd9b12c21979755a91d1e9f2c9faa" datatype="html">
@@ -887,7 +887,7 @@
         <target state="final">The Ciab / FEBRABAN website may contain or cite registered trademarks, patents, information, technologies, products, processes or other rights protected by patents owned by third parties. Under no circumstances does the use of this Site imply assignment to the user of the mentioned trademarks, patents, information, technologies, products, processes or other rights protected by patents belonging to partners or third parties.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/modal-terms-use/modal-terms-use.component.html</context>
-          <context context-type="linenumber">8</context>
+          <context context-type="linenumber">11</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1df163a71cac5c25d864612798dfe31e14584e02" datatype="html">
@@ -895,7 +895,7 @@
         <target state="final">Although FEBRABAN uses all resources at its disposal to display accurate and updated information on the Site, it refrains from giving guarantees or statements regarding the content of this Site, which should be understood "as is". FEBRABAN does not accept any responsibility arising from or related to the use of this Site and its content. In particular, FEBRABAN is not responsible for the accuracy, integrity, pertinence, timeliness or comprehensiveness of the information contained in this Site. FEBRABAN will also not be liable for damages or viruses that may infect the computer or equipment or other goods resulting from the user's access to the Site or from browsing it or by downloading any materials, data, texts, images, videos or audios included in the Site. FEBRABAN reserves the right to interrupt or disable any activities on the Site. The administrator of the creation and / or hosting service of this Site will not be responsible under any circumstances for any interruption or deactivation of one or more activities of this Site, whether due to the actions or omissions of an entity of FEBRABAN or third parties.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/modal-terms-use/modal-terms-use.component.html</context>
-          <context context-type="linenumber">9</context>
+          <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7ec62e9f5f296966bf360a3631c3d64a619202de" datatype="html">
@@ -903,7 +903,7 @@
         <target state="final">The information may contain technical inaccuracies or typos. FEBRABAN reserves the right to make changes, corrections and improvements to the Information and to the products and programs described in said information at any time and without prior notice.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/modal-terms-use/modal-terms-use.component.html</context>
-          <context context-type="linenumber">10</context>
+          <context context-type="linenumber">13</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9e63649e69dafbf87bf447a00fad28aaefa9b05c" datatype="html">
@@ -911,7 +911,7 @@
         <target state="final">Considering that FEBRABAN has no control over or endorses any of the external sites to which its page has a link and considering that FEBRABAN has not verified any of the referred sites, the user is aware that FEBRABAN is not responsible for the content of pages outside from your Site or other sites linked to your Site. By using a link to your Site, external pages or other sites, the user is acting at his own risk and without FEBRABAN's permission. When using these links, the user is aware that the legal note and privacy policy of the website sent by the link apply, which may differ from FEBRABAN's policies.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/modal-terms-use/modal-terms-use.component.html</context>
-          <context context-type="linenumber">11</context>
+          <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="02462c5e3dfe702ffb88a46bd4af8b2f3bb592bc" datatype="html">
@@ -919,7 +919,7 @@
         <target state="final">Logins and user IDs considered inappropriate by the administration of the Ciab / FEBRABAN Site (including cases of more than one login for the same user, offenses, identifications that may lead other users to believe that you speak on behalf of another person or organization) be disabled, removed, have their access privileges reduced, or have their content made inaccessible without warning. The login registered in FEBRABAN, or the availability of content in it, does not generate any support rights, and any type of repair, compensation or other obligation of FEBRABAN is not applicable in case of cancellation, suspension, loss, unavailability or other adverse situation that affects access, data or user content.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/modal-terms-use/modal-terms-use.component.html</context>
-          <context context-type="linenumber">12</context>
+          <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="37d338030142243275efeaae371a29e4218b2be1" datatype="html">
@@ -927,7 +927,7 @@
         <target state="final">FEBRABAN may change these Terms and Conditions at any time, updating its content. The user will be subject to any revisions and should, therefore, visit this page periodically to review the Terms and Conditions in force at the time of the visit in question.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/modal-terms-use/modal-terms-use.component.html</context>
-          <context context-type="linenumber">13</context>
+          <context context-type="linenumber">16</context>
         </context-group>
       </trans-unit>
       <trans-unit id="17b9a0874b70c29d731c0b2503a90ee9a26047c4" datatype="html">
@@ -935,7 +935,7 @@
         <target state="final">Privacy policy</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/modal-privacy-policy/modal-privacy-policy.component.html</context>
-          <context context-type="linenumber">2</context>
+          <context context-type="linenumber">5</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4c7c657a6280dc97a3f14edab1ac9de875f9de73" datatype="html">
@@ -943,7 +943,7 @@
         <target state="final">To guarantee security and privacy, FEBRABAN, the entity responsible for CIAB, assumes the following commitments to its users:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/modal-privacy-policy/modal-privacy-policy.component.html</context>
-          <context context-type="linenumber">3</context>
+          <context context-type="linenumber">6</context>
         </context-group>
       </trans-unit>
       <trans-unit id="48cbc5b4e1477b62e6adcf7eac42a2994d6a22aa" datatype="html">
@@ -951,7 +951,7 @@
         <target state="final">Always provide the possibility to cancel sending messages</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/modal-privacy-policy/modal-privacy-policy.component.html</context>
-          <context context-type="linenumber">5</context>
+          <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
       <trans-unit id="41ab600e4ef27e2a1fd64d67d78d003a831d4fdb" datatype="html">
@@ -959,7 +959,7 @@
         <target state="final">All information obtained through the website is confidential and will be used for statistical purposes only</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/modal-privacy-policy/modal-privacy-policy.component.html</context>
-          <context context-type="linenumber">6</context>
+          <context context-type="linenumber">9</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b3e1c7264a6a1a4bae38f02922d716ebebd8508b" datatype="html">
@@ -967,7 +967,7 @@
         <target state="final">Use cookies only to facilitate the login of registered users or for audience control, never collect unauthorized information</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/modal-privacy-policy/modal-privacy-policy.component.html</context>
-          <context context-type="linenumber">7</context>
+          <context context-type="linenumber">10</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d5c2100efdb8baa51903203dfcd67be143c6cc63" datatype="html">
@@ -975,7 +975,7 @@
         <target state="final">Do not distribute offensive, discriminatory or potentially harmful material to your users</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/modal-privacy-policy/modal-privacy-policy.component.html</context>
-          <context context-type="linenumber">8</context>
+          <context context-type="linenumber">11</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8b4453851ad5a86e5b478c265ab4edb72c27cbed" datatype="html">
@@ -983,7 +983,7 @@
         <target state="final">For questions, suggestions, complaints and more information, use our direct channel with the user.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/modal-privacy-policy/modal-privacy-policy.component.html</context>
-          <context context-type="linenumber">9</context>
+          <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
       <trans-unit id="784cce291b72b8283b1dab467d613216990be12b" datatype="html">
@@ -1368,6 +1368,10 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
           <context context-type="linenumber">190</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/exposure/exposure.component.html</context>
+          <context context-type="linenumber">41</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8f0a055c662b55026c1c10cc4859e3b2d5c8f4d1" datatype="html">
@@ -1876,20 +1880,12 @@
           <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="47bd25af74a75ac5869749b8e59b65323394509c" datatype="html">
-        <source>Expositores</source>
-        <target state="final">Exhibitors</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/exposure/exposure.component.html</context>
-          <context context-type="linenumber">50</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="3d901514c0cefb741164366cb047a2aaf1ead47c" datatype="html">
         <source>Venha visitar</source>
         <target state="final">Come visit</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposure/exposure.component.html</context>
-          <context context-type="linenumber">82</context>
+          <context context-type="linenumber">83</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6e1a1d94e6ee7cdb690da17022fb1483b5991776" datatype="html">
@@ -1897,7 +1893,7 @@
         <target state="final">Register now online, or directly at the Transamerica Expo Center - Visitors Accreditation Area.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposure/exposure.component.html</context>
-          <context context-type="linenumber">83</context>
+          <context context-type="linenumber">84</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e69e81f7b9ae015fe075262198b672d8cdd13be6" datatype="html">
@@ -1905,7 +1901,7 @@
         <target state="final">Cost and rules for access to the exhibition</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposure/exposure.component.html</context>
-          <context context-type="linenumber">85</context>
+          <context context-type="linenumber">86</context>
         </context-group>
       </trans-unit>
       <trans-unit id="25705cddd8a863d94d0b0b4cd91dae1db5ae5adf" datatype="html">
@@ -1913,7 +1909,7 @@
         <target state="final">Participation in CIAB FEBRABAN 2018 will cost <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/>R$ 350.00 per participant<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>, giving exclusive access to the Exhibition area during the three days of the event.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposure/exposure.component.html</context>
-          <context context-type="linenumber">86</context>
+          <context context-type="linenumber">87</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1faec3f40255ef4abc0eb8a6620c015ca253d0a2" datatype="html">
@@ -1921,7 +1917,7 @@
         <target state="final">Guests of Exhibitors and Sponsors are exempt from payment, provided they have received an electronic, personal and non-transferable invitation to register online.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposure/exposure.component.html</context>
-          <context context-type="linenumber">87</context>
+          <context context-type="linenumber">88</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b7d8c4fad10f9533da54869cee64d7935e52bb7b" datatype="html">
@@ -1929,7 +1925,7 @@
         <target state="final">FEBRABAN members, as well as supporters and strategic partners of the event, are also exempt from payment. If you have not received the invitation, please contact us by e-mail <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>eventos@febraban.org.br<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/> to request it.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposure/exposure.component.html</context>
-          <context context-type="linenumber">88</context>
+          <context context-type="linenumber">89</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9d9f5e7eb209425068564dba82ca231bcaa661a8" datatype="html">
@@ -1937,7 +1933,7 @@
         <target state="final">All visitors to the Exhibition will be entitled to attend 01 (one) lecture of the Congress, <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i>"/>except in the FEBRABAN Auditorium<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i>"/>, as available.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposure/exposure.component.html</context>
-          <context context-type="linenumber">89</context>
+          <context context-type="linenumber">90</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a80c669573be947c48208674ca73d437900b7fa7" datatype="html">
@@ -1945,7 +1941,7 @@
         <target state="final">Be part of it!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposure/exposure.component.html</context>
-          <context context-type="linenumber">90</context>
+          <context context-type="linenumber">91</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ae9b9ab3f803772dec97dc36708b211fa704f07e" datatype="html">
@@ -1953,7 +1949,7 @@
         <target state="new">Regulamento</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/modal-regulation/modal-regulation.component.html</context>
-          <context context-type="linenumber">2</context>
+          <context context-type="linenumber">5</context>
         </context-group>
       </trans-unit>
       <trans-unit id="f7d5d7210d3fe48b4638868e9cf7701922a7f927" datatype="html">
@@ -1961,7 +1957,7 @@
         <target state="new">CONCURSO EXCLUSIVAMENTE CULTURAL</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/modal-regulation/modal-regulation.component.html</context>
-          <context context-type="linenumber">3</context>
+          <context context-type="linenumber">6</context>
         </context-group>
       </trans-unit>
       <trans-unit id="26b78767d4d83f99e98e4da33f9c4e44ecb2e22b" datatype="html">
@@ -1969,7 +1965,7 @@
         <target state="new">REGULAMENTO - CIAB FINTECH LOUNGE 2019</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/modal-regulation/modal-regulation.component.html</context>
-          <context context-type="linenumber">4</context>
+          <context context-type="linenumber">7</context>
         </context-group>
       </trans-unit>
       <trans-unit id="0bd1c72a472b021cb1d736c69698a2a035079f65" datatype="html">
@@ -1977,7 +1973,7 @@
         <target state="new">4ª edição - 2019</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/modal-regulation/modal-regulation.component.html</context>
-          <context context-type="linenumber">5</context>
+          <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a00b15bf381b3f4b5176920b39ecd867af71a4aa" datatype="html">
