@@ -1,14 +1,10 @@
 
 @import './../../../../../assets/sass/imports/media-queries'
 
-.app-modal-modal-register-form
-  padding: 30px
-  h3
-    font-size: 32px
-    font-weight: 800
-    text-transform: uppercase
+.modal-body
+  padding: 0
 
-.app-modal-register-background
+.ciab-register-modal-background
   height: 100%
   background-image: url('/assets/images/shared/background-modal-cadastre-se.jpg')
   background-position: center top
@@ -21,13 +17,13 @@
     line-height: 1.5
     color: #FFF
 
-.ciab-modal-body
-  font-size: 12px
-  line-height: 1.5
-  padding: 16px
-  @include MQ(MD)
-    padding: 32px
+.ciab-register-modal-form
+  padding: 30px
+  h3
+    font-size: 32px
+    font-weight: 800
+    text-transform: uppercase
 
 @include MQ(LG)
-  .app-modal-register-background
+  .ciab-modal-register-background
     background-position: center bottom

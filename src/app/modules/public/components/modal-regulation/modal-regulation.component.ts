@@ -1,15 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-modal-regulation',
   templateUrl: './modal-regulation.component.html',
   styleUrls: ['./modal-regulation.component.sass']
 })
-export class ModalRegulationComponent implements OnInit {
+export class ModalRegulationComponent {
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+  constructor(
+    public ngbActiveModal: NgbActiveModal
+  ) { }
 
 }

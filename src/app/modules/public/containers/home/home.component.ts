@@ -64,7 +64,7 @@ export class HomeComponent implements OnInit {
   openModalVideo(videoId: string): void {
     const modalRef = this.ngbModal.open(ModalVideoComponent, {
       size: 'xl',
-      windowClass: 'modal-video',
+      windowClass: 'ciab-modal-video',
       centered: true
     });
     modalRef.componentInstance.videoId = videoId;

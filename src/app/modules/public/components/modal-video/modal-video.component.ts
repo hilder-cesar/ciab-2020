@@ -1,6 +1,6 @@
 import { Component, OnInit, OnDestroy, Input } from '@angular/core';
 import { SafeResourceUrl, DomSanitizer } from '@angular/platform-browser';
-
+import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-modal-video',
@@ -17,7 +17,8 @@ export class ModalVideoComponent implements OnInit, OnDestroy {
   videoId: string;
 
   constructor(
-    private domSanitizer: DomSanitizer
+    private domSanitizer: DomSanitizer,
+    public ngbActiveModal: NgbActiveModal
   ) { }
 
   ngOnInit(): void {

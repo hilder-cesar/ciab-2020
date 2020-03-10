@@ -1,4 +1,7 @@
-<div class="modal-body">
+<div class="ciab-button-modal-close-container">
+  <button class="ciab-button-modal-close" (click)="ngbActiveModal.close()"></button>
+</div>
+<div class="modal-body ciab-photos-modal-body">
   <ngb-carousel #carousel *ngIf="photoList">
     <ng-template ngbSlide [id]="i" *ngFor="let item of photoList; index as i;">
       <img [src]="item.path">

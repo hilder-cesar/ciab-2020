@@ -1,4 +1,5 @@
 import { Component, Inject, LOCALE_ID } from '@angular/core';
+import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { GenericService } from './../../../../services/generic/generic.service';
 
@@ -15,6 +16,7 @@ export class ModalRegisterFormComponent {
 
   constructor(
     @Inject(LOCALE_ID) public localeId: string,
+    public ngbActiveModal: NgbActiveModal,
     formBuilder: FormBuilder,
     private genericService: GenericService
   ) {

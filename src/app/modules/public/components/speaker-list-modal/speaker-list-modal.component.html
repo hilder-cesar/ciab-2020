@@ -1,4 +1,7 @@
-<div class="ciab-speaker-modal-body">
+<div class="ciab-button-modal-close-container">
+  <button class="ciab-button-modal-close" (click)="ngbActiveModal.close()"></button>
+</div>
+<div class="modal-body ciab-speaker-modal-body">
   <ngb-carousel class="ciab-speaker" #carousel>
     <ng-template ngbSlide [id]="i" *ngFor="let speaker of speakerList; index as i;">
       <div class="row">
