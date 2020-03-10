@@ -264,7 +264,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">84</context>
+          <context context-type="linenumber">128</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
@@ -326,11 +326,11 @@
         <source>23 a 25 de junho de 2020</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">14</context>
+          <context context-type="linenumber">15</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">73</context>
+          <context context-type="linenumber">96</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/informations/informations.component.html</context>
@@ -345,35 +345,35 @@
         <source>CIAB FEBRABAN 30 anos</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">33</context>
+          <context context-type="linenumber">55</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c4dbeced2d968f532724f4501c5f9cc8ab4e3a3e" datatype="html">
         <source>Desde 1991, debatendo os principais temas da transformação tecnológica do setor financeiro.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">34</context>
+          <context context-type="linenumber">56</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b0498f26e4d5158a01e5186e2fe69c1abeab4d9c" datatype="html">
         <source>Assista ao vídeo</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">35</context>
+          <context context-type="linenumber">57</context>
         </context-group>
       </trans-unit>
       <trans-unit id="98e6e434c0ad9e276567f280b89384d22da164ad" datatype="html">
         <source>O CIAB FEBRABAN agora tem dia para começar, mas não tem dia para terminar.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">49</context>
+          <context context-type="linenumber">71</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d0ac657dd2300d415b751b96e895c189dd177b7a" datatype="html">
         <source>Acesse</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">51</context>
+          <context context-type="linenumber">73</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/press/press.component.html</context>
@@ -384,11 +384,11 @@
         <source>noomis CIAB FEBRABAN</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">55</context>
+          <context context-type="linenumber">77</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">56</context>
+          <context context-type="linenumber">78</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/press/press.component.html</context>
@@ -403,7 +403,7 @@
         <source>Quando e onde</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">70</context>
+          <context context-type="linenumber">92</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/page-header-menu/page-header-menu.component.html</context>
@@ -414,14 +414,14 @@
         <source>Cadastre-se para receber as novidades do evento.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">85</context>
+          <context context-type="linenumber">129</context>
         </context-group>
       </trans-unit>
       <trans-unit id="20adafff59aa1c089dae3d57552addaef48da0db" datatype="html">
         <source>Patrocinar/Expor</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">91</context>
+          <context context-type="linenumber">135</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
@@ -432,14 +432,14 @@
         <source>Participe do maior evento para o setor financeiro da América Latina.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">92</context>
+          <context context-type="linenumber">136</context>
         </context-group>
       </trans-unit>
       <trans-unit id="875f20a8520c0fb6c0297433ac80c7c8d09efdbf" datatype="html">
         <source>Inscrição</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">98</context>
+          <context context-type="linenumber">142</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
@@ -454,21 +454,21 @@
         <source>O maior evento de tecnologia para o setor financeiro.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">99</context>
+          <context context-type="linenumber">143</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5b87523fa3cfd76e5d92709dfee5f08d073cf63b" datatype="html">
         <source>Sobre o CIAB FEBRABAN</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">106</context>
+          <context context-type="linenumber">150</context>
         </context-group>
       </trans-unit>
       <trans-unit id="fb9f5ecfe5d712a87a8ea5d0b97c5120c7d67c48" datatype="html">
         <source>Vem aí o maior evento de tecnologia do setor mais tecnológico do País</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">107</context>
+          <context context-type="linenumber">151</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/ciab/ciab.component.html</context>
@@ -479,7 +479,7 @@
         <source>O CIAB FEBRABAN é o lugar para ficar por dentro dos assuntos mais importantes sobre tecnologias disruptivas, transformações digitais e o futuro do sistema financeiro.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">112</context>
+          <context context-type="linenumber">156</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/ciab/ciab.component.html</context>
@@ -490,7 +490,7 @@
         <source>Anote na sua agenda! O <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>CIAB FEBRABAN 2020<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> acontecerá de <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>23 a 25 de junho de 2020<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> - Transamerica Expo Center, em São Paulo - 10h às 19h.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">113</context>
+          <context context-type="linenumber">157</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/ciab/ciab.component.html</context>
@@ -501,18 +501,18 @@
         <source>Evento CIAB FEBRABAN</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">119</context>
+          <context context-type="linenumber">163</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">120</context>
+          <context context-type="linenumber">164</context>
         </context-group>
       </trans-unit>
       <trans-unit id="784cce291b72b8283b1dab467d613216990be12b" datatype="html">
         <source>Keynote speakers</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">130</context>
+          <context context-type="linenumber">174</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
@@ -527,7 +527,7 @@
         <source>Ver todos os keynote speakers</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">133</context>
+          <context context-type="linenumber">177</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
@@ -538,25 +538,32 @@
         <source>Planta da exposição</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">139</context>
+          <context context-type="linenumber">183</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a60df6f4ff71462aaa30a1a3e946e38f8452c25a" datatype="html">
         <source>Conheça as oportunidades e garanta já o seu espaço. Venha expor a sua empresa no maior evento do setor.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">142</context>
+          <context context-type="linenumber">186</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3ea853c2a080fc64896b63594486950116794752" datatype="html">
+        <source>../assets/images/home/planta-oficial-ciab-febraban-pt.jpg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
+          <context context-type="linenumber">190</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8f0a055c662b55026c1c10cc4859e3b2d5c8f4d1" datatype="html">
         <source>Planta oficial CIAB FEBRABAN</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">147</context>
+          <context context-type="linenumber">191</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">148</context>
+          <context context-type="linenumber">192</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposure/exposure.component.html</context>
@@ -571,14 +578,14 @@
         <source>Ver expositores</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">152</context>
+          <context context-type="linenumber">197</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e97751ca0552a3a1f3697efb0870c972bee82234" datatype="html">
         <source>Vídeos</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">160</context>
+          <context context-type="linenumber">205</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7a857ccfd5937ffd9a266d792565bb8d19f387e7" datatype="html">
@@ -1137,72 +1144,72 @@
           <context context-type="linenumber">2</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="e9b839a5cb7fd71b6737ae0c4d4a2545d9f7e0f7" datatype="html">
+        <source>CIAB Fintech Lounge 2020</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="ccf162d7f47d3ee10ad87d04d366aba5858f882f" datatype="html">
         <source>CIAB Fintech Lounge</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">9</context>
+          <context context-type="linenumber">24</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b5101d2f98b32fee1a1879644ab5547626d4b326" datatype="html">
         <source>De 23 a 25 de junho, o maior encontro de startups e instituições financeiras da América Latina</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">10</context>
+          <context context-type="linenumber">25</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2cf574110a46e4ea0bdfde83cfc3555425f5f1f8" datatype="html">
         <source>O Fintech Lounge é um espaço integrado à exposição do CIAB FEBRABAN onde fintechs e startups poderão apresentar suas soluções inovadoras para executivos de diferentes áreas das instituições financeiras.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">12</context>
+          <context context-type="linenumber">27</context>
         </context-group>
       </trans-unit>
       <trans-unit id="99be85f6c6a001b7d447cfa581fc9ec05cb1bdae" datatype="html">
         <source>Objetivo do Fintech Lounge</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">13</context>
+          <context context-type="linenumber">28</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9ee9f88a295ff167c54cbd62858b91c778a5091b" datatype="html">
         <source>Incentivar negócios entre fintechs e startups com as instituições financeiras, por meio de curadoria das soluções inovadoras que tenham potencial de agregar valor aos modelos de negócios dos bancos brasileiros.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">14</context>
+          <context context-type="linenumber">29</context>
         </context-group>
       </trans-unit>
       <trans-unit id="055b3853b70e256d3db1e6a7a62f0411b1138a83" datatype="html">
         <source>Curadores</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">15</context>
+          <context context-type="linenumber">30</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5fafed096983fea6e7c0d179487ef0c7285bb65a" datatype="html">
         <source>Os bancos membros da Comissão de Conteúdo do CIAB indicam os responsáveis por inovação em suas instituições, que vão avaliar as soluções das fintechs e startups participantes.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="e9b839a5cb7fd71b6737ae0c4d4a2545d9f7e0f7" datatype="html">
-        <source>CIAB Fintech Lounge 2020</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">21</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">22</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">28</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/fintech/fintech.component.html</context>
-          <context context-type="linenumber">29</context>
+          <context context-type="linenumber">31</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ecec4f420ef8646758e85e73dc0901862e42c323" datatype="html">
