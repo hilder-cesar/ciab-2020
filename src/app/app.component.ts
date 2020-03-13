@@ -48,7 +48,8 @@ export class AppComponent implements OnInit, AfterViewInit {
   }
 
   get buttonLanguageHref(): string {
-    return this.localeId === 'pt' ? '../en' : '../pt';
+    const routerUrl = this.router.url;
+    return this.localeId === 'pt' ? '../en' + routerUrl : '../pt' + routerUrl;
   }
 
   ngOnInit(): void {
