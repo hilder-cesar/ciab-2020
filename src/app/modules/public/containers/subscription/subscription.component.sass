@@ -23,12 +23,31 @@ app-page-header
   padding-left: 23px + 8px
 
 .ciab-subscription-box-title
+  position: relative
   font-size: 20px
   font-weight: 800
   color: #FFF
   line-height: 80px
   text-transform: uppercase
   text-align: center
+  padding-left: 73px + 32px
+  padding-right: 73px + 32px
+  @include MQ(LG)
+    padding-left: 110px + 32px
+    padding-right: 110px + 32px
+
+.ciab-subscription-box-title-image
+  position: absolute
+  z-index: 1
+  top: 50%
+  left: 16px
+  width: 73px
+  height: 96px
+  margin-top: -48px
+  @include MQ(LG)
+    width: 110px
+    height: 144px
+    margin-top: -72px
 
 .ciab-subscription-box-title-blue-dark
   background-color: $BLUE_DARK
