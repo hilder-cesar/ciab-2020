@@ -548,7 +548,7 @@
           <context context-type="linenumber">186</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3ea853c2a080fc64896b63594486950116794752" datatype="html">
+      <trans-unit id="4b70960e8b050183c355771bc6a581907ee4a78d" datatype="html">
         <source>../assets/images/home/planta-oficial-ciab-febraban-pt.png</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
@@ -2796,7 +2796,7 @@
           <context context-type="linenumber">149</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="260507f29363144488671c77c4515aab811ec8d5" datatype="html">
+      <trans-unit id="3986980f796fea456cb1884a7ea7c99ba95f164f" datatype="html">
         <source>
       © FEBRABAN - Federação Brasileira de Bancos - 2020 - Todos os direitos reservados | <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Termos de uso<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> | <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/>Política de privacidade<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
     </source>
