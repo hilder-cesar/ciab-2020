@@ -8,7 +8,14 @@
   @include MQ(MD)
     padding: 32px
 
-ol
-  padding-left: 24px
-  ol
-    margin-top: 4px
+table
+  width: 100%
+  border: 1px solid #000
+  margin: 16px 0
+  th, td
+    padding: 4px
+    &:not(:last-child)
+      border-right: 1px solid #000
+  tbody
+    tr
+      border-top: 1px solid #000

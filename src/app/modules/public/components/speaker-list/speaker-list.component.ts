@@ -98,7 +98,6 @@ export class SpeakerListComponent implements OnInit {
   }
 
   openSpeakerListModal(index: number): void {
-    console.log('openSpeakerListModal()');
     const modalRef = this.ngbModal.open(SpeakerListModalComponent, {
       size: 'xl',
       centered: true
