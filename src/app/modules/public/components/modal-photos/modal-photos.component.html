@@ -3,7 +3,7 @@
 </div>
 <div class="modal-body ciab-photos-modal-body">
   <ngb-carousel #carousel *ngIf="photoList">
-    <ng-template ngbSlide [id]="i" *ngFor="let item of photoList; index as i;">
+    <ng-template ngbSlide [id]="i" *ngFor="let item of photoList; let i = index;">
       <img [src]="item.path">
     </ng-template>
   </ngb-carousel>

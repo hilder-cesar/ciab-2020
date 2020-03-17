@@ -690,8 +690,8 @@
           <context context-type="linenumber">126</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/components/speaker-list/speaker-list.component.html</context>
-          <context context-type="linenumber">14</context>
+          <context context-type="sourcefile">src/app/modules/public/components/speaker/speaker.component.html</context>
+          <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
       <trans-unit id="dd242463f340f5475af553cf64466d1100439f91" datatype="html">
@@ -1007,11 +1007,11 @@
         <target state="final">Ver todos os keynote speakers</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">177</context>
+          <context context-type="linenumber">179</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">27</context>
+          <context context-type="linenumber">29</context>
         </context-group>
       </trans-unit>
       <trans-unit id="fdcd5939a9be1cce77f6281fef8a1dedc5e62c48" datatype="html">
@@ -1128,22 +1128,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/sponsors/sponsors.component.html</context>
           <context context-type="linenumber">46</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="b5420b5417e67942a1b2a4ad8f8eb8fdf5e93a25" datatype="html">
-        <source>Parceiros de mídia</source>
-        <target state="final">Parceiros de mídia</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/components/sponsors/sponsors.component.html</context>
-          <context context-type="linenumber">50</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/components/sponsors/sponsors.component.html</context>
-          <context context-type="linenumber">53</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/components/sponsors/sponsors.component.html</context>
-          <context context-type="linenumber">54</context>
         </context-group>
       </trans-unit>
       <trans-unit id="211b5e692ebf853e62e6b3e4aa486bfa06aed381" datatype="html">
@@ -1351,7 +1335,7 @@
         <target state="final">Planta da exposição</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">183</context>
+          <context context-type="linenumber">185</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a60df6f4ff71462aaa30a1a3e946e38f8452c25a" datatype="html">
@@ -1359,7 +1343,7 @@
         <target state="final">Conheça as oportunidades e garanta já o seu espaço. Venha expor a sua empresa no maior evento do setor.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">186</context>
+          <context context-type="linenumber">188</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4b70960e8b050183c355771bc6a581907ee4a78d" datatype="html">
@@ -1367,7 +1351,7 @@
         <target state="final">../assets/images/home/planta-oficial-ciab-febraban-pt.png</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">190</context>
+          <context context-type="linenumber">192</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposure/exposure.component.html</context>
@@ -1379,11 +1363,11 @@
         <target state="final">Planta oficial CIAB FEBRABAN</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">191</context>
+          <context context-type="linenumber">193</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">192</context>
+          <context context-type="linenumber">194</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposure/exposure.component.html</context>
@@ -1399,7 +1383,7 @@
         <target state="final">Ver expositores</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">197</context>
+          <context context-type="linenumber">199</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e97751ca0552a3a1f3697efb0870c972bee82234" datatype="html">
@@ -1407,7 +1391,7 @@
         <target state="final">Vídeos</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">205</context>
+          <context context-type="linenumber">207</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7a857ccfd5937ffd9a266d792565bb8d19f387e7" datatype="html">
@@ -1605,7 +1589,7 @@
         <target state="final">Confira nossa</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">36</context>
+          <context context-type="linenumber">38</context>
         </context-group>
       </trans-unit>
       <trans-unit id="86dfdfc5d05c8e4fdca45ff51848b1e5f8ceedb4" datatype="html">
@@ -1613,7 +1597,7 @@
         <target state="final">programação</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">37</context>
+          <context context-type="linenumber">39</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3324995ad71adf5176239f72c790d03d525b2de9" datatype="html">
@@ -1621,7 +1605,7 @@
         <target state="final">Conheça os</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">42</context>
+          <context context-type="linenumber">44</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e9c2a21826aa094fff7702ba4f762793b0b5c015" datatype="html">
@@ -1629,7 +1613,7 @@
         <target state="final">palestrantes</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">43</context>
+          <context context-type="linenumber">45</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d92c77b63781a542492a598b8d1c9915dc888c6a" datatype="html">
@@ -1637,7 +1621,7 @@
         <target state="final">Trilhas técnicas</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">56</context>
+          <context context-type="linenumber">58</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
@@ -1649,7 +1633,7 @@
         <target state="final">Tendências Tecnológicas</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">59</context>
+          <context context-type="linenumber">61</context>
         </context-group>
       </trans-unit>
       <trans-unit id="fa1292691f6b76cfd90716be6886ca30c5940198" datatype="html">
@@ -1657,7 +1641,7 @@
         <target state="final">O impacto das tecnologias emergentes no mercado financeiro.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">60</context>
+          <context context-type="linenumber">62</context>
         </context-group>
       </trans-unit>
       <trans-unit id="646749406b50858b3f67df41a566303084d23b6c" datatype="html">
@@ -1665,7 +1649,7 @@
         <target state="final">Blockchain</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">61</context>
+          <context context-type="linenumber">63</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7058795f2692243c592b1ba8a3ffa50ea97c19e0" datatype="html">
@@ -1673,7 +1657,7 @@
         <target state="final">Plataformas de blockchain remodelando negócios.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">62</context>
+          <context context-type="linenumber">64</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8afd6c708291e3fee3ccd53546d3d66cffa224ba" datatype="html">
@@ -1681,7 +1665,7 @@
         <target state="final">Fintechs &amp; Startups</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">63</context>
+          <context context-type="linenumber">65</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ee7ea60293607fd0cf93bf35881d09aefb9dc6a8" datatype="html">
@@ -1689,7 +1673,7 @@
         <target state="final">A cooperação entre instituições tradicionais e startups revolucionando os serviços financeiros.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">64</context>
+          <context context-type="linenumber">66</context>
         </context-group>
       </trans-unit>
       <trans-unit id="05e985fda0fa147ea55916242e88f30dd4505a07" datatype="html">
@@ -1697,7 +1681,7 @@
         <target state="final">Regulação</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">65</context>
+          <context context-type="linenumber">67</context>
         </context-group>
       </trans-unit>
       <trans-unit id="38547cb3574f34f1da01ca1358ae3250f3faf8e4" datatype="html">
@@ -1705,7 +1689,7 @@
         <target state="final">A assimetria regulatória entre os diferentes players e o impacto das novas leis regulatórias.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">66</context>
+          <context context-type="linenumber">68</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5305a889fece2c10f0739c69262e82fdcb78d242" datatype="html">
@@ -1713,7 +1697,7 @@
         <target state="final">Serviços de Tecnologia</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">67</context>
+          <context context-type="linenumber">69</context>
         </context-group>
       </trans-unit>
       <trans-unit id="0e1854932e20c12f10e8ca378200372131d23d7c" datatype="html">
@@ -1721,7 +1705,7 @@
         <target state="final">Os serviços de tecnologia por trás da transformação digital.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">68</context>
+          <context context-type="linenumber">70</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4fa08603e450ac1aac7e7a07fd4b0c6fe42800bd" datatype="html">
@@ -1729,7 +1713,7 @@
         <target state="final">Marketing Digital para Serviços Financeiros</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">69</context>
+          <context context-type="linenumber">71</context>
         </context-group>
       </trans-unit>
       <trans-unit id="bb8346e619d6a22788c917c9ddc5c67d4fa6df35" datatype="html">
@@ -1737,7 +1721,7 @@
         <target state="final">Tecnologia aprimorando a comunicação com clientes no mundo digital</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">70</context>
+          <context context-type="linenumber">72</context>
         </context-group>
       </trans-unit>
       <trans-unit id="52dd84360d87108afbf908f6b8e94ddaccb7ceb2" datatype="html">
@@ -1745,7 +1729,7 @@
         <target state="final">Meios de Pagamento</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">73</context>
+          <context context-type="linenumber">75</context>
         </context-group>
       </trans-unit>
       <trans-unit id="96fc7b380a1decdfb88f4c0bf88de8db05a4d2de" datatype="html">
@@ -1753,7 +1737,7 @@
         <target state="final">Pagamentos digitais transformando o modo como as pessoas e empresas transferem valores.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">74</context>
+          <context context-type="linenumber">76</context>
         </context-group>
       </trans-unit>
       <trans-unit id="62ed0917ace91e45821afb1629396fd96fb42403" datatype="html">
@@ -1761,7 +1745,7 @@
         <target state="final">Seguros</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">75</context>
+          <context context-type="linenumber">77</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1fb0cc07d42713aec8151185a85c97246454bb8e" datatype="html">
@@ -1769,7 +1753,7 @@
         <target state="final">Os novos modelos de negócios de seguros para atender as crescentes demandas dos clientes.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">76</context>
+          <context context-type="linenumber">78</context>
         </context-group>
       </trans-unit>
       <trans-unit id="773d955a225e450007ca771c986064f9626158e3" datatype="html">
@@ -1777,7 +1761,7 @@
         <target state="final">Futurismo &amp; Comportamento</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">77</context>
+          <context context-type="linenumber">79</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6355a3f1829a04aebdf619a0e4ef73fe6162e660" datatype="html">
@@ -1785,7 +1769,7 @@
         <target state="final">A revolução tecnológica e a revolução cultural transformando o mercado e a sociedade.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">78</context>
+          <context context-type="linenumber">80</context>
         </context-group>
       </trans-unit>
       <trans-unit id="531985d3c6697ce60646f522da09c33023f4eab6" datatype="html">
@@ -1793,7 +1777,7 @@
         <target state="final">Segurança &amp; Cyber Security</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">79</context>
+          <context context-type="linenumber">81</context>
         </context-group>
       </trans-unit>
       <trans-unit id="dab771339392692ba449542a474eeb138bd2ff50" datatype="html">
@@ -1801,7 +1785,7 @@
         <target state="final">Métodos para aprimorar a resiliência cibernética e mitigar riscos associados à lavagem de dinheiro e fraudes.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">80</context>
+          <context context-type="linenumber">82</context>
         </context-group>
       </trans-unit>
       <trans-unit id="dffec07158b208040a848042750177cd5c6b1883" datatype="html">
@@ -1809,7 +1793,7 @@
         <target state="final">Jornada do Cliente</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">81</context>
+          <context context-type="linenumber">83</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9154b572bf337b4d004ca5ff2640ae51a225da6c" datatype="html">
@@ -1817,7 +1801,7 @@
         <target state="final">Serviços digitais personalizados para impulsionar a demanda e aumentar a fidelidade dos clientes.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/congress/congress.component.html</context>
-          <context context-type="linenumber">82</context>
+          <context context-type="linenumber">84</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d15e9b3f53c3c7a5ea38d9cd440d3d2eaa5af03b" datatype="html">
@@ -1882,6 +1866,14 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/exposure/exposure.component.html</context>
           <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="47bd25af74a75ac5869749b8e59b65323394509c" datatype="html">
+        <source>Expositores</source>
+        <target state="final">Expositores</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/exposure/exposure.component.html</context>
+          <context context-type="linenumber">51</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3d901514c0cefb741164366cb047a2aaf1ead47c" datatype="html">
@@ -2955,7 +2947,15 @@
         <target state="final">Congressista</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">27</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">35</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2534689b892912231d05a12836613b4cf6f7d5d4" datatype="html">
@@ -2963,92 +2963,16 @@
         <target state="final">3 dias de evento</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">32</context>
+          <context context-type="linenumber">41</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">83</context>
+          <context context-type="linenumber">101</context>
         </context-group>
       </trans-unit>
       <trans-unit id="62b0d9e6237679e66129119b1fca4ea71575a63f" datatype="html">
         <source>(valor por participante)</source>
         <target state="final">(valor por participante)</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">33</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">57</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">84</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="493bea0b6de74f60d53531bcae44f5e50d11a7b2" datatype="html">
-        <source>Acesso a área de exposição nos 3 (três) dias de evento</source>
-        <target state="final">Acesso a área de exposição nos 3 (três) dias de evento</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">36</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8468963511a4b5e6f4a36e8dc854e9632f24f464" datatype="html">
-        <source>Participação nos 3 (três) dias de evento</source>
-        <target state="final">Participação nos 3 (três) dias de evento</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">37</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="724c035edaef98504952163829d7b19ef39d4624" datatype="html">
-        <source>Acesso em todos os auditórios</source>
-        <target state="final">Acesso em todos os auditórios</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">38</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="bdbf29695a21335637212e1e1a72009255dcb48a" datatype="html">
-        <source>Coffee break</source>
-        <target state="final">Coffee break</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">39</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">63</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="06b7fb5c068f479fc5bb1c0ae729e665a28314ec" datatype="html">
-        <source>Certificado online</source>
-        <target state="final">Certificado online</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">40</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">64</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="dec4c44b0e70786cac9ddce115652ac77c9ebb4e" datatype="html">
-        <source>Material do evento</source>
-        <target state="final">Material do evento</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">41</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">65</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ec20d50e3e45e3a5a08a67281ecebe050dae71af" datatype="html">
-        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i>"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>Não inclui:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/> almoço e estacionamento<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i>"/></source>
-        <target state="final"><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i>"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>Não inclui:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/> almoço e estacionamento<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i>"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
           <context context-type="linenumber">42</context>
@@ -3059,28 +2983,36 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">89</context>
+          <context context-type="linenumber">102</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="f777053c0cec4ce901aa7e5c16c61da776ec3a68" datatype="html">
-        <source>Associado</source>
-        <target state="final">Associado</target>
+      <trans-unit id="493bea0b6de74f60d53531bcae44f5e50d11a7b2" datatype="html">
+        <source>Acesso a área de exposição nos 3 (três) dias de evento</source>
+        <target state="final">Acesso a área de exposição nos 3 (três) dias de evento</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8468963511a4b5e6f4a36e8dc854e9632f24f464" datatype="html">
+        <source>Participação nos 3 (três) dias de evento</source>
+        <target state="final">Participação nos 3 (três) dias de evento</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
           <context context-type="linenumber">46</context>
         </context-group>
+      </trans-unit>
+      <trans-unit id="724c035edaef98504952163829d7b19ef39d4624" datatype="html">
+        <source>Acesso em todos os auditórios</source>
+        <target state="final">Acesso em todos os auditórios</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">70</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">93</context>
+          <context context-type="linenumber">47</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="c5676e19f43176dc86356403f69b135e38257013" datatype="html">
-        <source>Público geral</source>
-        <target state="final">Público geral</target>
+      <trans-unit id="bdbf29695a21335637212e1e1a72009255dcb48a" datatype="html">
+        <source>Coffee break</source>
+        <target state="final">Coffee break</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
           <context context-type="linenumber">48</context>
@@ -3089,14 +3021,10 @@
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
           <context context-type="linenumber">72</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">95</context>
-        </context-group>
       </trans-unit>
-      <trans-unit id="65b7b5c965700eac050860a29e0745782eb65dd3" datatype="html">
-        <source>Inscreva-se!</source>
-        <target state="final">Inscreva-se!</target>
+      <trans-unit id="06b7fb5c068f479fc5bb1c0ae729e665a28314ec" datatype="html">
+        <source>Certificado online</source>
+        <target state="final">Certificado online</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
           <context context-type="linenumber">49</context>
@@ -3105,9 +3033,81 @@
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
           <context context-type="linenumber">73</context>
         </context-group>
+      </trans-unit>
+      <trans-unit id="dec4c44b0e70786cac9ddce115652ac77c9ebb4e" datatype="html">
+        <source>Material do evento</source>
+        <target state="final">Material do evento</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">96</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ec20d50e3e45e3a5a08a67281ecebe050dae71af" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i>"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>Não inclui:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/> almoço e estacionamento<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i>"/></source>
+        <target state="final"><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i>"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>Não inclui:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/> almoço e estacionamento<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i>"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">107</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f777053c0cec4ce901aa7e5c16c61da776ec3a68" datatype="html">
+        <source>Associado</source>
+        <target state="final">Associado</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c5676e19f43176dc86356403f69b135e38257013" datatype="html">
+        <source>Público geral</source>
+        <target state="final">Público geral</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">113</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="65b7b5c965700eac050860a29e0745782eb65dd3" datatype="html">
+        <source>Inscreva-se!</source>
+        <target state="final">Inscreva-se!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">114</context>
         </context-group>
       </trans-unit>
       <trans-unit id="75edb1e4ecd3cf2a56bbae190c9c7cde4050ddf5" datatype="html">
@@ -3115,7 +3115,7 @@
         <target state="final">1 dia de evento</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">56</context>
+          <context context-type="linenumber">65</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b128119026801999b811cc223257c730b554e719" datatype="html">
@@ -3123,7 +3123,7 @@
         <target state="final">Acesso à área de exposição nos 3 (três) dias de evento (não somente no dia escolhido)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">60</context>
+          <context context-type="linenumber">69</context>
         </context-group>
       </trans-unit>
       <trans-unit id="36c77f1bef6b4d70ea64545146b8129904d7dbec" datatype="html">
@@ -3131,7 +3131,7 @@
         <target state="final">Participação em 1 (um) dia de evento *</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">61</context>
+          <context context-type="linenumber">70</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b63e72bc3057f96e48cf3ca66cf31af870b57c97" datatype="html">
@@ -3139,7 +3139,7 @@
         <target state="final">Acesso em todos os auditórios durante o dia escolhido</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">62</context>
+          <context context-type="linenumber">71</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7bb3549406e32d2adece2e47835a71234d36aada" datatype="html">
@@ -3147,7 +3147,15 @@
         <target state="final">Visitante</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">80</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
+          <context context-type="linenumber">97</context>
         </context-group>
       </trans-unit>
       <trans-unit id="55c7cac02da193b936074997a0ea3d2b817b51a0" datatype="html">
@@ -3155,7 +3163,7 @@
         <target state="final">Acesso à área de exposição nos 3 (três) dias de evento (não tem acesso ao Congresso)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">87</context>
+          <context context-type="linenumber">105</context>
         </context-group>
       </trans-unit>
       <trans-unit id="dc7c6ca108311718c79ddd3b4e1e7d7498f6775b" datatype="html">
@@ -3163,7 +3171,7 @@
         <target state="final">Os visitantes terão direito a assistir 1 (uma) palestra do Congresso, exceto no Auditório FEBRABAN, conforme disponibilidade</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">88</context>
+          <context context-type="linenumber">106</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b10915b2ac5851c1294b5baf100b31c44364f740" datatype="html">
@@ -3171,7 +3179,7 @@
         <target state="final">Isento</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">92</context>
+          <context context-type="linenumber">110</context>
         </context-group>
       </trans-unit>
       <trans-unit id="cac9919fdeae76ab0804b1a02748cbb07c464cc5" datatype="html">
@@ -3179,7 +3187,7 @@
         <target state="final">Parceiros Estratégicos/Apoiadores tem 20% de desconto sobre a taxa do Público geral.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">101</context>
+          <context context-type="linenumber">119</context>
         </context-group>
       </trans-unit>
       <trans-unit id="41490ef08eaee199f552686f893ba9c7b63221ac" datatype="html">
@@ -3187,7 +3195,7 @@
         <target state="final">Patrocinadores/Expositores tem 10% de desconto sobre a taxa do Público geral.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">102</context>
+          <context context-type="linenumber">120</context>
         </context-group>
       </trans-unit>
       <trans-unit id="cd0e8fb4ab6fa00957f20c5e4ce886b50e8bbca8" datatype="html">
@@ -3195,7 +3203,7 @@
         <target state="final">Bonificações</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">111</context>
+          <context context-type="linenumber">129</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9a13232a98e7d0975e9e2c50780e438bb75db2a0" datatype="html">
@@ -3203,7 +3211,7 @@
         <target state="final"><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>A cada 10 inscrições da mesma categoria a 11ª é gratuita<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/>, válidas somente para compras em lote com 10 ou mais inscrições.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">114</context>
+          <context context-type="linenumber">132</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7b5b8c450c5ad65a65f9b93062f6715abbe8b977" datatype="html">
@@ -3211,7 +3219,7 @@
         <target state="final">Inscreva-se agora!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">115</context>
+          <context context-type="linenumber">133</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b13a9d5a252eaf4934bdd70b907196bd46c768d1" datatype="html">
@@ -3219,7 +3227,7 @@
         <target state="final">Informações importantes</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">119</context>
+          <context context-type="linenumber">137</context>
         </context-group>
       </trans-unit>
       <trans-unit id="0150a5cdd24dd7877a3dda799f45f566212c3ad8" datatype="html">
@@ -3227,7 +3235,7 @@
         <target state="final">Opções de pagamento</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">122</context>
+          <context context-type="linenumber">140</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ea527656bf2ce6b7ac67461c4ca6d9fa931cdce3" datatype="html">
@@ -3235,7 +3243,7 @@
         <target state="final">Boleto Bancário e Cartões de Crédito Nacionais e Internacionais</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">123</context>
+          <context context-type="linenumber">141</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6785f02dff656d412f60cd77320019c7e2e9fcc8" datatype="html">
@@ -3243,7 +3251,7 @@
         <target state="final">Pessoa Física (PF) ou Pessoa Jurídica (PJ)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">124</context>
+          <context context-type="linenumber">142</context>
         </context-group>
       </trans-unit>
       <trans-unit id="adb1771fdac1d0102b3a4915d408dc60f0576db8" datatype="html">
@@ -3251,7 +3259,7 @@
         <target state="final">A nota fiscal será emitida após o recebimento do pagamento.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">125</context>
+          <context context-type="linenumber">143</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7ac546eb1002bdf7fd9e25626fd56b3dab2a189e" datatype="html">
@@ -3265,7 +3273,7 @@
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">126</context>
+          <context context-type="linenumber">144</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7f0c10c7800bf043b9757c668307bb717a2e074e" datatype="html">
@@ -3273,7 +3281,7 @@
         <target state="final">Reembolso e cancelamento</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">132</context>
+          <context context-type="linenumber">150</context>
         </context-group>
       </trans-unit>
       <trans-unit id="800446246f5e648246cc94bc58632323b6cf7996" datatype="html">
@@ -3281,7 +3289,7 @@
         <target state="final">Os pedidos de cancelamento de inscrições devem ser solicitados por e-mail, para <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>eventos@febraban.org.br<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/> até <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>10 dias úteis antes da realização do evento<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/>.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">133</context>
+          <context context-type="linenumber">151</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3e29429b48b824f0212b18096d928d233cbd4126" datatype="html">
@@ -3289,7 +3297,7 @@
         <target state="final">Os reembolsos serão efetuados, deduzidas as despesas bancárias e administrativas equivalentes a 15% do valor pago.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">134</context>
+          <context context-type="linenumber">152</context>
         </context-group>
       </trans-unit>
       <trans-unit id="392f803b6f84e18c42a0caa50afdf3f5680ec09f" datatype="html">
@@ -3297,7 +3305,7 @@
         <target state="final">Após o prazo estipulado acima não serão aceitos pedidos de reembolso ou cancelamentos.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">135</context>
+          <context context-type="linenumber">153</context>
         </context-group>
       </trans-unit>
       <trans-unit id="dd79793d64aeec7a8a137d51bca52662e52c4519" datatype="html">
@@ -3305,7 +3313,7 @@
         <target state="final">Substituição de participante</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">138</context>
+          <context context-type="linenumber">156</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e6ad01bd1bf18e812de00b783b517eae05024d3c" datatype="html">
@@ -3313,7 +3321,7 @@
         <target state="final">Os pedidos de substituição de participante devem ser solicitados por e-mail, para <x id="START_LINK" ctype="x-a" equiv-text="&lt;a>"/>eventos@febraban.org.br<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/> até <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>5 dias úteis antes da realização do evento<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/>. (*)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">139</context>
+          <context context-type="linenumber">157</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c6ac952dd45991a9729cc59e838ff9ba65908f1a" datatype="html">
@@ -3321,7 +3329,7 @@
         <target state="final">Para substituições solicitadas durante a realização do evento a Organização cobrará uma taxa de R$ 250,00 pela reemissão do crachá. O respectivo pagamento deverá ser efetuado no ato da solicitação.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">140</context>
+          <context context-type="linenumber">158</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5842349334afc59061715709de4cfa928cf7a095" datatype="html">
@@ -3329,7 +3337,7 @@
         <target state="final">(*) Exceção somente para o participante que precisar substituir a sua participação, e já tiver recebido antecipadamente o material do congressista, será obrigatória a apresentação da credencial do participante originalmente inscrito no credenciamento do evento, a partir do dia 10/06/2019, para o procedimento de substituição de participante e troca da credencial.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/subscription/subscription.component.html</context>
-          <context context-type="linenumber">142</context>
+          <context context-type="linenumber">160</context>
         </context-group>
       </trans-unit>
       <trans-unit id="aed5e9e7ac50484c935d6e9bdf73c0aec3d394ac" datatype="html">

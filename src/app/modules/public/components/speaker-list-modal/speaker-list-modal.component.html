@@ -3,11 +3,11 @@
 </div>
 <div class="modal-body ciab-speaker-modal-body">
   <ngb-carousel class="ciab-speaker" #carousel>
-    <ng-template ngbSlide [id]="i" *ngFor="let speaker of speakerList; index as i;">
+    <ng-template ngbSlide [id]="i" *ngFor="let speaker of speakerList; let i = index;">
       <div class="row">
         <div class="col-lg-auto mb-3 mb-lg-0">
           <img
-            src="https://img.febraban.org.br/Palestrantes/{{ speaker.profilePicture_small }}"
+            [src]="speaker.photo"
             [alt]="speaker.name"
             [title]="speaker.name"
             class="ciab-speaker-modal-photo">

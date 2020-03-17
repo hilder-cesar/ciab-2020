@@ -22,7 +22,10 @@
 <div id="keynote-speakers" class="ciab-section ciab-section-gray">
   <div class="container">
     <h2 class="text-center mb-3 mb-lg-5" i18n>Keynote speakers</h2>
-    <app-speaker-list [speakerList]="speakerList"></app-speaker-list>
+    <app-speaker-list
+      [speakerListMode]="0"
+      [speakerListLength]="3">
+    </app-speaker-list>
     <div class="text-center">
       <button class="ciab-button ciab-button-blue" (click)="redirectTo('keynote-speakers')" i18n>Ver todos os keynote speakers</button>
     </div>

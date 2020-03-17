@@ -43,8 +43,9 @@ import { ModalPrivacyPolicyComponent } from './components/modal-privacy-policy/m
 import { ScheduleEventsFormComponent } from './components/schedule-events-form/schedule-events-form.component';
 import { ScheduleSpeakersFormComponent } from './components/schedule-speakers-form/schedule-speakers-form.component';
 import { ModalRegulationComponent } from './components/modal-regulation/modal-regulation.component';
-import { SpeakerListComponent } from './components/speaker-list/speaker-list.component';
 import { SpeakerListModalComponent } from './components/speaker-list-modal/speaker-list-modal.component';
+import { SpeakerComponent } from './components/speaker/speaker.component';
+import { SpeakerListComponent } from './components/speaker-list/speaker-list.component';
 
 @NgModule({
   declarations: [
@@ -79,8 +80,9 @@ import { SpeakerListModalComponent } from './components/speaker-list-modal/speak
     ScheduleEventsFormComponent,
     ScheduleSpeakersFormComponent,
     ModalRegulationComponent,
-    SpeakerListComponent,
-    SpeakerListModalComponent
+    SpeakerListModalComponent,
+    SpeakerComponent,
+    SpeakerListComponent
   ],
   imports: [
     CommonModule,

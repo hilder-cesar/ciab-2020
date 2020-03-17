@@ -1,0 +1,14 @@
+<div class="ciab-speaker">
+  <div class="ciab-speaker-photo-container">
+    <img
+      [src]="speaker.photo"
+      [alt]="speaker.name"
+      [title]="speaker.name"
+      class="ciab-speaker-photo">
+  </div>
+  <div class="ciab-speaker-info">
+    <h3 class="ciab-speaker-name">{{ speaker.name }}</h3>
+    <p>{{ speaker.function }}</p>
+    <button class="ciab-button-x ciab-button-x-blue-light" (click)="speakerOpen.emit()" i18n>Saiba mais</button>
+  </div>
+</div>
