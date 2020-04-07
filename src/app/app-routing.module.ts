@@ -6,8 +6,8 @@ import { HomeComponent } from './modules/public/containers/home/home.component';
 import { CiabComponent } from './modules/public/containers/ciab/ciab.component';
 import { CongressComponent } from './modules/public/containers/congress/congress.component';
 import { ExposureComponent } from './modules/public/containers/exposure/exposure.component';
-import { FintechComponent } from './modules/public/containers/fintech/fintech.component';
-import { InformationsComponent } from './modules/public/containers/informations/informations.component';
+// import { FintechComponent } from './modules/public/containers/fintech/fintech.component';
+// import { InformationsComponent } from './modules/public/containers/informations/informations.component';
 import { PublicationsComponent } from './modules/public/containers/publications/publications.component';
 import { PressComponent } from './modules/public/containers/press/press.component';
 import { KeynoteSpeakersComponent } from './modules/public/containers/keynote-speakers/keynote-speakers.component';
@@ -20,8 +20,8 @@ const routes: Routes = [
   { path: 'ciab', component: CiabComponent },
   { path: 'congresso', component: CongressComponent },
   { path: 'exposicao', component: ExposureComponent },
-  { path: 'fintech', component: FintechComponent },
-  { path: 'informacoes', component: InformationsComponent },
+  // { path: 'fintech', component: FintechComponent },
+  // { path: 'informacoes', component: InformationsComponent },
   { path: 'publicacoes', component: PublicationsComponent },
   { path: 'imprensa', component: PressComponent },
   { path: 'patrocinar-expor', component: SponsorExhibitComponent },

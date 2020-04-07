@@ -7,6 +7,7 @@ import { ModalRegisterFormComponent } from './modules/public/components/modal-re
 import { ModalTermsUseComponent } from './modules/public/components/modal-terms-use/modal-terms-use.component';
 import { ModalPrivacyPolicyComponent } from './modules/public/components/modal-privacy-policy/modal-privacy-policy.component';
 import { fromEvent, merge } from 'rxjs';
+import { ModalCiabCancelComponent } from './components/modal-ciab-cancel/modal-ciab-cancel.component';
 
 @Component({
   selector: 'app-root',
@@ -55,6 +56,13 @@ export class AppComponent implements OnInit, AfterViewInit {
   ngOnInit(): void {
     const liList = document.querySelectorAll('.nav-item > ul > li');
     liList.forEach((item) => item.addEventListener('click', (event) => event.stopPropagation()));
+
+    setTimeout(() => {
+      this.ngbModal.open(ModalCiabCancelComponent, {
+        centered: true,
+        windowClass: 'ciab-modal-ciab-cancel'
+      });
+    }, 1000);
   }
 
   ngAfterViewInit(): void {

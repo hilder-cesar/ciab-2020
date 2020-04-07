@@ -11,6 +11,7 @@ import { SharedModule } from './modules/shared/shared.module';
 
 // services
 import { ConfigService } from './services/config/config.service';
+import { ModalCiabCancelComponent } from './components/modal-ciab-cancel/modal-ciab-cancel.component';
 
 const appInitializerFn = (config: ConfigService) => {
   return () => {
@@ -20,7 +21,8 @@ const appInitializerFn = (config: ConfigService) => {
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ModalCiabCancelComponent
   ],
   imports: [
     BrowserModule,

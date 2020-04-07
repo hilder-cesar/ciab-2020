@@ -1,7 +1,7 @@
 <header class="header" [ngClass]="headerClass">
   <div class="container">
     <div class="row align-items-center">
-      <div class="col-xl-auto">
+      <div class="col">
         <div class="row align-items-center">
           <div class="col">
             <img
@@ -33,24 +33,24 @@
                 <li class="nav-item" routerLink="congresso" routerLinkActive="active">
                   <ng-container i18n>Congresso</ng-container>
                   <ul>
-                    <li routerLink="inscricao" i18n>Inscrição</li>
+                    <!-- <li routerLink="inscricao" i18n>Inscrição</li> -->
                     <li routerLink="congresso" fragment="o-congresso" i18n>O congresso</li>
-                    <li routerLink="congresso" fragment="keynote-speakers">Keynote Speakers</li>
+                    <!-- <li routerLink="congresso" fragment="keynote-speakers">Keynote Speakers</li>
                     <li routerLink="congresso" fragment="trilhas-tecnicas" i18n>Trilhas técnicas</li>
                     <li routerLink="programacao" i18n>Programação</li>
-                    <li routerLink="keynote-speakers" i18n>Palestrantes</li>
+                    <li routerLink="keynote-speakers" i18n>Palestrantes</li> -->
                   </ul>
                 </li>
                 <li class="nav-item" routerLink="exposicao" routerLinkActive="active">
                   <ng-container i18n>Exposição</ng-container>
                   <ul>
                     <li routerLink="exposicao" fragment="a-exposicao" i18n>A exposição</li>
-                    <li routerLink="exposicao" fragment="mapa-e-expositores" i18n>Mapa e expositores</li>
-                    <li routerLink="exposicao" fragment="quero-visitar" i18n>Quero visitar</li>
+                    <!-- <li routerLink="exposicao" fragment="mapa-e-expositores" i18n>Mapa e expositores</li>
+                    <li routerLink="exposicao" fragment="quero-visitar" i18n>Quero visitar</li> -->
                     <li routerLink="patrocinar-expor" i18n>Patrocinar/Expor</li>
                   </ul>
                 </li>
-                <li class="nav-item" routerLink="fintech" routerLinkActive="active">
+                <!-- <li class="nav-item" routerLink="fintech" routerLinkActive="active">
                   Fintech
                   <ul>
                     <li routerLink="fintech" fragment="fintech-lounge" i18n>Fintech Lounge</li>
@@ -65,7 +65,7 @@
                     <li routerLink="informacoes" fragment="como-chegar" i18n>Como chegar</li>
                     <li routerLink="informacoes" fragment="visitantes-estrangeiros" i18n>Visitantes estrangeiros</li>
                   </ul>
-                </li>
+                </li> -->
                 <li class="nav-item" routerLink="publicacoes" routerLinkActive="active">
                   <ng-container i18n>Publicações</ng-container>
                   <ul>
@@ -154,7 +154,7 @@
       </div>
     </div>
     <p class="text-center mt-3 mb-0" i18n>
-      © FEBRABAN - Federação Brasileira de Bancos - 2019 - Todos os direitos reservados | <a class="ciab-text-color-black" (click)="openModalTermsUse($event)">Termos de uso</a> | <a class="ciab-text-color-black" (click)="openModalPrivacyPolicy($event)">Política de privacidade</a>
+      © FEBRABAN - Federação Brasileira de Bancos - 2020 - Todos os direitos reservados | <a class="ciab-text-color-black" (click)="openModalTermsUse($event)">Termos de uso</a> | <a class="ciab-text-color-black" (click)="openModalPrivacyPolicy($event)">Política de privacidade</a>
     </p>
   </div>
 </footer>
