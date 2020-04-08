@@ -2010,7 +2010,7 @@
       </trans-unit>
       <trans-unit id="aeeac265a71a0d2b933fc821bf26d27e9dff7ed1" datatype="html">
         <source>Visualizar</source>
-        <target state="final">To view</target>
+        <target state="final">View</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
           <context context-type="linenumber">72</context>
