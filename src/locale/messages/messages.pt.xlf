@@ -506,30 +506,6 @@
           <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="c9812a8662b7744adba9242e4e5ba774c4146f3c" datatype="html">
-        <source>
-          23 a 25 de junho de 2020<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
-          Transamerica Expo Center, São Paulo<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
-          10h às 19h
-        </source>
-        <target state="final">
-          23 a 25 de junho de 2020<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
-          Transamerica Expo Center, São Paulo<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
-          10h às 19h
-        </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">112</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="d8c9cb597a1d3adc0f32db01ae652a409a6e2118" datatype="html">
-        <source>23 a 25 de junho de 2020</source>
-        <target state="final">23 a 25 de junho de 2020</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/components/page-header-menu/page-header-menu.component.html</context>
-          <context context-type="linenumber">5</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="1fc1b1724723d56d1a16aeac9cd01e707025a6cc" datatype="html">
         <source>Quer patrocinar/expor?</source>
         <target state="final">Quer patrocinar/expor?</target>
@@ -1054,14 +1030,6 @@
           <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="cd4e372e6c02f2fb53ad6f64592b9d07992b7ffb" datatype="html">
-        <source>Quando e onde</source>
-        <target state="final">Quando e onde</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/components/page-header-menu/page-header-menu.component.html</context>
-          <context context-type="linenumber">3</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="5a942f247538b1c758023af6692eb4d3a5ddbf14" datatype="html">
         <source>Cadastre-se para receber as novidades do evento.</source>
         <target state="final">Cadastre-se para receber as novidades do evento.</target>
@@ -1078,28 +1046,12 @@
           <context context-type="linenumber">200</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="875f20a8520c0fb6c0297433ac80c7c8d09efdbf" datatype="html">
-        <source>Inscrição</source>
-        <target state="final">Inscrição</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/components/page-header-menu/page-header-menu.component.html</context>
-          <context context-type="linenumber">39</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="5b87523fa3cfd76e5d92709dfee5f08d073cf63b" datatype="html">
         <source>Sobre o CIAB FEBRABAN</source>
         <target state="final">Sobre o CIAB FEBRABAN</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
           <context context-type="linenumber">214</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="fb9f5ecfe5d712a87a8ea5d0b97c5120c7d67c48" datatype="html">
-        <source>Vem aí o maior evento de tecnologia do setor mais tecnológico do País</source>
-        <target state="final">Vem aí o maior evento de tecnologia do setor mais tecnológico do País</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">215</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6f6abd786bc796e3f8863e9b90431fd1b8694699" datatype="html">
@@ -1151,6 +1103,10 @@
       <trans-unit id="57901b5506af1c712836e919132f50624c7f703f" datatype="html">
         <source>O maior evento de tecnologia do setor mais tecnológico do País</source>
         <target state="final">O maior evento de tecnologia do setor mais tecnológico do País</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
+          <context context-type="linenumber">215</context>
+        </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/ciab/ciab.component.html</context>
           <context context-type="linenumber">15</context>
