@@ -784,7 +784,7 @@
       </trans-unit>
       <trans-unit id="bb25669ab0c5760e7ec70c6ddcb0915140b70db6" datatype="html">
         <source>Você sabia que até os <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i>"/>bots<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i>"/> tem professores? Conheça as aulas que os robôs estão 'assistindo' e outros detasques na revista CIAB FEBRABAN.</source>
-        <target state="final">Did you know that even <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i>"/>bots<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i>"/> have teachers? Get to know the classes that the robots are 'watching' and other highlights in the CIAB FEBRABAN magazine.</target>
+        <target state="final">Did you know that even bots have teachers? Get to know the classes that the robots are 'watching' and other highlights in the CIAB FEBRABAN magazine.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
           <context context-type="linenumber">27</context>
