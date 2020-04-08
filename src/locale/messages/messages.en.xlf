@@ -167,7 +167,7 @@
         <target state="final">Sponsor/Exhibit</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">135</context>
+          <context context-type="linenumber">199</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
@@ -526,28 +526,8 @@
         <source>23 a 25 de junho de 2020</source>
         <target state="final">June 23-25, 2020</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">15</context>
-        </context-group>
-        <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/components/page-header-menu/page-header-menu.component.html</context>
           <context context-type="linenumber">5</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="50ed5a14f1b287d9dc09a873cb2ecd88491b71d6" datatype="html">
-        <source>CIAB FEBRABAN 30 anos</source>
-        <target state="final">CIAB FEBRABAN 30 years</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">55</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="c4dbeced2d968f532724f4501c5f9cc8ab4e3a3e" datatype="html">
-        <source>Desde 1991, debatendo os principais temas da transformação tecnológica do setor financeiro.</source>
-        <target state="final">Since 1991, debating the main topics of technological transformation in the financial sector.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">56</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1fc1b1724723d56d1a16aeac9cd01e707025a6cc" datatype="html">
@@ -667,7 +647,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">128</context>
+          <context context-type="linenumber">192</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
@@ -726,20 +706,40 @@
           <context context-type="linenumber">24</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="0ee60505b55db646ff628ec5914fdf351c391975" datatype="html">
+      <trans-unit id="bb80d1f8e2c9bfb744cc974c1c4fd4d71f93c94f" datatype="html">
         <source>
-              O maior congresso<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
-              de tecnologia da informação<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
-              e digital para o setor financeiro
-            </source>
+          O CIAB FEBRABAN 2020 foi cancelado em razão<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
+          da pandemia da COVID-19. Nos vemos em 2021!<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
+          Em breve, mais informações.
+        </source>
         <target state="final">
-              The largest congress<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
-              of information and digital<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
-              technology for the financial sector
-            </target>
+          CIAB FEBRABAN 2020 was canceled due to the<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
+          COVID-19 pandemic. See you in 2021!<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
+          Soon more information.
+        </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">7</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bca72a2b984adde469fe446de288e39eaf2d74d3" datatype="html">
+        <source>Revista CIAB FEBRABAN professores de bots</source>
+        <target state="final">CIAB FEBRABAN magazine bot teachers</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bb25669ab0c5760e7ec70c6ddcb0915140b70db6" datatype="html">
+        <source>Você sabia que até os <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i>"/>bots<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i>"/> tem professores? Conheça as aulas que os robôs estão 'assistindo' e outros detasques na revista CIAB FEBRABAN.</source>
+        <target state="final">Did you know that even <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i>"/>robôs<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i>"/> have teachers? Get to know the classes that the robots are 'watching' and other highlights in the CIAB FEBRABAN magazine.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
+          <context context-type="linenumber">27</context>
         </context-group>
       </trans-unit>
       <trans-unit id="38d90cfe844e9cb5258b8a9e5fa71e1de12972d8" datatype="html">
@@ -1034,29 +1034,9 @@
           <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="b0498f26e4d5158a01e5186e2fe69c1abeab4d9c" datatype="html">
-        <source>Assista ao vídeo</source>
-        <target state="final">Watch the video</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">57</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="98e6e434c0ad9e276567f280b89384d22da164ad" datatype="html">
-        <source>O CIAB FEBRABAN agora tem dia para começar, mas não tem dia para terminar.</source>
-        <target state="final">CIAB FEBRABAN now has a day to start, but it has no day to end.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">71</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="d0ac657dd2300d415b751b96e895c189dd177b7a" datatype="html">
         <source>Acesse</source>
         <target state="final">Access</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">73</context>
-        </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/press/press.component.html</context>
           <context context-type="linenumber">21</context>
@@ -1065,14 +1045,6 @@
       <trans-unit id="ebf6a8c2469f99bce8fc075d3726d2e0707bc719" datatype="html">
         <source>noomis CIAB FEBRABAN</source>
         <target state="final">CIAB FEBRABAN noomis</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">77</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">78</context>
-        </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/press/press.component.html</context>
           <context context-type="linenumber">11</context>
@@ -1095,7 +1067,7 @@
         <target state="final">Sign up to receive the news of the event.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">129</context>
+          <context context-type="linenumber">193</context>
         </context-group>
       </trans-unit>
       <trans-unit id="0c9e9cb513b142b65ca24038795b114d7866593b" datatype="html">
@@ -1103,7 +1075,7 @@
         <target state="final">Participate in the largest event for the financial sector in Latin America.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">136</context>
+          <context context-type="linenumber">200</context>
         </context-group>
       </trans-unit>
       <trans-unit id="875f20a8520c0fb6c0297433ac80c7c8d09efdbf" datatype="html">
@@ -1119,7 +1091,7 @@
         <target state="final">About CIAB FEBRABAN</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">150</context>
+          <context context-type="linenumber">214</context>
         </context-group>
       </trans-unit>
       <trans-unit id="fb9f5ecfe5d712a87a8ea5d0b97c5120c7d67c48" datatype="html">
@@ -1127,7 +1099,7 @@
         <target state="final">Here comes the biggest technology event in the most technological sector in the country</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">151</context>
+          <context context-type="linenumber">215</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6f6abd786bc796e3f8863e9b90431fd1b8694699" datatype="html">
@@ -1135,7 +1107,7 @@
         <target state="final">CIAB FEBRABAN is the place to stay on top of the most important issues about disruptive technologies, digital transformations and the future of the financial system.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">156</context>
+          <context context-type="linenumber">220</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/ciab/ciab.component.html</context>
@@ -1147,11 +1119,11 @@
         <target state="final">CIAB FEBRABAN event</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">163</context>
+          <context context-type="linenumber">227</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">164</context>
+          <context context-type="linenumber">228</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7a857ccfd5937ffd9a266d792565bb8d19f387e7" datatype="html">
@@ -1408,8 +1380,50 @@
         <source>Leia agora</source>
         <target state="final">Read now</target>
         <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/publications/publications.component.html</context>
           <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="036b983089c336e868d8f88a0a39b7ad3927a0ab" datatype="html">
+        <source>A <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>noomis<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/> é um espaço inovador com informação de qualidade.</source>
+        <target state="final"><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>Noomis<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/> is an innovative space with quality information.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d8da81e4f6cc0b645ff9ab704c719709b510f7c8" datatype="html">
+        <source>Uma iniciativa <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>CIAB FEBRABAN<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/> que incentiva o encontro de experiências e divulga tendências de tecnologia.</source>
+        <target state="final">A <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>CIAB FEBRABAN<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/> initiative that encourages the gathering of experiences and disseminates technology trends.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bb1b9bb89043d6bd45a8b8a65e23e170d5a3ba58" datatype="html">
+        <source>
+              O CIAB FEBRABAN<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
+              <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>365<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/> dias por ano.
+            </source>
+        <target state="final">
+              O CIAB FEBRABAN<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
+              <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>365<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/> days a year.
+            </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9f3c57c8ee8637398c6d28e9e8ae33b0e8c9e936" datatype="html">
+        <source>Conheça a <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>noomis<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/>, o ponto de encontro do <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>setor financeiro<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/> com tendências e <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>informação de qualidade<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/>.</source>
+        <target state="final">Meet <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>noomis<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/>, the meeting point of the <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>financial sector<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/> with trends and <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b>"/>quality information<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b>"/>.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
+          <context context-type="linenumber">57</context>
         </context-group>
       </trans-unit>
       <trans-unit id="20919435c179f0a524b9ae24cd99f62fd19fbe78" datatype="html">

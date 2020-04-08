@@ -2,87 +2,172 @@
 @import './../../../../../assets/sass/imports/media-queries'
 
 #slide-1
-  background-color: #753BBD
-  .title
-    font-size: 24px
-    font-weight: 800
-    text-transform: uppercase
-    line-height: 1.25
+  background-color: #273C6B
+  text-align: center
+  @include MQ(LG)
+    background-image: url(/assets/images/home/slides/ciab-cancel/grafismo-left.png), url(/assets/images/home/slides/ciab-cancel/grafismo-right.png)
+    background-position: left -32px bottom 30px, right -32px top 78px + 30px
+    background-repeat: no-repeat, no-repeat
+    background-size: 315.2px 228.8px, 288.8px 335.2px
+  @include MQ(XL)
+    background-position: left -32px bottom 30px, right -32px top 124px + 30px
+  p
+    font-size: 18px
+    line-height: 1.5
     color: #FFF
-  .text
-    font-size: 16px
-    font-weight: 600
-    color: #FFF
-  .ciab-text-icon-calendary
-    background-image: url('/assets/images/icons/calendar-plus-yellow.svg')
-    background-repeat: no-repeat
-    background-size: 24px 28px
-    background-position: left top 3px
-    padding-left: 24px + 8px
-  .ciab-text-icon-marker
-    background-image: url('/assets/images/icons/map-marker-alt-yellow.svg')
-    background-repeat: no-repeat
-    background-size: 20px 25px
-    background-position: left 8px top 4px
-    padding-left: 8px + 24px + 8px
+    @include MQ(SM)
+      font-size: 26px
+  br
+    display: none
+    @include MQ(MD)
+      display: inline
+  > div
+    > div
+      width: 100%
 
 #slide-2
-  background-image: url('/assets/images/home/slide-2-background-image-1.png')
-  background-position: 100% 50%
-  background-repeat: no-repeat
-  background-size: cover
-  .title
-    font-size: 36px
-    font-weight: 800
-    text-transform: uppercase
-    color: #FFF
-  .text
+  background-color: #3C996A
+  @include MQ(XL)
+    background-image: url(/assets/images/home/slides/ciab-febraban-magazine/grafismo-left.png), url(/assets/images/home/slides/ciab-febraban-magazine/grafismo-right.png)
+    background-position: left -128px bottom 32px, right -256px top 124px + 32px
+    background-repeat: no-repeat, no-repeat
+    background-size: 400px 235px, 400px 474px
+  img
+    width: 345px
+    max-width: 60%
+    @include MQ(SM)
+      max-width: 100%
+  p
     font-size: 18px
-    font-weight: 600
-    color: #FFF
-  .button
-    position: relative
-    background-color: transparent
-    font-size: 14px
-    font-weight: 700
+    font-weight: 800
+    line-height: 1.5
+    color: #000
     text-transform: uppercase
-    line-height: 90px
-    color: #FFF
-    padding-left: 106px
-    border: 0
-    &:before
-      content: ''
-      position: absolute
-      top: 0
-      left: 0
-      width: 90px
-      height: 90px
-      background-color: #FF585D
-      background-image: url('/assets/images/icons/play-solid.svg')
-      background-repeat: no-repeat
-      background-size: 20px 23px
-      background-position: center
-      border-radius: 100%
+    @include MQ(SM)
+      font-size: 26px
+  > div
+    > div
+      width: 100%
 
 #slide-3
-  background-color: #BEC9CE
-  .image-1
-    max-width: 50%
-  .title
-    font-size: 24px
-    font-weight: 800
-    text-transform: uppercase
-    color: #144372
-  .ciab-button
-    background-color: #09A590
-    &:hover
-      background-color: darken(#09A590, 5%)
-  .image-2
-    max-width: 50%
+  background-image: url(/assets/images/home/slides/ciab-whatsapp/background-whatsapp.png)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+  p
+    font-size: 18px
+    line-height: 1.5
+    color: #FFF
+    text-align: left
+    @include MQ(SM)
+      font-size: 26px
+  > div
+    > div
+      width: 100%
+  .ciab-text-color
+    color: #01C3AE
+
+#slide-4
+  background-image: url(/assets/images/home/slides/ciab-whatsapp/background-whatsapp.png)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+  p
+    font-size: 18px
+    line-height: 1.5
+    color: #FFF
+    text-align: left
+    @include MQ(SM)
+      font-size: 26px
+  > div
+    > div
+      width: 100%
+  .ciab-text-color
+    color: #01C3AE
+
+// #slide-1
+//   background-color: #753BBD
+//   .title
+//     font-size: 24px
+//     font-weight: 800
+//     text-transform: uppercase
+//     line-height: 1.25
+//     color: #FFF
+//   .text
+//     font-size: 16px
+//     font-weight: 600
+//     color: #FFF
+//   .ciab-text-icon-calendary
+//     background-image: url('/assets/images/icons/calendar-plus-yellow.svg')
+//     background-repeat: no-repeat
+//     background-size: 24px 28px
+//     background-position: left top 3px
+//     padding-left: 24px + 8px
+//   .ciab-text-icon-marker
+//     background-image: url('/assets/images/icons/map-marker-alt-yellow.svg')
+//     background-repeat: no-repeat
+//     background-size: 20px 25px
+//     background-position: left 8px top 4px
+//     padding-left: 8px + 24px + 8px
+
+// #slide-2
+//   background-image: url('/assets/images/home/slide-2-background-image-1.png')
+//   background-position: 100% 50%
+//   background-repeat: no-repeat
+//   background-size: cover
+//   .title
+//     font-size: 36px
+//     font-weight: 800
+//     text-transform: uppercase
+//     color: #FFF
+//   .text
+//     font-size: 18px
+//     font-weight: 600
+//     color: #FFF
+//   .button
+//     position: relative
+//     background-color: transparent
+//     font-size: 14px
+//     font-weight: 700
+//     text-transform: uppercase
+//     line-height: 90px
+//     color: #FFF
+//     padding-left: 106px
+//     border: 0
+//     &:before
+//       content: ''
+//       position: absolute
+//       top: 0
+//       left: 0
+//       width: 90px
+//       height: 90px
+//       background-color: #FF585D
+//       background-image: url('/assets/images/icons/play-solid.svg')
+//       background-repeat: no-repeat
+//       background-size: 20px 23px
+//       background-position: center
+//       border-radius: 100%
+
+// #slide-3
+//   background-color: #BEC9CE
+//   .image-1
+//     max-width: 50%
+//   .title
+//     font-size: 24px
+//     font-weight: 800
+//     text-transform: uppercase
+//     color: #144372
+//   .ciab-button
+//     background-color: #09A590
+//     &:hover
+//       background-color: darken(#09A590, 5%)
+//   .image-2
+//     max-width: 50%
 
 .ciab-button-home
   display: block
   width: 100%
+  height: 100%
   font-weight: normal
   text-transform: none
   text-align: left
@@ -121,10 +206,10 @@
   font-weight: 700
   text-transform: uppercase
 
-@include MQ(MD)
-  #slide-3
-    .image-1
-      max-width: 100%
+// @include MQ(MD)
+//   #slide-3
+//     .image-1
+//       max-width: 100%
 
 @include MQ(LG)
   .ciab-box-absolute
@@ -135,19 +220,19 @@
   .evento-ciab-febraban
     margin-top: 60px
 
-@include MQ(XL)
-  #slide-1
-    background-image: url('/assets/images/home/slide-1-background-image-1.png')
-    background-position: left center
-    background-repeat: no-repeat
-    background-size: 1560px 720px
-    .title
-      font-size: 42px
-    .text
-      font-size: 18px
-  #slide-2
-    .title
-      font-size: 60px
-  #slide-3
-    .title
-      font-size: 34px
+// @include MQ(XL)
+//   #slide-1
+//     background-image: url('/assets/images/home/slide-1-background-image-1.png')
+//     background-position: left center
+//     background-repeat: no-repeat
+//     background-size: 1560px 720px
+//     .title
+//       font-size: 42px
+//     .text
+//       font-size: 18px
+//   #slide-2
+//     .title
+//       font-size: 60px
+//   #slide-3
+//     .title
+//       font-size: 34px

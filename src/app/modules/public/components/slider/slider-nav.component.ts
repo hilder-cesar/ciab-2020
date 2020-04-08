@@ -21,7 +21,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
       top: 50%;
       right: 16px;
       display: block;
-      margin-top: -93px;
+      transform: translateY(-50%);
     }
 
     .ciab-button-icon {
