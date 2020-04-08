@@ -334,11 +334,11 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
-          <context context-type="linenumber">13</context>
+          <context context-type="linenumber">16</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
-          <context context-type="linenumber">14</context>
+          <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
       <trans-unit id="bb25669ab0c5760e7ec70c6ddcb0915140b70db6" datatype="html">
@@ -353,37 +353,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
           <context context-type="linenumber">28</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="036b983089c336e868d8f88a0a39b7ad3927a0ab" datatype="html">
-        <source>A <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>noomis<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> é um espaço inovador com informação de qualidade.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">39</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="d8da81e4f6cc0b645ff9ab704c719709b510f7c8" datatype="html">
-        <source>Uma iniciativa <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>CIAB FEBRABAN<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> que incentiva o encontro de experiências e divulga tendências de tecnologia.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">40</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="bb1b9bb89043d6bd45a8b8a65e23e170d5a3ba58" datatype="html">
-        <source>
-              O CIAB FEBRABAN<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-              <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>365<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> dias por ano.
-            </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">53</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="9f3c57c8ee8637398c6d28e9e8ae33b0e8c9e936" datatype="html">
-        <source>Conheça a <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>noomis<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>, o ponto de encontro do <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>setor financeiro<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> com tendências e <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>informação de qualidade<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/home/home.component.html</context>
-          <context context-type="linenumber">57</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5a942f247538b1c758023af6692eb4d3a5ddbf14" datatype="html">
@@ -1226,29 +1195,31 @@
           <context context-type="linenumber">70</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="0959fc2a0a3ce732003358b13a4679d210d47b09" datatype="html">
-        <source>Revista CIAB FEBRABAN</source>
+      <trans-unit id="d095c36de858f2b767284234b6d6d186bd80e522" datatype="html">
+        <source>
+          Revista CIAB<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+          FEBRABAN
+        </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
           <context context-type="linenumber">9</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">72</context>
-        </context-group>
       </trans-unit>
-      <trans-unit id="9f90c23bfd9131bc0dd6051feb18188d20f4c5f1" datatype="html">
-        <source>Acompanhe o CIAB o ano todo na</source>
+      <trans-unit id="1e9fd27e9f2b39ad8f5cd82fa23e70f44ab09c5e" datatype="html">
+        <source>
+          Acompanhe o CIAB<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+          o ano todo na
+        </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
-          <context context-type="linenumber">22</context>
+          <context context-type="linenumber">25</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e2ba4f5b0c78ca1f5b3afea4ba76f12ea5f885b1" datatype="html">
         <source>Pesquisa FEBRABAN</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
-          <context context-type="linenumber">53</context>
+          <context context-type="linenumber">63</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
@@ -1259,169 +1230,169 @@
         <source>Estudo realizado anualmente pela FEBRABAN junto aos principais bancos do País com o objetivo de mapear o estágio da tecnologia bancária no Brasil e suas tendências. A Pesquisa expõe e explica de que forma o intenso uso da tecnologia no setor bancário se reverte em maior conveniência e segurança para o cliente, tornando-se um importante instrumento de discussões na academia, órgãos do governo, mídia, entre outros.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
-          <context context-type="linenumber">54</context>
+          <context context-type="linenumber">64</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c5d2b17fc3e84c4a4ba4c98b02f2509360504bf1" datatype="html">
         <source>Revista 2019</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
-          <context context-type="linenumber">62</context>
+          <context context-type="linenumber">72</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
-          <context context-type="linenumber">63</context>
+          <context context-type="linenumber">73</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4f7a74a1b71f32ca2ce96bc6e7130f8b89921efd" datatype="html">
         <source>Pesquisa FEBRABAN de Tecnologia Bancária 2019</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
-          <context context-type="linenumber">69</context>
+          <context context-type="linenumber">79</context>
         </context-group>
       </trans-unit>
       <trans-unit id="aeeac265a71a0d2b933fc821bf26d27e9dff7ed1" datatype="html">
         <source>Visualizar</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
-          <context context-type="linenumber">72</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
-          <context context-type="linenumber">92</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
-          <context context-type="linenumber">112</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
-          <context context-type="linenumber">134</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
-          <context context-type="linenumber">154</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
-          <context context-type="linenumber">174</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8365bf134832d523501268281f2a33e3374d3c8b" datatype="html">
-        <source>Baixar o PDF</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
-          <context context-type="linenumber">73</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
-          <context context-type="linenumber">93</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
-          <context context-type="linenumber">113</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
-          <context context-type="linenumber">135</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
-          <context context-type="linenumber">155</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
-          <context context-type="linenumber">175</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="a30889dfd8191458ef0f11db9db5c4a55bfda4bc" datatype="html">
-        <source>Revista 2017</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
           <context context-type="linenumber">82</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
-          <context context-type="linenumber">83</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="907d4feabbf2b25f7c92ae3f97ef8b064bfab07a" datatype="html">
-        <source>Pesquisa FEBRABAN de Tecnologia Bancária 2017</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
-          <context context-type="linenumber">89</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="dc9cc5ac4b026031eb98e565f6e23e36302a3a1d" datatype="html">
-        <source>Revista 2015</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
           <context context-type="linenumber">102</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
-          <context context-type="linenumber">103</context>
+          <context context-type="linenumber">122</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="d5a3d286e12418afa222d6ff60afc9de3aaea676" datatype="html">
-        <source>Pesquisa FEBRABAN de Tecnologia Bancária 2015</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
-          <context context-type="linenumber">109</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2bbe24c04fe8489d01da54eedc872c4240b8b66d" datatype="html">
-        <source>Revista 2014</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
-          <context context-type="linenumber">124</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
-          <context context-type="linenumber">125</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="4b18a2a9749b88ae9332cd97a1c386289382f7c8" datatype="html">
-        <source>Pesquisa FEBRABAN de Tecnologia Bancária 2014</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
-          <context context-type="linenumber">131</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="1fd3d787427a409c454d91f3081b216676ccde7d" datatype="html">
-        <source>Revista 2013</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
           <context context-type="linenumber">144</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
+          <context context-type="linenumber">164</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
+          <context context-type="linenumber">184</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8365bf134832d523501268281f2a33e3374d3c8b" datatype="html">
+        <source>Baixar o PDF</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
+          <context context-type="linenumber">103</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
+          <context context-type="linenumber">123</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
           <context context-type="linenumber">145</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
+          <context context-type="linenumber">165</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
+          <context context-type="linenumber">185</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a30889dfd8191458ef0f11db9db5c4a55bfda4bc" datatype="html">
+        <source>Revista 2017</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="907d4feabbf2b25f7c92ae3f97ef8b064bfab07a" datatype="html">
+        <source>Pesquisa FEBRABAN de Tecnologia Bancária 2017</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dc9cc5ac4b026031eb98e565f6e23e36302a3a1d" datatype="html">
+        <source>Revista 2015</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
+          <context context-type="linenumber">112</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
+          <context context-type="linenumber">113</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d5a3d286e12418afa222d6ff60afc9de3aaea676" datatype="html">
+        <source>Pesquisa FEBRABAN de Tecnologia Bancária 2015</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
+          <context context-type="linenumber">119</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2bbe24c04fe8489d01da54eedc872c4240b8b66d" datatype="html">
+        <source>Revista 2014</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
+          <context context-type="linenumber">134</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
+          <context context-type="linenumber">135</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4b18a2a9749b88ae9332cd97a1c386289382f7c8" datatype="html">
+        <source>Pesquisa FEBRABAN de Tecnologia Bancária 2014</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
+          <context context-type="linenumber">141</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1fd3d787427a409c454d91f3081b216676ccde7d" datatype="html">
+        <source>Revista 2013</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
+          <context context-type="linenumber">154</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
+          <context context-type="linenumber">155</context>
         </context-group>
       </trans-unit>
       <trans-unit id="364987401dd5285ec103e1fe30cb90864c26028a" datatype="html">
         <source>Pesquisa FEBRABAN de Tecnologia Bancária 2013</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
-          <context context-type="linenumber">151</context>
+          <context context-type="linenumber">161</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1a07f63125f8c61fd67bb859db4dd247d2241478" datatype="html">
         <source>Revista 2012</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
-          <context context-type="linenumber">164</context>
+          <context context-type="linenumber">174</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
-          <context context-type="linenumber">165</context>
+          <context context-type="linenumber">175</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3a4a1cd5c1cb7e1a2be6bc6c319aa2edf5568036" datatype="html">
         <source>Pesquisa FEBRABAN de Tecnologia Bancária 2012</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/public/containers/content/content.component.html</context>
-          <context context-type="linenumber">171</context>
+          <context context-type="linenumber">181</context>
         </context-group>
       </trans-unit>
       <trans-unit id="60ed138de01e02f81e91641d4b1070b7ca78d152" datatype="html">
@@ -2209,6 +2180,13 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0959fc2a0a3ce732003358b13a4679d210d47b09" datatype="html">
+        <source>Revista CIAB FEBRABAN</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">72</context>
         </context-group>
       </trans-unit>
       <trans-unit id="00d9503188a5b6518366a8f27ed9a5c51e301bcf" datatype="html">
