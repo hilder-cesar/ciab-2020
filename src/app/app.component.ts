@@ -57,12 +57,12 @@ export class AppComponent implements OnInit, AfterViewInit {
     const liList = document.querySelectorAll('.nav-item > ul > li');
     liList.forEach((item) => item.addEventListener('click', (event) => event.stopPropagation()));
 
-    // setTimeout(() => {
-    //   this.ngbModal.open(ModalCiabCancelComponent, {
-    //     centered: true,
-    //     windowClass: 'ciab-modal-ciab-cancel'
-    //   });
-    // }, 1000);
+    setTimeout(() => {
+      this.ngbModal.open(ModalCiabCancelComponent, {
+        centered: true,
+        windowClass: 'ciab-modal-ciab-cancel'
+      });
+    }, 1000);
   }
 
   ngAfterViewInit(): void {
