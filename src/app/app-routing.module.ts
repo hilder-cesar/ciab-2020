@@ -6,9 +6,9 @@ import { HomeComponent } from './modules/public/containers/home/home.component';
 import { CiabComponent } from './modules/public/containers/ciab/ciab.component';
 import { CongressComponent } from './modules/public/containers/congress/congress.component';
 import { ExposureComponent } from './modules/public/containers/exposure/exposure.component';
-// import { FintechComponent } from './modules/public/containers/fintech/fintech.component';
-// import { InformationsComponent } from './modules/public/containers/informations/informations.component';
-import { PublicationsComponent } from './modules/public/containers/publications/publications.component';
+import { FintechComponent } from './modules/public/containers/fintech/fintech.component';
+import { InformationsComponent } from './modules/public/containers/informations/informations.component';
+import { ContentComponent } from './modules/public/containers/content/content.component';
 import { PressComponent } from './modules/public/containers/press/press.component';
 import { KeynoteSpeakersComponent } from './modules/public/containers/keynote-speakers/keynote-speakers.component';
 import { ScheduleComponent } from './modules/public/containers/schedule/schedule.component';
@@ -22,12 +22,12 @@ const routes: Routes = [
   { path: 'exposicao', component: ExposureComponent },
   // { path: 'fintech', component: FintechComponent },
   // { path: 'informacoes', component: InformationsComponent },
-  { path: 'publicacoes', component: PublicationsComponent },
+  { path: 'conteudo', component: ContentComponent },
   { path: 'imprensa', component: PressComponent },
   { path: 'patrocinar-expor', component: SponsorExhibitComponent },
-  { path: 'keynote-speakers', component: KeynoteSpeakersComponent },
-  { path: 'programacao', component: ScheduleComponent },
-  { path: 'inscricao', component: SubscriptionComponent },
+  // { path: 'keynote-speakers', component: KeynoteSpeakersComponent },
+  // { path: 'programacao', component: ScheduleComponent },
+  // { path: 'inscricao', component: SubscriptionComponent },
   { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
 

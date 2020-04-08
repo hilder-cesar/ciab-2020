@@ -16,9 +16,9 @@ import { HomeComponent } from './containers/home/home.component';
 import { CiabComponent } from './containers/ciab/ciab.component';
 import { CongressComponent } from './containers/congress/congress.component';
 import { ExposureComponent } from './containers/exposure/exposure.component';
-// import { FintechComponent } from './containers/fintech/fintech.component';
-// import { InformationsComponent } from './containers/informations/informations.component';
-import { PublicationsComponent } from './containers/publications/publications.component';
+import { FintechComponent } from './containers/fintech/fintech.component';
+import { InformationsComponent } from './containers/informations/informations.component';
+import { ContentComponent } from './containers/content/content.component';
 import { PressComponent } from './containers/press/press.component';
 import { KeynoteSpeakersComponent } from './containers/keynote-speakers/keynote-speakers.component';
 import { ScheduleComponent } from './containers/schedule/schedule.component';
@@ -54,9 +54,9 @@ import { SpeakerListComponent } from './components/speaker-list/speaker-list.com
     CiabComponent,
     CongressComponent,
     ExposureComponent,
-    // FintechComponent,
-    // InformationsComponent,
-    PublicationsComponent,
+    FintechComponent,
+    InformationsComponent,
+    ContentComponent,
     PressComponent,
     KeynoteSpeakersComponent,
     ScheduleComponent,
@@ -102,9 +102,9 @@ import { SpeakerListComponent } from './components/speaker-list/speaker-list.com
     CiabComponent,
     CongressComponent,
     ExposureComponent,
-    // FintechComponent,
-    // InformationsComponent,
-    PublicationsComponent,
+    FintechComponent,
+    InformationsComponent,
+    ContentComponent,
     PressComponent,
     KeynoteSpeakersComponent,
     ScheduleComponent,

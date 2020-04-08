@@ -2,25 +2,25 @@
 @import './../../../../../assets/sass/imports/media-queries'
 
 app-page-header
-  background-image: url('/assets/images/publications/app-publications-page-header-background-image.jpg')
+  background-image: url('/assets/images/content/ciab-content-page-header-background-image.jpg')
 
-.app-publications-magazine-container
+.ciab-content-magazine-container
   position: relative
   transform: scale(0.9)
   transition: transform 0.25s
   &:hover
     transform: scale(1)
-    .app-publications-magazine
+    .ciab-content-magazine
       box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 0.2)
-    .app-publications-magazine-overlay
+    .ciab-content-magazine-overlay
       opacity: 1
 
-.app-publications-magazine
+.ciab-content-magazine
   width: 100%
   box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.1)
   transition: box-shadow 0.25s
 
-.app-publications-magazine-overlay
+.ciab-content-magazine-overlay
   position: absolute
   z-index: 1
   top: 0
@@ -35,9 +35,12 @@ app-page-header
   opacity: 0
   transition: opacity 0.25s
 
-.app-publications-section-research-febraban
+.ciab-content-section-research-febraban
   background-repeat: no-repeat
   background-size: 512px 338px
   background-position: right 32px
   @include MQ(LG)
-    background-image: url('/assets/images/publications/app-publications-section-research-febraban-background-image.svg')
+    background-image: url('/assets/images/content/ciab-content-section-research-febraban-background-image.svg')
+
+.ciab-noomis-ciab-febraban
+  max-width: 50%
